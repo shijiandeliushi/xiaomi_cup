@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/AlgoList.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module AlgoList_Constants {
+      const uint8 ALGO_FACE = 0;
+      const uint8 ALGO_BODY = 1;
+      const uint8 ALGO_GESTURE = 2;
+      const uint8 ALGO_KEYPOINTS = 3;
+      const uint8 ALGO_REID = 4;
+      const uint8 ALGO_FOCUS = 5;
+      const uint8 FACE_MANAGER = 6;
+    };
+    struct AlgoList {
+      uint8 algo_module;
+    };
+  };
+};

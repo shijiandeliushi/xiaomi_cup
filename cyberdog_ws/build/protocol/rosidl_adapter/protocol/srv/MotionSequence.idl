@@ -1,0 +1,61 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/MotionSequence.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/MotionSequenceParam.idl"
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct MotionSequence_Request {
+      @verbatim (language="comment", text=
+        " 运动id,固定值:MotionID::SEQUENCE_CUSTOM")
+      int32 motion_id;
+
+      @verbatim (language="comment", text=
+        " 持续时长")
+      int32 duration;
+
+      @verbatim (language="comment", text=
+        " toml 文件内容(格式如下框内约束)" "\n"
+        " ┌─────────────────────────┐" "\n"
+        " │# toml file describe.    │" "\n"
+        " │[[section]]              │" "\n"
+        " │contact  = [0, 0, 0, 0]  │" "\n"
+        " │duration = 3             │" "\n"
+        " │                         │" "\n"
+        " │[[section]]              │" "\n"
+        " │contact  = [0, 0, 0, 0]  │" "\n"
+        " │duration = 3             │" "\n"
+        " │                         │" "\n"
+        " │[[section]]              │" "\n"
+        " │...                      │" "\n"
+        " └─────────────────────────┘")
+      string toml_data;
+
+      @verbatim (language="comment", text=
+        " 运动序列参数集")
+      sequence<protocol::msg::MotionSequenceParam> params;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct MotionSequence_Response {
+      @verbatim (language="comment", text=
+        " 执行结果")
+      boolean result;
+
+      @verbatim (language="comment", text=
+        " 状态码")
+      int32 code;
+
+      @verbatim (language="comment", text=
+        " 状态描述")
+      string describe;
+
+      @verbatim (language="comment", text=
+        " 运动id")
+      int32 motion_id;
+    };
+  };
+};

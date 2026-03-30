@@ -1,0 +1,33 @@
+In file included from [01m[K/home/cyberdog_ws/src/utils/cyberdog_common/src/cyberdog_fds_impl.cpp:24[m[K:
+[01m[K/usr/local/include/galaxy_fds_client_exception.h:28:10:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+   28 |  virtual [01;35m[Kconst[m[K int code() const throw() {
+      |          [01;35m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/cyberdog_ws/src/utils/cyberdog_common/include/cyberdog_common/cyberdog_log.hpp:22[m[K,
+                 from [01m[K/home/cyberdog_ws/src/utils/cyberdog_common/include/cyberdog_common/cyberdog_model.hpp:23[m[K,
+                 from [01m[K/home/cyberdog_ws/src/utils/cyberdog_common/test/model_test/cyberdog_model_test.cpp:16[m[K:
+[01m[K/home/cyberdog_ws/src/utils/cyberdog_common/include/cyberdog_common/cyberdog_model.hpp:[m[K In member function ‘[01m[Kbool cyberdog::common::cyberdog_model::Init()[m[K’:
+[01m[K/home/cyberdog_ws/src/utils/cyberdog_common/include/cyberdog_common/cyberdog_model.hpp:144:10:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  144 |     INFO([01;35m[K"%s has %d versions in fsd"[m[K, this->module_name.c_str(), [32m[Kthis->fds_version_list.size()[m[K);
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                             [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                             [32m[K|[m[K
+      |                                                                                             [32m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K
+[01m[K/home/cyberdog_ws/src/utils/cyberdog_common/include/cyberdog_common/cyberdog_model.hpp:144:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KINFO[m[K’
+  144 |     [01;36m[KINFO[m[K("%s has %d versions in fsd", this->module_name.c_str(), this->fds_version_list.size());
+      |     [01;36m[K^~~~[m[K
+In file included from [01m[K/home/cyberdog_ws/src/utils/cyberdog_common/test/model_test/cyberdog_model_test.cpp:16[m[K:
+[01m[K/home/cyberdog_ws/src/utils/cyberdog_common/include/cyberdog_common/cyberdog_model.hpp:144:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  144 |     INFO("%s has [01;36m[K%d[m[K versions in fsd", this->module_name.c_str(), this->fds_version_list.size());
+      |                  [01;36m[K~^[m[K
+      |                   [01;36m[K|[m[K
+      |                   [01;36m[Kint[m[K
+      |                  [32m[K%ld[m[K

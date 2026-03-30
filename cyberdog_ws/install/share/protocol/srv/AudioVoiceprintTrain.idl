@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AudioVoiceprintTrain.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/VoicePrint.idl"
+
+module protocol {
+  module srv {
+    module AudioVoiceprintTrain_Request_Constants {
+      const uint8 TID_START = 1;
+      const uint8 TID_CANCEL = 2;
+    };
+    @verbatim (language="comment", text=
+      " request")
+    struct AudioVoiceprintTrain_Request {
+      uint8 train_id;
+
+      protocol::msg::VoicePrint voice_print;
+    };
+    struct AudioVoiceprintTrain_Response {
+      @verbatim (language="comment", text=
+        " response")
+      int32 code;
+    };
+  };
+};

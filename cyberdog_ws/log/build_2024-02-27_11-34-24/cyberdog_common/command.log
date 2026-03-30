@@ -1,0 +1,4 @@
+Invoking command in '/home/cyberdog_ws/build/cyberdog_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_common -- -j16 -l16
+Invoked command in '/home/cyberdog_ws/build/cyberdog_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_common -- -j16 -l16
+Invoking command in '/home/cyberdog_ws/build/cyberdog_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_common
+Invoked command in '/home/cyberdog_ws/build/cyberdog_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_common

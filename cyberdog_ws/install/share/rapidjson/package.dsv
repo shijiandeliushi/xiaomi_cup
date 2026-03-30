@@ -1,0 +1,14 @@
+source;share/rapidjson/hook/cmake_prefix_path.ps1
+source;share/rapidjson/hook/cmake_prefix_path.dsv
+source;share/rapidjson/hook/cmake_prefix_path.sh
+source;share/rapidjson/hook/ld_library_path_lib.ps1
+source;share/rapidjson/hook/ld_library_path_lib.dsv
+source;share/rapidjson/hook/ld_library_path_lib.sh
+source;share/rapidjson/hook/pythonpath.ps1
+source;share/rapidjson/hook/pythonpath.dsv
+source;share/rapidjson/hook/pythonpath.sh
+source;share/rapidjson/local_setup.bash
+source;share/rapidjson/local_setup.dsv
+source;share/rapidjson/local_setup.ps1
+source;share/rapidjson/local_setup.sh
+source;share/rapidjson/local_setup.zsh

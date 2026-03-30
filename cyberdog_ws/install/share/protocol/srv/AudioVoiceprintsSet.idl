@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AudioVoiceprintsSet.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/VoicePrints.idl"
+
+module protocol {
+  module srv {
+    struct AudioVoiceprintsSet_Request {
+      protocol::msg::VoicePrints voice_prints;
+    };
+    struct AudioVoiceprintsSet_Response {
+      @verbatim (language="comment", text=
+        " response")
+      boolean result;
+
+      int32 code;
+    };
+  };
+};

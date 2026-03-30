@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/MultipleTofPayload.msg
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/SingleTofPayload.idl"
+
+module protocol {
+  module msg {
+    struct MultipleTofPayload {
+      @verbatim (language="comment", text=
+        " This message is  used to describe four tofs")
+      protocol::msg::SingleTofPayload left_head;
+
+      protocol::msg::SingleTofPayload left_rear;
+
+      protocol::msg::SingleTofPayload right_head;
+
+      protocol::msg::SingleTofPayload right_rear;
+    };
+  };
+};

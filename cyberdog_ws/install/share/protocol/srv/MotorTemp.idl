@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/MotorTemp.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct MotorTemp_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct MotorTemp_Response {
+      boolean result;
+
+      sequence<float> motor_temp;
+
+      int32 code;
+    };
+  };
+};

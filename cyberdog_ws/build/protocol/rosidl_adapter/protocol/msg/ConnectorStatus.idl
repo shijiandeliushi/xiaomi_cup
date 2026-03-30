@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/ConnectorStatus.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    struct ConnectorStatus {
+      @verbatim (language="comment", text=
+        " 是否连接wifi")
+      boolean is_connected;
+
+      @verbatim (language="comment", text=
+        " 是否可以访问外网")
+      boolean is_internet;
+
+      @verbatim (language="comment", text=
+        " wifi名称")
+      string ssid;
+
+      @verbatim (language="comment", text=
+        " 机器人IP")
+      string robot_ip;
+
+      @verbatim (language="comment", text=
+        " wifi提供方（移动端）IP")
+      string provider_ip;
+
+      @verbatim (language="comment", text=
+        " wifi信号强度")
+      uint8 strength;
+
+      @verbatim (language="comment", text=
+        " 标准错误码")
+      int32 code;
+    };
+  };
+};

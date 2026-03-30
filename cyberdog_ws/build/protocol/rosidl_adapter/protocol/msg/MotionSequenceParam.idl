@@ -1,0 +1,99 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/MotionSequenceParam.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Twist.idl"
+
+module protocol {
+  module msg {
+    struct MotionSequenceParam {
+      @verbatim (language="comment", text=
+        " 运动速度" "\n"
+        " ┌──────────┬───────────────────────┐" "\n"
+        " │  目标键   │         值描述         │" "\n"
+        " ├──────────┼───────────────────────┤" "\n"
+        " │ + linear │                       │" "\n"
+        " │   - x    │ X轴线速度(m/s),默认:0   │" "\n"
+        " │   - y    │ Y轴线速度(m/s),默认:0   │" "\n"
+        " │   - z    │ z轴角速度(°/s),默认:0   │" "\n"
+        " │ + angular│                       │" "\n"
+        " │   - x    │ X轴姿态:R(°),默认值:0   │" "\n"
+        " │   - y    │ Y轴姿态:P(°),默认值:0   │" "\n"
+        " │   - z    │ Z轴姿态:Y(°),默认值:0   │" "\n"
+        " └──────────┴───────────────────────┘")
+      geometry_msgs::msg::Twist twist;
+
+      @verbatim (language="comment", text=
+        " 质心高度(米)" "\n"
+        " ┌──────────┬───────────────────────┐" "\n"
+        " │  目标键   │         值描述         │" "\n"
+        " ├──────────┼───────────────────────┤" "\n"
+        " │ - x      │ X轴质心偏移量(m),默认值:0│" "\n"
+        " │ - y      │ Y轴质心偏移量(m),默认值:0│" "\n"
+        " │ - z      │ Z轴质心高度量(m),默认值:0│" "\n"
+        " └──────────┴───────────────────────┘")
+      geometry_msgs::msg::Point centroid_height;
+
+      @verbatim (language="comment", text=
+        " 右前足:落脚点位置" "\n"
+        " ┌──────────┬───────────────────────┐" "\n"
+        " │  目标键   │         值描述         │" "\n"
+        " ├──────────┼───────────────────────┤" "\n"
+        " │ - x      │ X轴偏移量(m),默认:0     │" "\n"
+        " │ - y      │ Y轴偏移量(m),默认:0     │" "\n"
+        " │ - z      │ 保留字                 │" "\n"
+        " └──────────┴───────────────────────┘")
+      geometry_msgs::msg::Point right_forefoot;
+
+      @verbatim (language="comment", text=
+        " 左前足:落脚点位置" "\n"
+        " ┌──────────┬───────────────────────┐" "\n"
+        " │  目标键   │         值描述         │" "\n"
+        " ├──────────┼───────────────────────┤" "\n"
+        " │ - x      │ X轴偏移量(m),默认:0     │" "\n"
+        " │ - y      │ Y轴偏移量(m),默认:0     │" "\n"
+        " │ - z      │ 保留字                 │" "\n"
+        " └──────────┴───────────────────────┘")
+      geometry_msgs::msg::Point left_forefoot;
+
+      @verbatim (language="comment", text=
+        " 右后足:落脚点位置" "\n"
+        " ┌──────────┬───────────────────────┐" "\n"
+        " │  目标键   │         值描述         │" "\n"
+        " ├──────────┼───────────────────────┤" "\n"
+        " │ - x      │ X轴偏移量(m),默认:0     │" "\n"
+        " │ - y      │ Y轴偏移量(m),默认:0     │" "\n"
+        " │ - z      │ 保留字                 │" "\n"
+        " └──────────┴───────────────────────┘")
+      geometry_msgs::msg::Point right_hindfoot;
+
+      @verbatim (language="comment", text=
+        " 左后足:落脚点位置" "\n"
+        " ┌──────────┬───────────────────────┐" "\n"
+        " │  目标键   │         值描述         │" "\n"
+        " ├──────────┼───────────────────────┤" "\n"
+        " │ - x      │ X轴偏移量(m),默认:0     │" "\n"
+        " │ - y      │ Y轴偏移量(m),默认:0     │" "\n"
+        " │ - z      │ 保留字                 │" "\n"
+        " └──────────┴───────────────────────┘")
+      geometry_msgs::msg::Point left_hindfoot;
+
+      @verbatim (language="comment", text=
+        " 前足:抬脚高度(米),默认:0")
+      float forefoot_height;
+
+      @verbatim (language="comment", text=
+        " 后足:抬脚高度(米),默认:0")
+      float hindfoot_height;
+
+      @verbatim (language="comment", text=
+        " 摩擦系数[0,1],默认值:0.8")
+      float friction_coefficient;
+
+      @verbatim (language="comment", text=
+        " 持续时间(毫秒),默认:1000")
+      int64 duration_ms;
+    };
+  };
+};

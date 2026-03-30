@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/MotionCode.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module MotionCode_Constants {
+      const int32 OK = 0;
+      const int32 HW_LOW_BATTERY = 300;
+      const int32 HW_MOTOR_OFFLINE = 301;
+      const int32 COM_LCM_TIMEOUT = 310;
+      const int32 MOTION_SWITCH_ERROR = 320;
+      const int32 MOTION_TRANSITION_TIMEOUT = 321;
+      const int32 MOTION_EXECUTE_TIMEOUT = 322;
+      const int32 MOTION_EXECUTE_ERROR = 323;
+      const int32 COMMAND_INVALID = 330;
+      const int32 TASK_STATE_ERROR = 340;
+      const int32 TASK_MODE_ERROR = 341;
+    };
+    struct MotionCode {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

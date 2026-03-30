@@ -1,0 +1,4 @@
+source;share/cyberdog_common/environment/ament_prefix_path.sh
+source;share/cyberdog_common/environment/library_path.sh
+source;share/cyberdog_common/environment/library_path.sh
+source;share/cyberdog_common/environment/path.sh

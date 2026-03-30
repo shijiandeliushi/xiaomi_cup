@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AudioAuthId.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct AudioAuthId_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct AudioAuthId_Response {
+      @verbatim (language="comment", text=
+        " response")
+      string did;
+
+      string sn;
+
+      int32 code;
+    };
+  };
+};

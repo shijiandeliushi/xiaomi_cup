@@ -1,0 +1,2 @@
+bool[] enables
+string uid

@@ -1,0 +1,47 @@
+[0.033s] Invoking command in '/home/cyberdog_ws/build/motion_manager': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/motion/motion_manager -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.046s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.118s] -- Found manager_base: 0.0.0 (/home/cyberdog_ws/install/share/manager_base/cmake)
+[0.119s] -- Found cyberdog_common: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_common/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.190s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.298s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.339s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.492s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.495s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.511s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.512s] -- Looking for pthread.h
+[0.588s] -- Looking for pthread.h - found
+[0.589s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.680s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.680s] -- Looking for pthread_create in pthreads
+[0.744s] -- Looking for pthread_create in pthreads - not found
+[0.745s] -- Looking for pthread_create in pthread
+[0.833s] -- Looking for pthread_create in pthread - found
+[0.834s] -- Found Threads: TRUE  
+[0.992s] -- Found cyberdog_system: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_system/cmake)
+[0.994s] -- Found protocol: 1.0.0 (/home/cyberdog_ws/install/share/protocol/cmake)
+[1.332s] -- Found motion_action: 0.0.0 (/home/cyberdog_ws/install/share/motion_action/cmake)
+[1.338s] -- Found cyberdog_machine: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_machine/cmake)
+[1.358s] CMake Error at CMakeLists.txt:17 (find_package):
+[1.358s]   By not providing "Findbes_transmit.cmake" in CMAKE_MODULE_PATH this project
+[1.358s]   has asked CMake to find a package configuration file provided by
+[1.358s]   "bes_transmit", but CMake did not find one.
+[1.359s] 
+[1.359s]   Could not find a package configuration file provided by "bes_transmit" with
+[1.359s]   any of the following names:
+[1.359s] 
+[1.359s]     bes_transmitConfig.cmake
+[1.359s]     bes_transmit-config.cmake
+[1.359s] 
+[1.359s]   Add the installation prefix of "bes_transmit" to CMAKE_PREFIX_PATH or set
+[1.359s]   "bes_transmit_DIR" to a directory containing one of the above files.  If
+[1.359s]   "bes_transmit" provides a separate development package or SDK, be sure it
+[1.359s]   has been installed.
+[1.359s] 
+[1.359s] 
+[1.360s] -- Configuring incomplete, errors occurred!
+[1.360s] See also "/home/cyberdog_ws/build/motion_manager/CMakeFiles/CMakeOutput.log".
+[1.360s] See also "/home/cyberdog_ws/build/motion_manager/CMakeFiles/CMakeError.log".
+[1.366s] Invoked command in '/home/cyberdog_ws/build/motion_manager' returned '1': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/motion/motion_manager -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install

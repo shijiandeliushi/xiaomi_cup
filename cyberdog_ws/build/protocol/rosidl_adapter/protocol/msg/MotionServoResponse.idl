@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/MotionServoResponse.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    struct MotionServoResponse {
+      int32 motion_id;
+
+      @verbatim (language="comment", text=
+        " 累加指令计数")
+      int32 cmd_id;
+
+      @verbatim (language="comment", text=
+        " order process, 1 == 1 %")
+      int8 order_process_bar;
+
+      @verbatim (language="comment", text=
+        " need ???")
+      int8 status;
+
+      @verbatim (language="comment", text=
+        " true is OK, false is failed")
+      boolean result;
+
+      @verbatim (language="comment", text=
+        " 3XX, motion module code")
+      int32 code;
+    };
+  };
+};

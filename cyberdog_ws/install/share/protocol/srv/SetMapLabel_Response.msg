@@ -1,0 +1,5 @@
+
+uint8 RESULT_FAILED = 1
+uint8 RESULT_SUCCESS = 0
+uint8 success
+int32 code

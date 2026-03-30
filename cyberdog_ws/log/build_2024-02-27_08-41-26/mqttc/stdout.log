@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cyberdog_ws/src/mqttc/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cyberdog_ws/build/mqttc
+[35m[1mScanning dependencies of target mqttc[0m
+[ 33%] [32mBuilding C object CMakeFiles/mqttc.dir/src/mqtt_pal.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/mqttc.dir/src/mqtt.c.o[0m
+[100%] [32m[1mLinking C shared library libmqttc.so[0m
+[100%] Built target mqttc
+-- Install configuration: ""
+-- Installing: /home/cyberdog_ws/install/share/mqttc/environment/library_path.sh
+-- Installing: /home/cyberdog_ws/install/share/mqttc/environment/library_path.dsv
+-- Up-to-date: /home/cyberdog_ws/install/include
+-- Installing: /home/cyberdog_ws/install/include/mqttc
+-- Installing: /home/cyberdog_ws/install/include/mqttc/mqtt.h
+-- Installing: /home/cyberdog_ws/install/include/mqttc/mqtt_pal.h
+-- Installing: /home/cyberdog_ws/install/lib/libmqttc.so
+-- Up-to-date: /home/cyberdog_ws/install/share/mqttc/environment/library_path.sh
+-- Up-to-date: /home/cyberdog_ws/install/share/mqttc/environment/library_path.dsv
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/mqttc
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/mqttc
+-- Installing: /home/cyberdog_ws/install/share/mqttc/environment/ament_prefix_path.sh
+-- Installing: /home/cyberdog_ws/install/share/mqttc/environment/ament_prefix_path.dsv
+-- Installing: /home/cyberdog_ws/install/share/mqttc/environment/path.sh
+-- Installing: /home/cyberdog_ws/install/share/mqttc/environment/path.dsv
+-- Installing: /home/cyberdog_ws/install/share/mqttc/local_setup.bash
+-- Installing: /home/cyberdog_ws/install/share/mqttc/local_setup.sh
+-- Installing: /home/cyberdog_ws/install/share/mqttc/local_setup.zsh
+-- Installing: /home/cyberdog_ws/install/share/mqttc/local_setup.dsv
+-- Installing: /home/cyberdog_ws/install/share/mqttc/package.dsv
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/mqttc
+-- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/mqttcExport.cmake
+-- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/mqttcExport-noconfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/mqttcConfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/mqttcConfig-version.cmake
+-- Installing: /home/cyberdog_ws/install/share/mqttc/package.xml

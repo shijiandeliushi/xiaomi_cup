@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/FaceEntryResult.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module FaceEntryResult_Constants {
+      const int32 RESULT_SUCCESS = 0;
+      const int32 RESULT_TIMEOUT = 5907;
+      const int32 RESULT_FACE_ALREADY_EXIST = 5921;
+    };
+    struct FaceEntryResult {
+      int32 result;
+
+      string username;
+    };
+  };
+};

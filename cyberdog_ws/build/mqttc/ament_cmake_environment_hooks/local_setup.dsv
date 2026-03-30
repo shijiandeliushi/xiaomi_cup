@@ -1,0 +1,4 @@
+source;share/mqttc/environment/ament_prefix_path.sh
+source;share/mqttc/environment/library_path.sh
+source;share/mqttc/environment/library_path.sh
+source;share/mqttc/environment/path.sh

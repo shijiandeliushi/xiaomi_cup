@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/StopAlgoTask.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module StopAlgoTask_Request_Constants {
+      const uint8 ALGO_TASK_ALL = 0;
+      const uint8 ALGO_TASK_AB = 1;
+      const uint8 ALGO_TASK_FOLLOW = 3;
+      const uint8 ALGO_TASK_MAPPING = 5;
+      const uint8 ALGO_TASK_LOCALIZATION = 7;
+      const uint8 ALGO_TASK_AUTO_DOCKING = 9;
+      const uint8 ALGO_TASK_UWB_TRACKING = 11;
+      const uint8 ALGO_TASK_HUMAN_TRACKING = 13;
+    };
+    struct StopAlgoTask_Request {
+      uint8 task_id;
+
+      string map_name;
+    };
+    module StopAlgoTask_Response_Constants {
+      const int8 SUCCESS = 0;
+      const int8 FAILED = 1;
+    };
+    struct StopAlgoTask_Response {
+      int8 result;
+
+      int32 code;
+    };
+  };
+};

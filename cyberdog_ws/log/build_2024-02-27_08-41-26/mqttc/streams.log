@@ -1,0 +1,71 @@
+[0.039s] Invoking command in '/home/cyberdog_ws/build/mqttc': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/mqttc -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.105s] -- The C compiler identification is GNU 9.4.0
+[0.165s] -- The CXX compiler identification is GNU 9.4.0
+[0.171s] -- Check for working C compiler: /usr/bin/cc
+[0.249s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.250s] -- Detecting C compiler ABI info
+[0.330s] -- Detecting C compiler ABI info - done
+[0.345s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.437s] -- Detecting CXX compiler ABI info
+[0.521s] -- Detecting CXX compiler ABI info - done
+[0.533s] -- Detecting CXX compile features
+[0.533s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.562s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.562s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.652s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.734s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.735s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.736s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cyberdog_ws/src/mqttc/include>
+[0.736s] -- Configured cppcheck exclude dirs and/or files: 
+[0.736s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.736s] -- Configured cpplint exclude dirs and/or files: 
+[0.737s] -- Added test 'lint_cmake' to check CMake code style
+[0.738s] -- Added test 'uncrustify' to check C / C++ code style
+[0.738s] -- Configured uncrustify additional arguments: 
+[0.738s] -- Added test 'xmllint' to check XML markup files
+[0.742s] -- Configuring done
+[0.745s] -- Generating done
+[0.746s] -- Build files have been written to: /home/cyberdog_ws/build/mqttc
+[0.753s] Invoked command in '/home/cyberdog_ws/build/mqttc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/mqttc -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.756s] Invoking command in '/home/cyberdog_ws/build/mqttc': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/mqttc -- -j16 -l16
+[0.796s] [35m[1mScanning dependencies of target mqttc[0m
+[0.808s] [ 33%] [32mBuilding C object CMakeFiles/mqttc.dir/src/mqtt_pal.c.o[0m
+[0.808s] [ 66%] [32mBuilding C object CMakeFiles/mqttc.dir/src/mqtt.c.o[0m
+[0.912s] [100%] [32m[1mLinking C shared library libmqttc.so[0m
+[0.947s] [100%] Built target mqttc
+[0.959s] Invoked command in '/home/cyberdog_ws/build/mqttc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/mqttc -- -j16 -l16
+[0.994s] Invoking command in '/home/cyberdog_ws/build/mqttc': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/mqttc
+[1.002s] -- Install configuration: ""
+[1.002s] -- Installing: /home/cyberdog_ws/install/share/mqttc/environment/library_path.sh
+[1.003s] -- Installing: /home/cyberdog_ws/install/share/mqttc/environment/library_path.dsv
+[1.003s] -- Up-to-date: /home/cyberdog_ws/install/include
+[1.003s] -- Installing: /home/cyberdog_ws/install/include/mqttc
+[1.003s] -- Installing: /home/cyberdog_ws/install/include/mqttc/mqtt.h
+[1.003s] -- Installing: /home/cyberdog_ws/install/include/mqttc/mqtt_pal.h
+[1.003s] -- Installing: /home/cyberdog_ws/install/lib/libmqttc.so
+[1.003s] -- Up-to-date: /home/cyberdog_ws/install/share/mqttc/environment/library_path.sh
+[1.003s] -- Up-to-date: /home/cyberdog_ws/install/share/mqttc/environment/library_path.dsv
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/mqttc
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/mqttc
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/environment/ament_prefix_path.sh
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/environment/ament_prefix_path.dsv
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/environment/path.sh
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/environment/path.dsv
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/local_setup.bash
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/local_setup.sh
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/local_setup.zsh
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/local_setup.dsv
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/package.dsv
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/mqttc
+[1.004s] -- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/mqttcExport.cmake
+[1.005s] -- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/mqttcExport-noconfig.cmake
+[1.005s] -- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.005s] -- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/ament_cmake_export_targets-extras.cmake
+[1.005s] -- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/mqttcConfig.cmake
+[1.005s] -- Installing: /home/cyberdog_ws/install/share/mqttc/cmake/mqttcConfig-version.cmake
+[1.005s] -- Installing: /home/cyberdog_ws/install/share/mqttc/package.xml
+[1.007s] Invoked command in '/home/cyberdog_ws/build/mqttc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/mqttc

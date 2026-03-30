@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/DeleteTrainPlan.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct DeleteTrainPlan_Request {
+      string trigger;
+    };
+    struct DeleteTrainPlan_Response {
+      int32 code;
+    };
+  };
+};

@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/SportManager.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module SportManager_Request_Constants {
+      const uint8 SPORT_SQUAT = 1;
+      const uint8 SPORT_HIGHKNEES = 2;
+      const uint8 SPORT_SITUP = 3;
+      const uint8 SPORT_PRESSUP = 4;
+      const uint8 SPORT_PLANK = 5;
+      const uint8 SPORT_JUMPJACK = 6;
+      const int32 DEFAULT_TIMEOUT = 100;
+      const int32 MAX_TIMEOUT = 300;
+      const int32 MIN_TIMEOUT = 5;
+      const int32 ALGORITHM_LOAD_DURATION = 100;
+    };
+    struct SportManager_Request {
+      uint8 sport_type;
+
+      string id;
+
+      boolean command;
+
+      int32 counts;
+
+      int32 timeout;
+    };
+    module SportManager_Response_Constants {
+      const int32 ENABLE_SUCCESS = 0;
+      const int32 ENABLE_FAIL = 7001;
+    };
+    struct SportManager_Response {
+      int32 result;
+
+      int32 code;
+    };
+  };
+};

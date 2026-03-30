@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/DeviceInfo.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct DeviceInfo_Request {
+      sequence<boolean> enables;
+
+      string uid;
+    };
+    struct DeviceInfo_Response {
+      string info;
+
+      int32 code;
+    };
+  };
+};

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/TrainPlan.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    struct TrainPlan {
+      string trigger;
+
+      @verbatim (language="comment", text=
+        " 未定义（undefined)、运控(motion)、语音(audio)、LED(led)、导航(navigation)、跟随(follow)")
+      string type;
+
+      string value;
+    };
+  };
+};

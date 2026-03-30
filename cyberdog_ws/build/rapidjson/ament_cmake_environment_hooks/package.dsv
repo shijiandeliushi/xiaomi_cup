@@ -1,0 +1,4 @@
+source;share/rapidjson/local_setup.bash
+source;share/rapidjson/local_setup.dsv
+source;share/rapidjson/local_setup.sh
+source;share/rapidjson/local_setup.zsh

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AudioVoiceprintEntry.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module AudioVoiceprintEntry_Request_Constants {
+      const uint8 AVE_DELETE_VOICEPRINT = 4;
+    };
+    struct AudioVoiceprintEntry_Request {
+      uint8 command;
+
+      string username;
+    };
+    struct AudioVoiceprintEntry_Response {
+      boolean success;
+
+      int32 code;
+    };
+  };
+};

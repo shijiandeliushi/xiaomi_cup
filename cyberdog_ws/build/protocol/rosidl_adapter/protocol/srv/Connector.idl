@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/Connector.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct Connector_Request {
+      string wifi_name;
+
+      string wifi_password;
+
+      string provider_ip;
+    };
+    module Connector_Response_Constants {
+      const int32 CODE_SUCCESS = 0;
+      const int32 CODE_WIFI_NAME_FAIL = 8121;
+      const int32 CODE_WIFI_PASSWORD_FAIL = 8122;
+      const int32 CODE_WIFI_PROVIDER_IP_FAIL = 8123;
+      const int32 CODE_CONNECTION_TIMEOUT_FAIL = 8124;
+    };
+    struct Connector_Response {
+      boolean connected;
+
+      int32 code;
+    };
+  };
+};

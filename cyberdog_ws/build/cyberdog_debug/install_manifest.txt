@@ -1,0 +1,17 @@
+/home/cyberdog_ws/install/include//cyberdog_debug/backtrace.hpp
+/home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_debug
+/home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_debug
+/home/cyberdog_ws/install/share/cyberdog_debug/environment/ament_prefix_path.sh
+/home/cyberdog_ws/install/share/cyberdog_debug/environment/ament_prefix_path.dsv
+/home/cyberdog_ws/install/share/cyberdog_debug/environment/path.sh
+/home/cyberdog_ws/install/share/cyberdog_debug/environment/path.dsv
+/home/cyberdog_ws/install/share/cyberdog_debug/local_setup.bash
+/home/cyberdog_ws/install/share/cyberdog_debug/local_setup.sh
+/home/cyberdog_ws/install/share/cyberdog_debug/local_setup.zsh
+/home/cyberdog_ws/install/share/cyberdog_debug/local_setup.dsv
+/home/cyberdog_ws/install/share/cyberdog_debug/package.dsv
+/home/cyberdog_ws/install/share/ament_index/resource_index/packages/cyberdog_debug
+/home/cyberdog_ws/install/share/cyberdog_debug/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/cyberdog_ws/install/share/cyberdog_debug/cmake/cyberdog_debugConfig.cmake
+/home/cyberdog_ws/install/share/cyberdog_debug/cmake/cyberdog_debugConfig-version.cmake
+/home/cyberdog_ws/install/share/cyberdog_debug/package.xml

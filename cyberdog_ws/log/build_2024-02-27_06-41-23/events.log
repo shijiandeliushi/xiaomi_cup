@@ -1,0 +1,381 @@
+[0.000000] (-) TimerEvent: {}
+[0.000558] (-) JobUnselected: {'identifier': 'cpp_httplib'}
+[0.000644] (-) JobUnselected: {'identifier': 'cyberdog_bringup'}
+[0.000767] (-) JobUnselected: {'identifier': 'cyberdog_parameter'}
+[0.000776] (-) JobUnselected: {'identifier': 'filesystem'}
+[0.000785] (-) JobUnselected: {'identifier': 'motion_bridge'}
+[0.000794] (-) JobUnselected: {'identifier': 'motion_utils'}
+[0.000802] (-) JobUnselected: {'identifier': 'mqttc'}
+[0.000811] (-) JobUnselected: {'identifier': 'nvinference'}
+[0.000819] (-) JobUnselected: {'identifier': 'zxing'}
+[0.000829] (rapidjson) JobQueued: {'identifier': 'rapidjson', 'dependencies': OrderedDict()}
+[0.000840] (toml) JobQueued: {'identifier': 'toml', 'dependencies': OrderedDict()}
+[0.000849] (xpack) JobQueued: {'identifier': 'xpack', 'dependencies': OrderedDict()}
+[0.000857] (cyberdog_common) JobQueued: {'identifier': 'cyberdog_common', 'dependencies': OrderedDict([('rapidjson', '/home/cyberdog_ws/install'), ('toml', '/home/cyberdog_ws/install'), ('xpack', '/home/cyberdog_ws/install')])}
+[0.000869] (cyberdog_debug) JobQueued: {'identifier': 'cyberdog_debug', 'dependencies': OrderedDict([('rapidjson', '/home/cyberdog_ws/install'), ('toml', '/home/cyberdog_ws/install'), ('xpack', '/home/cyberdog_ws/install'), ('cyberdog_common', '/home/cyberdog_ws/install')])}
+[0.000880] (cyberdog_machine) JobQueued: {'identifier': 'cyberdog_machine', 'dependencies': OrderedDict([('rapidjson', '/home/cyberdog_ws/install'), ('toml', '/home/cyberdog_ws/install'), ('xpack', '/home/cyberdog_ws/install'), ('cyberdog_common', '/home/cyberdog_ws/install')])}
+[0.000890] (cyberdog_system) JobQueued: {'identifier': 'cyberdog_system', 'dependencies': OrderedDict([('rapidjson', '/home/cyberdog_ws/install'), ('toml', '/home/cyberdog_ws/install'), ('xpack', '/home/cyberdog_ws/install'), ('cyberdog_common', '/home/cyberdog_ws/install')])}
+[0.000900] (elec_skin) JobQueued: {'identifier': 'elec_skin', 'dependencies': OrderedDict([('rapidjson', '/home/cyberdog_ws/install'), ('toml', '/home/cyberdog_ws/install'), ('xpack', '/home/cyberdog_ws/install'), ('cyberdog_common', '/home/cyberdog_ws/install')])}
+[0.000910] (skin_manager) JobQueued: {'identifier': 'skin_manager', 'dependencies': OrderedDict([('rapidjson', '/home/cyberdog_ws/install'), ('toml', '/home/cyberdog_ws/install'), ('xpack', '/home/cyberdog_ws/install'), ('cyberdog_common', '/home/cyberdog_ws/install'), ('elec_skin', '/home/cyberdog_ws/install')])}
+[0.000921] (motion_action) JobQueued: {'identifier': 'motion_action', 'dependencies': OrderedDict([('rapidjson', '/home/cyberdog_ws/install'), ('toml', '/home/cyberdog_ws/install'), ('xpack', '/home/cyberdog_ws/install'), ('cyberdog_common', '/home/cyberdog_ws/install'), ('cyberdog_debug', '/home/cyberdog_ws/install'), ('cyberdog_system', '/home/cyberdog_ws/install'), ('elec_skin', '/home/cyberdog_ws/install'), ('skin_manager', '/home/cyberdog_ws/install')])}
+[0.000934] (motion_manager) JobQueued: {'identifier': 'motion_manager', 'dependencies': OrderedDict([('rapidjson', '/home/cyberdog_ws/install'), ('toml', '/home/cyberdog_ws/install'), ('xpack', '/home/cyberdog_ws/install'), ('cyberdog_common', '/home/cyberdog_ws/install'), ('cyberdog_debug', '/home/cyberdog_ws/install'), ('cyberdog_machine', '/home/cyberdog_ws/install'), ('cyberdog_system', '/home/cyberdog_ws/install'), ('elec_skin', '/home/cyberdog_ws/install'), ('skin_manager', '/home/cyberdog_ws/install'), ('motion_action', '/home/cyberdog_ws/install')])}
+[0.000948] (rapidjson) JobStarted: {'identifier': 'rapidjson'}
+[0.008872] (toml) JobStarted: {'identifier': 'toml'}
+[0.012977] (xpack) JobStarted: {'identifier': 'xpack'}
+[0.016777] (rapidjson) JobProgress: {'identifier': 'rapidjson', 'progress': 'cmake'}
+[0.016887] (rapidjson) Command: {'cmd': ['/usr/bin/cmake', '/home/cyberdog_ws/src/cyberdog_ws/third_party/rapidjson', '-DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install'], 'cwd': '/home/cyberdog_ws/build/rapidjson', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/rapidjson'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.019232] (toml) JobProgress: {'identifier': 'toml', 'progress': 'cmake'}
+[0.019574] (toml) JobProgress: {'identifier': 'toml', 'progress': 'build'}
+[0.020082] (toml) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyberdog_ws/build/toml', '--', '-j16', '-l16'], 'cwd': '/home/cyberdog_ws/build/toml', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/toml'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.022653] (xpack) JobProgress: {'identifier': 'xpack', 'progress': 'cmake'}
+[0.022848] (xpack) Command: {'cmd': ['/usr/bin/cmake', '/home/cyberdog_ws/src/cyberdog_ws/third_party/xpack', '-DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install'], 'cwd': '/home/cyberdog_ws/build/xpack', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/xpack'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.045056] (toml) CommandEnded: {'returncode': 0}
+[0.053566] (rapidjson) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.057877] (xpack) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.058499] (toml) JobProgress: {'identifier': 'toml', 'progress': 'install'}
+[0.065219] (toml) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyberdog_ws/build/toml'], 'cwd': '/home/cyberdog_ws/build/toml', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/toml'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.071507] (toml) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.071683] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include\n'}
+[0.071745] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml\n'}
+[0.071784] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml.hpp\n'}
+[0.071821] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml\n'}
+[0.071858] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/macros.hpp\n'}
+[0.071895] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/exception.hpp\n'}
+[0.071932] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/source_location.hpp\n'}
+[0.071970] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/into.hpp\n'}
+[0.072006] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/literal.hpp\n'}
+[0.072045] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/serializer.hpp\n'}
+[0.072082] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/storage.hpp\n'}
+[0.072118] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/region.hpp\n'}
+[0.072155] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/value.hpp\n'}
+[0.072192] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/types.hpp\n'}
+[0.072228] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/from.hpp\n'}
+[0.072265] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/get.hpp\n'}
+[0.072305] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/parser.hpp\n'}
+[0.072352] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/color.hpp\n'}
+[0.072388] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/combinator.hpp\n'}
+[0.072423] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/datetime.hpp\n'}
+[0.072459] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/string.hpp\n'}
+[0.072495] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/lexer.hpp\n'}
+[0.072531] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/traits.hpp\n'}
+[0.072567] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/comments.hpp\n'}
+[0.072603] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/utility.hpp\n'}
+[0.072639] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/result.hpp\n'}
+[0.072675] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/toml\n'}
+[0.072765] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/toml\n'}
+[0.072804] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/environment/ament_prefix_path.sh\n'}
+[0.072843] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/environment/ament_prefix_path.dsv\n'}
+[0.072879] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/environment/path.sh\n'}
+[0.072915] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/environment/path.dsv\n'}
+[0.072953] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/local_setup.bash\n'}
+[0.072992] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/local_setup.sh\n'}
+[0.073029] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/local_setup.zsh\n'}
+[0.073067] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/local_setup.dsv\n'}
+[0.073104] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/package.dsv\n'}
+[0.073143] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/toml\n'}
+[0.073180] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.073219] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/cmake/tomlConfig.cmake\n'}
+[0.073256] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/cmake/tomlConfig-version.cmake\n'}
+[0.073294] (toml) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/share/toml/package.xml\n'}
+[0.073964] (toml) CommandEnded: {'returncode': 0}
+[0.087941] (rapidjson) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.090331] (xpack) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.090792] (rapidjson) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.093092] (xpack) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.100885] (-) TimerEvent: {}
+[0.104378] (toml) JobEnded: {'identifier': 'toml', 'rc': 0}
+[0.132936] (rapidjson) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.133101] (xpack) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.133330] (rapidjson) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.133537] (xpack) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.175940] (rapidjson) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.176078] (xpack) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.183066] (xpack) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.183152] (rapidjson) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.183380] (rapidjson) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.183437] (xpack) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.184951] (xpack) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.185079] (rapidjson) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.201121] (-) TimerEvent: {}
+[0.233295] (xpack) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.233472] (rapidjson) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.234052] (rapidjson) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.234176] (xpack) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.286405] (xpack) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.286544] (rapidjson) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.293576] (rapidjson) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.293659] (xpack) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.293825] (xpack) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.293900] (rapidjson) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.296274] (xpack) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.296352] (rapidjson) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.301272] (-) TimerEvent: {}
+[0.312753] (xpack) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.312853] (xpack) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.312895] (rapidjson) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.312936] (rapidjson) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.367667] (xpack) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.368092] (rapidjson) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.401500] (-) TimerEvent: {}
+[0.416993] (xpack) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.417361] (rapidjson) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.418868] (rapidjson) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.418943] (rapidjson) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.418997] (rapidjson) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.419199] (xpack) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.419271] (xpack) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.419311] (xpack) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.420074] (rapidjson) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.420145] (rapidjson) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.420631] (xpack) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.420705] (xpack) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.420778] (rapidjson) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.421267] (xpack) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.421959] (rapidjson) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.422031] (rapidjson) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.422260] (rapidjson) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.423015] (xpack) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.423068] (xpack) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.423473] (xpack) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.423891] (rapidjson) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.424860] (xpack) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.425007] (rapidjson) StdoutLine: {'line': b'-- Generating done\n'}
+[0.425587] (rapidjson) StdoutLine: {'line': b'-- Build files have been written to: /home/cyberdog_ws/build/rapidjson\n'}
+[0.426104] (xpack) StdoutLine: {'line': b'-- Generating done\n'}
+[0.426613] (xpack) StdoutLine: {'line': b'-- Build files have been written to: /home/cyberdog_ws/build/xpack\n'}
+[0.427916] (rapidjson) CommandEnded: {'returncode': 0}
+[0.428266] (rapidjson) JobProgress: {'identifier': 'rapidjson', 'progress': 'build'}
+[0.428538] (rapidjson) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyberdog_ws/build/rapidjson', '--', '-j16', '-l16'], 'cwd': '/home/cyberdog_ws/build/rapidjson', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/rapidjson'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.431137] (xpack) CommandEnded: {'returncode': 0}
+[0.431392] (xpack) JobProgress: {'identifier': 'xpack', 'progress': 'build'}
+[0.431625] (xpack) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyberdog_ws/build/xpack', '--', '-j16', '-l16'], 'cwd': '/home/cyberdog_ws/build/xpack', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/xpack'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.452116] (rapidjson) CommandEnded: {'returncode': 0}
+[0.454677] (xpack) CommandEnded: {'returncode': 0}
+[0.464962] (rapidjson) JobProgress: {'identifier': 'rapidjson', 'progress': 'install'}
+[0.465155] (rapidjson) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyberdog_ws/build/rapidjson'], 'cwd': '/home/cyberdog_ws/build/rapidjson', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/rapidjson'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.467112] (xpack) JobProgress: {'identifier': 'xpack', 'progress': 'install'}
+[0.467385] (xpack) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyberdog_ws/build/xpack'], 'cwd': '/home/cyberdog_ws/build/xpack', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/xpack'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.470762] (rapidjson) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.470898] (rapidjson) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include\n'}
+[0.470947] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson\n'}
+[0.470990] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/stream.h\n'}
+[0.471056] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/schema.h\n'}
+[0.471106] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/ostreamwrapper.h\n'}
+[0.471142] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/allocators.h\n'}
+[0.471193] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/istreamwrapper.h\n'}
+[0.471230] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/filereadstream.h\n'}
+[0.471286] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/reader.h\n'}
+[0.471332] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/pointer.h\n'}
+[0.471376] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/memorybuffer.h\n'}
+[0.471420] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/document.h\n'}
+[0.471511] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/encodings.h\n'}
+[0.471571] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/writer.h\n'}
+[0.471632] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/fwd.h\n'}
+[0.471679] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/prettywriter.h\n'}
+[0.471733] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/stringbuffer.h\n'}
+[0.471780] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/filewritestream.h\n'}
+[0.471832] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/memorystream.h\n'}
+[0.471879] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/rapidjson.h\n'}
+[0.471941] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/encodedstream.h\n'}
+[0.471991] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal\n'}
+[0.472043] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/stack.h\n'}
+[0.472095] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/swap.h\n'}
+[0.472149] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/diyfp.h\n'}
+[0.472203] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/pow10.h\n'}
+[0.472255] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/itoa.h\n'}
+[0.472312] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/ieee754.h\n'}
+[0.472360] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/biginteger.h\n'}
+[0.472415] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/regex.h\n'}
+[0.472492] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/strfunc.h\n'}
+[0.472563] (xpack) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.472718] (xpack) StdoutLine: {'line': b'-- Up-to-date: /home/cyberdog_ws/install/include\n'}
+[0.472757] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/dtoa.h\n'}
+[0.472816] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/strtod.h\n'}
+[0.472879] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/meta.h\n'}
+[0.472920] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack\n'}
+[0.472974] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/numeric.h\n'}
+[0.473033] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/json_decoder.h\n'}
+[0.473071] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/xencoder.h\n'}
+[0.473139] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/msinttypes\n'}
+[0.473191] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/msinttypes/stdint.h\n'}
+[0.473241] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/msinttypes/inttypes.h\n'}
+[0.473282] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/rapidjson_custom.h\n'}
+[0.473338] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/error\n'}
+[0.473464] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/error/error.h\n'}
+[0.473513] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty\n'}
+[0.473574] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson\n'}
+[0.473612] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/stream.h\n'}
+[0.473662] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/rapidjson/error/en.h\n'}
+[0.473723] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/schema.h\n'}
+[0.473773] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/rapidjson\n'}
+[0.473812] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/cursorstreamwrapper.h\n'}
+[0.473871] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/rapidjson\n'}
+[0.473909] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/ostreamwrapper.h\n'}
+[0.473964] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/allocators.h\n'}
+[0.474015] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/istreamwrapper.h\n'}
+[0.474065] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/filereadstream.h\n'}
+[0.474130] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/environment/ament_prefix_path.sh\n'}
+[0.474172] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/environment/ament_prefix_path.dsv\n'}
+[0.474211] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/reader.h\n'}
+[0.474249] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/environment/path.sh\n'}
+[0.474306] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/pointer.h\n'}
+[0.474372] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/memorybuffer.h\n'}
+[0.474412] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/environment/path.dsv\n'}
+[0.474451] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/local_setup.bash\n'}
+[0.474489] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/document.h\n'}
+[0.474553] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/encodings.h\n'}
+[0.474601] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/local_setup.sh\n'}
+[0.474639] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/local_setup.zsh\n'}
+[0.474677] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/local_setup.dsv\n'}
+[0.474715] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/writer.h\n'}
+[0.474769] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/fwd.h\n'}
+[0.474816] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/package.dsv\n'}
+[0.474854] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/rapidjson\n'}
+[0.474906] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/prettywriter.h\n'}
+[0.474945] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/stringbuffer.h\n'}
+[0.474983] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/filewritestream.h\n'}
+[0.475036] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/memorystream.h\n'}
+[0.475101] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/rapidjson.h\n'}
+[0.475140] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.475179] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/cmake/rapidjsonConfig.cmake\n'}
+[0.475218] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/cmake/rapidjsonConfig-version.cmake\n'}
+[0.475298] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/encodedstream.h\n'}
+[0.475336] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal\n'}
+[0.475374] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/stack.h\n'}
+[0.475413] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/swap.h\n'}
+[0.475502] (rapidjson) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/rapidjson/package.xml\n'}
+[0.475591] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/diyfp.h\n'}
+[0.475659] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/pow10.h\n'}
+[0.475751] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/itoa.h\n'}
+[0.475860] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/ieee754.h\n'}
+[0.475901] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/biginteger.h\n'}
+[0.475941] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/regex.h\n'}
+[0.475979] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/strfunc.h\n'}
+[0.476017] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/dtoa.h\n'}
+[0.476055] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/strtod.h\n'}
+[0.476094] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/meta.h\n'}
+[0.476132] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/msinttypes\n'}
+[0.476169] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/msinttypes/stdint.h\n'}
+[0.476253] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/msinttypes/inttypes.h\n'}
+[0.477997] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/error\n'}
+[0.478290] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/error/error.h\n'}
+[0.478334] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/error/en.h\n'}
+[0.478376] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/xtype.h\n'}
+[0.478414] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/json.h\n'}
+[0.478451] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/l1l2_expand.h\n'}
+[0.478489] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/xpack.h\n'}
+[0.478526] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/json_encoder.h\n'}
+[0.478564] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/xml_decoder.h\n'}
+[0.478601] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/util.h\n'}
+[0.478637] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/xml_encoder.h\n'}
+[0.478674] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/json_data.h\n'}
+[0.478710] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/config.h\n'}
+[0.478746] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/traits.h\n'}
+[0.478782] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/xdecoder.h\n'}
+[0.478818] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/extend.h\n'}
+[0.478857] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/xpack/xml.h\n'}
+[0.478894] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/xpack\n'}
+[0.478933] (rapidjson) CommandEnded: {'returncode': 0}
+[0.479122] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/xpack\n'}
+[0.479168] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/environment/ament_prefix_path.sh\n'}
+[0.479206] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/environment/ament_prefix_path.dsv\n'}
+[0.479242] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/environment/path.sh\n'}
+[0.479279] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/environment/path.dsv\n'}
+[0.479315] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.bash\n'}
+[0.479351] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.sh\n'}
+[0.479387] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.zsh\n'}
+[0.479423] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.dsv\n'}
+[0.479458] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/package.dsv\n'}
+[0.479493] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/xpack\n'}
+[0.479529] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.479565] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/cmake/xpackConfig.cmake\n'}
+[0.479600] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/cmake/xpackConfig-version.cmake\n'}
+[0.479637] (xpack) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/xpack/package.xml\n'}
+[0.486010] (xpack) CommandEnded: {'returncode': 0}
+[0.502085] (-) TimerEvent: {}
+[0.503515] (rapidjson) JobEnded: {'identifier': 'rapidjson', 'rc': 0}
+[0.510203] (xpack) JobEnded: {'identifier': 'xpack', 'rc': 0}
+[0.511931] (cyberdog_common) JobStarted: {'identifier': 'cyberdog_common'}
+[0.516877] (cyberdog_common) JobProgress: {'identifier': 'cyberdog_common', 'progress': 'cmake'}
+[0.517025] (cyberdog_common) Command: {'cmd': ['/usr/bin/cmake', '/home/cyberdog_ws/src/utils/cyberdog_common', '-DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install'], 'cwd': '/home/cyberdog_ws/build/cyberdog_common', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/cyberdog_ws/install:/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/cyberdog_common'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cyberdog_ws/install:/opt/ros/galactic')]), 'shell': False}
+[0.551547] (cyberdog_common) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.583509] (cyberdog_common) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.586144] (cyberdog_common) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.602163] (-) TimerEvent: {}
+[0.626873] (cyberdog_common) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.627478] (cyberdog_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.684440] (cyberdog_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.697651] (cyberdog_common) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.698015] (cyberdog_common) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.700685] (cyberdog_common) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.702246] (-) TimerEvent: {}
+[0.787926] (cyberdog_common) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.788519] (cyberdog_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.802414] (-) TimerEvent: {}
+[0.840329] (cyberdog_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.847339] (cyberdog_common) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.847608] (cyberdog_common) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.849751] (cyberdog_common) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.865635] (cyberdog_common) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.865709] (cyberdog_common) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.902546] (-) TimerEvent: {}
+[0.920352] (cyberdog_common) StdoutLine: {'line': b'-- Found rapidjson: 0.0.0 (/home/cyberdog_ws/install/share/rapidjson/cmake)\n'}
+[0.920891] (cyberdog_common) StdoutLine: {'line': b'-- Found toml: 0.0.0 (/home/cyberdog_ws/install/share/toml/cmake)\n'}
+[0.923118] (cyberdog_common) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.963935] (cyberdog_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.969868] (cyberdog_common) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.002642] (-) TimerEvent: {}
+[1.036256] (cyberdog_common) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.070858] (cyberdog_common) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.102713] (-) TimerEvent: {}
+[1.137503] (cyberdog_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.178676] (cyberdog_common) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.181036] (cyberdog_common) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.193699] (cyberdog_common) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.194270] (cyberdog_common) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.202795] (-) TimerEvent: {}
+[1.248448] (cyberdog_common) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.248699] (cyberdog_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.302978] (-) TimerEvent: {}
+[1.318200] (cyberdog_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.318424] (cyberdog_common) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.371140] (cyberdog_common) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.371685] (cyberdog_common) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.403102] (-) TimerEvent: {}
+[1.470766] (cyberdog_common) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.471730] (cyberdog_common) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.503223] (-) TimerEvent: {}
+[1.571340] (cyberdog_common) StdoutLine: {'line': b'-- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)\n'}
+[1.579032] (cyberdog_common) StdoutLine: {'line': b'-- Found xpack: 0.0.0 (/home/cyberdog_ws/install/share/xpack/cmake)\n'}
+[1.582899] (cyberdog_common) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.603312] (-) TimerEvent: {}
+[1.646416] (cyberdog_common) StderrLine: {'line': b'CMake Error at CMakeLists.txt:135 (find_package):\n'}
+[1.646538] (cyberdog_common) StderrLine: {'line': b'  By not providing "Findprotocol.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.646580] (cyberdog_common) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "protocol",\n'}
+[1.646615] (cyberdog_common) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[1.646651] (cyberdog_common) StderrLine: {'line': b'\n'}
+[1.646684] (cyberdog_common) StderrLine: {'line': b'  Could not find a package configuration file provided by "protocol" with any\n'}
+[1.646717] (cyberdog_common) StderrLine: {'line': b'  of the following names:\n'}
+[1.646749] (cyberdog_common) StderrLine: {'line': b'\n'}
+[1.646781] (cyberdog_common) StderrLine: {'line': b'    protocolConfig.cmake\n'}
+[1.646813] (cyberdog_common) StderrLine: {'line': b'    protocol-config.cmake\n'}
+[1.646845] (cyberdog_common) StderrLine: {'line': b'\n'}
+[1.646877] (cyberdog_common) StderrLine: {'line': b'  Add the installation prefix of "protocol" to CMAKE_PREFIX_PATH or set\n'}
+[1.646909] (cyberdog_common) StderrLine: {'line': b'  "protocol_DIR" to a directory containing one of the above files.  If\n'}
+[1.646941] (cyberdog_common) StderrLine: {'line': b'  "protocol" provides a separate development package or SDK, be sure it has\n'}
+[1.646973] (cyberdog_common) StderrLine: {'line': b'  been installed.\n'}
+[1.647005] (cyberdog_common) StderrLine: {'line': b'\n'}
+[1.647037] (cyberdog_common) StderrLine: {'line': b'\n'}
+[1.647847] (cyberdog_common) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.647955] (cyberdog_common) StdoutLine: {'line': b'See also "/home/cyberdog_ws/build/cyberdog_common/CMakeFiles/CMakeOutput.log".\n'}
+[1.648013] (cyberdog_common) StdoutLine: {'line': b'See also "/home/cyberdog_ws/build/cyberdog_common/CMakeFiles/CMakeError.log".\n'}
+[1.653223] (cyberdog_common) CommandEnded: {'returncode': 1}
+[1.667703] (cyberdog_common) JobEnded: {'identifier': 'cyberdog_common', 'rc': 1}
+[1.678049] (cyberdog_debug) JobSkipped: {'identifier': 'cyberdog_debug'}
+[1.678165] (cyberdog_machine) JobSkipped: {'identifier': 'cyberdog_machine'}
+[1.678204] (cyberdog_system) JobSkipped: {'identifier': 'cyberdog_system'}
+[1.678322] (elec_skin) JobSkipped: {'identifier': 'elec_skin'}
+[1.678354] (skin_manager) JobSkipped: {'identifier': 'skin_manager'}
+[1.678367] (motion_action) JobSkipped: {'identifier': 'motion_action'}
+[1.678375] (motion_manager) JobSkipped: {'identifier': 'motion_manager'}
+[1.678385] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+source;share/elec_skin/local_setup.bash
+source;share/elec_skin/local_setup.dsv
+source;share/elec_skin/local_setup.sh
+source;share/elec_skin/local_setup.zsh

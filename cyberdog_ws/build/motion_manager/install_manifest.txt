@@ -1,0 +1,17 @@
+/home/cyberdog_ws/install/lib/motion_manager/motion_manager
+/home/cyberdog_ws/install/share/motion_manager/config/priority.toml
+/home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/motion_manager
+/home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/motion_manager
+/home/cyberdog_ws/install/share/motion_manager/environment/ament_prefix_path.sh
+/home/cyberdog_ws/install/share/motion_manager/environment/ament_prefix_path.dsv
+/home/cyberdog_ws/install/share/motion_manager/environment/path.sh
+/home/cyberdog_ws/install/share/motion_manager/environment/path.dsv
+/home/cyberdog_ws/install/share/motion_manager/local_setup.bash
+/home/cyberdog_ws/install/share/motion_manager/local_setup.sh
+/home/cyberdog_ws/install/share/motion_manager/local_setup.zsh
+/home/cyberdog_ws/install/share/motion_manager/local_setup.dsv
+/home/cyberdog_ws/install/share/motion_manager/package.dsv
+/home/cyberdog_ws/install/share/ament_index/resource_index/packages/motion_manager
+/home/cyberdog_ws/install/share/motion_manager/cmake/motion_managerConfig.cmake
+/home/cyberdog_ws/install/share/motion_manager/cmake/motion_managerConfig-version.cmake
+/home/cyberdog_ws/install/share/motion_manager/package.xml

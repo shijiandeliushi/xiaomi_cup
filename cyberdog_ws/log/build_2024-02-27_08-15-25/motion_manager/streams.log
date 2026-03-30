@@ -1,0 +1,38 @@
+[0.035s] Invoking command in '/home/cyberdog_ws/build/motion_manager': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/motion/motion_manager -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.135s] -- The CXX compiler identification is GNU 9.4.0
+[0.139s] -- Check for working C compiler: /usr/bin/cc
+[0.229s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.230s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.337s] -- Detecting C compile features
+[0.337s] -- Detecting C compile features - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.438s] -- Detecting CXX compiler ABI info
+[0.530s] -- Detecting CXX compiler ABI info - done
+[0.540s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.544s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.567s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.568s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.678s] CMake Error at CMakeLists.txt:10 (find_package):
+[0.679s]   By not providing "Findmanager_base.cmake" in CMAKE_MODULE_PATH this project
+[0.679s]   has asked CMake to find a package configuration file provided by
+[0.679s]   "manager_base", but CMake did not find one.
+[0.679s] 
+[0.679s]   Could not find a package configuration file provided by "manager_base" with
+[0.679s]   any of the following names:
+[0.679s] 
+[0.679s]     manager_baseConfig.cmake
+[0.679s]     manager_base-config.cmake
+[0.679s] 
+[0.679s]   Add the installation prefix of "manager_base" to CMAKE_PREFIX_PATH or set
+[0.679s]   "manager_base_DIR" to a directory containing one of the above files.  If
+[0.679s]   "manager_base" provides a separate development package or SDK, be sure it
+[0.679s]   has been installed.
+[0.679s] 
+[0.679s] 
+[0.679s] -- Configuring incomplete, errors occurred!
+[0.680s] See also "/home/cyberdog_ws/build/motion_manager/CMakeFiles/CMakeOutput.log".
+[0.682s] Invoked command in '/home/cyberdog_ws/build/motion_manager' returned '1': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/motion/motion_manager -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install

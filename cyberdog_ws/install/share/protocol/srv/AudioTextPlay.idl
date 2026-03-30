@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AudioTextPlay.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/AudioPlay.idl"
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct AudioTextPlay_Request {
+      string module_name;
+
+      boolean is_online;
+
+      protocol::msg::AudioPlay speech;
+
+      string text;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct AudioTextPlay_Response {
+      @verbatim (language="comment", text=
+        " 0播放完毕,1播放失败")
+      uint8 status;
+
+      int32 code;
+    };
+  };
+};

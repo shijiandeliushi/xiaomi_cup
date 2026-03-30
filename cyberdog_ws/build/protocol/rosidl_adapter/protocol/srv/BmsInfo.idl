@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/BmsInfo.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/BmsStatus.idl"
+
+module protocol {
+  module srv {
+    struct BmsInfo_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct BmsInfo_Response {
+      protocol::msg::BmsStatus msg;
+
+      int32 code;
+    };
+  };
+};

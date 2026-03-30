@@ -1,0 +1,6 @@
+Invoking command in '/home/cyberdog_ws/build/toml': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/cyberdog_ws/third_party/toml -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+Invoked command in '/home/cyberdog_ws/build/toml' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/cyberdog_ws/third_party/toml -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+Invoking command in '/home/cyberdog_ws/build/toml': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/toml -- -j16 -l16
+Invoked command in '/home/cyberdog_ws/build/toml' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/toml -- -j16 -l16
+Invoking command in '/home/cyberdog_ws/build/toml': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/toml
+Invoked command in '/home/cyberdog_ws/build/toml' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/toml

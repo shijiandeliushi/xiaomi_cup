@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/AudioPlayExtend.msg
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/AudioPlay.idl"
+
+module protocol {
+  module msg {
+    struct AudioPlayExtend {
+      string module_name;
+
+      boolean is_online;
+
+      protocol::msg::AudioPlay speech;
+
+      string text;
+    };
+  };
+};

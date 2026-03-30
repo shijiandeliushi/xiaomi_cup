@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from protocol/ros/action/SeatAdjust.action
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module action {
+    module SeatAdjust_Goal_Constants {
+      const uint8 SEATADJUST_GOAL_TYPE_STOP = 0;
+      const uint8 SEATADJUST_GOAL_TYPE_START = 1;
+    };
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct SeatAdjust_Goal {
+      uint8 start;
+    };
+    module SeatAdjust_Result_Constants {
+      const uint8 SEATADJUST_RESULT_TYPE_SUCCESS = 0;
+      const uint8 SEATADJUST_RESULT_TYPE_ACCEPT = 1;
+      const uint8 SEATADJUST_RESULT_TYPE_UNAVALIBLE = 2;
+      const uint8 SEATADJUST_RESULT_TYPE_FAILED = 3;
+      const uint8 SEATADJUST_RESULT_TYPE_REJECT = 4;
+      const uint8 SEATADJUST_RESULT_TYPE_CANCEL = 5;
+    };
+    struct SeatAdjust_Result {
+      @verbatim (language="comment", text=
+        "result definition")
+      uint8 result;
+    };
+    struct SeatAdjust_Feedback {
+      @verbatim (language="comment", text=
+        " feedback definition")
+      uint32 count;
+    };
+  };
+};

@@ -1,0 +1,116 @@
+[0.035s] Invoking command in '/home/cyberdog_ws/build/cyberdog_embed_protocol': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/bridges/embed_protocol -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.099s] -- The C compiler identification is GNU 9.4.0
+[0.158s] -- The CXX compiler identification is GNU 9.4.0
+[0.162s] -- Check for working C compiler: /usr/bin/cc
+[0.237s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.238s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.325s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.416s] -- Detecting CXX compiler ABI info
+[0.501s] -- Detecting CXX compiler ABI info - done
+[0.514s] -- Detecting CXX compile features
+[0.514s] -- Detecting CXX compile features - done
+[0.517s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.547s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.547s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.646s] -- Found toml: 0.0.0 (/home/cyberdog_ws/install/share/toml/cmake)
+[0.648s] -- Found cyberdog_common: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_common/cmake)
+[0.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.734s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.856s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.907s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.012s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.078s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.082s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.101s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.102s] -- Looking for pthread.h
+[1.178s] -- Looking for pthread.h - found
+[1.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.257s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.257s] -- Looking for pthread_create in pthreads
+[1.317s] -- Looking for pthread_create in pthreads - not found
+[1.317s] -- Looking for pthread_create in pthread
+[1.392s] -- Looking for pthread_create in pthread - found
+[1.394s] -- Found Threads: TRUE  
+[1.563s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.646s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[1.654s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.656s] -- Check if compiler accepts -pthread
+[1.738s] -- Check if compiler accepts -pthread - yes
+[1.746s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.749s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.749s] -- Configured cppcheck include dirs: 
+[1.749s] -- Configured cppcheck exclude dirs and/or files: 
+[1.749s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.750s] -- Configured cpplint exclude dirs and/or files: 
+[1.750s] -- Added test 'lint_cmake' to check CMake code style
+[1.752s] -- Added test 'uncrustify' to check C / C++ code style
+[1.752s] -- Configured uncrustify additional arguments: 
+[1.753s] -- Added test 'xmllint' to check XML markup files
+[1.761s] -- Configuring done
+[1.778s] -- Generating done
+[1.782s] -- Build files have been written to: /home/cyberdog_ws/build/cyberdog_embed_protocol
+[1.800s] Invoked command in '/home/cyberdog_ws/build/cyberdog_embed_protocol' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/bridges/embed_protocol -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[1.803s] Invoking command in '/home/cyberdog_ws/build/cyberdog_embed_protocol': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_embed_protocol -- -j16 -l16
+[1.846s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.846s] [35m[1mScanning dependencies of target sensor_simulator_node[0m
+[1.846s] [35m[1mScanning dependencies of target can_node_test[0m
+[1.847s] [35m[1mScanning dependencies of target gtest[0m
+[1.866s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.869s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.900s] [ 40%] [32mBuilding CXX object test/CMakeFiles/sensor_simulator_node.dir/embed_protocol_test/sensor_simulator_node.cpp.o[0m
+[1.900s] [ 40%] [32mBuilding CXX object test/CMakeFiles/can_node_test.dir/embed_protocol_test/can_node_test.cpp.o[0m
+[2.892s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.925s] [ 50%] Built target gtest_main
+[5.203s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.256s] [ 60%] Built target gtest
+[5.268s] [35m[1mScanning dependencies of target embed_protocol_test[0m
+[5.315s] [ 70%] [32mBuilding CXX object test/CMakeFiles/embed_protocol_test.dir/embed_protocol_test/embed_protocol_test.cpp.o[0m
+[11.179s] [ 80%] [32m[1mLinking CXX executable sensor_simulator_node[0m
+[11.487s] [ 80%] Built target sensor_simulator_node
+[14.525s] [ 90%] [32m[1mLinking CXX executable embed_protocol_test[0m
+[14.819s] [ 90%] Built target embed_protocol_test
+[15.258s] [100%] [32m[1mLinking CXX executable can_node_test[0m
+[15.651s] [100%] Built target can_node_test
+[15.661s] Invoked command in '/home/cyberdog_ws/build/cyberdog_embed_protocol' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_embed_protocol -- -j16 -l16
+[15.693s] Invoking command in '/home/cyberdog_ws/build/cyberdog_embed_protocol': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_embed_protocol
+[15.704s] -- Install configuration: ""
+[15.704s] -- Up-to-date: /home/cyberdog_ws/install/include/
+[15.704s] -- Up-to-date: /home/cyberdog_ws/install/include//protocol
+[15.704s] -- Installing: /home/cyberdog_ws/install/include//protocol/can
+[15.704s] -- Installing: /home/cyberdog_ws/install/include//protocol/can/visibility_control.hpp
+[15.704s] -- Installing: /home/cyberdog_ws/install/include//protocol/can/socket_can_sender.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//protocol/can/socket_can_id.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//protocol/can/socket_can_common.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//protocol/can/can_utils.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//protocol/can/socket_can_receiver.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//protocol/can/toml_analysis.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//embed_protocol
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//embed_protocol/embed_protocol.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//embed_protocol/common.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//embed_protocol/protocol_base.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//embed_protocol/can_protocol.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//embed_parser
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//embed_parser/can_parser.hpp
+[15.705s] -- Installing: /home/cyberdog_ws/install/include//embed_parser/parser_base.hpp
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_embed_protocol
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_embed_protocol
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/environment/ament_prefix_path.sh
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/environment/ament_prefix_path.dsv
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/environment/path.sh
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/environment/path.dsv
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/local_setup.bash
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/local_setup.sh
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/local_setup.zsh
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/local_setup.dsv
+[15.706s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/package.dsv
+[15.707s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/cyberdog_embed_protocol
+[15.707s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.707s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.707s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/cmake/cyberdog_embed_protocolConfig.cmake
+[15.707s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/cmake/cyberdog_embed_protocolConfig-version.cmake
+[15.707s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/package.xml
+[15.712s] Invoked command in '/home/cyberdog_ws/build/cyberdog_embed_protocol' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_embed_protocol

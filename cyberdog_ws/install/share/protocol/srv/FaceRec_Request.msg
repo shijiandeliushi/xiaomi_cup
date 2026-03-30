@@ -1,0 +1,14 @@
+
+int32 COMMAND_RECOGNITION_ALL = 0
+int32 COMMAND_RECOGNITION_SINGLE = 1
+int32 COMMAND_RECOGNITION_CANCEL = 2
+int32 MAX_TIMEOUT = 300
+int32 MIN_TIMEOUT = 30
+int32 DEFAULT_TIMEOUT = 60
+int32 ALGORITHM_LOAD_DURATION = 100
+
+int32 command
+string username
+string id
+int32 timeout #有效时间30s～300s，default = 60;如果不添加该字段，采用默认值
+

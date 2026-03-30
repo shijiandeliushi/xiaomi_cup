@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/VoicePrints.msg
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/VoicePrint.idl"
+
+module protocol {
+  module msg {
+    struct VoicePrints {
+      sequence<protocol::msg::VoicePrint> prints;
+    };
+  };
+};

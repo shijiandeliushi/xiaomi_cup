@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/TrainPlanAll.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/TrainPlan.idl"
+
+module protocol {
+  module srv {
+    struct TrainPlanAll_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct TrainPlanAll_Response {
+      sequence<protocol::msg::TrainPlan> training_set;
+
+      int32 code;
+    };
+  };
+};

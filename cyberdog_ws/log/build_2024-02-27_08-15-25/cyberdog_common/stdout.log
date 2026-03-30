@@ -1,0 +1,56 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/cyberdog_fds.dir/src/cyberdog_fds_impl.cpp.o[0m
+[ 37%] Built target cyberdog_log
+[ 50%] [32m[1mLinking CXX shared library libcyberdog_fds.so[0m
+[ 50%] Built target cyberdog_fds
+[35m[1mScanning dependencies of target model_test[0m
+[35m[1mScanning dependencies of target test_fds[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/test_fds.dir/test/fds/test_fds.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/model_test.dir/test/model_test/cyberdog_model_test.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_fds[0m
+[ 87%] Built target test_fds
+[100%] [32m[1mLinking CXX executable model_test[0m
+[100%] Built target model_test
+-- Install configuration: ""
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/environment/library_path.sh
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/environment/library_path.dsv
+-- Up-to-date: /home/cyberdog_ws/install/include/
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_deque.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_fds.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_msg_queue.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_model.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_toml.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_fds_impl.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_lcm.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_config.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_log.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_json.hpp
+-- Installing: /home/cyberdog_ws/install/include//cyberdog_common/cyberdog_semaphore.hpp
+-- Installing: /home/cyberdog_ws/install/lib/libcyberdog_log.so
+-- Set runtime path of "/home/cyberdog_ws/install/lib/libcyberdog_log.so" to ""
+-- Installing: /home/cyberdog_ws/install/lib/libcyberdog_fds.so
+-- Set runtime path of "/home/cyberdog_ws/install/lib/libcyberdog_fds.so" to ""
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_common/environment/library_path.sh
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_common/environment/library_path.dsv
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_common
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_common
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/environment/ament_prefix_path.sh
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/environment/ament_prefix_path.dsv
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/environment/path.sh
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/environment/path.dsv
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/local_setup.bash
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/local_setup.sh
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/local_setup.zsh
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/local_setup.dsv
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/package.dsv
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/cyberdog_common
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/cmake/cyberdog_logExport.cmake
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/cmake/cyberdog_logExport-noconfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/cmake/cyberdog_fdsExport.cmake
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/cmake/cyberdog_fdsExport-noconfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/cmake/cyberdog_commonConfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/cmake/cyberdog_commonConfig-version.cmake
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_common/package.xml

@@ -1,0 +1,3 @@
+source;share/bes_transmit/environment/ament_prefix_path.sh
+source;share/bes_transmit/environment/library_path.sh
+source;share/bes_transmit/environment/path.sh

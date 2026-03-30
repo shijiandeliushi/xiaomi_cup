@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:17 (find_package):
+  By not providing "Findbes_transmit.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "bes_transmit", but CMake did not find one.
+
+  Could not find a package configuration file provided by "bes_transmit" with
+  any of the following names:
+
+    bes_transmitConfig.cmake
+    bes_transmit-config.cmake
+
+  Add the installation prefix of "bes_transmit" to CMAKE_PREFIX_PATH or set
+  "bes_transmit_DIR" to a directory containing one of the above files.  If
+  "bes_transmit" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

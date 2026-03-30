@@ -1,0 +1,4 @@
+source;share/mqttc/local_setup.bash
+source;share/mqttc/local_setup.dsv
+source;share/mqttc/local_setup.sh
+source;share/mqttc/local_setup.zsh

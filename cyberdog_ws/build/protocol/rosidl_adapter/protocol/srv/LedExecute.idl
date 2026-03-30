@@ -1,0 +1,110 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/LedExecute.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module LedExecute_Request_Constants {
+      const string LOWPOWER = "lowpower";
+      const string BMS = "bms";
+      const string CONNECTOR = "connector";
+      const string VP = "vp";
+      const string TRACKING = "tracking";
+      const string SYSTEM = "system";
+      const uint8 HEAD_LED = 1;
+      const uint8 TAIL_LED = 2;
+      const uint8 MINI_LED = 3;
+      const uint8 SYSTEM_PREDEFINED = 1;
+      const uint8 USER_DEFINED = 2;
+      const uint8 RGB_ON = 1;
+      const uint8 BLINK = 2;
+      const uint8 BLINK_FAST = 3;
+      const uint8 BREATH = 4;
+      const uint8 BREATH_FAST = 5;
+      const uint8 ONE_BY_ONE = 6;
+      const uint8 ONE_BY_ONE_FAST = 7;
+      const uint8 BACK_AND_FORTH = 8;
+      const uint8 TRAILING_RACE = 9;
+      const uint8 RGB_OFF = 160;
+      const uint8 RED_ON = 161;
+      const uint8 RED_BLINK = 162;
+      const uint8 RED_BLINK_FAST = 163;
+      const uint8 RED_BREATH = 164;
+      const uint8 RED_BREATH_FAST = 165;
+      const uint8 RED_ONE_BY_ONE = 166;
+      const uint8 RED_ONE_BY_ONE_FAST = 167;
+      const uint8 BLUE_ON = 168;
+      const uint8 BLUE_BLINK = 169;
+      const uint8 BLUE_BLINK_FAST = 170;
+      const uint8 BLUE_BREATH = 171;
+      const uint8 BLUE_BREATH_FAST = 172;
+      const uint8 BLUE_ONE_BY_ONE = 173;
+      const uint8 BLUE_ONE_BY_ONE_FAST = 174;
+      const uint8 YELLOW_ON = 175;
+      const uint8 YELLOW_BLINK = 176;
+      const uint8 YELLOW_BLINK_FAST = 177;
+      const uint8 YELLOW_BREATH = 178;
+      const uint8 YELLOW_BREATH_FAST = 179;
+      const uint8 YELLOW_ONE_BY_ONE = 180;
+      const uint8 YELLOW_ONE_BY_ONE_FAST = 181;
+      const uint8 CIRCULAR_BREATH = 48;
+      const uint8 CIRCULAR_RING = 49;
+      const uint8 MINI_OFF = 50;
+      const uint8 RECTANGLE_COLOR = 51;
+      const uint8 CENTRE_COLOR = 52;
+      const uint8 THREE_CIRCULAR = 53;
+      const uint8 COLOR_ONE_BY_ONE = 54;
+    };
+    struct LedExecute_Request {
+      @verbatim (language="comment", text=
+        " request" "\n"
+        " client是否占用target led，若为false,用户会释放优先级占用。该led会执行优先级队列中低优先级用户的请求。")
+      boolean occupation;
+
+      @verbatim (language="comment", text=
+        " 使用模块，例如\"bms\";\"vp\";\"connector\" 具体见协议中常量定义")
+      string client;
+
+      @verbatim (language="comment", text=
+        " 用户希望使用的灯，可选择 HEAD_LED , TAIL_LED, MINI_LED")
+      uint8 target;
+
+      @verbatim (language="comment", text=
+        " 用户采用的模式（自定义USER_DEFINED/预置SYSTEM_PREDEFINED），取值见协议中常量定义")
+      uint8 mode;
+
+      @verbatim (language="comment", text=
+        " 灯效，见协议中常量定义")
+      uint8 effect;
+
+      @verbatim (language="comment", text=
+        " 自定义模式下，红色通道的灰度值，取值范围0～255，其它模式下无意义。")
+      uint8 r_value;
+
+      @verbatim (language="comment", text=
+        " 自定义模式下，绿色通道的灰度值，取值范围0～255，其它模式下无意义。")
+      uint8 g_value;
+
+      @verbatim (language="comment", text=
+        " 自定义模式下，蓝色通道的灰度值，取值范围0～255，其它模式下无意义。")
+      uint8 b_value;
+    };
+    module LedExecute_Response_Constants {
+      const int32 SUCCEED = 0;
+      const int32 TIMEOUT = 1107;
+      const int32 TARGET_ERROR = 1121;
+      const int32 PRIORITY_ERROR = 1122;
+      const int32 MODE_ERROR = 1123;
+      const int32 EFFECT_ERROR = 1124;
+      const int32 LOW_PRIORITY = 1125;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct LedExecute_Response {
+      @verbatim (language="comment", text=
+        "执行结果")
+      int32 code;
+    };
+  };
+};

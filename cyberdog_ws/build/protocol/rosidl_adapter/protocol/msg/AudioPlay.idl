@@ -1,0 +1,128 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/AudioPlay.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module AudioPlay_Constants {
+      const uint16 PID_WIFI_ENTER_CONNECTION_MODE_0 = 1;
+      const uint16 PID_WIFI_ENTER_CONNECTION_MODE_1 = 2;
+      const uint16 PID_WIFI_WAIT_FOR_SCAN_CODE_0 = 3;
+      const uint16 PID_WIFI_SCAN_CODE_SUCCEEDED_0 = 4;
+      const uint16 PID_WIFI_CONNECTION_SUCCEEDED_0 = 2001;
+      const uint16 PID_WIFI_CONNECTION_SUCCEEDED_1 = 6;
+      const uint16 PID_WIFI_CONNECTION_FAILED_0 = 7;
+      const uint16 PID_WIFI_CONNECTION_FAILED_1 = 8;
+      const uint16 PID_WIFI_CONNECTION_FAILED_2 = 9;
+      const uint16 PID_WIFI_EXIT_CONNECTION_MODE_0 = 10;
+      const uint16 PID_WIFI_OFFLINE = 11;
+      const uint16 PID_WIFI_COMMUNICATION = 12;
+      const uint16 PID_WIFI_SCAN_CODE_IP_ERROR = 13;
+      const uint16 PID_WIFI_SCAN_CODE_INFO_ERROR = 14;
+      const uint16 PID_WIFI_REQUEST_OPEN_CAMERA_SUCCESS = 15;
+      const uint16 PID_WIFI_REQUEST_OPEN_CAMERA_FAIL = 16;
+      const uint16 PID_WIFI_REQUEST_CLOSE_CAMERA_SUCCESS = 17;
+      const uint16 PID_WIFI_REQUEST_CLOSE_CAMERA_FAIL = 18;
+      const uint16 PID_FACE_ENTRY_ADD_FACE = 21;
+      const uint16 PID_FACE_ENTRY_CANCLE_ADD_FACE = 22;
+      const uint16 PID_FACE_ENTRY_CONFIRM_LAST_FACE = 23;
+      const uint16 PID_FACE_ENTRY_UPDATE_FACE_ID = 24;
+      const uint16 PID_FACE_ENTRY_DELETE_FACE = 25;
+      const uint16 PID_FACE_ENTRY_GET_ALL_FACES = 26;
+      const uint16 PID_FACE_ENTRY_FIX_POSE = 27;
+      const uint16 PID_FACE_ENTRY_FIX_POSE_LEFT = 28;
+      const uint16 PID_FACE_ENTRY_FIX_POSE_RIGHT = 29;
+      const uint16 PID_FACE_ENTRY_FIX_POSE_UP = 30;
+      const uint16 PID_FACE_ENTRY_FIX_POSE_DOWN = 31;
+      const uint16 PID_FACE_ENTRY_FIX_DISTANCE_CLOSE = 32;
+      const uint16 PID_FACE_ENTRY_FIX_DISTANCE_NEAR = 33;
+      const uint16 PID_FACE_ENTRY_FIX_STABLE = 34;
+      const uint16 PID_FACE_ENTRY_MUTIPLE_FACES = 35;
+      const uint16 PID_FACE_ENTRY_NONE_FACES = 36;
+      const uint16 PID_FACE_ENTRY_TIMEOUT = 37;
+      const uint16 PID_FACE_ENTRY_FINISH = 38;
+      const uint16 PID_FACE_RECOGNITION_REQUEST = 39;
+      const uint16 PID_FACE_DEGREE_HEAD_TILT = 40;
+      const uint16 PID_FACE_RECGONITION_FINISH = 41;
+      const uint16 PID_FACE_RECGONITION_TIMEOUT = 42;
+      const uint16 PID_FACE_ALREADY_EXIST = 43;
+      const uint16 PID_CAMERA_START_PIC_TRANSFER = 50;
+      const uint16 PID_CAMERA_START_PHOTOS = 51;
+      const uint16 PID_CAMERA_TAKE_VIDEOS = 52;
+      const uint16 PID_CAMERA_VIDEO_RECORDING = 53;
+      const uint16 PID_SELF_CHECK_SUCCESS = 60;
+      const uint16 PID_SELF_CHECK_FAILED = 61;
+      const uint16 PID_BATTERY_CAPICITY_LOW = 101;
+      const uint16 PID_BATTERY_IN_CHARGING = 102;
+      const uint16 PID_FACE_ENTRY_START = 103;
+      const uint16 PID_BATTERY_CHARGE_COMPELETE = 104;
+      const uint16 PID_AI_PLEASE_ENABLE = 124;
+      const uint16 PID_AI_ENABLE_SUCCESS = 125;
+      const uint16 PID_AI_SERVICE_EXPIRED = 127;
+      const uint16 PID_TEST_HARDWARE_AUDIO = 3000;
+      const uint16 PID_TEST_STAGE_ONE = 3001;
+      const uint16 PID_TEST_STAGE_THREE = 3003;
+      const uint16 PID_SOUND_EFFECT_READY = 9000;
+      const uint16 PID_STOP_AUDIO_PLAY = 9999;
+      const uint16 PID_FOLLOW_TAGS_START = 31000;
+      const uint16 PID_FOLLOW_PERSON_START = 31001;
+      const uint16 PID_FOLLOW_OBJECT_START = 31002;
+      const uint16 PID_FOLLOW_TAGS_STOP = 31003;
+      const uint16 PID_FOLLOW_PERSON_STOP = 31004;
+      const uint16 PID_FOLLOW_OBJECT_STOP = 31005;
+      const uint16 PID_GPS_SELF_CHECK_FAILED = 31006;
+      const uint16 PID_LIDAR_SELF_CHECK_FAILED = 31007;
+      const uint16 PID_TOF_SELF_CHECK_FAILED = 31008;
+      const uint16 PID_ULTRASONIC_SELF_CHECK_FAILED = 31009;
+      const uint16 PID_BMS_SELF_CHECK_FAILED = 31010;
+      const uint16 PID_LED_SELF_CHECK_FAILED = 31011;
+      const uint16 PID_TOUCH_SELF_CHECK_FAILED = 31012;
+      const uint16 PID_UWB_SELF_CHECK_FAILED = 31013;
+      const uint16 PID_AUDIO_SELF_CHECK_FAILED = 31014;
+      const uint16 PID_MOTION_SELF_CHECK_FAILED = 31015;
+      const uint16 PID_GPS_SWITCH_MODE_FAILED = 31016;
+      const uint16 PID_LIDAR_SWITCH_MODE_FAILED = 31017;
+      const uint16 PID_TOF_SWITCH_MODE_FAILED = 31018;
+      const uint16 PID_ULTRASONIC_SWITCH_MODE_FAILED = 31019;
+      const uint16 PID_BMS_SWITCH_MODE_FAILED = 31020;
+      const uint16 PID_LED_SWITCH_MODE_FAILED = 31021;
+      const uint16 PID_TOUCH_SWITCH_MODE_FAILED = 31022;
+      const uint16 PID_UWB_SWITCH_MODE_FAILED = 31023;
+      const uint16 PID_AUDIO_SWITCH_MODE_FAILED = 31024;
+      const uint16 PID_MOTION_SWITCH_MODE_FAILED = 31025;
+      const uint16 PID_SENSOR_SWITCH_MODE_FAILED = 31026;
+      const uint16 PID_DEVICE_SWITCH_MODE_FAILED = 31027;
+      const uint16 PID_BONE_POINT_START = 31028;
+      const uint16 PID_BONE_POINT_DETECTING = 31029;
+      const uint16 PID_BONE_POINT_BACK = 31030;
+      const uint16 PID_BONE_POINT_LEFT = 31031;
+      const uint16 PID_BONE_POINT_RIGHT = 31032;
+      const uint16 PID_MODEL_LOADING_START = 31033;
+      const uint16 PID_MODEL_LOADING_COMPLETE = 31034;
+      const uint16 PID_WIFI_CONNECTED_UNKNOWN_NET = 31035;
+      const uint16 PID_WIFI_FAILED_PLEASE_RETRY = 31036;
+      const uint16 PID_FOLLOW_TAGS_LOST = 31037;
+      const uint16 PID_SELF_CHECK_START = 31038;
+      const uint16 PID_MODEL_VERSION_OLD = 31050;
+      const uint16 PID_MODEL_VERSION_UPDATE_SUCCESS = 31051;
+      const uint16 PID_MODEL_VERSION_UPDATE_FAIL = 31052;
+      const uint16 PID_MOVE_FAILED = 31053;
+      const uint16 PID_CAMERAR_SELF_CHECK_FAILED = 31054;
+      const uint16 PID_POWER = 1000;
+      const uint16 PID_PERCENT_0 = 10000;
+      const uint16 PID_PERCENT_5 = 10005;
+      const uint16 PID_PERCENT_20 = 10020;
+      const uint16 PID_PERCENT_30 = 10030;
+    };
+    struct AudioPlay {
+      @verbatim (language="comment", text=
+        " 模块名")
+      string module_name;
+
+      @verbatim (language="comment", text=
+        " 播放ID")
+      uint16 play_id;
+    };
+  };
+};

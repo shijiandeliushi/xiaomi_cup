@@ -1,0 +1,14 @@
+source;share/toml/hook/cmake_prefix_path.ps1
+source;share/toml/hook/cmake_prefix_path.dsv
+source;share/toml/hook/cmake_prefix_path.sh
+source;share/toml/hook/ld_library_path_lib.ps1
+source;share/toml/hook/ld_library_path_lib.dsv
+source;share/toml/hook/ld_library_path_lib.sh
+source;share/toml/hook/pythonpath.ps1
+source;share/toml/hook/pythonpath.dsv
+source;share/toml/hook/pythonpath.sh
+source;share/toml/local_setup.bash
+source;share/toml/local_setup.dsv
+source;share/toml/local_setup.ps1
+source;share/toml/local_setup.sh
+source;share/toml/local_setup.zsh

@@ -1,0 +1,2 @@
+# body rect to track
+sensor_msgs/RegionOfInterest roi

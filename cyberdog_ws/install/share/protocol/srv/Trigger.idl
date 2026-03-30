@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/Trigger.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct Trigger_Request {
+      string data;
+    };
+    struct Trigger_Response {
+      boolean success;
+
+      string message;
+
+      int32 code;
+    };
+  };
+};

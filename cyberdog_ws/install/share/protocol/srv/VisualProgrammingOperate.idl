@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/VisualProgrammingOperate.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/VisualProgrammingOperate.idl"
+
+module protocol {
+  module srv {
+    module VisualProgrammingOperate_Request_Constants {
+      const int32 TYPE_JSON = 0;
+      const int32 TYPE_FROM = 1;
+    };
+    struct VisualProgrammingOperate_Request {
+      int32 type;
+
+      string json;
+
+      protocol::msg::VisualProgrammingOperate form;
+    };
+    module VisualProgrammingOperate_Response_Constants {
+      const int32 CODE_SUCCESS = 0;
+      const int32 CODE_CATHC = 1;
+      const int32 CODE_FSM = 2;
+      const int32 CODE_TASK = 3;
+    };
+    struct VisualProgrammingOperate_Response {
+      int32 code;
+
+      string json;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/GetMapLabel.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/MapLabel.idl"
+
+module protocol {
+  module srv {
+    struct GetMapLabel_Request {
+      string map_name;
+
+      uint64 map_id;
+    };
+    module GetMapLabel_Response_Constants {
+      const uint8 RESULT_FAILED = 1;
+      const uint8 RESULT_SUCCESS = 0;
+    };
+    struct GetMapLabel_Response {
+      uint8 success;
+
+      protocol::msg::MapLabel label;
+
+      int32 code;
+    };
+  };
+};

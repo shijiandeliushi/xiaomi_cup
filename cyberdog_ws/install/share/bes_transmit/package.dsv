@@ -1,0 +1,14 @@
+source;share/bes_transmit/hook/cmake_prefix_path.ps1
+source;share/bes_transmit/hook/cmake_prefix_path.dsv
+source;share/bes_transmit/hook/cmake_prefix_path.sh
+source;share/bes_transmit/hook/ld_library_path_lib.ps1
+source;share/bes_transmit/hook/ld_library_path_lib.dsv
+source;share/bes_transmit/hook/ld_library_path_lib.sh
+source;share/bes_transmit/hook/pythonpath.ps1
+source;share/bes_transmit/hook/pythonpath.dsv
+source;share/bes_transmit/hook/pythonpath.sh
+source;share/bes_transmit/local_setup.bash
+source;share/bes_transmit/local_setup.dsv
+source;share/bes_transmit/local_setup.ps1
+source;share/bes_transmit/local_setup.sh
+source;share/bes_transmit/local_setup.zsh

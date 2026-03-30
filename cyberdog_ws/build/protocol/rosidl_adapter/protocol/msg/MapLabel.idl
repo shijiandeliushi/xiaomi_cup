@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/MapLabel.msg
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/Label.idl"
+#include "protocol/msg/OccupancyGrid.idl"
+
+module protocol {
+  module msg {
+    struct MapLabel {
+      string map_name;
+
+      uint64 map_id;
+
+      boolean is_outdoor;
+
+      protocol::msg::OccupancyGrid map;
+
+      sequence<protocol::msg::Label> labels;
+    };
+  };
+};

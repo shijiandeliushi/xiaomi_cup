@@ -1,0 +1,47 @@
+[0.039s] Invoking command in '/home/cyberdog_ws/build/toml': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/toml -- -j16 -l16
+[0.081s] Invoked command in '/home/cyberdog_ws/build/toml' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/toml -- -j16 -l16
+[0.119s] Invoking command in '/home/cyberdog_ws/build/toml': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/toml
+[0.141s] -- Install configuration: ""
+[0.142s] -- Up-to-date: /home/cyberdog_ws/install/include
+[0.142s] -- Up-to-date: /home/cyberdog_ws/install/include/toml
+[0.142s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml.hpp
+[0.142s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/macros.hpp
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/exception.hpp
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/source_location.hpp
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/into.hpp
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/literal.hpp
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/serializer.hpp
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/storage.hpp
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/region.hpp
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/value.hpp
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/types.hpp
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/from.hpp
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/get.hpp
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/parser.hpp
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/color.hpp
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/combinator.hpp
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/datetime.hpp
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/string.hpp
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/lexer.hpp
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/traits.hpp
+[0.146s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/comments.hpp
+[0.146s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/utility.hpp
+[0.146s] -- Up-to-date: /home/cyberdog_ws/install/include/toml/toml/result.hpp
+[0.146s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/toml
+[0.146s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/toml
+[0.147s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/environment/ament_prefix_path.sh
+[0.147s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/environment/ament_prefix_path.dsv
+[0.147s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/environment/path.sh
+[0.148s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/environment/path.dsv
+[0.148s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/local_setup.bash
+[0.149s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/local_setup.sh
+[0.149s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/local_setup.zsh
+[0.149s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/local_setup.dsv
+[0.149s] -- Installing: /home/cyberdog_ws/install/share/toml/package.dsv
+[0.149s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/toml
+[0.149s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.149s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/cmake/tomlConfig.cmake
+[0.149s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/cmake/tomlConfig-version.cmake
+[0.150s] -- Up-to-date: /home/cyberdog_ws/install/share/toml/package.xml
+[0.206s] Invoked command in '/home/cyberdog_ws/build/toml' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/toml

@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/BesHttp.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module BesHttp_Request_Constants {
+      const uint8 HTTP_METHOD_GET = 0;
+      const uint8 HTTP_METHOD_POST = 1;
+    };
+    @verbatim (language="comment", text=
+      " http访问服务")
+    struct BesHttp_Request {
+      @verbatim (language="comment", text=
+        " 0:get,1:post")
+      uint8 method;
+
+      @verbatim (language="comment", text=
+        " 请求地址")
+      string url;
+
+      @verbatim (language="comment", text=
+        " 请求参数")
+      string params;
+
+      @verbatim (language="comment", text=
+        " 超时设置，单位毫秒")
+      uint16 milsecs;
+    };
+    struct BesHttp_Response {
+      @verbatim (language="comment", text=
+        " 返回数据")
+      string data;
+
+      int32 code;
+    };
+  };
+};

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AccountChange.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct AccountChange_Request {
+      string pre_name;
+
+      string new_name;
+    };
+    @verbatim (language="comment", text=
+      " reponse")
+    struct AccountChange_Response {
+      int32 code;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+source;share/bes_transmit/local_setup.bash
+source;share/bes_transmit/local_setup.dsv
+source;share/bes_transmit/local_setup.sh
+source;share/bes_transmit/local_setup.zsh

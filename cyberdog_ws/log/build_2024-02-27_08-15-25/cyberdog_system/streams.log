@@ -1,0 +1,78 @@
+[0.033s] Invoking command in '/home/cyberdog_ws/build/cyberdog_system': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/utils/cyberdog_system -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.093s] -- The C compiler identification is GNU 9.4.0
+[0.147s] -- The CXX compiler identification is GNU 9.4.0
+[0.151s] -- Check for working C compiler: /usr/bin/cc
+[0.225s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.226s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.314s] -- Detecting C compile features
+[0.314s] -- Detecting C compile features - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++
+[0.403s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.404s] -- Detecting CXX compiler ABI info
+[0.489s] -- Detecting CXX compiler ABI info - done
+[0.501s] -- Detecting CXX compile features
+[0.501s] -- Detecting CXX compile features - done
+[0.505s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.534s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.534s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.638s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.723s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.845s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.895s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.066s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.070s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.089s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.090s] -- Looking for pthread.h
+[1.166s] -- Looking for pthread.h - found
+[1.167s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.244s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.244s] -- Looking for pthread_create in pthreads
+[1.306s] -- Looking for pthread_create in pthreads - not found
+[1.306s] -- Looking for pthread_create in pthread
+[1.379s] -- Looking for pthread_create in pthread - found
+[1.381s] -- Found Threads: TRUE  
+[1.529s] -- Found cyberdog_common: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_common/cmake)
+[1.557s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.638s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.639s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.640s] -- Configured cppcheck include dirs: 
+[1.640s] -- Configured cppcheck exclude dirs and/or files: 
+[1.640s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.640s] -- Configured cpplint exclude dirs and/or files: 
+[1.641s] -- Added test 'lint_cmake' to check CMake code style
+[1.642s] -- Added test 'uncrustify' to check C / C++ code style
+[1.642s] -- Configured uncrustify additional arguments: 
+[1.643s] -- Added test 'xmllint' to check XML markup files
+[1.646s] -- Configuring done
+[1.649s] -- Generating done
+[1.650s] -- Build files have been written to: /home/cyberdog_ws/build/cyberdog_system
+[1.662s] Invoked command in '/home/cyberdog_ws/build/cyberdog_system' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/utils/cyberdog_system -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[1.665s] Invoking command in '/home/cyberdog_ws/build/cyberdog_system': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_system -- -j16 -l16
+[1.706s] Invoked command in '/home/cyberdog_ws/build/cyberdog_system' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_system -- -j16 -l16
+[1.737s] Invoking command in '/home/cyberdog_ws/build/cyberdog_system': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_system
+[1.743s] -- Install configuration: ""
+[1.744s] -- Up-to-date: /home/cyberdog_ws/install/include/
+[1.744s] -- Installing: /home/cyberdog_ws/install/include//cyberdog_system
+[1.744s] -- Installing: /home/cyberdog_ws/install/include//cyberdog_system/robot_code.hpp
+[1.747s] -- Installing: /home/cyberdog_ws/install/include//cyberdog_system/robot_state.hpp
+[1.747s] -- Installing: /home/cyberdog_ws/install/include//cyberdog_system/robot_cmd.hpp
+[1.747s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_system
+[1.748s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_system
+[1.748s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/environment/ament_prefix_path.sh
+[1.748s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/environment/ament_prefix_path.dsv
+[1.748s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/environment/path.sh
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/environment/path.dsv
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/local_setup.bash
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/local_setup.sh
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/local_setup.zsh
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/local_setup.dsv
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/package.dsv
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/cyberdog_system
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/cmake/cyberdog_systemConfig.cmake
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/cmake/cyberdog_systemConfig-version.cmake
+[1.749s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/package.xml
+[1.770s] Invoked command in '/home/cyberdog_ws/build/cyberdog_system' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_system

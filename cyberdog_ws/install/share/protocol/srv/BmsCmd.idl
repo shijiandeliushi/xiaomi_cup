@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/BmsCmd.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module BmsCmd_Request_Constants {
+      const uint8 BATTERY_COMMAND_ELECTRIC_MACHINE_POWER_UP = 1;
+      const uint8 BATTERY_COMMAND_ELECTRIC_MACHINE_POWER_DOWN = 2;
+      const uint8 BATTERY_COMMAND_WIRELESS_CHARGING_TRUN_ON = 3;
+      const uint8 BATTERY_COMMAND_WIRELESS_CHARGING_TRUN_OFF = 4;
+    };
+    @verbatim (language="comment", text=
+      " command")
+    struct BmsCmd_Request {
+      @verbatim (language="comment", text=
+        " 1: power up" "\n"
+        " 2: power down")
+      uint8 electric_machine_command;
+
+      @verbatim (language="comment", text=
+        " 3: turn on" "\n"
+        " 4: turn off")
+      uint8 wireless_charging_command;
+    };
+    struct BmsCmd_Response {
+      @verbatim (language="comment", text=
+        " true: run success" "\n"
+        " false: run failed")
+      boolean success;
+
+      int32 code;
+    };
+  };
+};

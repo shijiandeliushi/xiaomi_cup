@@ -1,0 +1,62 @@
+[0.006s] Invoking command in '/home/cyberdog_ws/build/cyberdog_common': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/utils/cyberdog_common -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.040s] -- The C compiler identification is GNU 9.4.0
+[0.072s] -- The CXX compiler identification is GNU 9.4.0
+[0.074s] -- Check for working C compiler: /usr/bin/cc
+[0.115s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.116s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.277s] -- Detecting CXX compiler ABI info
+[0.328s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.354s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.354s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.408s] -- Found rapidjson: 0.0.0 (/home/cyberdog_ws/install/share/rapidjson/cmake)
+[0.409s] -- Found toml: 0.0.0 (/home/cyberdog_ws/install/share/toml/cmake)
+[0.411s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.458s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.525s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.559s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.667s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.669s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.682s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.682s] -- Looking for pthread.h
+[0.737s] -- Looking for pthread.h - found
+[0.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.807s] -- Looking for pthread_create in pthreads
+[0.859s] -- Looking for pthread_create in pthreads - not found
+[0.860s] -- Looking for pthread_create in pthread
+[0.959s] -- Looking for pthread_create in pthread - found
+[0.960s] -- Found Threads: TRUE  
+[1.059s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[1.067s] -- Found xpack: 0.0.0 (/home/cyberdog_ws/install/share/xpack/cmake)
+[1.071s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.135s] CMake Error at CMakeLists.txt:135 (find_package):
+[1.135s]   By not providing "Findprotocol.cmake" in CMAKE_MODULE_PATH this project has
+[1.135s]   asked CMake to find a package configuration file provided by "protocol",
+[1.135s]   but CMake did not find one.
+[1.135s] 
+[1.135s]   Could not find a package configuration file provided by "protocol" with any
+[1.135s]   of the following names:
+[1.135s] 
+[1.135s]     protocolConfig.cmake
+[1.135s]     protocol-config.cmake
+[1.135s] 
+[1.135s]   Add the installation prefix of "protocol" to CMAKE_PREFIX_PATH or set
+[1.135s]   "protocol_DIR" to a directory containing one of the above files.  If
+[1.135s]   "protocol" provides a separate development package or SDK, be sure it has
+[1.135s]   been installed.
+[1.135s] 
+[1.135s] 
+[1.136s] -- Configuring incomplete, errors occurred!
+[1.136s] See also "/home/cyberdog_ws/build/cyberdog_common/CMakeFiles/CMakeOutput.log".
+[1.136s] See also "/home/cyberdog_ws/build/cyberdog_common/CMakeFiles/CMakeError.log".
+[1.141s] Invoked command in '/home/cyberdog_ws/build/cyberdog_common' returned '1': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/utils/cyberdog_common -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install

@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/SingleTofPayload.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module protocol {
+  module msg {
+    module SingleTofPayload_Constants {
+      const uint8 LEFT_HEAD = 0;
+      const uint8 RIGHT_HEAD = 1;
+      const uint8 LEFT_REAR = 2;
+      const uint8 RIGHT_REAR = 3;
+      const uint8 HEAD = 4;
+      const uint8 REAR = 5;
+      const int32 TOF_DATA_NUM = 64;
+      const float SCALE_FACTOR = 0.001;
+    };
+    struct SingleTofPayload {
+      @verbatim (language="comment", text=
+        " This message is  used to describe single tof payload" "\n"
+        " Send frequency: 10" "\n"
+        " The effective distance currently set by TOF is 150-660mm, less than 150mm, the displayed value is 0;" "\n"
+        " greater than 660mm, the displayed value is the maximum value of 660mm;" "\n"
+        " At present, there is a tof sensor on each of the four legs of the dog, which is used to Obtain the elevation information" "\n"
+        " Header timestamp should be acquisition time of tof data")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " A flag that tof data is available")
+      boolean data_available;
+
+      @verbatim (language="comment", text=
+        " location of tof sensor" "\n"
+        " (LEFT_HEAD, RIGHT_HEAD, LEFT_REAR,RIGHT_REAR)")
+      @unit (value="enum")
+      uint8 tof_position;
+
+      @verbatim (language="comment", text=
+        " tof data , Unit: m")
+      sequence<float> data;
+
+      @verbatim (language="comment", text=
+        " tof data intensity")
+      sequence<float> intensity;
+    };
+  };
+};

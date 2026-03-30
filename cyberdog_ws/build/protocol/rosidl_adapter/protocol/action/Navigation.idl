@@ -1,0 +1,116 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from protocol/ros/action/Navigation.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "sensor_msgs/msg/RegionOfInterest.idl"
+
+module protocol {
+  module action {
+    module Navigation_Goal_Constants {
+      const uint8 NAVIGATION_TYPE_UNKNWON = 0;
+      const uint8 NAVIGATION_TYPE_START_AB = 1;
+      const uint8 NAVIGATION_TYPE_STOP_AB = 2;
+      const uint8 NAVIGATION_TYPE_START_FOLLOW = 3;
+      const uint8 NAVIGATION_TYPE_STOP_FOLLOW = 4;
+      const uint8 NAVIGATION_TYPE_START_MAPPING = 5;
+      const uint8 NAVIGATION_TYPE_STOP_MAPPING = 6;
+      const uint8 NAVIGATION_TYPE_START_LOCALIZATION = 7;
+      const uint8 NAVIGATION_TYPE_STOP_LOCALIZATION = 8;
+      const uint8 NAVIGATION_TYPE_START_AUTO_DOCKING = 9;
+      const uint8 NAVIGATION_TYPE_STOP_AUTO_DOCKING = 10;
+      const uint8 NAVIGATION_TYPE_START_UWB_TRACKING = 11;
+      const uint8 NAVIGATION_TYPE_STOP_UWB_TRACKING = 12;
+      const uint8 NAVIGATION_TYPE_START_HUMAN_TRACKING = 13;
+      const uint8 NAVIGATION_TYPE_STOP_HUMAN_TRACKING = 14;
+      const uint8 NAVIGATION_GOAL_TYPE_AB = 101;
+      const uint8 NAVIGATION_GOAL_TYPE_FOLLOW = 102;
+      const uint8 TRACING_AUTO = 200;
+      const uint8 TRACING_BEHIND = 201;
+      const uint8 TRACING_LEFT = 202;
+      const uint8 TRACING_RIGHT = 203;
+    };
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Navigation_Goal {
+      uint8 nav_type;
+
+      @verbatim (language="comment", text=
+        " 导航的目标点设置")
+      sequence<geometry_msgs::msg::PoseStamped> poses;
+
+      string label_id;
+
+      string map_name;
+
+      sensor_msgs::msg::RegionOfInterest tracking_roi;
+
+      @verbatim (language="comment", text=
+        " 相对方位，以上方定义的枚举值指定")
+      uint8 relative_pos;
+
+      @verbatim (language="comment", text=
+        " 与跟随目标所保持的距离")
+      float keep_distance;
+
+      boolean outdoor;
+
+      boolean object_tracking;
+    };
+    module Navigation_Result_Constants {
+      const uint8 NAVIGATION_RESULT_TYPE_SUCCESS = 0;
+      const uint8 NAVIGATION_RESULT_TYPE_ACCEPT = 1;
+      const uint8 NAVIGATION_RESULT_TYPE_UNAVALIBLE = 2;
+      const uint8 NAVIGATION_RESULT_TYPE_FAILED = 3;
+      const uint8 NAVIGATION_RESULT_TYPE_REJECT = 4;
+      const uint8 NAVIGATION_RESULT_TYPE_CANCEL = 5;
+    };
+    struct Navigation_Result {
+      @verbatim (language="comment", text=
+        "result definition")
+      uint8 result;
+    };
+    module Navigation_Feedback_Constants {
+      const int32 NAVIGATION_FEEDBACK_RELOCING_SUCCESS = 0;
+      const int32 NAVIGATION_FEEDBACK_RELOCING_RETRYING = 100;
+      const int32 NAVIGATION_FEEDBACK_RELOCING_FAILED = 200;
+      const int32 NAVIGATION_FEEDBACK_NAVIGATING_AB = 1;
+      const int32 NAVIGATION_FEEDBACK_NAVIGATING_AB_SUCCESS = 2;
+      const int32 NAVIGATION_FEEDBACK_NAVIGATING_AB_FAILURE = 3;
+      const int32 NAVIGATION_FEEDBACK_NAVIGATING_AB_PATH_PLAN_SUCCESS = 4;
+      const int32 NAVIGATION_FEEDBACK_NAVIGATING_AB_PATH_PLAN_FAILURE = 5;
+      const int32 NAVIGATION_FEEDBACK_NAVIGATING_AB_RUNNING = 20;
+      const int32 NAVIGATION_FEEDBACK_SLAM_BUILD_MAPPING_SUCCESS = 6;
+      const int32 NAVIGATION_FEEDBACK_SLAM_BUILD_MAPPING_FAILURE = 7;
+      const int32 NAVIGATION_FEEDBACK_SLAM_RELOCATION_SUCCESS = 8;
+      const int32 NAVIGATION_FEEDBACK_SLAM_RELOCATION_FAILURE = 9;
+      const int32 NAVIGATION_FEEDBACK_BASE_TRACKING_NOEXCEPTION = 10;
+      const int32 NAVIGATION_FEEDBACK_BASE_TRACKING_DETECOTOREXCEPTION = 11;
+      const int32 NAVIGATION_FEEDBACK_BASE_TRACKING_TFEXCEPTION = 12;
+      const int32 NAVIGATION_FEEDBACK_BASE_TRACKING_PLANNNEREXCEPTION = 13;
+      const int32 NAVIGATION_FEEDBACK_BASE_TRACKING_CONTROLLEREXCEPTION = 14;
+      const int32 NAVIGATION_FEEDBACK_BASE_TRACKING_EMPTY_TARGET = 15;
+      const int32 NAVIGATION_FEEDBACK_BASE_TRACKING_STAIRJUMPING = 16;
+      const int32 NAVIGATION_FEEDBACK_BASE_TRACKING_AUTOTRACKING = 17;
+      const int32 NAVIGATION_FEEDBACK_BASE_TRACKING_BEHAVIORABNORM = 18;
+      const int32 TASK_PREPARATION_EXECUTING = 1000;
+      const int32 TASK_PREPARATION_SUCCESS = 1001;
+      const int32 TASK_PREPARATION_FAILED = 1002;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_STARTING = 500;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_READY = 501;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_OBJECT_SELECTED = 502;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_OBJECT_FOLLOWING = 503;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_OBJECT_DISAPPEAR = 504;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_OBJECT_LOSE = 505;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_STARTING_FAILED = 506;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_OBJECT_SELECTED_FAILED = 507;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_RESET_FAILED = 508;
+      const int32 NAVIGATION_FEEDBACK_VISION_TRACKING_TARGET_EMPTY = 509;
+    };
+    struct Navigation_Feedback {
+      int32 feedback_code;
+
+      string feedback_msg;
+    };
+  };
+};

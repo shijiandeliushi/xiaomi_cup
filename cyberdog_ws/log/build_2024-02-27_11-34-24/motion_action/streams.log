@@ -1,0 +1,141 @@
+[0.034s] Invoking command in '/home/cyberdog_ws/build/motion_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/motion_action -- -j16 -l16
+[0.091s] [  0%] Built target ament_cmake_python_copy_motion_action
+[0.096s] [ 25%] Built target motion_action
+[0.131s] [ 50%] Built target client_test
+[0.131s] [ 75%] Built target publisher_test
+[0.131s] [100%] Built target controller_test
+[0.271s] running egg_info
+[0.272s] writing motion_action.egg-info/PKG-INFO
+[0.272s] writing dependency_links to motion_action.egg-info/dependency_links.txt
+[0.272s] writing top-level names to motion_action.egg-info/top_level.txt
+[0.304s] reading manifest file 'motion_action.egg-info/SOURCES.txt'
+[0.304s] writing manifest file 'motion_action.egg-info/SOURCES.txt'
+[0.325s] [100%] Built target ament_cmake_python_build_motion_action_egg
+[0.335s] Invoked command in '/home/cyberdog_ws/build/motion_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/motion_action -- -j16 -l16
+[0.377s] Invoking command in '/home/cyberdog_ws/build/motion_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/motion_action
+[0.385s] -- Install configuration: ""
+[0.385s] -- Up-to-date: /home/cyberdog_ws/install/include
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/include/motion_action
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/include/motion_action/motion_macros.hpp
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/include/motion_action/motion_action.hpp
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/launch
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/launch/test_as_manager.py
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/launch/test_as_manager.launch
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/launch/AMENT_IGNORE
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/144.toml
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/141.toml
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/162.toml
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/164.toml
+[0.386s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/181.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/124.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/126.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/157.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/133.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/177.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/180.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/101.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/302.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/136.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/123.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/131.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/179.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/102.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/305.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/163.toml
+[0.387s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/132.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/128.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/154.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/173.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/145.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/138.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/156.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/elec_skin.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/201.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/user_gait_400.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/171.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/135.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/167.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/175.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/176.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/172.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/178.toml
+[0.388s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/127.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/153.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/211.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/147.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/152.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/166.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/155.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/165.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/111.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/301.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/170.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/158.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/121.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/168.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/129.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/137.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/122.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/303.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/motion_id_map.toml
+[0.389s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/125.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/212.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/161.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/148.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/130.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/160.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/159.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/150.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/149.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/142.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/140.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/174.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/134.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/146.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/0.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/400.toml
+[0.390s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/169.toml
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/143.toml
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/151.toml
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/preset/202.toml
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/lib/libmotion_action.so
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/lib/motion_action/controller_test
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/lib/motion_action/publisher_test
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/lib/motion_action/client_test
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/environment/pythonpath.sh
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/environment/pythonpath.dsv
+[0.391s] -- Up-to-date: /home/cyberdog_ws/install/lib/python3.8/site-packages//motion_action.egg-info
+[0.391s] -- Installing: /home/cyberdog_ws/install/lib/python3.8/site-packages//motion_action.egg-info/PKG-INFO
+[0.391s] -- Installing: /home/cyberdog_ws/install/lib/python3.8/site-packages//motion_action.egg-info/top_level.txt
+[0.391s] -- Installing: /home/cyberdog_ws/install/lib/python3.8/site-packages//motion_action.egg-info/SOURCES.txt
+[0.391s] -- Installing: /home/cyberdog_ws/install/lib/python3.8/site-packages//motion_action.egg-info/dependency_links.txt
+[0.392s] -- Up-to-date: /home/cyberdog_ws/install/lib/python3.8/site-packages/motion_action
+[0.392s] -- Up-to-date: /home/cyberdog_ws/install/lib/python3.8/site-packages/motion_action/__init__.py
+[0.416s] Listing '/home/cyberdog_ws/install/lib/python3.8/site-packages/motion_action'...
+[0.420s] -- Up-to-date: /home/cyberdog_ws/install/lib/motion_action/motion_teleop.py
+[0.420s] -- Up-to-date: /home/cyberdog_ws/install/lib/motion_action/pose_teleop.py
+[0.420s] -- Up-to-date: /home/cyberdog_ws/install/lib/motion_action/statistics.py
+[0.420s] -- Up-to-date: /home/cyberdog_ws/install/lib/motion_action/motion_units.py
+[0.420s] -- Up-to-date: /home/cyberdog_ws/install/lib/motion_action/motion_demo.py
+[0.420s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/environment/library_path.sh
+[0.420s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/environment/library_path.dsv
+[0.420s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/motion_action
+[0.420s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/motion_action
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/environment/ament_prefix_path.sh
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/environment/ament_prefix_path.dsv
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/environment/path.sh
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/environment/path.dsv
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/local_setup.bash
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/local_setup.sh
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/local_setup.zsh
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/local_setup.dsv
+[0.421s] -- Installing: /home/cyberdog_ws/install/share/motion_action/package.dsv
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/motion_action
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/cmake/ament_cmake_export_libraries-extras.cmake
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/cmake/motion_actionConfig.cmake
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/cmake/motion_actionConfig-version.cmake
+[0.421s] -- Up-to-date: /home/cyberdog_ws/install/share/motion_action/package.xml
+[0.426s] Invoked command in '/home/cyberdog_ws/build/motion_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/motion_action

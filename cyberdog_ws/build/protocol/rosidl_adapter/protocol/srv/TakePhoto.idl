@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/TakePhoto.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " 该服务用于启动相机拍一张图片")
+    struct TakePhoto_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct TakePhoto_Response {
+      @verbatim (language="comment", text=
+        " 拍照结果描述")
+      string message;
+
+      @verbatim (language="comment", text=
+        " 是否成功")
+      boolean result;
+
+      @verbatim (language="comment", text=
+        " 图片消息")
+      sensor_msgs::msg::Image img;
+
+      int32 code;
+    };
+  };
+};

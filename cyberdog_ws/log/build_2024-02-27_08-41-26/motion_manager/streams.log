@@ -1,0 +1,66 @@
+[0.043s] Invoking command in '/home/cyberdog_ws/build/motion_manager': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/motion/motion_manager -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.056s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.075s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.132s] -- Found manager_base: 0.0.0 (/home/cyberdog_ws/install/share/manager_base/cmake)
+[0.133s] -- Found cyberdog_common: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_common/cmake)
+[0.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.177s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.371s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.373s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.389s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.517s] -- Found cyberdog_system: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_system/cmake)
+[0.518s] -- Found protocol: 1.0.0 (/home/cyberdog_ws/install/share/protocol/cmake)
+[0.836s] -- Found motion_action: 0.0.0 (/home/cyberdog_ws/install/share/motion_action/cmake)
+[0.842s] -- Found cyberdog_machine: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_machine/cmake)
+[0.842s] -- Found bes_transmit: 1.0.0 (/home/cyberdog_ws/install/share/bes_transmit/cmake)
+[0.895s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.970s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.970s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.971s] -- Configured cppcheck include dirs: /home/cyberdog_ws/src/motion/motion_manager/include
+[0.971s] -- Configured cppcheck exclude dirs and/or files: 
+[0.972s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.972s] -- Configured cpplint exclude dirs and/or files: 
+[0.972s] -- Added test 'lint_cmake' to check CMake code style
+[0.973s] -- Added test 'uncrustify' to check C / C++ code style
+[0.974s] -- Configured uncrustify additional arguments: 
+[0.974s] -- Added test 'xmllint' to check XML markup files
+[0.977s] -- Configuring done
+[0.987s] -- Generating done
+[0.988s] -- Build files have been written to: /home/cyberdog_ws/build/motion_manager
+[0.994s] Invoked command in '/home/cyberdog_ws/build/motion_manager' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/motion/motion_manager -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.997s] Invoking command in '/home/cyberdog_ws/build/motion_manager': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/motion_manager -- -j16 -l16
+[1.033s] [35m[1mScanning dependencies of target motion_manager[0m
+[1.099s] [ 20%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/motion_handler.cpp.o[0m
+[1.100s] [ 40%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/motion_decision.cpp.o[0m
+[1.100s] [ 60%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/motion_manager.cpp.o[0m
+[1.101s] [ 80%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/main.cpp.o[0m
+[4.110s] [01m[K/home/cyberdog_ws/src/motion/motion_manager/src/motion_handler.cpp:[m[K In member function ‘[01m[Kbool cyberdog::motion::MotionHandler::CheckMotionResult(int32_t, int32_t&)[m[K’:
+[4.110s] [01m[K/home/cyberdog_ws/src/motion/motion_manager/src/motion_handler.cpp:389:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotion_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[4.110s]   389 | bool MotionHandler::CheckMotionResult([01;35m[Kint32_t motion_id[m[K, int32_t & code)
+[4.110s]       |                                       [01;35m[K~~~~~~~~^~~~~~~~~[m[K
+[22.151s] [100%] [32m[1mLinking CXX executable motion_manager[0m
+[23.253s] [100%] Built target motion_manager
+[23.264s] Invoked command in '/home/cyberdog_ws/build/motion_manager' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/motion_manager -- -j16 -l16
+[23.299s] Invoking command in '/home/cyberdog_ws/build/motion_manager': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/motion_manager
+[23.306s] -- Install configuration: ""
+[23.307s] -- Installing: /home/cyberdog_ws/install/lib/motion_manager/motion_manager
+[23.328s] -- Set runtime path of "/home/cyberdog_ws/install/lib/motion_manager/motion_manager" to ""
+[23.328s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/config
+[23.328s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/config/priority.toml
+[23.328s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/motion_manager
+[23.328s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/motion_manager
+[23.328s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/environment/ament_prefix_path.sh
+[23.328s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/environment/ament_prefix_path.dsv
+[23.328s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/environment/path.sh
+[23.328s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/environment/path.dsv
+[23.329s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/local_setup.bash
+[23.329s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/local_setup.sh
+[23.329s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/local_setup.zsh
+[23.329s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/local_setup.dsv
+[23.329s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/package.dsv
+[23.329s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/motion_manager
+[23.329s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/cmake/motion_managerConfig.cmake
+[23.329s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/cmake/motion_managerConfig-version.cmake
+[23.329s] -- Installing: /home/cyberdog_ws/install/share/motion_manager/package.xml
+[23.332s] Invoked command in '/home/cyberdog_ws/build/motion_manager' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/motion_manager

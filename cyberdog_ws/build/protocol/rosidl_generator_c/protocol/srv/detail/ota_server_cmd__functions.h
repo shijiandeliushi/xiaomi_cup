@@ -1,0 +1,329 @@
+// generated from rosidl_generator_c/resource/idl__functions.h.em
+// with input from protocol:srv/OtaServerCmd.idl
+// generated code does not contain a copyright notice
+
+#ifndef PROTOCOL__SRV__DETAIL__OTA_SERVER_CMD__FUNCTIONS_H_
+#define PROTOCOL__SRV__DETAIL__OTA_SERVER_CMD__FUNCTIONS_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stdlib.h>
+
+#include "rosidl_runtime_c/visibility_control.h"
+#include "protocol/msg/rosidl_generator_c__visibility_control.h"
+
+#include "protocol/srv/detail/ota_server_cmd__struct.h"
+
+/// Initialize srv/OtaServerCmd message.
+/**
+ * If the init function is called twice for the same message without
+ * calling fini inbetween previously allocated memory will be leaked.
+ * \param[in,out] msg The previously allocated message pointer.
+ * Fields without a default value will not be initialized by this function.
+ * You might want to call memset(msg, 0, sizeof(
+ * protocol__srv__OtaServerCmd_Request
+ * )) before or use
+ * protocol__srv__OtaServerCmd_Request__create()
+ * to allocate and initialize the message.
+ * \return true if initialization was successful, otherwise false
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Request__init(protocol__srv__OtaServerCmd_Request * msg);
+
+/// Finalize srv/OtaServerCmd message.
+/**
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+void
+protocol__srv__OtaServerCmd_Request__fini(protocol__srv__OtaServerCmd_Request * msg);
+
+/// Create srv/OtaServerCmd message.
+/**
+ * It allocates the memory for the message, sets the memory to zero, and
+ * calls
+ * protocol__srv__OtaServerCmd_Request__init().
+ * \return The pointer to the initialized message if successful,
+ * otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+protocol__srv__OtaServerCmd_Request *
+protocol__srv__OtaServerCmd_Request__create();
+
+/// Destroy srv/OtaServerCmd message.
+/**
+ * It calls
+ * protocol__srv__OtaServerCmd_Request__fini()
+ * and frees the memory of the message.
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+void
+protocol__srv__OtaServerCmd_Request__destroy(protocol__srv__OtaServerCmd_Request * msg);
+
+/// Check for srv/OtaServerCmd message equality.
+/**
+ * \param[in] lhs The message on the left hand size of the equality operator.
+ * \param[in] rhs The message on the right hand size of the equality operator.
+ * \return true if messages are equal, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Request__are_equal(const protocol__srv__OtaServerCmd_Request * lhs, const protocol__srv__OtaServerCmd_Request * rhs);
+
+/// Copy a srv/OtaServerCmd message.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source message pointer.
+ * \param[out] output The target message pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer is null
+ *   or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Request__copy(
+  const protocol__srv__OtaServerCmd_Request * input,
+  protocol__srv__OtaServerCmd_Request * output);
+
+/// Initialize array of srv/OtaServerCmd messages.
+/**
+ * It allocates the memory for the number of elements and calls
+ * protocol__srv__OtaServerCmd_Request__init()
+ * for each element of the array.
+ * \param[in,out] array The allocated array pointer.
+ * \param[in] size The size / capacity of the array.
+ * \return true if initialization was successful, otherwise false
+ * If the array pointer is valid and the size is zero it is guaranteed
+ # to return true.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Request__Sequence__init(protocol__srv__OtaServerCmd_Request__Sequence * array, size_t size);
+
+/// Finalize array of srv/OtaServerCmd messages.
+/**
+ * It calls
+ * protocol__srv__OtaServerCmd_Request__fini()
+ * for each element of the array and frees the memory for the number of
+ * elements.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+void
+protocol__srv__OtaServerCmd_Request__Sequence__fini(protocol__srv__OtaServerCmd_Request__Sequence * array);
+
+/// Create array of srv/OtaServerCmd messages.
+/**
+ * It allocates the memory for the array and calls
+ * protocol__srv__OtaServerCmd_Request__Sequence__init().
+ * \param[in] size The size / capacity of the array.
+ * \return The pointer to the initialized array if successful, otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+protocol__srv__OtaServerCmd_Request__Sequence *
+protocol__srv__OtaServerCmd_Request__Sequence__create(size_t size);
+
+/// Destroy array of srv/OtaServerCmd messages.
+/**
+ * It calls
+ * protocol__srv__OtaServerCmd_Request__Sequence__fini()
+ * on the array,
+ * and frees the memory of the array.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+void
+protocol__srv__OtaServerCmd_Request__Sequence__destroy(protocol__srv__OtaServerCmd_Request__Sequence * array);
+
+/// Check for srv/OtaServerCmd message array equality.
+/**
+ * \param[in] lhs The message array on the left hand size of the equality operator.
+ * \param[in] rhs The message array on the right hand size of the equality operator.
+ * \return true if message arrays are equal in size and content, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Request__Sequence__are_equal(const protocol__srv__OtaServerCmd_Request__Sequence * lhs, const protocol__srv__OtaServerCmd_Request__Sequence * rhs);
+
+/// Copy an array of srv/OtaServerCmd messages.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source array pointer.
+ * \param[out] output The target array pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer
+ *   is null or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Request__Sequence__copy(
+  const protocol__srv__OtaServerCmd_Request__Sequence * input,
+  protocol__srv__OtaServerCmd_Request__Sequence * output);
+
+/// Initialize srv/OtaServerCmd message.
+/**
+ * If the init function is called twice for the same message without
+ * calling fini inbetween previously allocated memory will be leaked.
+ * \param[in,out] msg The previously allocated message pointer.
+ * Fields without a default value will not be initialized by this function.
+ * You might want to call memset(msg, 0, sizeof(
+ * protocol__srv__OtaServerCmd_Response
+ * )) before or use
+ * protocol__srv__OtaServerCmd_Response__create()
+ * to allocate and initialize the message.
+ * \return true if initialization was successful, otherwise false
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Response__init(protocol__srv__OtaServerCmd_Response * msg);
+
+/// Finalize srv/OtaServerCmd message.
+/**
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+void
+protocol__srv__OtaServerCmd_Response__fini(protocol__srv__OtaServerCmd_Response * msg);
+
+/// Create srv/OtaServerCmd message.
+/**
+ * It allocates the memory for the message, sets the memory to zero, and
+ * calls
+ * protocol__srv__OtaServerCmd_Response__init().
+ * \return The pointer to the initialized message if successful,
+ * otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+protocol__srv__OtaServerCmd_Response *
+protocol__srv__OtaServerCmd_Response__create();
+
+/// Destroy srv/OtaServerCmd message.
+/**
+ * It calls
+ * protocol__srv__OtaServerCmd_Response__fini()
+ * and frees the memory of the message.
+ * \param[in,out] msg The allocated message pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+void
+protocol__srv__OtaServerCmd_Response__destroy(protocol__srv__OtaServerCmd_Response * msg);
+
+/// Check for srv/OtaServerCmd message equality.
+/**
+ * \param[in] lhs The message on the left hand size of the equality operator.
+ * \param[in] rhs The message on the right hand size of the equality operator.
+ * \return true if messages are equal, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Response__are_equal(const protocol__srv__OtaServerCmd_Response * lhs, const protocol__srv__OtaServerCmd_Response * rhs);
+
+/// Copy a srv/OtaServerCmd message.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source message pointer.
+ * \param[out] output The target message pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer is null
+ *   or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Response__copy(
+  const protocol__srv__OtaServerCmd_Response * input,
+  protocol__srv__OtaServerCmd_Response * output);
+
+/// Initialize array of srv/OtaServerCmd messages.
+/**
+ * It allocates the memory for the number of elements and calls
+ * protocol__srv__OtaServerCmd_Response__init()
+ * for each element of the array.
+ * \param[in,out] array The allocated array pointer.
+ * \param[in] size The size / capacity of the array.
+ * \return true if initialization was successful, otherwise false
+ * If the array pointer is valid and the size is zero it is guaranteed
+ # to return true.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Response__Sequence__init(protocol__srv__OtaServerCmd_Response__Sequence * array, size_t size);
+
+/// Finalize array of srv/OtaServerCmd messages.
+/**
+ * It calls
+ * protocol__srv__OtaServerCmd_Response__fini()
+ * for each element of the array and frees the memory for the number of
+ * elements.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+void
+protocol__srv__OtaServerCmd_Response__Sequence__fini(protocol__srv__OtaServerCmd_Response__Sequence * array);
+
+/// Create array of srv/OtaServerCmd messages.
+/**
+ * It allocates the memory for the array and calls
+ * protocol__srv__OtaServerCmd_Response__Sequence__init().
+ * \param[in] size The size / capacity of the array.
+ * \return The pointer to the initialized array if successful, otherwise NULL
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+protocol__srv__OtaServerCmd_Response__Sequence *
+protocol__srv__OtaServerCmd_Response__Sequence__create(size_t size);
+
+/// Destroy array of srv/OtaServerCmd messages.
+/**
+ * It calls
+ * protocol__srv__OtaServerCmd_Response__Sequence__fini()
+ * on the array,
+ * and frees the memory of the array.
+ * \param[in,out] array The initialized array pointer.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+void
+protocol__srv__OtaServerCmd_Response__Sequence__destroy(protocol__srv__OtaServerCmd_Response__Sequence * array);
+
+/// Check for srv/OtaServerCmd message array equality.
+/**
+ * \param[in] lhs The message array on the left hand size of the equality operator.
+ * \param[in] rhs The message array on the right hand size of the equality operator.
+ * \return true if message arrays are equal in size and content, otherwise false.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Response__Sequence__are_equal(const protocol__srv__OtaServerCmd_Response__Sequence * lhs, const protocol__srv__OtaServerCmd_Response__Sequence * rhs);
+
+/// Copy an array of srv/OtaServerCmd messages.
+/**
+ * This functions performs a deep copy, as opposed to the shallow copy that
+ * plain assignment yields.
+ *
+ * \param[in] input The source array pointer.
+ * \param[out] output The target array pointer, which must
+ *   have been initialized before calling this function.
+ * \return true if successful, or false if either pointer
+ *   is null or memory allocation fails.
+ */
+ROSIDL_GENERATOR_C_PUBLIC_protocol
+bool
+protocol__srv__OtaServerCmd_Response__Sequence__copy(
+  const protocol__srv__OtaServerCmd_Response__Sequence * input,
+  protocol__srv__OtaServerCmd_Response__Sequence * output);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // PROTOCOL__SRV__DETAIL__OTA_SERVER_CMD__FUNCTIONS_H_

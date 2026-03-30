@@ -1,0 +1,260 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from protocol/ros/action/OverTheAir.action
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module action {
+    module OverTheAir_Goal_Constants {
+      const string USER_APP = "APP";
+      const string OPERATE_INQUIRE = "inquire";
+      const string OPERATE_DOWNLOAD = "download";
+      const string OPERATE_UPGRADE = "upgrade";
+      const string OPERATE_UPGRADE_AND_ROBOOT = "upgrade_and_reboot";
+      const string OPERATE_REMOVE = "remove";
+      const string OPERATE_ROBOOT = "reboot";
+      const string OPERATE_RESET = "reset";
+      const string OPERATE_DISK = "disk";
+      const string TYPE_FILE = "file";
+      const string TYPE_DIRECTORY = "directory";
+    };
+    @verbatim (language="comment", text=
+      " goal definition")
+    struct OverTheAir_Goal {
+      @verbatim (language="comment", text=
+        "重启")
+      @unit (value="操作")
+      string goal_msg;
+
+      @verbatim (language="comment", text=
+        " 当前消息帧ID")
+      string id;
+
+      @verbatim (language="comment", text=
+        " 当前消息帧源用户标识")
+      string user;
+
+      @verbatim (language="comment", text=
+        " 当前操作类型")
+      string operate;
+
+      @verbatim (language="comment", text=
+        " 当前操作类型对应的附加数据{下载的目标版本地址/磁盘路径}")
+      string data;
+
+      @verbatim (language="comment", text=
+        " 类型")
+      string type;
+
+      @verbatim (language="comment", text=
+        " 深度")
+      string depth;
+    };
+    module OverTheAir_Result_Constants {
+      const string TYPE = "result";
+    };
+    struct OverTheAir_Result {
+      string result_msg;
+
+      @verbatim (language="comment", text=
+        " 当前消息帧ID")
+      string id;
+
+      @verbatim (language="comment", text=
+        " 当前消息帧类型")
+      string type;
+
+      @verbatim (language="comment", text=
+        " 当前操作类型")
+      string operate;
+
+      @verbatim (language="comment", text=
+        " 标识设备SN号")
+      string sn;
+
+      @verbatim (language="comment", text=
+        " 标识设备是否解锁")
+      string not_unlocked;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_nx;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_nx_mini_led;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_nx_head_tof;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_nx_rear_tof;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_nx_head_uwb;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_nx_rear_uwb;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_nx_imu;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_nx_power;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_r329;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_mr813;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_mr813_spie1;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string version_mr813_spie2;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      sequence<string> version_motors;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘名称")
+      string disk_name;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘文件系统")
+      string disk_filesystem;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘大小")
+      string disk_size;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘使用大小")
+      string disk_used;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘剩余大小")
+      string disk_avail;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘使用占比")
+      string disk_scale;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘挂载对象")
+      string disk_mounted;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘元素名称")
+      sequence<string> disk_meta_name;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘大小")
+      sequence<string> disk_meta_size;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘修改时间")
+      sequence<string> disk_meta_change_time;
+
+      @verbatim (language="comment", text=
+        " 标识磁盘用户权限")
+      sequence<string> disk_meta_user_rights;
+
+      @verbatim (language="comment", text=
+        " 标识是否为升级后首次重启？")
+      string reboot;
+
+      @verbatim (language="comment", text=
+        " 标识最近一次升级是否成功？")
+      string state;
+
+      @verbatim (language="comment", text=
+        " 当前操作状态码")
+      int32 code;
+
+      @verbatim (language="comment", text=
+        " 当前操作结果")
+      string result;
+    };
+    module OverTheAir_Feedback_Constants {
+      const string TYPE = "feedback";
+      const string TARGET_OTA = "ota";
+      const string TARGET_DEB = "deb";
+    };
+    struct OverTheAir_Feedback {
+      string feedback_msg;
+
+      @verbatim (language="comment", text=
+        " 当前消息帧ID")
+      string id;
+
+      @verbatim (language="comment", text=
+        " 当前消息帧类型")
+      string type;
+
+      @verbatim (language="comment", text=
+        " 当前操作类型")
+      string operate;
+
+      @verbatim (language="comment", text=
+        " 标识设备当前版本")
+      string now_version;
+
+      @verbatim (language="comment", text=
+        " 标识设备目标版本")
+      string ota_version;
+
+      @verbatim (language="comment", text=
+        " 当前阶段")
+      string stage;
+
+      @verbatim (language="comment", text=
+        " 标识当前操作的目标类型{ota包，deb包}")
+      string target;
+
+      @verbatim (language="comment", text=
+        " 标识当前操作的目标阶段")
+      string target_stage;
+
+      @verbatim (language="comment", text=
+        " 标识当前操作的目标文件")
+      string file;
+
+      @verbatim (language="comment", text=
+        " 标识当前操作目标总计大小")
+      string size;
+
+      @verbatim (language="comment", text=
+        " 标识当前操作目标下载大小")
+      string schedule;
+
+      @verbatim (language="comment", text=
+        " 预计剩余时间")
+      string time_remaining;
+
+      @verbatim (language="comment", text=
+        " 标识当前操作的进度")
+      string progress;
+
+      @verbatim (language="comment", text=
+        " 标识当前操作的速度")
+      string speed;
+
+      @verbatim (language="comment", text=
+        " 描述信息")
+      string describe;
+    };
+  };
+};

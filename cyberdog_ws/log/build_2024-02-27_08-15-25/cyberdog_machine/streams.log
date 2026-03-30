@@ -1,0 +1,47 @@
+[0.028s] Invoking command in '/home/cyberdog_ws/build/cyberdog_machine': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/utils/cyberdog_machine -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.090s] -- The C compiler identification is GNU 9.4.0
+[0.149s] -- The CXX compiler identification is GNU 9.4.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.226s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.227s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.312s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++
+[0.400s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.401s] -- Detecting CXX compiler ABI info
+[0.485s] -- Detecting CXX compiler ABI info - done
+[0.498s] -- Detecting CXX compile features
+[0.498s] -- Detecting CXX compile features - done
+[0.502s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.531s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.531s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.693s] -- Configuring done
+[0.695s] -- Generating done
+[0.696s] -- Build files have been written to: /home/cyberdog_ws/build/cyberdog_machine
+[0.700s] Invoked command in '/home/cyberdog_ws/build/cyberdog_machine' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/utils/cyberdog_machine -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.703s] Invoking command in '/home/cyberdog_ws/build/cyberdog_machine': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_machine -- -j16 -l16
+[0.745s] Invoked command in '/home/cyberdog_ws/build/cyberdog_machine' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_machine -- -j16 -l16
+[0.770s] Invoking command in '/home/cyberdog_ws/build/cyberdog_machine': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_machine
+[0.782s] -- Install configuration: ""
+[0.782s] -- Up-to-date: /home/cyberdog_ws/install/include/
+[0.782s] -- Installing: /home/cyberdog_ws/install/include//cyberdog_machine
+[0.783s] -- Installing: /home/cyberdog_ws/install/include//cyberdog_machine/cyberdog_heartbeats.hpp
+[0.783s] -- Installing: /home/cyberdog_ws/install/include//cyberdog_machine/cyberdog_fs_machine.hpp
+[0.783s] -- Installing: /home/cyberdog_ws/install/lib/cyberdog_machine/fs_machine_config.toml
+[0.783s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_machine
+[0.783s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_machine
+[0.783s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/environment/ament_prefix_path.sh
+[0.783s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/environment/ament_prefix_path.dsv
+[0.783s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/environment/path.sh
+[0.783s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/environment/path.dsv
+[0.783s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/local_setup.bash
+[0.783s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/local_setup.sh
+[0.783s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/local_setup.zsh
+[0.784s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/local_setup.dsv
+[0.784s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/package.dsv
+[0.784s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/cyberdog_machine
+[0.784s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/cmake/cyberdog_machineConfig.cmake
+[0.784s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/cmake/cyberdog_machineConfig-version.cmake
+[0.784s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_machine/package.xml
+[0.789s] Invoked command in '/home/cyberdog_ws/build/cyberdog_machine' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_machine

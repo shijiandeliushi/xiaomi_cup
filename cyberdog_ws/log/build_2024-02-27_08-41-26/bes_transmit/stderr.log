@@ -1,0 +1,8 @@
+[01m[K/home/cyberdog_ws/src/bes_transmit/src/file_uploading.cpp:[m[K In function ‘[01m[Kint uploadFile(const char*, const char*, int, int*)[m[K’:
+[01m[K/home/cyberdog_ws/src/bes_transmit/src/file_uploading.cpp:86:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   86 | int uploadFile(const char * file_name, const char * info, [01;35m[Kint id[m[K, int * http_result_code)
+      |                                                           [01;35m[K~~~~^~[m[K
+[01m[K/home/cyberdog_ws/src/bes_transmit/src/file_uploading.cpp:[m[K In function ‘[01m[Kint sendWarningInfo(const char*, int, int*)[m[K’:
+[01m[K/home/cyberdog_ws/src/bes_transmit/src/file_uploading.cpp:108:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kid[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  108 | int sendWarningInfo(const char * info, [01;35m[Kint id[m[K, int * http_result_code)
+      |                                        [01;35m[K~~~~^~[m[K

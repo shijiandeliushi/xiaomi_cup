@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/Unlock.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct Unlock_Request {
+      string httplink;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct Unlock_Response {
+      @verbatim (language="comment", text=
+        " 0 ---  unlocked successfully" "\n"
+        " 1 ---  unlocked failed,parameter verification failes" "\n"
+        " 2 ---  unlocked failed,the key information does not match the device information." "\n"
+        " 3 ---  unlocked failed,operation control (MR813) failed to unlock Settings;" "\n"
+        " 4 ---  unlocked failed,voice control (R239) unlock Settings failed;" "\n"
+        " 5 ---  The device has not been unlocked;" "\n"
+        " 100 -- unknow error.")
+      uint32 unlock_result;
+
+      int32 code;
+    };
+  };
+};

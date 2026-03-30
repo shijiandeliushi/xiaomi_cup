@@ -1,0 +1,3 @@
+string wifi_name
+string wifi_password
+string provider_ip

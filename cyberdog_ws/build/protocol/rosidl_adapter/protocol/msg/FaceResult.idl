@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/FaceResult.msg
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/CompressedImage.idl"
+
+module protocol {
+  module msg {
+    module FaceResult_Constants {
+      const uint8 RESULT_SUCCESS = 0;
+      const uint8 RESULT_INVALID_ARGS = 1;
+      const uint8 RESULT_UNSUPPORTED = 2;
+      const uint8 RESULT_TIMEOUT = 3;
+      const uint8 RESULT_BUSY = 4;
+      const uint8 RESULT_INVALID_STATE = 5;
+      const uint8 RESULT_INNER_ERROR = 6;
+      const uint8 RESULT_NO_FACE_FOUND = 7;
+      const uint8 RESULT_MULTI_FACE_FOUND = 8;
+      const uint8 RESULT_KEEP_STABLE = 9;
+      const uint8 RESULT_DEGREE_NOT_SATISFIED = 10;
+      const uint8 RESULT_DISTANCE_NOT_SATISFIED = 11;
+      const uint8 RESULT_DEGREE_HEAD_LEFT = 12;
+      const uint8 RESULT_DEGREE_HEAD_RIGHT = 13;
+      const uint8 RESULT_DEGREE_HEAD_DOWN = 14;
+      const uint8 RESULT_DEGREE_HEAD_UP = 15;
+      const uint8 RESULT_DEGREE_HEAD_TILT = 16;
+      const uint8 RESULT_FACE_ALREADY_EXIST = 17;
+      const uint8 RESULT_UNDEFINED_ERROR = 255;
+    };
+    struct FaceResult {
+      uint8 result;
+
+      string msg;
+
+      sequence<protocol::msg::CompressedImage> face_images;
+    };
+  };
+};

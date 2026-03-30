@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AudioNickName.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct AudioNickName_Request {
+      string nick_name;
+
+      string wake_name;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct AudioNickName_Response {
+      boolean success;
+
+      int32 code;
+    };
+  };
+};

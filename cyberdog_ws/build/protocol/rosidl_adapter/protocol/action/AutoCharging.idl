@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from protocol/ros/action/AutoCharging.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module protocol {
+  module action {
+    module AutoCharging_Goal_Constants {
+      const uint8 AUTOCHARGING_GOAL_TYPE_STOP = 0;
+      const uint8 AUTOCHARGING_GOAL_TYPE_START = 1;
+    };
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct AutoCharging_Goal {
+      geometry_msgs::msg::PoseStamped pose;
+
+      uint8 start;
+    };
+    module AutoCharging_Result_Constants {
+      const uint8 AUTOCHARGING_RESULT_TYPE_SUCCESS = 0;
+      const uint8 AUTOCHARGING_RESULT_TYPE_ACCEPT = 1;
+      const uint8 AUTOCHARGING_RESULT_TYPE_UNAVALIBLE = 2;
+      const uint8 AUTOCHARGING_RESULT_TYPE_FAILED = 3;
+      const uint8 AUTOCHARGING_RESULT_TYPE_REJECT = 4;
+      const uint8 AUTOCHARGING_RESULT_TYPE_CANCEL = 5;
+    };
+    struct AutoCharging_Result {
+      @verbatim (language="comment", text=
+        "result definition")
+      uint8 result;
+    };
+    struct AutoCharging_Feedback {
+      @verbatim (language="comment", text=
+        " feedback definition")
+      uint8 charging_stage;
+    };
+  };
+};

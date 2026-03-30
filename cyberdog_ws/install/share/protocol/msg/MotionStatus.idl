@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/MotionStatus.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module MotionStatus_Constants {
+      const int8 NORMAL = 0;
+      const int8 TRANSITIONING = 1;
+      const int8 ESTOP = 2;
+      const int8 EDAMP = 3;
+      const int8 LIFTED = 4;
+      const int8 BAN_TRANS = 5;
+      const int8 OVER_HEAT = 6;
+      const int8 LOW_BAT = 7;
+      const int8 ORI_ERR = 8;
+      const int8 FOOTPOS_ERR = 9;
+      const int8 STAND_STUCK = 10;
+      const int8 MOTOR_OVER_HEAT = 11;
+      const int8 MOTOR_OVER_CURR = 12;
+      const int8 MOTOR_ERR = 13;
+      const int8 CHARGING = 14;
+    };
+    struct MotionStatus {
+      int32 motion_id;
+
+      int8 contact;
+
+      @verbatim (language="comment", text=
+        "  order process, 1 == 1 %")
+      int8 order_process_bar;
+
+      int8 switch_status;
+
+      int8 ori_error;
+
+      int16 footpos_error;
+
+      sequence<int32> motor_error;
+    };
+  };
+};

@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/FaceRec.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module FaceRec_Request_Constants {
+      const int32 COMMAND_RECOGNITION_ALL = 0;
+      const int32 COMMAND_RECOGNITION_SINGLE = 1;
+      const int32 COMMAND_RECOGNITION_CANCEL = 2;
+      const int32 MAX_TIMEOUT = 300;
+      const int32 MIN_TIMEOUT = 30;
+      const int32 DEFAULT_TIMEOUT = 60;
+      const int32 ALGORITHM_LOAD_DURATION = 100;
+    };
+    struct FaceRec_Request {
+      int32 command;
+
+      string username;
+
+      string id;
+
+      @verbatim (language="comment", text=
+        "有效时间30s～300s，default = 60;如果不添加该字段，采用默认值")
+      int32 timeout;
+    };
+    module FaceRec_Response_Constants {
+      const int32 ENABLE_SUCCESS = 0;
+      const int32 ENABLE_FAIL = 5901;
+    };
+    struct FaceRec_Response {
+      int32 result;
+
+      int32 code;
+    };
+  };
+};

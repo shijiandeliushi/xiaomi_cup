@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/ManagerInit.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " This srv does not need request.")
+    struct ManagerInit_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ManagerInit_Response {
+      @verbatim (language="comment", text=
+        " Result code has defined robot_code." "\n"
+        " Response")
+      int32 res_code;
+    };
+  };
+};

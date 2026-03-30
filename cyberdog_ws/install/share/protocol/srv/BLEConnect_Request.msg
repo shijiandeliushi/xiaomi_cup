@@ -1,0 +1,1 @@
+protocol/BLEInfo selected_device

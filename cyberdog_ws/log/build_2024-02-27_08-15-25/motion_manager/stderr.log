@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:10 (find_package):
+  By not providing "Findmanager_base.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "manager_base", but CMake did not find one.
+
+  Could not find a package configuration file provided by "manager_base" with
+  any of the following names:
+
+    manager_baseConfig.cmake
+    manager_base-config.cmake
+
+  Add the installation prefix of "manager_base" to CMAKE_PREFIX_PATH or set
+  "manager_base_DIR" to a directory containing one of the above files.  If
+  "manager_base" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

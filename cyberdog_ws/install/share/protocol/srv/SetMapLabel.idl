@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/SetMapLabel.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/MapLabel.idl"
+
+module protocol {
+  module srv {
+    struct SetMapLabel_Request {
+      protocol::msg::MapLabel label;
+
+      boolean only_delete;
+    };
+    module SetMapLabel_Response_Constants {
+      const uint8 RESULT_FAILED = 1;
+      const uint8 RESULT_SUCCESS = 0;
+    };
+    struct SetMapLabel_Response {
+      uint8 success;
+
+      int32 code;
+    };
+  };
+};

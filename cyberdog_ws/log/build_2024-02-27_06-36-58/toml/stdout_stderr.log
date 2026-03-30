@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cyberdog_ws/build/toml
+-- Install configuration: ""
+-- Installing: /home/cyberdog_ws/install/include
+-- Installing: /home/cyberdog_ws/install/include/toml
+-- Installing: /home/cyberdog_ws/install/include/toml/toml.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/macros.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/exception.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/source_location.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/into.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/literal.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/serializer.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/storage.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/region.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/value.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/types.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/from.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/get.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/parser.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/color.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/combinator.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/datetime.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/string.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/lexer.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/traits.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/comments.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/utility.hpp
+-- Installing: /home/cyberdog_ws/install/include/toml/toml/result.hpp
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/toml
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/toml
+-- Installing: /home/cyberdog_ws/install/share/toml/environment/ament_prefix_path.sh
+-- Installing: /home/cyberdog_ws/install/share/toml/environment/ament_prefix_path.dsv
+-- Installing: /home/cyberdog_ws/install/share/toml/environment/path.sh
+-- Installing: /home/cyberdog_ws/install/share/toml/environment/path.dsv
+-- Installing: /home/cyberdog_ws/install/share/toml/local_setup.bash
+-- Installing: /home/cyberdog_ws/install/share/toml/local_setup.sh
+-- Installing: /home/cyberdog_ws/install/share/toml/local_setup.zsh
+-- Installing: /home/cyberdog_ws/install/share/toml/local_setup.dsv
+-- Installing: /home/cyberdog_ws/install/share/toml/package.dsv
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/toml
+-- Installing: /home/cyberdog_ws/install/share/toml/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/cyberdog_ws/install/share/toml/cmake/tomlConfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/toml/cmake/tomlConfig-version.cmake
+-- Installing: /home/cyberdog_ws/install/share/toml/package.xml

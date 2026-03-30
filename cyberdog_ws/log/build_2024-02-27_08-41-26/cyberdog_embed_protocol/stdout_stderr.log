@@ -1,0 +1,41 @@
+[ 20%] Built target gtest_main
+[ 40%] Built target gtest
+[ 60%] Built target can_node_test
+[ 80%] Built target sensor_simulator_node
+[100%] Built target embed_protocol_test
+-- Install configuration: ""
+-- Up-to-date: /home/cyberdog_ws/install/include/
+-- Up-to-date: /home/cyberdog_ws/install/include//protocol
+-- Up-to-date: /home/cyberdog_ws/install/include//protocol/can
+-- Up-to-date: /home/cyberdog_ws/install/include//protocol/can/visibility_control.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//protocol/can/socket_can_sender.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//protocol/can/socket_can_id.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//protocol/can/socket_can_common.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//protocol/can/can_utils.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//protocol/can/socket_can_receiver.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//protocol/can/toml_analysis.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//embed_protocol
+-- Up-to-date: /home/cyberdog_ws/install/include//embed_protocol/embed_protocol.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//embed_protocol/common.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//embed_protocol/protocol_base.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//embed_protocol/can_protocol.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//embed_parser
+-- Up-to-date: /home/cyberdog_ws/install/include//embed_parser/can_parser.hpp
+-- Up-to-date: /home/cyberdog_ws/install/include//embed_parser/parser_base.hpp
+-- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_embed_protocol
+-- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_embed_protocol
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/environment/path.sh
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/environment/path.dsv
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/local_setup.bash
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/local_setup.sh
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/local_setup.zsh
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/local_setup.dsv
+-- Installing: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/package.dsv
+-- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/cyberdog_embed_protocol
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/cmake/cyberdog_embed_protocolConfig.cmake
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/cmake/cyberdog_embed_protocolConfig-version.cmake
+-- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_embed_protocol/package.xml

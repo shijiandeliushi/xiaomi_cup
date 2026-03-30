@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findcyberdog_common.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "cyberdog_common", but CMake did not find one.
+
+  Could not find a package configuration file provided by "cyberdog_common"
+  with any of the following names:
+
+    cyberdog_commonConfig.cmake
+    cyberdog_common-config.cmake
+
+  Add the installation prefix of "cyberdog_common" to CMAKE_PREFIX_PATH or
+  set "cyberdog_common_DIR" to a directory containing one of the above files.
+  If "cyberdog_common" provides a separate development package or SDK, be
+  sure it has been installed.
+
+

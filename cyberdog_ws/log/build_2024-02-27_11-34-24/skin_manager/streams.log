@@ -1,0 +1,34 @@
+[0.026s] Invoking command in '/home/cyberdog_ws/build/skin_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/skin_manager -- -j16 -l16
+[0.080s] [100%] Built target skin_manager
+[0.092s] Invoked command in '/home/cyberdog_ws/build/skin_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/skin_manager -- -j16 -l16
+[0.131s] Invoking command in '/home/cyberdog_ws/build/skin_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/skin_manager
+[0.143s] -- Install configuration: ""
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/skin_manager
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/include/skin_manager/skin_manager.hpp
+[0.143s] -- Up-to-date: /home/cyberdog_ws/install/lib/libskin_manager.so
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include/
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include//skin_manager
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/include//skin_manager/skin_manager.hpp
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/config/
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/config//elec_skin.toml
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/environment/library_path.sh
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/environment/library_path.dsv
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/skin_manager
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/skin_manager
+[0.144s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/environment/ament_prefix_path.sh
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/environment/ament_prefix_path.dsv
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/environment/path.sh
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/environment/path.dsv
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/local_setup.bash
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/local_setup.sh
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/local_setup.zsh
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/local_setup.dsv
+[0.145s] -- Installing: /home/cyberdog_ws/install/share/skin_manager/package.dsv
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/skin_manager
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[0.145s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.146s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/cmake/skin_managerConfig.cmake
+[0.146s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/cmake/skin_managerConfig-version.cmake
+[0.146s] -- Up-to-date: /home/cyberdog_ws/install/share/skin_manager/package.xml
+[0.150s] Invoked command in '/home/cyberdog_ws/build/skin_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/skin_manager

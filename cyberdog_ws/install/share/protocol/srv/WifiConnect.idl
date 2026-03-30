@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/WifiConnect.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " 该服务用于请求wifi连接服务及表征连接响应信息的接口约束")
+    struct WifiConnect_Request {
+      @verbatim (language="comment", text=
+        " wifi名称")
+      string ssid;
+
+      @verbatim (language="comment", text=
+        " 密码")
+      string pwd;
+    };
+    module WifiConnect_Response_Constants {
+      const uint8 RESULT_NO_SSID = 4;
+      const uint8 RESULT_ERR_PWD = 5;
+      const uint8 RESULT_OTHER = 6;
+      const uint8 RESULT_SUCCESS = 7;
+      const uint8 RESULT_INTERRUPT = 14;
+      const uint8 RESULT_TIMEOUT = 15;
+    };
+    struct WifiConnect_Response {
+      @verbatim (language="comment", text=
+        " 返回结果，取值范围受下述 RESULT_* 值约束，反之无效")
+      uint8 result;
+
+      int32 code;
+    };
+  };
+};

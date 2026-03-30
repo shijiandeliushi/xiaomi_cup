@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/ConnectPc.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct ConnectPc_Request {
+      uint8 connect_which;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct ConnectPc_Response {
+      boolean success;
+    };
+  };
+};

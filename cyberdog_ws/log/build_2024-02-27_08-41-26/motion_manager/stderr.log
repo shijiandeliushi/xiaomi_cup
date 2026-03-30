@@ -1,0 +1,4 @@
+[01m[K/home/cyberdog_ws/src/motion/motion_manager/src/motion_handler.cpp:[m[K In member function ‘[01m[Kbool cyberdog::motion::MotionHandler::CheckMotionResult(int32_t, int32_t&)[m[K’:
+[01m[K/home/cyberdog_ws/src/motion/motion_manager/src/motion_handler.cpp:389:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmotion_id[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  389 | bool MotionHandler::CheckMotionResult([01;35m[Kint32_t motion_id[m[K, int32_t & code)
+      |                                       [01;35m[K~~~~~~~~^~~~~~~~~[m[K

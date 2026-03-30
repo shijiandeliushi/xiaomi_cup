@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AllUserSearch.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/UserInformation.idl"
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct AllUserSearch_Request {
+      string command;
+    };
+    struct AllUserSearch_Response {
+      @verbatim (language="comment", text=
+        " response")
+      sequence<protocol::msg::UserInformation> result;
+
+      int32 code;
+    };
+  };
+};

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/NavMode.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module NavMode_Request_Constants {
+      const uint8 NULL_SUBMODE = 0;
+      const uint8 EXPLR_MAP_UPDATE = 1;
+      const uint8 EXPLR_MAP_NEW = 2;
+      const uint8 EXPLR_NAV_AB = 3;
+      const uint8 TRACK_F = 4;
+      const uint8 TRACK_S = 5;
+      const uint8 MODE_STOP = 6;
+    };
+    @verbatim (language="comment", text=
+      " CONSTANT")
+    struct NavMode_Request {
+      uint8 sub_mode;
+    };
+    struct NavMode_Response {
+      boolean success;
+
+      int32 code;
+    };
+  };
+};

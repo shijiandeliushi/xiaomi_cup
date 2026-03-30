@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/FaceEntry.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module FaceEntry_Request_Constants {
+      const int32 ADD_FACE = 0;
+      const int32 CANCLE_ADD_FACE = 1;
+      const int32 CONFIRM_LAST_FACE = 2;
+      const int32 UPDATE_FACE_ID = 3;
+      const int32 DELETE_FACE = 4;
+      const int32 GET_ALL_FACES = 5;
+    };
+    struct FaceEntry_Request {
+      int32 command;
+
+      string username;
+
+      string oriname;
+
+      boolean ishost;
+    };
+    module FaceEntry_Response_Constants {
+      const int32 RESULT_SUCCESS = 0;
+      const int32 RESULT_INVALID_ARGS = 5910;
+      const int32 RESULT_UNSUPPORTED = 5908;
+      const int32 RESULT_TIMEOUT = 5907;
+      const int32 RESULT_BUSY = 5911;
+      const int32 RESULT_INVALID_STATE = 5903;
+      const int32 RESULT_INNER_ERROR = 5904;
+      const int32 RESULT_UNDEFINED_ERROR = 5901;
+    };
+    struct FaceEntry_Response {
+      int32 result;
+
+      string allfaces;
+
+      int32 code;
+    };
+  };
+};

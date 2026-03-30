@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/SetTrainPlan.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct SetTrainPlan_Request {
+      string trigger;
+
+      string type;
+
+      string value;
+    };
+    struct SetTrainPlan_Response {
+      int32 skill_id;
+
+      int32 code;
+    };
+  };
+};

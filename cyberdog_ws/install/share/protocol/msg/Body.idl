@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/Body.msg
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/Gesture.idl"
+#include "protocol/msg/Keypoint.idl"
+#include "sensor_msgs/msg/RegionOfInterest.idl"
+
+module protocol {
+  module msg {
+    @verbatim (language="comment", text=
+      " single body info" "\n"
+      " body locations in image")
+    struct Body {
+      sensor_msgs::msg::RegionOfInterest roi;
+
+      @verbatim (language="comment", text=
+        " body REID")
+      string reid;
+
+      @verbatim (language="comment", text=
+        " features")
+      sequence<float> feats;
+
+      @verbatim (language="comment", text=
+        " keypoints")
+      sequence<protocol::msg::Keypoint> keypoints;
+
+      @verbatim (language="comment", text=
+        " gesture")
+      protocol::msg::Gesture gesture;
+    };
+  };
+};

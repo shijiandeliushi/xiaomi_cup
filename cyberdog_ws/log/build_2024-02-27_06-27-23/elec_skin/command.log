@@ -1,0 +1,2 @@
+Invoking command in '/home/cyberdog_ws/build/elec_skin': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/motion/elec_skin -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+Invoked command in '/home/cyberdog_ws/build/elec_skin' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/motion/elec_skin -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install

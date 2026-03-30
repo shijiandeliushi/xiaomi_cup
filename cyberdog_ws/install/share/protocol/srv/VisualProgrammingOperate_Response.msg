@@ -1,0 +1,8 @@
+
+int32 CODE_SUCCESS = 0
+int32 CODE_CATHC = 1
+int32 CODE_FSM = 2
+int32 CODE_TASK = 3
+
+int32 code
+string json

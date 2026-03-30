@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (-) JobUnselected: {'identifier': 'cpp_httplib'}
+[0.000156] (-) JobUnselected: {'identifier': 'cyberdog_bringup'}
+[0.000166] (-) JobUnselected: {'identifier': 'filesystem'}
+[0.000180] (-) JobUnselected: {'identifier': 'motion_bridge'}
+[0.000192] (-) JobUnselected: {'identifier': 'motion_utils'}
+[0.000201] (-) JobUnselected: {'identifier': 'mqttc'}
+[0.000341] (-) JobUnselected: {'identifier': 'nvinference'}
+[0.000362] (-) JobUnselected: {'identifier': 'rapidjson'}
+[0.000373] (-) JobUnselected: {'identifier': 'xpack'}
+[0.000382] (-) JobUnselected: {'identifier': 'zxing'}
+[0.000413] (toml) JobQueued: {'identifier': 'toml', 'dependencies': OrderedDict()}
+[0.000424] (elec_skin) JobQueued: {'identifier': 'elec_skin', 'dependencies': OrderedDict([('toml', '/home/cyberdog_ws/install')])}
+[0.000448] (skin_manager) JobQueued: {'identifier': 'skin_manager', 'dependencies': OrderedDict([('toml', '/home/cyberdog_ws/install'), ('elec_skin', '/home/cyberdog_ws/install')])}
+[0.000464] (motion_action) JobQueued: {'identifier': 'motion_action', 'dependencies': OrderedDict([('toml', '/home/cyberdog_ws/install'), ('elec_skin', '/home/cyberdog_ws/install'), ('skin_manager', '/home/cyberdog_ws/install')])}
+[0.000474] (motion_manager) JobQueued: {'identifier': 'motion_manager', 'dependencies': OrderedDict([('toml', '/home/cyberdog_ws/install'), ('elec_skin', '/home/cyberdog_ws/install'), ('skin_manager', '/home/cyberdog_ws/install'), ('motion_action', '/home/cyberdog_ws/install')])}
+[0.000691] (toml) JobStarted: {'identifier': 'toml'}
+[0.008670] (toml) JobProgress: {'identifier': 'toml', 'progress': 'cmake'}
+[0.009003] (toml) Command: {'cmd': ['/usr/bin/cmake', '/home/cyberdog_ws/src/cyberdog_ws/third_party/toml', '-DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install'], 'cwd': '/home/cyberdog_ws/build/toml', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/toml'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.044431] (toml) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.077727] (toml) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.080219] (toml) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099934] (-) TimerEvent: {}
+[0.122850] (toml) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.123250] (toml) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.166857] (toml) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.173534] (toml) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.173633] (toml) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.175141] (toml) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.200042] (-) TimerEvent: {}
+[0.223275] (toml) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.223774] (toml) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.272288] (toml) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.279252] (toml) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.279468] (toml) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.281688] (toml) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.297352] (toml) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.297456] (toml) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300216] (-) TimerEvent: {}
+[0.352391] (toml) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.400323] (-) TimerEvent: {}
+[0.403428] (toml) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.404341] (toml) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.404486] (toml) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.404528] (toml) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.405313] (toml) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.405350] (toml) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.405827] (toml) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.406621] (toml) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.406703] (toml) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.406947] (toml) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.408668] (toml) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.409849] (toml) StdoutLine: {'line': b'-- Generating done\n'}
+[0.410441] (toml) StdoutLine: {'line': b'-- Build files have been written to: /home/cyberdog_ws/build/toml\n'}
+[0.413088] (toml) CommandEnded: {'returncode': 0}
+[0.413398] (toml) JobProgress: {'identifier': 'toml', 'progress': 'build'}
+[0.414020] (toml) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyberdog_ws/build/toml', '--', '-j16', '-l16'], 'cwd': '/home/cyberdog_ws/build/toml', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/toml'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.438154] (toml) CommandEnded: {'returncode': 0}
+[0.451291] (toml) JobProgress: {'identifier': 'toml', 'progress': 'install'}
+[0.458574] (toml) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyberdog_ws/build/toml'], 'cwd': '/home/cyberdog_ws/build/toml', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/toml'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.463519] (toml) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.463618] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include\n'}
+[0.463672] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml\n'}
+[0.463711] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml.hpp\n'}
+[0.463749] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml\n'}
+[0.463813] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/macros.hpp\n'}
+[0.463854] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/exception.hpp\n'}
+[0.463893] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/source_location.hpp\n'}
+[0.463931] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/into.hpp\n'}
+[0.463982] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/literal.hpp\n'}
+[0.464043] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/serializer.hpp\n'}
+[0.464088] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/storage.hpp\n'}
+[0.464134] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/region.hpp\n'}
+[0.464193] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/value.hpp\n'}
+[0.464236] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/types.hpp\n'}
+[0.464288] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/from.hpp\n'}
+[0.464338] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/get.hpp\n'}
+[0.464391] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/parser.hpp\n'}
+[0.464487] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/color.hpp\n'}
+[0.464542] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/combinator.hpp\n'}
+[0.464591] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/datetime.hpp\n'}
+[0.464650] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/string.hpp\n'}
+[0.464703] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/lexer.hpp\n'}
+[0.464759] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/traits.hpp\n'}
+[0.464820] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/comments.hpp\n'}
+[0.464881] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/utility.hpp\n'}
+[0.464929] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/include/toml/toml/result.hpp\n'}
+[0.465096] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/toml\n'}
+[0.465207] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/toml\n'}
+[0.465317] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/environment/ament_prefix_path.sh\n'}
+[0.465394] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/environment/ament_prefix_path.dsv\n'}
+[0.465461] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/environment/path.sh\n'}
+[0.465529] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/environment/path.dsv\n'}
+[0.465595] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/local_setup.bash\n'}
+[0.465663] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/local_setup.sh\n'}
+[0.465732] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/local_setup.zsh\n'}
+[0.465799] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/local_setup.dsv\n'}
+[0.465868] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/package.dsv\n'}
+[0.465963] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/toml\n'}
+[0.466053] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.466122] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/cmake/tomlConfig.cmake\n'}
+[0.466181] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/cmake/tomlConfig-version.cmake\n'}
+[0.466255] (toml) StdoutLine: {'line': b'-- Installing: /home/cyberdog_ws/install/share/toml/package.xml\n'}
+[0.467286] (toml) CommandEnded: {'returncode': 0}
+[0.498953] (toml) JobEnded: {'identifier': 'toml', 'rc': 0}
+[0.501078] (-) TimerEvent: {}
+[0.501152] (elec_skin) JobStarted: {'identifier': 'elec_skin'}
+[0.504949] (elec_skin) JobProgress: {'identifier': 'elec_skin', 'progress': 'cmake'}
+[0.505270] (elec_skin) Command: {'cmd': ['/usr/bin/cmake', '/home/cyberdog_ws/src/motion/elec_skin', '-DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install'], 'cwd': '/home/cyberdog_ws/build/elec_skin', 'env': OrderedDict([('HOSTNAME', '57df7a5617f5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/home/cyberdog_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'galactic'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/cyberdog_ws/install:/opt/ros/galactic'), ('PWD', '/home/cyberdog_ws/build/elec_skin'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cyberdog_ws/install:/opt/ros/galactic')]), 'shell': False}
+[0.514812] (elec_skin) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.528232] (elec_skin) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.565488] (elec_skin) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.589646] (elec_skin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.591589] (elec_skin) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.601223] (-) TimerEvent: {}
+[0.701497] (-) TimerEvent: {}
+[0.703774] (elec_skin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.736725] (elec_skin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.737691] (elec_skin) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.749160] (elec_skin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.801651] (-) TimerEvent: {}
+[0.838860] (elec_skin) StdoutLine: {'line': b'-- Found toml: 0.0.0 (/home/cyberdog_ws/install/share/toml/cmake)\n'}
+[0.855008] (elec_skin) StderrLine: {'line': b'CMake Error at CMakeLists.txt:21 (find_package):\n'}
+[0.855140] (elec_skin) StderrLine: {'line': b'  By not providing "Findcyberdog_common.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.855184] (elec_skin) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.855220] (elec_skin) StderrLine: {'line': b'  "cyberdog_common", but CMake did not find one.\n'}
+[0.855255] (elec_skin) StderrLine: {'line': b'\n'}
+[0.855289] (elec_skin) StderrLine: {'line': b'  Could not find a package configuration file provided by "cyberdog_common"\n'}
+[0.855321] (elec_skin) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.855354] (elec_skin) StderrLine: {'line': b'\n'}
+[0.855386] (elec_skin) StderrLine: {'line': b'    cyberdog_commonConfig.cmake\n'}
+[0.855419] (elec_skin) StderrLine: {'line': b'    cyberdog_common-config.cmake\n'}
+[0.855451] (elec_skin) StderrLine: {'line': b'\n'}
+[0.855484] (elec_skin) StderrLine: {'line': b'  Add the installation prefix of "cyberdog_common" to CMAKE_PREFIX_PATH or\n'}
+[0.855518] (elec_skin) StderrLine: {'line': b'  set "cyberdog_common_DIR" to a directory containing one of the above files.\n'}
+[0.855552] (elec_skin) StderrLine: {'line': b'  If "cyberdog_common" provides a separate development package or SDK, be\n'}
+[0.855585] (elec_skin) StderrLine: {'line': b'  sure it has been installed.\n'}
+[0.855618] (elec_skin) StderrLine: {'line': b'\n'}
+[0.855651] (elec_skin) StderrLine: {'line': b'\n'}
+[0.856025] (elec_skin) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.856118] (elec_skin) StdoutLine: {'line': b'See also "/home/cyberdog_ws/build/elec_skin/CMakeFiles/CMakeOutput.log".\n'}
+[0.856167] (elec_skin) StdoutLine: {'line': b'See also "/home/cyberdog_ws/build/elec_skin/CMakeFiles/CMakeError.log".\n'}
+[0.860087] (elec_skin) CommandEnded: {'returncode': 1}
+[0.874885] (elec_skin) JobEnded: {'identifier': 'elec_skin', 'rc': 1}
+[0.885332] (skin_manager) JobSkipped: {'identifier': 'skin_manager'}
+[0.885369] (motion_action) JobSkipped: {'identifier': 'motion_action'}
+[0.885381] (motion_manager) JobSkipped: {'identifier': 'motion_manager'}
+[0.885391] (-) EventReactorShutdown: {}

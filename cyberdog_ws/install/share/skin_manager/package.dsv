@@ -1,0 +1,14 @@
+source;share/skin_manager/hook/cmake_prefix_path.ps1
+source;share/skin_manager/hook/cmake_prefix_path.dsv
+source;share/skin_manager/hook/cmake_prefix_path.sh
+source;share/skin_manager/hook/ld_library_path_lib.ps1
+source;share/skin_manager/hook/ld_library_path_lib.dsv
+source;share/skin_manager/hook/ld_library_path_lib.sh
+source;share/skin_manager/hook/pythonpath.ps1
+source;share/skin_manager/hook/pythonpath.dsv
+source;share/skin_manager/hook/pythonpath.sh
+source;share/skin_manager/local_setup.bash
+source;share/skin_manager/local_setup.dsv
+source;share/skin_manager/local_setup.ps1
+source;share/skin_manager/local_setup.sh
+source;share/skin_manager/local_setup.zsh

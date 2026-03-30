@@ -1,0 +1,32 @@
+[0.005s] Invoking command in '/home/cyberdog_ws/build/elec_skin': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/motion/elec_skin -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.014s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.027s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.064s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.090s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.236s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.237s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.248s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.338s] -- Found toml: 0.0.0 (/home/cyberdog_ws/install/share/toml/cmake)
+[0.354s] CMake Error at CMakeLists.txt:21 (find_package):
+[0.354s]   By not providing "Findcyberdog_common.cmake" in CMAKE_MODULE_PATH this
+[0.354s]   project has asked CMake to find a package configuration file provided by
+[0.354s]   "cyberdog_common", but CMake did not find one.
+[0.354s] 
+[0.354s]   Could not find a package configuration file provided by "cyberdog_common"
+[0.354s]   with any of the following names:
+[0.354s] 
+[0.354s]     cyberdog_commonConfig.cmake
+[0.354s]     cyberdog_common-config.cmake
+[0.354s] 
+[0.354s]   Add the installation prefix of "cyberdog_common" to CMAKE_PREFIX_PATH or
+[0.354s]   set "cyberdog_common_DIR" to a directory containing one of the above files.
+[0.354s]   If "cyberdog_common" provides a separate development package or SDK, be
+[0.354s]   sure it has been installed.
+[0.354s] 
+[0.355s] 
+[0.355s] -- Configuring incomplete, errors occurred!
+[0.355s] See also "/home/cyberdog_ws/build/elec_skin/CMakeFiles/CMakeOutput.log".
+[0.355s] See also "/home/cyberdog_ws/build/elec_skin/CMakeFiles/CMakeError.log".
+[0.359s] Invoked command in '/home/cyberdog_ws/build/elec_skin' returned '1': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/motion/elec_skin -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/SdcardPlayIdQuery.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct SdcardPlayIdQuery_Request {
+      @verbatim (language="comment", text=
+        " 播放ID")
+      uint16 play_id;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct SdcardPlayIdQuery_Response {
+      boolean exist;
+
+      int32 code;
+    };
+  };
+};

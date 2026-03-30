@@ -1,0 +1,4 @@
+Invoking command in '/home/cyberdog_ws/build/bes_transmit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/bes_transmit -- -j16 -l16
+Invoked command in '/home/cyberdog_ws/build/bes_transmit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/bes_transmit -- -j16 -l16
+Invoking command in '/home/cyberdog_ws/build/bes_transmit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/bes_transmit
+Invoked command in '/home/cyberdog_ws/build/bes_transmit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/bes_transmit

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/GestureActionResult.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module GestureActionResult_Constants {
+      const int32 NO_GESTURE = 0;
+      const int32 PULLING_HAND_OR_TWO_FINGERS_IN = 1;
+      const int32 PUSHING_HAND_OR_TWO_FINGERS_AWAY = 2;
+      const int32 SLIDING_HAND_OR_TWO_FINGERS_UP = 3;
+      const int32 SLIDING_HAND_OR_TWO_FINGERS_DOWN = 4;
+      const int32 SLIDING_HAND_OR_TWO_FINGERS_LEFT = 5;
+      const int32 SLIDING_HAND_OR_TWO_FINGERS_RIGHT = 6;
+      const int32 STOP_SIGN = 7;
+      const int32 THUMB_UP = 8;
+      const int32 ZOOMING_IN_WITH_HAND_OR_TWO_FINGERS = 9;
+      const int32 ZOOMING_OUT_WITH_HAND_OR_TWO_FINGERS = 10;
+      const int32 THUMB_DOWN = 11;
+    };
+    struct GestureActionResult {
+      @verbatim (language="comment", text=
+        "手势识别结果id")
+      int32 id;
+    };
+  };
+};

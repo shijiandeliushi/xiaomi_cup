@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cyberdog_ws/build/params
+-- Install configuration: ""
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config/
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors/tof_left_rear.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors/ultrasonic_config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors/tof_config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors/tof_right_head.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors/ultrasonic.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors/tof_left_head.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors/tof_right_rear.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors/lidar.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//sensors/bcmgps_config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//bes_transmit
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//bes_transmit/server.pem
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//database
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//database/config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/uwb_head_tof.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/mini_led.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/uwb_head.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/led_priority.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/tail_led.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/head_led.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/led_color_config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/uwb_head_uwb.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/uwb_config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/uwb_rear_uwb.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/uwb_rear_tof.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/battery_config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//device/uwb_rear.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//cyberdog_grpc
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//cyberdog_grpc/server-cert.pem
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//cyberdog_grpc/ca-cert.pem
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//cyberdog_grpc/server-key.pem
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//interaction
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//interaction/audio.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//interaction/gesture_action.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//interaction/connector.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//interaction/wifi.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//interaction/sports.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//interaction/visual_programming.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//manager
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//manager/state_machine_config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//manager/hardware_state_machine_config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//manager/heart_beat_config.toml
+-- Installing: /home/cyberdog_ws/install/share/params/toml_config//manager/selfcheck_config.toml
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/params
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/params
+-- Installing: /home/cyberdog_ws/install/share/params/environment/ament_prefix_path.sh
+-- Installing: /home/cyberdog_ws/install/share/params/environment/ament_prefix_path.dsv
+-- Installing: /home/cyberdog_ws/install/share/params/environment/path.sh
+-- Installing: /home/cyberdog_ws/install/share/params/environment/path.dsv
+-- Installing: /home/cyberdog_ws/install/share/params/local_setup.bash
+-- Installing: /home/cyberdog_ws/install/share/params/local_setup.sh
+-- Installing: /home/cyberdog_ws/install/share/params/local_setup.zsh
+-- Installing: /home/cyberdog_ws/install/share/params/local_setup.dsv
+-- Installing: /home/cyberdog_ws/install/share/params/package.dsv
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/params
+-- Installing: /home/cyberdog_ws/install/share/params/cmake/paramsConfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/params/cmake/paramsConfig-version.cmake
+-- Installing: /home/cyberdog_ws/install/share/params/package.xml

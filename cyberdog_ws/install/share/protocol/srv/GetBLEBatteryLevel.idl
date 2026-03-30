@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/GetBLEBatteryLevel.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct GetBLEBatteryLevel_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetBLEBatteryLevel_Response {
+      boolean connected;
+
+      @verbatim (language="comment", text=
+        " 0.0~1.0")
+      float persentage;
+
+      int32 code;
+    };
+  };
+};

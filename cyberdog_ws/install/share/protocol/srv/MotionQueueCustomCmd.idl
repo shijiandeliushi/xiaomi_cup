@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/MotionQueueCustomCmd.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/MotionCustomCmd.idl"
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct MotionQueueCustomCmd_Request {
+      sequence<protocol::msg::MotionCustomCmd> cmds;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct MotionQueueCustomCmd_Response {
+      @verbatim (language="comment", text=
+        " 执行结果")
+      boolean result;
+
+      int32 code;
+    };
+  };
+};

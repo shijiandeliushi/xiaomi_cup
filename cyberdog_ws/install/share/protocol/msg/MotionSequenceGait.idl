@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/MotionSequenceGait.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    struct MotionSequenceGait {
+      @verbatim (language="comment", text=
+        " 右前足:是否接触地面？")
+      boolean right_forefoot;
+
+      @verbatim (language="comment", text=
+        " 左前足:是否接触地面？")
+      boolean left_forefoot;
+
+      @verbatim (language="comment", text=
+        " 右后足:是否接触地面？")
+      boolean right_hindfoot;
+
+      @verbatim (language="comment", text=
+        " 左后足:是否接触地面？")
+      boolean left_hindfoot;
+
+      @verbatim (language="comment", text=
+        " 持续时间(毫秒),默认:10")
+      int64 duration;
+    };
+  };
+};

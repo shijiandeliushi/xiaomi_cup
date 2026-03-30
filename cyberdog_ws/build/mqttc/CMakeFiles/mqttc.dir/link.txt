@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,libmqttc.so -o libmqttc.so CMakeFiles/mqttc.dir/src/mqtt_pal.c.o CMakeFiles/mqttc.dir/src/mqtt.c.o 

@@ -1,0 +1,6 @@
+
+int32 RESULT_SUCCESS = 0
+int32 RESULT_BUSY = 1
+
+
+int32 code

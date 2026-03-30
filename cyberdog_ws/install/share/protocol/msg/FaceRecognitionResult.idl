@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/FaceRecognitionResult.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module FaceRecognitionResult_Constants {
+      const int32 RESULT_SUCCESS = 0;
+      const int32 RESULT_TIMEOUT = 5907;
+    };
+    struct FaceRecognitionResult {
+      string username;
+
+      int32 result;
+
+      string id;
+
+      float age;
+
+      float emotion;
+    };
+  };
+};

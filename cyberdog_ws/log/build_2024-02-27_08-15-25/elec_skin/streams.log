@@ -1,0 +1,64 @@
+[0.024s] Invoking command in '/home/cyberdog_ws/build/elec_skin': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/motion/elec_skin -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.037s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.058s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.110s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.362s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.474s] -- Found toml: 0.0.0 (/home/cyberdog_ws/install/share/toml/cmake)
+[0.475s] -- Found cyberdog_common: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_common/cmake)
+[0.496s] -- Found cyberdog_embed_protocol: 1.0.0 (/home/cyberdog_ws/install/share/cyberdog_embed_protocol/cmake)
+[0.502s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.574s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.575s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.575s] -- Configured cppcheck include dirs: /home/cyberdog_ws/src/motion/elec_skin/include
+[0.575s] -- Configured cppcheck exclude dirs and/or files: 
+[0.575s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.575s] -- Configured cpplint exclude dirs and/or files: 
+[0.576s] -- Added test 'lint_cmake' to check CMake code style
+[0.577s] -- Added test 'uncrustify' to check C / C++ code style
+[0.577s] -- Configured uncrustify additional arguments: 
+[0.577s] -- Added test 'xmllint' to check XML markup files
+[0.580s] -- Configuring done
+[0.588s] -- Generating done
+[0.589s] -- Build files have been written to: /home/cyberdog_ws/build/elec_skin
+[0.594s] Invoked command in '/home/cyberdog_ws/build/elec_skin' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_ws/src/motion/elec_skin -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.597s] Invoking command in '/home/cyberdog_ws/build/elec_skin': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/elec_skin -- -j16 -l16
+[0.635s] [35m[1mScanning dependencies of target elec_skin[0m
+[0.673s] [ 50%] [32mBuilding CXX object CMakeFiles/elec_skin.dir/src/main.cpp.o[0m
+[11.267s] [100%] [32m[1mLinking CXX executable elec_skin[0m
+[11.718s] [100%] Built target elec_skin
+[11.730s] Invoked command in '/home/cyberdog_ws/build/elec_skin' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/elec_skin -- -j16 -l16
+[11.758s] Invoking command in '/home/cyberdog_ws/build/elec_skin': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/elec_skin
+[11.765s] -- Install configuration: ""
+[11.765s] -- Up-to-date: /home/cyberdog_ws/install/include
+[11.765s] -- Installing: /home/cyberdog_ws/install/include/elec_skin
+[11.765s] -- Installing: /home/cyberdog_ws/install/include/elec_skin/elec_skin_base.hpp
+[11.765s] -- Installing: /home/cyberdog_ws/install/include/elec_skin/elec_skin.hpp
+[11.765s] -- Installing: /home/cyberdog_ws/install/lib/elec_skin/elec_skin
+[11.769s] -- Set runtime path of "/home/cyberdog_ws/install/lib/elec_skin/elec_skin" to ""
+[11.769s] -- Up-to-date: /home/cyberdog_ws/install/include/
+[11.769s] -- Up-to-date: /home/cyberdog_ws/install/include//elec_skin
+[11.769s] -- Up-to-date: /home/cyberdog_ws/install/include//elec_skin/elec_skin_base.hpp
+[11.769s] -- Up-to-date: /home/cyberdog_ws/install/include//elec_skin/elec_skin.hpp
+[11.769s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/toml_config/
+[11.769s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/toml_config//elec_skin.toml
+[11.769s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/elec_skin
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/elec_skin
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/environment/ament_prefix_path.sh
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/environment/ament_prefix_path.dsv
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/environment/path.sh
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/environment/path.dsv
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/local_setup.bash
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/local_setup.sh
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/local_setup.zsh
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/local_setup.dsv
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/package.dsv
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/elec_skin
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/cmake/elec_skinConfig.cmake
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/cmake/elec_skinConfig-version.cmake
+[11.770s] -- Installing: /home/cyberdog_ws/install/share/elec_skin/package.xml
+[11.773s] Invoked command in '/home/cyberdog_ws/build/elec_skin' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/elec_skin

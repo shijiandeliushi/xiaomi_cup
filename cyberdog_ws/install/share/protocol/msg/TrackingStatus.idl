@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/TrackingStatus.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module TrackingStatus_Constants {
+      const uint8 OBJECT_FAR = 0;
+      const uint8 OBJECT_NEAR = 1;
+      const uint8 OBJECT_LOST = 2;
+      const uint8 OBJECT_EDGE = 3;
+      const uint8 START_SUCCESS = 4;
+      const uint8 START_FAIL = 5;
+      const uint8 OBJECT_INVISIBLE = 6;
+      const uint8 STATUS_SELECTING = 7;
+      const uint8 STATUS_RECOGNIZING = 8;
+      const uint8 STATUS_TRACKING = 9;
+    };
+    @verbatim (language="comment", text=
+      " FAR:3.0 NEAR:0.8")
+    struct TrackingStatus {
+      uint8 status;
+    };
+  };
+};

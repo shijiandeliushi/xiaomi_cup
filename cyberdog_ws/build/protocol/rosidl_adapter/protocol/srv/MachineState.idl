@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/MachineState.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module MachineState_Request_Constants {
+      const uint8 MACHINE_STATE_ACTIVE = 0;
+      const uint8 MACHINE_STATE_PROTECT = 1;
+      const uint8 MACHINE_STATE_LOWPOWER = 2;
+      const uint8 MACHINE_STATE_OTA = 3;
+      const uint8 MACHINE_STATE_SHUTDOWN = 4;
+      const uint8 MACHINE_STATE_SELFCHECK = 5;
+      const uint8 MACHINE_STATE_DEACTIVE = 6;
+      const uint8 MACHINE_STATE_ERROR = 7;
+    };
+    @verbatim (language="comment", text=
+      " state具体取值")
+    struct MachineState_Request {
+      uint8 state;
+
+      @verbatim (language="comment", text=
+        " 单位秒")
+      uint16 ticks;
+    };
+    struct MachineState_Response {
+      @verbatim (language="comment", text=
+        " true:成功，false:失败")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        " 错误码")
+      int32 code;
+    };
+  };
+};

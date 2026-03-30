@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/GestureActionControl.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module GestureActionControl_Request_Constants {
+      const uint8 START_ALGO = 0;
+      const uint8 STOP_ALGO = 1;
+      const int32 DEFAUT_TIMEOUT = 60;
+    };
+    struct GestureActionControl_Request {
+      @verbatim (language="comment", text=
+        "打开或者停止手势动作识别算法")
+      uint8 command;
+
+      @verbatim (language="comment", text=
+        "算法持续时间有效时间为（1s-300s），请求中忽略此关键字" "\n"
+        "取值范围不在（1s-300s）算法持续时间默认为60s。")
+      int32 timeout;
+    };
+    module GestureActionControl_Response_Constants {
+      const int32 RESULT_SUCCESS = 0;
+      const int32 RESULT_BUSY = 1;
+    };
+    struct GestureActionControl_Response {
+      int32 code;
+    };
+  };
+};

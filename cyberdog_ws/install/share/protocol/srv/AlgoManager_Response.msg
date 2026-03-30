@@ -1,0 +1,11 @@
+
+
+# response
+uint8 ENABLE_SUCCESS = 0
+uint8 ENABLE_FAIL = 1
+uint8 result_enable
+
+uint8 DISABLE_SUCCESS = 0
+uint8 DISABLE_FAIL = 1
+uint8 result_disable
+int32 code

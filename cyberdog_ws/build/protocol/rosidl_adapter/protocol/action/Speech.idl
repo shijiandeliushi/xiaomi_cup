@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from protocol/ros/action/Speech.action
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/AudioPlay.idl"
+
+module protocol {
+  module action {
+    @verbatim (language="comment", text=
+      " Request")
+    struct Speech_Goal {
+      string module_name;
+
+      boolean is_online;
+
+      protocol::msg::AudioPlay speech;
+
+      string text;
+    };
+    module Speech_Result_Constants {
+      const uint8 SPEECH_RESULT_SUCCESS = 0;
+      const uint8 SPEECH_RESULT_FAILED = 1;
+    };
+    struct Speech_Result {
+      @verbatim (language="comment", text=
+        " Result")
+      uint8 status;
+    };
+    struct Speech_Feedback {
+      @verbatim (language="comment", text=
+        " Feedback")
+      boolean talking;
+    };
+  };
+};

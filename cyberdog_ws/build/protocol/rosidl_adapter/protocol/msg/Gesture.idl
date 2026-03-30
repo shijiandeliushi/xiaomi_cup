@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/Gesture.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/RegionOfInterest.idl"
+
+module protocol {
+  module msg {
+    module Gesture_Constants {
+      const int32 GESTURE_OK = 0;
+      const int32 GESTURE_FAST_BACKWARD = 1;
+      const int32 GESTURE_FAST_FORWARD = 2;
+      const int32 GESTURE_STOP_LEFT = 3;
+      const int32 GESTURE_STOP_RIGHT = 4;
+      const int32 GESTURE_THUMBS_UP = 5;
+      const int32 GESTURE_SHHH = 6;
+      const int32 GESTURE_FIST = 7;
+      const int32 GESTURE_PALM2FIST = 8;
+      const int32 GESTURE_INVALID = 9;
+    };
+    @verbatim (language="comment", text=
+      " gesture rect")
+    struct Gesture {
+      sensor_msgs::msg::RegionOfInterest roi;
+
+      int32 cls;
+    };
+  };
+};

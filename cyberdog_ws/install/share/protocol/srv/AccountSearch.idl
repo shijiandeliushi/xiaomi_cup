@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AccountSearch.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct AccountSearch_Request {
+      string member;
+    };
+    @verbatim (language="comment", text=
+      " reponse")
+    struct AccountSearch_Response {
+      string data;
+
+      int32 code;
+    };
+  };
+};

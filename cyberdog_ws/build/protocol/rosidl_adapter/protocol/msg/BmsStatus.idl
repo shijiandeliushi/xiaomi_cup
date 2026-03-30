@@ -1,0 +1,115 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/BmsStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module protocol {
+  module msg {
+    struct BmsStatus {
+      std_msgs::msg::Header header;
+
+      uint16 batt_volt;
+
+      int16 batt_curr;
+
+      uint8 batt_soc;
+
+      int16 batt_temp;
+
+      int16 power_adapter_temp;
+
+      int16 wireless_charging_temp;
+
+      uint8 batt_st;
+
+      uint8 bms_state_one;
+
+      uint8 bms_state_two;
+
+      int8 batt_health;
+
+      int16 batt_loop_number;
+
+      boolean power_normal;
+
+      boolean power_wired_charging;
+
+      boolean power_finished_charging;
+
+      boolean power_motor_shutdown;
+
+      boolean power_soft_shutdown;
+
+      boolean power_wp_place;
+
+      boolean power_wp_charging;
+
+      boolean power_expower_supply;
+
+      @verbatim (language="comment", text=
+        " 充电过流保护：0-nomal，1-error")
+      boolean charge_over_current;
+
+      @verbatim (language="comment", text=
+        " 放电过流保护：0-nomal，1-error")
+      boolean discharge_over_current;
+
+      @verbatim (language="comment", text=
+        " 电池过压保护：0-nomal，1-error")
+      boolean cell_over_voltage;
+
+      @verbatim (language="comment", text=
+        " 电池欠压保护：0-nomal，1-error")
+      boolean cell_under_voltage;
+
+      @verbatim (language="comment", text=
+        " 电池电压异常：0-nomal，1-error")
+      boolean cell_volt_abnormal;
+
+      @verbatim (language="comment", text=
+        " MOS过温保护：0-nomal，1-error")
+      boolean mos_over_temp;
+
+      @verbatim (language="comment", text=
+        " 放电短路保护：0-nomal，1-error")
+      boolean discharge_short;
+
+      @verbatim (language="comment", text=
+        " 保险丝断开保护：0-nomal，1-error")
+      boolean fuse;
+
+      @verbatim (language="comment", text=
+        " 放电过温保护：0-nomal，1-error")
+      boolean discharge_over_tmp;
+
+      @verbatim (language="comment", text=
+        " 放电欠温保护：0-nomal，1-error")
+      boolean discharge_under_tmp;
+
+      @verbatim (language="comment", text=
+        " 充电过温保护：0-nomal，1-error")
+      boolean charge_over_temp;
+
+      @verbatim (language="comment", text=
+        " 充电欠温保护：0-nomal，1-error")
+      boolean charge_under_temp;
+
+      @verbatim (language="comment", text=
+        " 充电MOS状态：0-on，1-off")
+      boolean charge_mos_state;
+
+      @verbatim (language="comment", text=
+        " 放电MOS状态: 0-on，1-off")
+      boolean discharge_mos_state;
+
+      @verbatim (language="comment", text=
+        " 充电MOS故障: 0-nomal，1-error")
+      boolean chg_mos_fault;
+
+      @verbatim (language="comment", text=
+        " 放电MOS故障：0-nomal，1-error")
+      boolean dsg_mos_fault;
+    };
+  };
+};

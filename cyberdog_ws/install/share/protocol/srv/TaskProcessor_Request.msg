@@ -1,0 +1,3 @@
+uint8 PROCESSOR_TASK = 1    # 任务处理器
+uint8 processor # 处理器
+

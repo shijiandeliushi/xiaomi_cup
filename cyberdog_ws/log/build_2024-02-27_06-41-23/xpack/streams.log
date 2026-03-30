@@ -1,0 +1,115 @@
+[0.011s] Invoking command in '/home/cyberdog_ws/build/xpack': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/cyberdog_ws/third_party/xpack -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.045s] -- The C compiler identification is GNU 9.4.0
+[0.077s] -- The CXX compiler identification is GNU 9.4.0
+[0.080s] -- Check for working C compiler: /usr/bin/cc
+[0.120s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.121s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Check for working CXX compiler: /usr/bin/c++
+[0.220s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.221s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.300s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.300s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.355s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.404s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.406s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.406s] -- Configured cppcheck include dirs: 
+[0.406s] -- Configured cppcheck exclude dirs and/or files: 
+[0.408s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.408s] -- Configured cpplint exclude dirs and/or files: 
+[0.408s] -- Added test 'lint_cmake' to check CMake code style
+[0.410s] -- Added test 'uncrustify' to check C / C++ code style
+[0.410s] -- Configured uncrustify additional arguments: 
+[0.410s] -- Added test 'xmllint' to check XML markup files
+[0.412s] -- Configuring done
+[0.413s] -- Generating done
+[0.414s] -- Build files have been written to: /home/cyberdog_ws/build/xpack
+[0.418s] Invoked command in '/home/cyberdog_ws/build/xpack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_ws/src/cyberdog_ws/third_party/xpack -DCMAKE_INSTALL_PREFIX=/home/cyberdog_ws/install
+[0.419s] Invoking command in '/home/cyberdog_ws/build/xpack': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/xpack -- -j16 -l16
+[0.442s] Invoked command in '/home/cyberdog_ws/build/xpack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/xpack -- -j16 -l16
+[0.455s] Invoking command in '/home/cyberdog_ws/build/xpack': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/xpack
+[0.460s] -- Install configuration: ""
+[0.460s] -- Up-to-date: /home/cyberdog_ws/install/include
+[0.460s] -- Installing: /home/cyberdog_ws/install/include/xpack
+[0.460s] -- Installing: /home/cyberdog_ws/install/include/xpack/numeric.h
+[0.460s] -- Installing: /home/cyberdog_ws/install/include/xpack/json_decoder.h
+[0.460s] -- Installing: /home/cyberdog_ws/install/include/xpack/xencoder.h
+[0.460s] -- Installing: /home/cyberdog_ws/install/include/xpack/rapidjson_custom.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/stream.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/schema.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/cursorstreamwrapper.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/ostreamwrapper.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/allocators.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/istreamwrapper.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/filereadstream.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/reader.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/pointer.h
+[0.461s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/memorybuffer.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/document.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/encodings.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/writer.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/fwd.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/prettywriter.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/stringbuffer.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/filewritestream.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/memorystream.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/rapidjson.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/encodedstream.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/stack.h
+[0.462s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/swap.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/diyfp.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/pow10.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/itoa.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/ieee754.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/biginteger.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/regex.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/strfunc.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/dtoa.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/strtod.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/meta.h
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/msinttypes
+[0.463s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/msinttypes/stdint.h
+[0.465s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/msinttypes/inttypes.h
+[0.465s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/error
+[0.465s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/error/error.h
+[0.465s] -- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/error/en.h
+[0.465s] -- Installing: /home/cyberdog_ws/install/include/xpack/xtype.h
+[0.465s] -- Installing: /home/cyberdog_ws/install/include/xpack/json.h
+[0.465s] -- Installing: /home/cyberdog_ws/install/include/xpack/l1l2_expand.h
+[0.465s] -- Installing: /home/cyberdog_ws/install/include/xpack/xpack.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/json_encoder.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/xml_decoder.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/util.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/xml_encoder.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/json_data.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/config.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/traits.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/xdecoder.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/extend.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/include/xpack/xml.h
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/xpack
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/xpack
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/xpack/environment/ament_prefix_path.sh
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/xpack/environment/ament_prefix_path.dsv
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/xpack/environment/path.sh
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/xpack/environment/path.dsv
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.bash
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.sh
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.zsh
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.dsv
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/xpack/package.dsv
+[0.466s] -- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/xpack
+[0.467s] -- Installing: /home/cyberdog_ws/install/share/xpack/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.467s] -- Installing: /home/cyberdog_ws/install/share/xpack/cmake/xpackConfig.cmake
+[0.467s] -- Installing: /home/cyberdog_ws/install/share/xpack/cmake/xpackConfig-version.cmake
+[0.467s] -- Installing: /home/cyberdog_ws/install/share/xpack/package.xml
+[0.475s] Invoked command in '/home/cyberdog_ws/build/xpack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/xpack

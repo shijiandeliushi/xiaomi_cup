@@ -1,0 +1,56 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found manager_base: 0.0.0 (/home/cyberdog_ws/install/share/manager_base/cmake)
+-- Found cyberdog_common: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_common/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found cyberdog_system: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_system/cmake)
+-- Found protocol: 1.0.0 (/home/cyberdog_ws/install/share/protocol/cmake)
+-- Found motion_action: 0.0.0 (/home/cyberdog_ws/install/share/motion_action/cmake)
+-- Found cyberdog_machine: 0.0.0 (/home/cyberdog_ws/install/share/cyberdog_machine/cmake)
+-- Found bes_transmit: 1.0.0 (/home/cyberdog_ws/install/share/bes_transmit/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cyberdog_ws/src/motion/motion_manager/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cyberdog_ws/build/motion_manager
+[35m[1mScanning dependencies of target motion_manager[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/motion_handler.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/motion_decision.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/motion_manager.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/motion_manager.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable motion_manager[0m
+[100%] Built target motion_manager
+-- Install configuration: ""
+-- Installing: /home/cyberdog_ws/install/lib/motion_manager/motion_manager
+-- Set runtime path of "/home/cyberdog_ws/install/lib/motion_manager/motion_manager" to ""
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/config
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/config/priority.toml
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/motion_manager
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/motion_manager
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/environment/ament_prefix_path.sh
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/environment/ament_prefix_path.dsv
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/environment/path.sh
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/environment/path.dsv
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/local_setup.bash
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/local_setup.sh
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/local_setup.zsh
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/local_setup.dsv
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/package.dsv
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/motion_manager
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/cmake/motion_managerConfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/cmake/motion_managerConfig-version.cmake
+-- Installing: /home/cyberdog_ws/install/share/motion_manager/package.xml

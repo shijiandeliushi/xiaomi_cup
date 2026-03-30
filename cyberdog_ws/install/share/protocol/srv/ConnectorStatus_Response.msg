@@ -1,0 +1,7 @@
+
+
+# response
+bool is_connected
+string ssid
+uint8 strength
+int32 code

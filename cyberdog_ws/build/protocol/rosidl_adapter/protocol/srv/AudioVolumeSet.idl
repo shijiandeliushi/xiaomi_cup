@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AudioVolumeSet.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct AudioVolumeSet_Request {
+      uint8 volume;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct AudioVolumeSet_Response {
+      boolean success;
+
+      int32 code;
+    };
+  };
+};

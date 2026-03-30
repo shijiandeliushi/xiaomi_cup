@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/CameraService.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module CameraService_Request_Constants {
+      const uint8 SET_PARAMETERS = 0;
+      const uint8 TAKE_PICTURE = 1;
+      const uint8 START_RECORDING = 2;
+      const uint8 STOP_RECORDING = 3;
+      const uint8 GET_STATE = 4;
+      const uint8 DELETE_FILE = 5;
+      const uint8 GET_ALL_FILES = 6;
+      const uint8 START_LIVE_STREAM = 7;
+      const uint8 STOP_LIVE_STREAM = 8;
+      const uint8 START_IMAGE_PUBLISH = 9;
+      const uint8 STOP_IMAGE_PUBLISH = 10;
+    };
+    struct CameraService_Request {
+      uint8 command;
+
+      @verbatim (language="comment", text=
+        " command arguments")
+      string args;
+
+      uint16 width;
+
+      uint16 height;
+
+      uint16 fps;
+    };
+    module CameraService_Response_Constants {
+      const uint8 RESULT_SUCCESS = 0;
+      const uint8 RESULT_INVALID_ARGS = 1;
+      const uint8 RESULT_UNSUPPORTED = 2;
+      const uint8 RESULT_TIMEOUT = 3;
+      const uint8 RESULT_BUSY = 4;
+      const uint8 RESULT_INVALID_STATE = 5;
+      const uint8 RESULT_INNER_ERROR = 6;
+      const uint8 RESULT_UNDEFINED_ERROR = 255;
+    };
+    struct CameraService_Response {
+      uint8 result;
+
+      string msg;
+
+      int32 code;
+    };
+  };
+};

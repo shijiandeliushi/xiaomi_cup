@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/BLEConnect.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/BLEInfo.idl"
+
+module protocol {
+  module srv {
+    struct BLEConnect_Request {
+      protocol::msg::BLEInfo selected_device;
+    };
+    struct BLEConnect_Response {
+      uint8 result;
+
+      int32 code;
+    };
+  };
+};

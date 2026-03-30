@@ -1,0 +1,114 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/VisualProgrammingOperate.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module VisualProgrammingOperate_Constants {
+      const string TYPE_TASK = "task";
+      const string TYPE_MODULE = "module";
+      const string TYPE_AI = "AI";
+      const string TYPE_SLAM = "SLAM";
+      const string MODE_FACTORY = "factory";
+      const string MODE_USER = "user";
+      const string MODE_SINGLE = "single";
+      const string MODE_CYCLE = "cycle";
+      const string MODE_COMMON = "common";
+      const string MODE_SEQUENCE = "sequence";
+      const string MODE_SINGLE_STEP = "single_step";
+      const string MODE_ORIGINAL = "original";
+      const string MODE_ALL = "all";
+      const string MODE_PERSONNEL = "personnel";
+      const string MODE_FACE = "face";
+      const string MODE_VOICEPRINT = "voiceprint";
+      const string MODE_TAAINING_WORDS = "training_words";
+      const string MODE_MAP = "map";
+      const string MODE_PRESET = "preset";
+      const string OPERATE_INQUIRY = "inquiry";
+      const string OPERATE_SAVE = "save";
+      const string OPERATE_DELETE = "delete";
+      const string OPERATE_DEBUG = "debug";
+      const string OPERATE_RUN = "run";
+      const string OPERATE_SUSPEND = "suspend";
+      const string OPERATE_RECOVER = "recover";
+      const string OPERATE_SHUTDOWN = "shutdown";
+      const string OPERATE_START = "start";
+      const string OPERATE_STOP = "stop";
+      const string STATE_NULL = "null";
+      const string STATE_ERROR = "error";
+      const string STATE_WAIT_RUN = "wait_run";
+      const string STATE_RUN_WAIT = "run_wait";
+      const string STATE_RUN = "run";
+      const string STATE_SUSPEND = "suspend";
+      const string STATE_SHUTDOWN = "shutdown";
+      const string STATE_NORMAL = "normal";
+      const string STEP_PARSE = "parse";
+      const string STEP_REGISTER = "register";
+      const string STEP_BEGIN = "begin";
+      const string STEP_END = "end";
+      const string FSM_UNINITIALIZED = "Uninitialized";
+      const string FSM_SET_UP = "SetUp";
+      const string FSM_TEAR_DOWN = "TearDown";
+      const string FSM_SELF_CHECK = "SelfCheck";
+      const string FSM_ACTIVE = "Active";
+      const string FSM_DE_ACTIVE = "DeActive";
+      const string FSM_PROTECTED = "Protected";
+      const string FSM_LOW_POWER = "LowPower";
+      const string FSM_OTA = "OTA";
+      const string FSM_ERROR = "Error";
+    };
+    @verbatim (language="comment", text=
+      " 用于可视化编程项目包" "\n"
+      " 详情参见：https://xiaomi.f.mioffice.cn/docs/dock4nUNWHVve526QMxnT4b0taf#S9ebnr")
+    struct VisualProgrammingOperate {
+      @verbatim (language="comment", text=
+        " 消息类型")
+      string type;
+
+      @verbatim (language="comment", text=
+        " 消息ID")
+      string id;
+
+      @verbatim (language="comment", text=
+        " 目标ID")
+      sequence<string> target_id;
+
+      @verbatim (language="comment", text=
+        " 消息描述")
+      string describe;
+
+      @verbatim (language="comment", text=
+        " 消息样式")
+      string style;
+
+      @verbatim (language="comment", text=
+        " 操作类型")
+      string operate;
+
+      @verbatim (language="comment", text=
+        " 模式类型")
+      string mode;
+
+      @verbatim (language="comment", text=
+        " 约束信息")
+      string condition;
+
+      @verbatim (language="comment", text=
+        " 消息主体")
+      string body;
+
+      @verbatim (language="comment", text=
+        " 状态机状态")
+      string fsm;
+
+      @verbatim (language="comment", text=
+        " 依赖项")
+      sequence<string> dependent;
+
+      @verbatim (language="comment", text=
+        " 被依赖项")
+      sequence<string> be_depended;
+    };
+  };
+};

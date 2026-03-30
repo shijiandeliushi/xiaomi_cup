@@ -1,0 +1,109 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cyberdog_ws/build/xpack
+-- Install configuration: ""
+-- Up-to-date: /home/cyberdog_ws/install/include
+-- Installing: /home/cyberdog_ws/install/include/xpack
+-- Installing: /home/cyberdog_ws/install/include/xpack/numeric.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/json_decoder.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/xencoder.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/rapidjson_custom.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/stream.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/schema.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/cursorstreamwrapper.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/ostreamwrapper.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/allocators.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/istreamwrapper.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/filereadstream.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/reader.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/pointer.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/memorybuffer.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/document.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/encodings.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/writer.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/fwd.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/prettywriter.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/stringbuffer.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/filewritestream.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/memorystream.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/rapidjson.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/encodedstream.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/stack.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/swap.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/diyfp.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/pow10.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/itoa.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/ieee754.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/biginteger.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/regex.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/strfunc.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/dtoa.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/strtod.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/internal/meta.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/msinttypes
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/msinttypes/stdint.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/msinttypes/inttypes.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/error
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/error/error.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/thirdparty/rapidjson/error/en.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/xtype.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/json.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/l1l2_expand.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/xpack.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/json_encoder.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/xml_decoder.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/util.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/xml_encoder.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/json_data.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/config.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/traits.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/xdecoder.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/extend.h
+-- Installing: /home/cyberdog_ws/install/include/xpack/xml.h
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/xpack
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/xpack
+-- Installing: /home/cyberdog_ws/install/share/xpack/environment/ament_prefix_path.sh
+-- Installing: /home/cyberdog_ws/install/share/xpack/environment/ament_prefix_path.dsv
+-- Installing: /home/cyberdog_ws/install/share/xpack/environment/path.sh
+-- Installing: /home/cyberdog_ws/install/share/xpack/environment/path.dsv
+-- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.bash
+-- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.sh
+-- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.zsh
+-- Installing: /home/cyberdog_ws/install/share/xpack/local_setup.dsv
+-- Installing: /home/cyberdog_ws/install/share/xpack/package.dsv
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/xpack
+-- Installing: /home/cyberdog_ws/install/share/xpack/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/cyberdog_ws/install/share/xpack/cmake/xpackConfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/xpack/cmake/xpackConfig-version.cmake
+-- Installing: /home/cyberdog_ws/install/share/xpack/package.xml

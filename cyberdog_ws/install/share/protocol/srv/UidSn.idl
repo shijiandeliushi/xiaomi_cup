@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/UidSn.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct UidSn_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct UidSn_Response {
+      @verbatim (language="comment", text=
+        " 用户账号id")
+      string uid;
+
+      @verbatim (language="comment", text=
+        " 设备序列号")
+      string sn;
+
+      int32 code;
+    };
+  };
+};

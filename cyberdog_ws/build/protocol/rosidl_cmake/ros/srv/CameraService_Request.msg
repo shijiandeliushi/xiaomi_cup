@@ -1,0 +1,18 @@
+uint8 SET_PARAMETERS = 0
+uint8 TAKE_PICTURE = 1
+uint8 START_RECORDING = 2
+uint8 STOP_RECORDING = 3
+uint8 GET_STATE = 4
+uint8 DELETE_FILE = 5
+uint8 GET_ALL_FILES = 6
+uint8 START_LIVE_STREAM = 7
+uint8 STOP_LIVE_STREAM = 8
+uint8 START_IMAGE_PUBLISH = 9
+uint8 STOP_IMAGE_PUBLISH = 10
+
+uint8 command
+# command arguments
+string args
+uint16 width
+uint16 height
+uint16 fps

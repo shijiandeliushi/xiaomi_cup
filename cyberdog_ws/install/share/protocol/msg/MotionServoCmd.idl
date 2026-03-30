@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/MotionServoCmd.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module MotionServoCmd_Constants {
+      const int32 SERVO_START = 0;
+      const int32 SERVO_DATA = 1;
+      const int32 SERVO_END = 2;
+      const int32 APP = 0;
+      const int32 AUDIO = 1;
+      const int32 VIS = 2;
+    };
+    struct MotionServoCmd {
+      int32 motion_id;
+
+      int32 cmd_type;
+
+      int32 cmd_source;
+
+      int32 value;
+
+      @verbatim (language="comment", text=
+        " x y yaw speed  m/s")
+      sequence<float> vel_des;
+
+      @verbatim (language="comment", text=
+        " roll pitch yaw  rad")
+      sequence<float> rpy_des;
+
+      @verbatim (language="comment", text=
+        " x y z  m/s")
+      sequence<float> pos_des;
+
+      @verbatim (language="comment", text=
+        " acc for jump m^2/s")
+      sequence<float> acc_des;
+
+      @verbatim (language="comment", text=
+        " pose ctrl point  m")
+      sequence<float> ctrl_point;
+
+      @verbatim (language="comment", text=
+        " front/back foot pose x,y,z  m")
+      sequence<float> foot_pose;
+
+      @verbatim (language="comment", text=
+        " step height when trot  m")
+      sequence<float> step_height;
+    };
+  };
+};

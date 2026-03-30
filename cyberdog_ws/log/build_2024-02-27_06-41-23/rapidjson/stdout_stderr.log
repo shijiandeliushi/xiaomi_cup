@@ -1,0 +1,88 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cyberdog_ws/build/rapidjson
+-- Install configuration: ""
+-- Up-to-date: /home/cyberdog_ws/install/include
+-- Installing: /home/cyberdog_ws/install/include/rapidjson
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/stream.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/schema.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/ostreamwrapper.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/allocators.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/istreamwrapper.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/filereadstream.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/reader.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/pointer.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/memorybuffer.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/document.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/encodings.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/writer.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/fwd.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/prettywriter.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/stringbuffer.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/filewritestream.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/memorystream.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/rapidjson.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/encodedstream.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/stack.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/swap.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/diyfp.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/pow10.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/itoa.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/ieee754.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/biginteger.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/regex.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/strfunc.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/dtoa.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/strtod.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/internal/meta.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/msinttypes
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/msinttypes/stdint.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/msinttypes/inttypes.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/error
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/error/error.h
+-- Installing: /home/cyberdog_ws/install/include/rapidjson/error/en.h
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/rapidjson
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/rapidjson
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/environment/ament_prefix_path.sh
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/environment/ament_prefix_path.dsv
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/environment/path.sh
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/environment/path.dsv
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/local_setup.bash
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/local_setup.sh
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/local_setup.zsh
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/local_setup.dsv
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/package.dsv
+-- Installing: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/rapidjson
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/cmake/rapidjsonConfig.cmake
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/cmake/rapidjsonConfig-version.cmake
+-- Installing: /home/cyberdog_ws/install/share/rapidjson/package.xml

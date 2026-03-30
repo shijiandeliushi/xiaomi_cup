@@ -1,0 +1,24 @@
+[0.032s] Invoking command in '/home/cyberdog_ws/build/cyberdog_debug': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_debug -- -j16 -l16
+[0.076s] Invoked command in '/home/cyberdog_ws/build/cyberdog_debug' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_debug -- -j16 -l16
+[0.104s] Invoking command in '/home/cyberdog_ws/build/cyberdog_debug': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_debug
+[0.115s] -- Install configuration: ""
+[0.115s] -- Up-to-date: /home/cyberdog_ws/install/include/
+[0.115s] -- Up-to-date: /home/cyberdog_ws/install/include//cyberdog_debug
+[0.115s] -- Up-to-date: /home/cyberdog_ws/install/include//cyberdog_debug/backtrace.hpp
+[0.116s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_debug
+[0.116s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_debug
+[0.116s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/environment/ament_prefix_path.sh
+[0.116s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/environment/ament_prefix_path.dsv
+[0.116s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/environment/path.sh
+[0.116s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/environment/path.dsv
+[0.116s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/local_setup.bash
+[0.117s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/local_setup.sh
+[0.117s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/local_setup.zsh
+[0.117s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/local_setup.dsv
+[0.117s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/package.dsv
+[0.117s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/cyberdog_debug
+[0.117s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.117s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/cmake/cyberdog_debugConfig.cmake
+[0.117s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/cmake/cyberdog_debugConfig-version.cmake
+[0.118s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_debug/package.xml
+[0.163s] Invoked command in '/home/cyberdog_ws/build/cyberdog_debug' returned '0': AMENT_PREFIX_PATH=/home/cyberdog_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberdog_ws/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/cyberdog_ws/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberdog_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_debug

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AlgoTaskStatus.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct AlgoTaskStatus_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    module AlgoTaskStatus_Response_Constants {
+      const uint8 ALGO_TASK_AB = 1;
+      const uint8 ALGO_TASK_MAPPING = 5;
+      const uint8 ALGO_TASK_LOCALIZATION = 7;
+      const uint8 ALGO_TASK_AUTO_DOCKING = 9;
+      const uint8 ALGO_TASK_UWB_TRACKING = 11;
+      const uint8 ALGO_TASK_VISION_TRACKING = 13;
+      const uint8 UNINITIALIZED = 100;
+      const uint8 IDLE = 101;
+      const uint8 STOPPINGTASK = 103;
+    };
+    struct AlgoTaskStatus_Response {
+      uint8 status;
+
+      int32 code;
+    };
+  };
+};

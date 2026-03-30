@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/Person.msg
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/BodyInfo.idl"
+#include "protocol/msg/FaceInfo.idl"
+#include "protocol/msg/TrackResult.idl"
+#include "std_msgs/msg/Header.idl"
+
+module protocol {
+  module msg {
+    @verbatim (language="comment", text=
+      " frame header")
+    struct Person {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " face info")
+      protocol::msg::FaceInfo face_info;
+
+      @verbatim (language="comment", text=
+        " body info")
+      protocol::msg::BodyInfo body_info;
+
+      @verbatim (language="comment", text=
+        " auto track")
+      protocol::msg::TrackResult track_res;
+    };
+  };
+};

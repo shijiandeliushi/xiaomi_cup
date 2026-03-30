@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/RearTofPayload.msg
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/SingleTofPayload.idl"
+
+module protocol {
+  module msg {
+    struct RearTofPayload {
+      @verbatim (language="comment", text=
+        " This message is  used to describe rear tofs")
+      protocol::msg::SingleTofPayload left_rear;
+
+      protocol::msg::SingleTofPayload right_rear;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/FsMachine.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct FsMachine_Request {
+      string target_state;
+    };
+    struct FsMachine_Response {
+      uint8 current_state;
+
+      int32 code;
+    };
+  };
+};

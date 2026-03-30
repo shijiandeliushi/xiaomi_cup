@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/WifiStatus.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    @verbatim (language="comment", text=
+      " 该消息用于表征模块所在设备的wifi信息的接口约束")
+    struct WifiStatus {
+      @verbatim (language="comment", text=
+        " 是否连接了网络，取值范围{true, false}" "\n"
+        " 仅当时，下述字段有效")
+      @unit (value="is_connected=true")
+      boolean is_connected;
+
+      @verbatim (language="comment", text=
+        " 设备ip地址")
+      string ip;
+
+      @verbatim (language="comment", text=
+        " 设备wifi名字")
+      string ssid;
+
+      @verbatim (language="comment", text=
+        " 设备wifi信号强度，取值范围[0,100]，0：无信号，100：信号最强")
+      uint8 strength;
+    };
+  };
+};

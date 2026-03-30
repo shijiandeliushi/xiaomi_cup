@@ -1,0 +1,14 @@
+source;share/elec_skin/hook/cmake_prefix_path.ps1
+source;share/elec_skin/hook/cmake_prefix_path.dsv
+source;share/elec_skin/hook/cmake_prefix_path.sh
+source;share/elec_skin/hook/ld_library_path_lib.ps1
+source;share/elec_skin/hook/ld_library_path_lib.dsv
+source;share/elec_skin/hook/ld_library_path_lib.sh
+source;share/elec_skin/hook/pythonpath.ps1
+source;share/elec_skin/hook/pythonpath.dsv
+source;share/elec_skin/hook/pythonpath.sh
+source;share/elec_skin/local_setup.bash
+source;share/elec_skin/local_setup.dsv
+source;share/elec_skin/local_setup.ps1
+source;share/elec_skin/local_setup.sh
+source;share/elec_skin/local_setup.zsh

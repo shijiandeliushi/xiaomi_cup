@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/RebootMachine.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct RebootMachine_Request {
+      @verbatim (language="comment", text=
+        " 1997")
+      int32 rebootmachine;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct RebootMachine_Response {
+      @verbatim (language="comment", text=
+        " 0" "\n"
+        " 255")
+      int32 rebootresult;
+    };
+  };
+};

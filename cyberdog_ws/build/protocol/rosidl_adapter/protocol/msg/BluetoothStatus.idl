@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/BluetoothStatus.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    struct BluetoothStatus {
+      int8 advtiseable;
+
+      int8 connectable;
+    };
+  };
+};

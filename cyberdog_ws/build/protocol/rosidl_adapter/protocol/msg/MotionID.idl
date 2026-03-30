@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/MotionID.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module MotionID_Constants {
+      const int32 ESTOP = 0;
+      const int32 GETDOWN = 101;
+      const int32 RECOVERYSTAND = 111;
+      const int32 WALK_STAND = 112;
+      const int32 BACK_FLIP = 121;
+      const int32 TWO_LEG_STAND = 123;
+      const int32 ROLL_OVER = 124;
+      const int32 PASSIVE_TROT = 125;
+      const int32 JUMP_STAIR = 126;
+      const int32 JUMP_UPSTAIR = 126;
+      const int32 JUMP_DOWNSTAIR = 137;
+      const int32 JUMP3D_LEFT90DEG = 130;
+      const int32 JUMP3D_RIGHT90DEG = 131;
+      const int32 JUMP3D_FORWARD60CM = 132;
+      const int32 JUMP3D_FORWARD30CM = 133;
+      const int32 JUMP3D_LEFT20CM = 134;
+      const int32 JUMP3D_RIGHT20CM = 135;
+      const int32 JUMP3D_UP30CM = 136;
+      const int32 FORCECONTROL_DEFINITIVELY = 201;
+      const int32 FORCECONTROL_RELATIVEYLY = 202;
+      const int32 POSECONTROL_DEFINITIVELY = 211;
+      const int32 POSECONTROL_RELATIVEYLY = 212;
+      const int32 JUMP_BOUND = 301;
+      const int32 JUMP_PRONK = 302;
+      const int32 WALK_USERTROT = 303;
+      const int32 WALK_ADAPTIVELY = 304;
+      const int32 WALK_FLYTROT = 305;
+      const int32 SEQUENCE_CUSTOM = 400;
+    };
+    struct MotionID {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,166 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/MotionSequenceShow.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/MotionSequenceGait.idl"
+#include "protocol/msg/MotionSequencePace.idl"
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct MotionSequenceShow_Request {
+      @verbatim (language="comment", text=
+        " ● 运动id,固定值:MotionID::SEQUENCE_CUSTOM")
+      int32 motion_id;
+
+      @verbatim (language="comment", text=
+        " 命令来源")
+      int32 cmd_source;
+
+      @verbatim (language="comment", text=
+        " ● 序列中步伐各元素持续时长总和（毫秒）")
+      int64 duration;
+
+      @verbatim (language="comment", text=
+        " ● 运动序列步态集")
+      sequence<protocol::msg::MotionSequenceGait> gait_list;
+
+      @verbatim (language="comment", text=
+        " ● 运动序列步伐集" "\n"
+        " ● 下述 toml 内容通用约束信息：" "\n"
+        "   ◎ 下述 toml 格式中第一行为内容固定；" "\n"
+        "   ◎ 下述 toml 格式中最后一行固定为空；" "\n"
+        "   ◎ 下述 toml 格式中 m/n 意义为:" "\n"
+        "       ○ n: 为当前 toml 文件内帧数总计；" "\n"
+        "       ○ m: 为当前帧的序号计数（从1开始）。")
+      sequence<protocol::msg::MotionSequencePace> pace_list;
+
+      @verbatim (language="comment", text=
+        " ● 步伐 toml section 集(toml 格式约束如下)" "\n"
+        " ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑" "\n"
+        " ┃# Gait toml meta.                            │" "\n"
+        " ┃                                             │" "\n"
+        " ┃# m/n                                        │" "\n"
+        " ┃]                                  │" "\n"
+        " ┃contact  = [0, 0, 0, 0]                      │" "\n"
+        " ┃duration = 3                                 │" "\n"
+        " ┃                                             │" "\n"
+        " ┖─────────────────────────────────────────────┘")
+      @unit (value="[section")
+      sequence<string> gait_toml_list;
+
+      @verbatim (language="comment", text=
+        " ● 步伐 toml step 集(toml 格式约束如下)" "\n"
+        " ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑" "\n"
+        " ┃# Pace toml meta.                            │" "\n"
+        " ┃                                             │" "\n"
+        " ┃# m/n                                        │" "\n"
+        " ┃]                                     │" "\n"
+        " ┃mode = 11                                    │" "\n"
+        " ┃gait_id = 110                                │" "\n"
+        " ┃contact = 0.0                                │" "\n"
+        " ┃life_count = 0                               │" "\n"
+        " ┃vel_des = [ 0.0, 0.0, 0.0]                   │" "\n"
+        " ┃rpy_des = [ 0.0, 0.0, 0.0]                   │" "\n"
+        " ┃pos_des = [ 0.0, 0.0, 0.0]                   │" "\n"
+        " ┃acc_des = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]    │" "\n"
+        " ┃ctrl_point = [ 0.0, 0.0, 0.0]                │" "\n"
+        " ┃foot_pose = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]  │" "\n"
+        " ┃step_height = [ 0.0, 0.0]                    │" "\n"
+        " ┃value = 0                                    │" "\n"
+        " ┃duration = 0                                 │" "\n"
+        " ┃                                             │" "\n"
+        " ┖─────────────────────────────────────────────┘")
+      @unit (value="[step")
+      sequence<string> pace_toml_list;
+
+      @verbatim (language="comment", text=
+        " ● 步态 toml 文件内容(toml 格式约束如下)" "\n"
+        " ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑" "\n"
+        " ┃# Gait toml.                                 │" "\n"
+        " ┃# Toml file describe.                        │" "\n"
+        " ┃                                             │" "\n"
+        " ┃# m/n                                        │" "\n"
+        " ┃[[section]]                                  │" "\n"
+        " ┃contact  = [0, 0, 0, 0]                      │" "\n"
+        " ┃duration = 3                                 │" "\n"
+        " ┃                                             │" "\n"
+        " ┃# m/n                                        │" "\n"
+        " ┃[[section]]                                  │" "\n"
+        " ┃contact  = [0, 0, 0, 0]                      │" "\n"
+        " ┃duration = 3                                 │" "\n"
+        " ┃                                             │" "\n"
+        " ┃# m/n                                        │" "\n"
+        " ┃[[section]]                                  │" "\n"
+        " ┃...                                          │" "\n"
+        " ┃                                             │" "\n"
+        " ┖─────────────────────────────────────────────┘")
+      string gait_toml;
+
+      @verbatim (language="comment", text=
+        " ● 步伐 toml 文件内容(toml 格式约束如下)" "\n"
+        " ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑" "\n"
+        " ┃# Pace toml.                                 │" "\n"
+        " ┃# Toml file describe.                        │" "\n"
+        " ┃                                             │" "\n"
+        " ┃# m/n                                        │" "\n"
+        " ┃[[step]]                                     │" "\n"
+        " ┃mode = 11                                    │" "\n"
+        " ┃gait_id = 110                                │" "\n"
+        " ┃contact = 0.0                                │" "\n"
+        " ┃life_count = 0                               │" "\n"
+        " ┃vel_des = [ 0.0, 0.0, 0.0]                   │" "\n"
+        " ┃rpy_des = [ 0.0, 0.0, 0.0]                   │" "\n"
+        " ┃pos_des = [ 0.0, 0.0, 0.0]                   │" "\n"
+        " ┃acc_des = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]    │" "\n"
+        " ┃ctrl_point = [ 0.0, 0.0, 0.0]                │" "\n"
+        " ┃foot_pose = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]  │" "\n"
+        " ┃step_height = [ 0.0, 0.0]                    │" "\n"
+        " ┃value = 0                                    │" "\n"
+        " ┃duration = 0                                 │" "\n"
+        " ┃                                             │" "\n"
+        " ┃# m/n                                        │" "\n"
+        " ┃[[step]]                                     │" "\n"
+        " ┃mode = 11                                    │" "\n"
+        " ┃gait_id = 110                                │" "\n"
+        " ┃contact = 0.0                                │" "\n"
+        " ┃life_count = 0                               │" "\n"
+        " ┃vel_des = [ 0.0, 0.0, 0.0]                   │" "\n"
+        " ┃rpy_des = [ 0.0, 0.0, 0.0]                   │" "\n"
+        " ┃pos_des = [ 0.0, 0.0, 0.0]                   │" "\n"
+        " ┃acc_des = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]    │" "\n"
+        " ┃ctrl_point = [ 0.0, 0.0, 0.0]                │" "\n"
+        " ┃foot_pose = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]  │" "\n"
+        " ┃step_height = [ 0.0, 0.0]                    │" "\n"
+        " ┃value = 0                                    │" "\n"
+        " ┃duration = 0                                 │" "\n"
+        " ┃                                             │" "\n"
+        " ┃# m/n                                        │" "\n"
+        " ┃[[step]]                                     │" "\n"
+        " ┃...                                          │" "\n"
+        " ┃                                             │" "\n"
+        " ┖─────────────────────────────────────────────┘")
+      string pace_toml;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct MotionSequenceShow_Response {
+      @verbatim (language="comment", text=
+        " ● 执行结果")
+      boolean result;
+
+      @verbatim (language="comment", text=
+        " ● 状态码")
+      int32 code;
+
+      @verbatim (language="comment", text=
+        " ● 状态描述")
+      string describe;
+
+      @verbatim (language="comment", text=
+        " ● 运动id")
+      int32 motion_id;
+    };
+  };
+};

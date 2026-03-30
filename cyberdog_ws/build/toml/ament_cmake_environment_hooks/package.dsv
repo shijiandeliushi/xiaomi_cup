@@ -1,0 +1,4 @@
+source;share/toml/local_setup.bash
+source;share/toml/local_setup.dsv
+source;share/toml/local_setup.sh
+source;share/toml/local_setup.zsh

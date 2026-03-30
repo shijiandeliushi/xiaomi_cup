@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/UltrasonicPayload.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Range.idl"
+
+module protocol {
+  module msg {
+    @verbatim (language="comment", text=
+      " Distance measured by ultrasonic module")
+    struct UltrasonicPayload {
+      sensor_msgs::msg::Range ultrasonic_info;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+
+uint8 RESULT_FAILED = 1
+uint8 RESULT_SUCCESS = 0
+uint8 success
+MapLabel label
+int32 code

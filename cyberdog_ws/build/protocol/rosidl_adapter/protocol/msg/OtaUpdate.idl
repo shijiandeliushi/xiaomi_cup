@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/OtaUpdate.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    struct OtaUpdate {
+      int32 progress;
+
+      int32 code;
+    };
+  };
+};

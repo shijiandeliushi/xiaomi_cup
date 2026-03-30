@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/BLEScan.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/BLEInfo.idl"
+
+module protocol {
+  module srv {
+    struct BLEScan_Request {
+      double scan_seconds;
+    };
+    struct BLEScan_Response {
+      sequence<protocol::msg::BLEInfo> device_info_list;
+
+      int32 code;
+    };
+  };
+};

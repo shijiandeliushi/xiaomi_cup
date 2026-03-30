@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/SportCountsResult.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    module SportCountsResult_Constants {
+      const uint8 ALGO_OPEN = 0;
+      const uint8 COUNT_COMPLETE_CLOSE = 1;
+      const uint8 TIMEOUT_CLOSE = 2;
+      const uint8 REQUEST_CLOSE = 3;
+      const int32 SPORT_SQUAT = 1;
+      const int32 SPORT_HIGHKNEES = 2;
+      const int32 SPORT_SITUP = 3;
+      const int32 SPORT_PRESSUP = 4;
+      const int32 SPORT_PLANK = 5;
+      const int32 SPORT_JUMPJACK = 6;
+    };
+    struct SportCountsResult {
+      @verbatim (language="comment", text=
+        "算法开关")
+      uint8 algo_switch;
+
+      @verbatim (language="comment", text=
+        "运动类型")
+      int32 sport_type;
+
+      @verbatim (language="comment", text=
+        "运动个数")
+      int32 counts;
+
+      @verbatim (language="comment", text=
+        "运动时长")
+      int32 duration;
+    };
+  };
+};

@@ -1,0 +1,5 @@
+
+# response
+bool result
+float32[] motor_temp
+int32 code

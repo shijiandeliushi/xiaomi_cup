@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/BLEInfo.msg
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module msg {
+    struct BLEInfo {
+      string mac;
+
+      string name;
+
+      string addr_type;
+
+      uint8 device_type;
+
+      float battery_level;
+
+      string firmware_version;
+    };
+  };
+};

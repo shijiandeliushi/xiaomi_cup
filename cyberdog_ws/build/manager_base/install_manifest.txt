@@ -1,0 +1,17 @@
+/home/cyberdog_ws/install/include//manager_base/manager_base.hpp
+/home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/manager_base
+/home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/manager_base
+/home/cyberdog_ws/install/share/manager_base/environment/ament_prefix_path.sh
+/home/cyberdog_ws/install/share/manager_base/environment/ament_prefix_path.dsv
+/home/cyberdog_ws/install/share/manager_base/environment/path.sh
+/home/cyberdog_ws/install/share/manager_base/environment/path.dsv
+/home/cyberdog_ws/install/share/manager_base/local_setup.bash
+/home/cyberdog_ws/install/share/manager_base/local_setup.sh
+/home/cyberdog_ws/install/share/manager_base/local_setup.zsh
+/home/cyberdog_ws/install/share/manager_base/local_setup.dsv
+/home/cyberdog_ws/install/share/manager_base/package.dsv
+/home/cyberdog_ws/install/share/ament_index/resource_index/packages/manager_base
+/home/cyberdog_ws/install/share/manager_base/cmake/ament_cmake_export_include_directories-extras.cmake
+/home/cyberdog_ws/install/share/manager_base/cmake/manager_baseConfig.cmake
+/home/cyberdog_ws/install/share/manager_base/cmake/manager_baseConfig-version.cmake
+/home/cyberdog_ws/install/share/manager_base/package.xml

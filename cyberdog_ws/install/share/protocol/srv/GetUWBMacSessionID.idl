@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/GetUWBMacSessionID.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    struct GetUWBMacSessionID_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetUWBMacSessionID_Response {
+      uint32 session_id;
+
+      uint16 master;
+
+      uint16 slave1;
+
+      uint16 slave2;
+
+      uint16 slave3;
+
+      uint16 slave4;
+
+      int32 code;
+    };
+  };
+};

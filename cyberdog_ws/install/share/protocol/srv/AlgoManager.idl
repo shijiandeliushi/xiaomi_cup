@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AlgoManager.srv
+// generated code does not contain a copyright notice
+
+#include "protocol/msg/AlgoList.idl"
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct AlgoManager_Request {
+      sequence<protocol::msg::AlgoList> algo_enable;
+
+      sequence<protocol::msg::AlgoList> algo_disable;
+
+      @verbatim (language="comment", text=
+        " param of face")
+      boolean open_age;
+
+      boolean open_emotion;
+    };
+    module AlgoManager_Response_Constants {
+      const uint8 ENABLE_SUCCESS = 0;
+      const uint8 ENABLE_FAIL = 1;
+      const uint8 DISABLE_SUCCESS = 0;
+      const uint8 DISABLE_FAIL = 1;
+    };
+    struct AlgoManager_Response {
+      uint8 result_enable;
+
+      uint8 result_disable;
+
+      int32 code;
+    };
+  };
+};

@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/MotionCustomCmd.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module MotionCustomCmd_Request_Constants {
+      const int32 DEFINITION = 0;
+      const int32 EXECUTION = 1;
+      const int32 APP = 0;
+      const int32 AUDIO = 1;
+      const int32 VIS = 2;
+    };
+    struct MotionCustomCmd_Request {
+      @verbatim (language="comment", text=
+        " request" "\n"
+        " 定义动作/执行动作")
+      int32 cmd_type;
+
+      int32 cmd_source;
+
+      int32 motion_id;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct MotionCustomCmd_Response {
+      @verbatim (language="comment", text=
+        " 机器人运控姿态")
+      int32 motion_id;
+
+      @verbatim (language="comment", text=
+        " 执行结果")
+      boolean result;
+
+      @verbatim (language="comment", text=
+        " module code")
+      int32 code;
+    };
+  };
+};

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from protocol/ros/msg/FollowPoints.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "std_msgs/msg/Header.idl"
+
+module protocol {
+  module msg {
+    struct FollowPoints {
+      std_msgs::msg::Header header;
+
+      string token;
+
+      sequence<geometry_msgs::msg::PoseStamped> poses;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+source;share/xpack/local_setup.bash
+source;share/xpack/local_setup.dsv
+source;share/xpack/local_setup.sh
+source;share/xpack/local_setup.zsh

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/AccountDelete.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct AccountDelete_Request {
+      string member;
+    };
+    struct AccountDelete_Response {
+      @verbatim (language="comment", text=
+        " response")
+      int32 code;
+    };
+  };
+};

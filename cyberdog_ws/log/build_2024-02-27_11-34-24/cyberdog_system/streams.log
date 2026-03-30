@@ -1,0 +1,26 @@
+[0.048s] Invoking command in '/home/cyberdog_ws/build/cyberdog_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_system -- -j16 -l16
+[0.093s] Invoked command in '/home/cyberdog_ws/build/cyberdog_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/cyberdog_ws/build/cyberdog_system -- -j16 -l16
+[0.123s] Invoking command in '/home/cyberdog_ws/build/cyberdog_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_system
+[0.132s] -- Install configuration: ""
+[0.132s] -- Up-to-date: /home/cyberdog_ws/install/include/
+[0.132s] -- Up-to-date: /home/cyberdog_ws/install/include//cyberdog_system
+[0.132s] -- Up-to-date: /home/cyberdog_ws/install/include//cyberdog_system/robot_code.hpp
+[0.133s] -- Up-to-date: /home/cyberdog_ws/install/include//cyberdog_system/robot_state.hpp
+[0.133s] -- Up-to-date: /home/cyberdog_ws/install/include//cyberdog_system/robot_cmd.hpp
+[0.133s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_system
+[0.133s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_system
+[0.133s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/environment/ament_prefix_path.sh
+[0.133s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/environment/ament_prefix_path.dsv
+[0.133s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/environment/path.sh
+[0.134s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/environment/path.dsv
+[0.134s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/local_setup.bash
+[0.134s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/local_setup.sh
+[0.134s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/local_setup.zsh
+[0.134s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/local_setup.dsv
+[0.134s] -- Installing: /home/cyberdog_ws/install/share/cyberdog_system/package.dsv
+[0.134s] -- Up-to-date: /home/cyberdog_ws/install/share/ament_index/resource_index/packages/cyberdog_system
+[0.134s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.135s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/cmake/cyberdog_systemConfig.cmake
+[0.135s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/cmake/cyberdog_systemConfig-version.cmake
+[0.135s] -- Up-to-date: /home/cyberdog_ws/install/share/cyberdog_system/package.xml
+[0.138s] Invoked command in '/home/cyberdog_ws/build/cyberdog_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/cyberdog_ws/build/cyberdog_system

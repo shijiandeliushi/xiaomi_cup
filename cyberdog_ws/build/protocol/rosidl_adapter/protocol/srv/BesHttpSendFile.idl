@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from protocol/ros/srv/BesHttpSendFile.srv
+// generated code does not contain a copyright notice
+
+
+module protocol {
+  module srv {
+    module BesHttpSendFile_Request_Constants {
+      const uint8 HTTP_METHOD_POST = 1;
+      const uint8 HTTP_METHOD_PUT = 2;
+    };
+    @verbatim (language="comment", text=
+      " http上传文件到后端")
+    struct BesHttpSendFile_Request {
+      @verbatim (language="comment", text=
+        " 1:post,2:put")
+      uint8 method;
+
+      @verbatim (language="comment", text=
+        " 请求地址")
+      string url;
+
+      @verbatim (language="comment", text=
+        " 文件名，包括路径")
+      string file_name;
+
+      @verbatim (language="comment", text=
+        " 文件类型")
+      string content_type;
+
+      @verbatim (language="comment", text=
+        " 附加消息")
+      string info;
+
+      @verbatim (language="comment", text=
+        " 超时设置，单位毫秒")
+      uint16 milsecs;
+    };
+    struct BesHttpSendFile_Response {
+      @verbatim (language="comment", text=
+        " 返回数据")
+      string data;
+
+      int32 code;
+    };
+  };
+};
