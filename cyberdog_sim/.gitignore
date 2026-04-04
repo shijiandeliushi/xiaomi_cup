@@ -5,7 +5,7 @@
 /src/cyberdog_locomotion/
 /src/cyberdog_simulator/cyberdog_example/
 /src/cyberdog_simulator/cyberdog_msg/
-/src/cyberdog_simulator/cyberdog_robot/
+# /src/cyberdog_simulator/cyberdog_robot/
 /src/cyberdog_simulator/cyberdog_simulator/
 /src/cyberdog_simulator/cyberdog_visual/
 
