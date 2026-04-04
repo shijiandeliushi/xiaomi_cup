@@ -1,0 +1,4 @@
+ZOOMFRAC 0.01
+CHANNEL global_to_robot global_to_robot true
+CHANNEL leg_control_data leg_control_data true
+CHANNEL simulator_state simulator_state true
