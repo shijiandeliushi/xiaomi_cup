@@ -3,7 +3,7 @@ set(CTEST_SOURCE_DIRECTORY  "/home/eigen-git-mirror")
 set(CTEST_BINARY_DIRECTORY  "/home/eigen-git-mirror/build")
 set(CTEST_CMAKE_GENERATOR   "Unix Makefiles")
 set(CTEST_BUILD_NAME        "linux-5.15.0-92-generic-_-9.4.0-sse2-64bit")
-set(CTEST_SITE              "f05bb31d0102")
+set(CTEST_SITE              "d59402e2300b")
 
 set(MODEL Experimental)
 if(${CTEST_SCRIPT_ARG} MATCHES Nightly)
