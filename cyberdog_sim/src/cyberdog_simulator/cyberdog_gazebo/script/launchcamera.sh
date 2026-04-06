@@ -2,7 +2,7 @@
 source /opt/ros/galactic/setup.bash
 source /home/cyberdog_sim/install/setup.bash
 
-# 自动探测可用图像话题（最多等待 60 秒）
+# 1) 自动探测图像输入话题（最多等待 60 秒）
 TOPIC=""
 for i in {1..60}; do
   for t in /rgb/image_raw /rgb_camera_sensor/image_raw /image_raw; do
@@ -25,7 +25,9 @@ RELAY_TOPIC="${TOPIC}_reliable"
 echo "[camera] 原始话题: $TOPIC"
 echo "[camera] 中继话题: $RELAY_TOPIC"
 
-# 启动 QoS 中继：订阅端 best_effort，发布端 reliable，供 rqt_image_view 正常显示
+# 2) 启动 QoS 中继：
+#    - 订阅端用 BEST_EFFORT（兼容 Gazebo 相机）
+#    - 发布端用 RELIABLE（便于后续节点稳定订阅）
 python3 - <<PY &
 import rclpy
 from rclpy.node import Node
@@ -64,21 +66,26 @@ rclpy.shutdown()
 PY
 RELAY_PID=$!
 
-# 启动蓝/橙小球识别节点
-ros2 run cyberdog_color_detector_py ball_detector_py_node --ros-args -p image_topic:=${TOPIC} -p debug_image_topic:=/ball/debug_image -p result_topic:=/ball/result &
+# 3) 启动蓝/橙小球识别节点
+ros2 run cyberdog_color_detector_py ball_detector_py_node --ros-args \
+  -p image_topic:=${TOPIC} \
+  -p debug_image_topic:=/ball/debug_image \
+  -p result_topic:=/ball/result &
 BALL_PID=$!
 
 echo "[camera] 小球识别已启动："
 echo "[camera] 结果话题: /ball/result"
 echo "[camera] 调试图像: /ball/debug_image"
 
+# 退出脚本时同时清理后台进程
 cleanup() {
   kill "$BALL_PID" >/dev/null 2>&1 || true
   kill "$RELAY_PID" >/dev/null 2>&1 || true
 }
 trap cleanup EXIT INT TERM
 
-# 有图形界面时同时显示两个窗口：原始RGB + 检测标注
+# 4) 有图形界面时显示两个窗口：原图 + 检测图
+#    注意：这里不再做“大窗口/全屏/强制缩放”设置，使用 OpenCV 默认窗口行为。
 if [ -n "$DISPLAY" ]; then
   python3 - <<PY
 import rclpy
@@ -94,9 +101,11 @@ class DualViewer(Node):
     def __init__(self):
         super().__init__('rgb_ball_dual_viewer')
         self.bridge = CvBridge()
+        # 订阅原始图像和调试图像，分别显示在两个窗口中
         self.create_subscription(Image, RAW_TOPIC, self.raw_cb, 10)
         self.create_subscription(Image, DEBUG_TOPIC, self.debug_cb, 10)
 
+    #原始图像显示
     def raw_cb(self, msg):
         try:
             frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
@@ -104,7 +113,7 @@ class DualViewer(Node):
             cv2.waitKey(1)
         except Exception:
             pass
-
+    #原始图像显示
     def debug_cb(self, msg):
         try:
             frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
