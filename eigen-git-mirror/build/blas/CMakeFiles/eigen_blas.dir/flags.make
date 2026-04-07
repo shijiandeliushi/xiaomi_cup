@@ -3,6 +3,7 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
+# compile Fortran with /usr/bin/gfortran
 C_FLAGS = -O3 -DNDEBUG -fPIC  
 
 C_DEFINES = -Deigen_blas_EXPORTS
@@ -14,4 +15,10 @@ CXX_FLAGS =  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subs
 CXX_DEFINES = -Deigen_blas_EXPORTS
 
 CXX_INCLUDES = -I/home/eigen-git-mirror 
+
+Fortran_FLAGS = -O3 -DNDEBUG -O3 -fPIC  
+
+Fortran_DEFINES = -Deigen_blas_EXPORTS
+
+Fortran_INCLUDES = -I/home/eigen-git-mirror 
 

@@ -109,3 +109,135 @@ git rm -r --cached .
 
 **特别提醒：**
 如果在 GitHub 上看到的文件夹依然有小箭头，说明**你（项目拥有者）**还没有按照我上一次回复的方法，在**你的**电脑上删除子文件夹里的 `.git` 并重新 `push`。只有当你修复了远程仓库，同伴 `pull` 下来的才会是正常的文件夹。
+
+---
+
+## 补充笔记：`.gitignore` / `git add` / 大文件推送失败排查（本次实操总结）
+
+以下是这次在 `/home` 仓库里的实操结论，后续可直接照抄。
+
+### 1) 先确认 Git 根目录（非常关键）
+
+```bash
+cd /home
+git rev-parse --show-toplevel
+```
+
+如果输出是 `/home`，说明真正仓库根是 `/home`。此时：
+- `/home/cyberdog_sim/.gitignore` 依然有效；
+- 但它只影响 `cyberdog_sim/` 这个子目录及其下级路径。
+
+### 2) `.gitignore` 的核心规则
+
+- `.gitignore` **只对未被跟踪（untracked）文件生效**；
+- 对已被跟踪的文件（历史里已经提交过）**不会自动失效**；
+- 想停止推送已跟踪文件，必须先取消跟踪。
+
+### 3) 正确忽略 `build/install/log` 的做法
+
+1. 在 `cyberdog_sim/.gitignore` 写规则（示例）：
+
+```gitignore
+/build/
+/install/
+/log/
+**/build/
+**/install/
+**/log/
+```
+
+2. 取消已跟踪缓存（保留本地文件）：
+
+```bash
+cd /home
+git rm -r --cached --ignore-unmatch cyberdog_sim/build cyberdog_sim/install cyberdog_sim/log
+```
+
+3. 一次性加入未忽略改动：
+
+```bash
+git add -A
+```
+
+4. 提交并推送：
+
+```bash
+git commit -m "chore: ignore build/install/log"
+git push origin xiaomi_cup
+```
+
+### 4) `git add -A` 前是否要先单独提交 `.gitignore`
+
+不需要。推荐顺序：
+1. 先改 `.gitignore`
+2. 直接 `git add -A`
+3. `git status --short` 检查
+4. 再 `git commit`
+
+### 5) `git status --short` 常见标记速查
+
+- `A`：新增
+- `M`：修改
+- `D`：删除
+- `R`：重命名
+- `??`：未跟踪
+- `!!`：被忽略
+
+两列格式 `XY path`：
+- `X`=暂存区状态
+- `Y`=工作区状态
+
+示例：
+- `M  file`：已暂存修改
+- ` M file`：仅工作区修改，未暂存
+- `?? file`：未跟踪
+
+### 6) “没写 `.gitignore` 且没 `git add`，会不会 push 上去？”
+
+正常不会。`git push` 只推送**已提交历史**；未 `add` 的 `??` 文件不会被提交、更不会被 push。
+
+### 7) 大文件 push 失败（GH001 / 超 100MB）根因
+
+若报错类似：
+- `File ... exceeds GitHub's file size limit of 100MB`
+
+通常是：大文件曾经进入了某个提交历史。即便后续删除了文件，只要该对象仍在待推送历史里，GitHub 仍会拒绝。
+
+### 8) 不丢本地代码的安全修复流程（推荐）
+
+先做备份分支，再重组提交：
+
+```bash
+cd /home
+# 1) 建备份分支（防回滚失败）
+git branch backup_before_clean_push_$(date +%Y%m%d_%H%M%S)
+
+# 2) 基于远端分支软重置（保留当前工作区内容）
+git reset --soft origin/xiaomi_cup
+
+# 3) 重新提交为“干净历史”
+git commit -m "sync local code without build artifacts"
+
+# 4) 推送
+git push origin xiaomi_cup
+```
+
+### 9) 误执行 `git reset --hard` 后如何恢复
+
+用 `reflog` 找回：
+
+```bash
+cd /home
+git reflog -n 20
+# 找到 reset 前的提交 hash（例如 1f4ea37e）
+git reset --hard <hash>
+```
+
+这是恢复“看起来丢失”的本地提交最有效的方法。
+
+### 10) Docker 容器里推送失败：`terminal prompts disabled`
+
+若出现：
+- `could not read Username for 'https://github.com': terminal prompts disabled`
+
+说明当前环境不能交互输入账号。需在可鉴权环境推送，或先配置凭据（PAT + credential helper）。

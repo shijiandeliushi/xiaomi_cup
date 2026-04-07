@@ -9,6 +9,7 @@
     <xacro:arg name="ROBOT" default="cyber_dog" />
     <xacro:arg name="USE_LIDAR" default="false" />
     <xacro:arg name="USE_RGB_CAMERA" default="false" />
+    <xacro:arg name="USE_D435_CAMERA" default="false" />
 
     <!-- 引入常量、腿部宏和 Gazebo 扩展配置 -->
     <xacro:include filename="const.xacro" />
@@ -98,7 +99,7 @@
     <joint name="D435_camera_joint" type="fixed">
         <parent link="body" />
         <child link="D435_camera_link" />
-        <origin rpy="0 0 0" xyz="271.994e-3 25e-3 114.912e-3" />
+        <origin rpy="0 1.00 0" xyz="271.994e-3 25e-3 114.912e-3" />
     </joint>
 
     <link name="D435_camera_link">

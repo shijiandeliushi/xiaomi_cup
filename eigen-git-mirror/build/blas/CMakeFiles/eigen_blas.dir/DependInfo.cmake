@@ -2,12 +2,12 @@
 set(CMAKE_DEPENDS_LANGUAGES
   "C"
   "CXX"
+  "Fortran"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/eigen-git-mirror/blas/f2c/chbmv.c" "/home/eigen-git-mirror/build/blas/CMakeFiles/eigen_blas.dir/f2c/chbmv.c.o"
   "/home/eigen-git-mirror/blas/f2c/chpmv.c" "/home/eigen-git-mirror/build/blas/CMakeFiles/eigen_blas.dir/f2c/chpmv.c.o"
-  "/home/eigen-git-mirror/blas/f2c/complexdots.c" "/home/eigen-git-mirror/build/blas/CMakeFiles/eigen_blas.dir/f2c/complexdots.c.o"
   "/home/eigen-git-mirror/blas/f2c/ctbmv.c" "/home/eigen-git-mirror/build/blas/CMakeFiles/eigen_blas.dir/f2c/ctbmv.c.o"
   "/home/eigen-git-mirror/blas/f2c/d_cnjg.c" "/home/eigen-git-mirror/build/blas/CMakeFiles/eigen_blas.dir/f2c/d_cnjg.c.o"
   "/home/eigen-git-mirror/blas/f2c/drotm.c" "/home/eigen-git-mirror/build/blas/CMakeFiles/eigen_blas.dir/f2c/drotm.c.o"
@@ -53,6 +53,22 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../"
+  )
+set(CMAKE_DEPENDS_CHECK_Fortran
+  "/home/eigen-git-mirror/blas/fortran/complexdots.f" "/home/eigen-git-mirror/build/blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.o"
+  )
+set(CMAKE_Fortran_COMPILER_ID "GNU")
+set(CMAKE_Fortran_SUBMODULE_SEP "@")
+set(CMAKE_Fortran_SUBMODULE_EXT ".smod")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_Fortran
+  "eigen_blas_EXPORTS"
+  )
+
+# The include file search paths:
+set(CMAKE_Fortran_TARGET_INCLUDE_PATH
   "../"
   )
 

@@ -369,18 +369,18 @@ blas/CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.s"
 	cd /home/eigen-git-mirror/build/blas && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eigen-git-mirror/blas/f2c/r_cnjg.c -o CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.s
 
-blas/CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.o: blas/CMakeFiles/eigen_blas_static.dir/flags.make
-blas/CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.o: ../blas/f2c/complexdots.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eigen-git-mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object blas/CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.o"
-	cd /home/eigen-git-mirror/build/blas && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.o   -c /home/eigen-git-mirror/blas/f2c/complexdots.c
+blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.o: blas/CMakeFiles/eigen_blas_static.dir/flags.make
+blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.o: ../blas/fortran/complexdots.f
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eigen-git-mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building Fortran object blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.o"
+	cd /home/eigen-git-mirror/build/blas && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/eigen-git-mirror/blas/fortran/complexdots.f -o CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.o
 
-blas/CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.i"
-	cd /home/eigen-git-mirror/build/blas && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/eigen-git-mirror/blas/f2c/complexdots.c > CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.i
+blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing Fortran source to CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.i"
+	cd /home/eigen-git-mirror/build/blas && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/eigen-git-mirror/blas/fortran/complexdots.f > CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.i
 
-blas/CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.s"
-	cd /home/eigen-git-mirror/build/blas && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/eigen-git-mirror/blas/f2c/complexdots.c -o CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.s
+blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling Fortran source to assembly CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.s"
+	cd /home/eigen-git-mirror/build/blas && /usr/bin/gfortran $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/eigen-git-mirror/blas/fortran/complexdots.f -o CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.s
 
 # Object files for target eigen_blas_static
 eigen_blas_static_OBJECTS = \
@@ -408,7 +408,7 @@ eigen_blas_static_OBJECTS = \
 "CMakeFiles/eigen_blas_static.dir/f2c/ztbmv.c.o" \
 "CMakeFiles/eigen_blas_static.dir/f2c/d_cnjg.c.o" \
 "CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.o" \
-"CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.o"
+"CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.o"
 
 # External object files for target eigen_blas_static
 eigen_blas_static_EXTERNAL_OBJECTS =
@@ -437,7 +437,7 @@ blas/libeigen_blas_static.a: blas/CMakeFiles/eigen_blas_static.dir/f2c/ctbmv.c.o
 blas/libeigen_blas_static.a: blas/CMakeFiles/eigen_blas_static.dir/f2c/ztbmv.c.o
 blas/libeigen_blas_static.a: blas/CMakeFiles/eigen_blas_static.dir/f2c/d_cnjg.c.o
 blas/libeigen_blas_static.a: blas/CMakeFiles/eigen_blas_static.dir/f2c/r_cnjg.c.o
-blas/libeigen_blas_static.a: blas/CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.o
+blas/libeigen_blas_static.a: blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.o
 blas/libeigen_blas_static.a: blas/CMakeFiles/eigen_blas_static.dir/build.make
 blas/libeigen_blas_static.a: blas/CMakeFiles/eigen_blas_static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eigen-git-mirror/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library libeigen_blas_static.a"

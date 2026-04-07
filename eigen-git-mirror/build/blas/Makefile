@@ -362,36 +362,6 @@ f2c/chpmv.c.s:
 	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/chpmv.c.s
 .PHONY : f2c/chpmv.c.s
 
-f2c/complexdots.o: f2c/complexdots.c.o
-
-.PHONY : f2c/complexdots.o
-
-# target to build an object file
-f2c/complexdots.c.o:
-	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/complexdots.c.o
-	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.o
-.PHONY : f2c/complexdots.c.o
-
-f2c/complexdots.i: f2c/complexdots.c.i
-
-.PHONY : f2c/complexdots.i
-
-# target to preprocess a source file
-f2c/complexdots.c.i:
-	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/complexdots.c.i
-	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.i
-.PHONY : f2c/complexdots.c.i
-
-f2c/complexdots.s: f2c/complexdots.c.s
-
-.PHONY : f2c/complexdots.s
-
-# target to generate assembly for a file
-f2c/complexdots.c.s:
-	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/f2c/complexdots.c.s
-	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/complexdots.c.s
-.PHONY : f2c/complexdots.c.s
-
 f2c/ctbmv.o: f2c/ctbmv.c.o
 
 .PHONY : f2c/ctbmv.o
@@ -902,6 +872,36 @@ f2c/ztbmv.c.s:
 	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/f2c/ztbmv.c.s
 .PHONY : f2c/ztbmv.c.s
 
+fortran/complexdots.o: fortran/complexdots.f.o
+
+.PHONY : fortran/complexdots.o
+
+# target to build an object file
+fortran/complexdots.f.o:
+	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.o
+	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.o
+.PHONY : fortran/complexdots.f.o
+
+fortran/complexdots.i: fortran/complexdots.f.i
+
+.PHONY : fortran/complexdots.i
+
+# target to preprocess a source file
+fortran/complexdots.f.i:
+	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.i
+	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.i
+.PHONY : fortran/complexdots.f.i
+
+fortran/complexdots.s: fortran/complexdots.f.s
+
+.PHONY : fortran/complexdots.s
+
+# target to generate assembly for a file
+fortran/complexdots.f.s:
+	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas.dir/build.make blas/CMakeFiles/eigen_blas.dir/fortran/complexdots.f.s
+	cd /home/eigen-git-mirror/build && $(MAKE) -f blas/CMakeFiles/eigen_blas_static.dir/build.make blas/CMakeFiles/eigen_blas_static.dir/fortran/complexdots.f.s
+.PHONY : fortran/complexdots.f.s
+
 single.o: single.cpp.o
 
 .PHONY : single.o
@@ -993,9 +993,6 @@ help:
 	@echo "... f2c/chpmv.o"
 	@echo "... f2c/chpmv.i"
 	@echo "... f2c/chpmv.s"
-	@echo "... f2c/complexdots.o"
-	@echo "... f2c/complexdots.i"
-	@echo "... f2c/complexdots.s"
 	@echo "... f2c/ctbmv.o"
 	@echo "... f2c/ctbmv.i"
 	@echo "... f2c/ctbmv.s"
@@ -1047,6 +1044,9 @@ help:
 	@echo "... f2c/ztbmv.o"
 	@echo "... f2c/ztbmv.i"
 	@echo "... f2c/ztbmv.s"
+	@echo "... fortran/complexdots.o"
+	@echo "... fortran/complexdots.i"
+	@echo "... fortran/complexdots.s"
 	@echo "... single.o"
 	@echo "... single.i"
 	@echo "... single.s"

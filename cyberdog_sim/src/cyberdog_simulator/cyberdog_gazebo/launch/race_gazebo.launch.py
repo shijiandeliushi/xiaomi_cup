@@ -21,6 +21,7 @@ def launch_setup(context, *args, **kwargs):
     hang_robot = LaunchConfiguration('hang_robot').perform(context)
     use_lidar = LaunchConfiguration('use_lidar').perform(context)
     use_rgb_camera = LaunchConfiguration('use_rgb_camera').perform(context)
+    use_d435_camera = LaunchConfiguration('use_d435_camera').perform(context)
     wname = LaunchConfiguration('wname').perform(context)
     rname = LaunchConfiguration('rname').perform(context)
 
@@ -38,7 +39,8 @@ def launch_setup(context, *args, **kwargs):
     urdf_contents = xacro.process_file(xacro_path, mappings={
                                        'DEBUG': hang_robot, 
                                        'USE_LIDAR': use_lidar,
-                                       'USE_RGB_CAMERA': use_rgb_camera}).toprettyxml(indent='  ')
+                                       'USE_RGB_CAMERA': use_rgb_camera,
+                                       'USE_D435_CAMERA': use_d435_camera}).toprettyxml(indent='  ')
 
     # spawn
     spawn_entity_message_contents = "'{initial_pose:{ position: {x: 0, y: 0, z: 0.6}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}},  name: \"robot\", xml: \"" + \
@@ -114,6 +116,10 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             name='use_rgb_camera',
+            default_value='false'
+        ),
+        DeclareLaunchArgument(
+            name='use_d435_camera',
             default_value='false'
         ),
         
