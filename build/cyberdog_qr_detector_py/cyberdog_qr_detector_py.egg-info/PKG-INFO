@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: cyberdog-qr-detector-py
+Version: 0.1.0
+Summary: QR detect and scan node for CyberDog simulation camera
+Home-page: UNKNOWN
+Maintainer: cyberdog
+Maintainer-email: dev@xiaomi.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

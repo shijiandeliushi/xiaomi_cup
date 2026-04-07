@@ -1,0 +1,305 @@
+[0.013s] Invoking command in '/home/build/cyberdog_gazebo': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo -DCMAKE_INSTALL_PREFIX=/home/install
+[0.073s] -- The C compiler identification is GNU 9.4.0
+[0.125s] -- The CXX compiler identification is GNU 9.4.0
+[0.128s] -- Check for working C compiler: /usr/bin/cc
+[0.203s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.204s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.288s] -- Detecting C compile features
+[0.288s] -- Detecting C compile features - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.374s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.466s] -- Detecting CXX compile features
+[0.466s] -- Detecting CXX compile features - done
+[0.470s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.496s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.496s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.580s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.744s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.791s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.929s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.009s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.014s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.031s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.033s] -- Looking for pthread.h
+[1.112s] -- Looking for pthread.h - found
+[1.112s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.191s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.192s] -- Looking for pthread_create in pthreads
+[1.259s] -- Looking for pthread_create in pthreads - not found
+[1.259s] -- Looking for pthread_create in pthread
+[1.339s] -- Looking for pthread_create in pthread - found
+[1.339s] -- Found Threads: TRUE  
+[1.471s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[1.532s] -- Found gazebo_dev: 3.5.2 (/opt/ros/galactic/share/gazebo_dev/cmake)
+[1.542s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.544s] -- Checking for module 'bullet>=2.82'
+[1.566s] --   Found bullet, version 2.88
+[1.776s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.869s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.967s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.008s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.047s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.067s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.077s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.087s] -- Searching for dependencies of ignition-math6
+[2.089s] -- Looking for OGRE...
+[2.090s] -- OGRE_PREFIX_WATCH changed.
+[2.095s] -- Checking for module 'OGRE'
+[2.122s] --   Found OGRE, version 1.9.0
+[2.193s] -- Found Ogre Ghadamon (1.9.0)
+[2.203s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.212s] -- Looking for OGRE_Paging...
+[2.218s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.218s] -- Looking for OGRE_Terrain...
+[2.222s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.222s] -- Looking for OGRE_Property...
+[2.227s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.227s] -- Looking for OGRE_RTShaderSystem...
+[2.231s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.231s] -- Looking for OGRE_Volume...
+[2.235s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.235s] -- Looking for OGRE_Overlay...
+[2.240s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.339s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.345s] -- Looking for ignition-transport8 -- found version 8.5.0
+[2.345s] -- Searching for dependencies of ignition-transport8
+[2.414s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.419s] -- Checking for module 'libzmq >= 4'
+[2.446s] --   Found libzmq , version 4.3.2
+[2.514s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.522s] -- Checking for module 'uuid'
+[2.548s] --   Found uuid, version 2.34.0
+[2.617s] -- Found UUID: TRUE  
+[2.622s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.622s] -- Searching for dependencies of ignition-msgs5
+[2.660s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.661s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.667s] -- Checking for module 'tinyxml2'
+[2.695s] --   Found tinyxml2, version 6.2.0
+[2.765s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.770s] -- Looking for ignition-common3 -- found version 3.17.0
+[2.770s] -- Searching for dependencies of ignition-common3
+[2.771s] -- Looking for dlfcn.h - found
+[2.772s] -- Looking for libdl - found
+[2.773s] -- Found DL: TRUE  
+[2.783s] -- Searching for <ignition-common3> component [graphics]
+[2.788s] -- Looking for ignition-common3-graphics -- found version 3.17.0
+[2.788s] -- Searching for dependencies of ignition-common3-graphics
+[2.789s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.795s] -- Looking for ignition-fuel_tools4 -- found version 4.9.1
+[2.795s] -- Searching for dependencies of ignition-fuel_tools4
+[2.926s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.939s] -- Checking for module 'jsoncpp'
+[2.964s] --   Found jsoncpp, version 1.7.4
+[3.034s] -- Found JSONCPP: TRUE  
+[3.043s] -- Checking for module 'libzip'
+[3.071s] --   Found libzip, version 1.5.1
+[3.151s] -- Found ZIP: TRUE  
+[3.151s] -- Looking for ignition-common3 -- found version 3.17.0
+[3.151s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.152s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.154s] -- Gazebo version: 11.14
+[3.158s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[3.169s] -- Found gazebo_msgs: 3.5.2 (/opt/ros/galactic/share/gazebo_msgs/cmake)
+[3.414s] -- Found cyberdog_msg: 0.0.0 (/home/install/share/cyberdog_msg/cmake)
+[3.486s] -- Found yaml_cpp_vendor: 7.1.1 (/opt/ros/galactic/share/yaml_cpp_vendor/cmake)
+[3.523s] -- Setting yaml-cpp_DIR to: '/opt/ros/galactic/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.624s] -- Configuring done
+[3.706s] -- Generating done
+[3.709s] -- Build files have been written to: /home/build/cyberdog_gazebo
+[3.723s] Invoked command in '/home/build/cyberdog_gazebo' returned '0': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo -DCMAKE_INSTALL_PREFIX=/home/install
+[3.727s] Invoking command in '/home/build/cyberdog_gazebo': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/build/cyberdog_gazebo -- -j12 -l12
+[3.796s] [35m[1mScanning dependencies of target param_handler[0m
+[3.796s] [35m[1mScanning dependencies of target foot_contact_plugin[0m
+[3.822s] [  8%] [32mBuilding CXX object third-party/ParamHandler/CMakeFiles/param_handler.dir/ParamHandler.cpp.o[0m
+[4.077s] [ 16%] [32mBuilding CXX object CMakeFiles/foot_contact_plugin.dir/src/foot_contact_plugin.cpp.o[0m
+[4.689s] [ 25%] [32m[1mLinking CXX shared library libparam_handler.so[0m
+[4.799s] [ 25%] Built target param_handler
+[4.819s] [35m[1mScanning dependencies of target legged_plugin[0m
+[5.111s] [ 50%] [32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/sim_utilities/spine_board.cpp.o[0m
+[5.111s] [ 50%] [32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/control_parameters/control_parameters.cpp.o[0m
+[5.111s] [ 50%] [32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/control_parameters/control_parameter_interface.cpp.o[0m
+[5.114s] [ 58%] [32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/utilities/utilities.cpp.o[0m
+[5.130s] [ 75%] [32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/lcmhandler.cpp.o[0m
+[5.130s] [ 75%] [32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/legged_plugin.cpp.o[0m
+[5.132s] [ 83%] [32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/legged_simparam.cpp.o[0m
+[6.529s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/lcmhandler.cpp:[m[K In member function ‘[01m[Kvoid gazebo::LCMHandler::HandleCommand(const lcm::ReceiveBuffer*, const string&, const gamepad_lcmt*)[m[K’:
+[6.530s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/lcmhandler.cpp:43:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krbuf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.530s]    43 |     void LCMHandler::HandleCommand([01;35m[Kconst lcm::ReceiveBuffer *rbuf[m[K, const std::string &chan, const gamepad_lcmt *msg)
+[6.530s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.530s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/lcmhandler.cpp:43:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kchan[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.530s]    43 |     void LCMHandler::HandleCommand(const lcm::ReceiveBuffer *rbuf, [01;35m[Kconst std::string &chan[m[K, const gamepad_lcmt *msg)
+[6.530s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.108s] In file included from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/legged_simparam.hpp:27[m[K,
+[8.108s]                  from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:17[m[K:
+[8.108s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:28:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.108s]    28 |     DECLARE_PARAMETER( s64, gait_id )[01;35m[K;[m[K
+[8.109s]       |                                      [01;35m[K^[m[K
+[8.109s]       |                                      [31m[K-[m[K
+[8.109s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:46:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.109s]    46 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_10_4 )[01;35m[K;[m[K
+[8.109s]       |                                                                [01;35m[K^[m[K
+[8.109s]       |                                                                [31m[K-[m[K
+[8.109s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:47:66:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.109s]    47 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_follow )[01;35m[K;[m[K
+[8.109s]       |                                                                  [01;35m[K^[m[K
+[8.109s]       |                                                                  [31m[K-[m[K
+[8.109s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:48:66:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.109s]    48 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_medium )[01;35m[K;[m[K
+[8.109s]       |                                                                  [01;35m[K^[m[K
+[8.109s]       |                                                                  [31m[K-[m[K
+[8.109s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:49:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.109s]    49 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_slow )[01;35m[K;[m[K
+[8.109s]       |                                                                [01;35m[K^[m[K
+[8.109s]       |                                                                [31m[K-[m[K
+[8.109s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:50:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.109s]    50 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_fast )[01;35m[K;[m[K
+[8.109s]       |                                                                [01;35m[K^[m[K
+[8.110s]       |                                                                [31m[K-[m[K
+[8.110s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:51:65:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.110s]    51 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_24_16 )[01;35m[K;[m[K
+[8.110s]       |                                                                 [01;35m[K^[m[K
+[8.110s]       |                                                                 [31m[K-[m[K
+[8.110s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:52:63:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.110s]    52 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_8_3 )[01;35m[K;[m[K
+[8.110s]       |                                                               [01;35m[K^[m[K
+[8.110s]       |                                                               [31m[K-[m[K
+[8.110s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:53:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.110s]    53 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_ballet )[01;35m[K;[m[K
+[8.110s]       |                                                             [01;35m[K^[m[K
+[8.110s]       |                                                             [31m[K-[m[K
+[8.110s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:54:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.110s]    54 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_bound )[01;35m[K;[m[K
+[8.110s]       |                                                            [01;35m[K^[m[K
+[8.110s]       |                                                            [31m[K-[m[K
+[8.110s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:55:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.110s]    55 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_pronk )[01;35m[K;[m[K
+[8.110s]       |                                                            [01;35m[K^[m[K
+[8.111s]       |                                                            [31m[K-[m[K
+[8.111s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:56:58:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.111s]    56 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_gain )[01;35m[K;[m[K
+[8.111s]       |                                                          [01;35m[K^[m[K
+[8.111s]       |                                                          [31m[K-[m[K
+[8.111s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:57:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.111s]    57 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_offset )[01;35m[K;[m[K
+[8.111s]       |                                                            [01;35m[K^[m[K
+[8.111s]       |                                                            [31m[K-[m[K
+[8.168s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:[m[K In constructor ‘[01m[Kgazebo::SimParam::SimParam(std::string, gazebo::NodeExc*)[m[K’:
+[8.168s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:22:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmodel_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.168s]    22 |     SimParam::SimParam([01;35m[Kstd::string model_name[m[K, NodeExc* node_executor)
+[8.168s]       |                        [01;35m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[8.169s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:[m[K In member function ‘[01m[Kvoid gazebo::SimParam::FirstRun()[m[K’:
+[8.169s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:76:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_ls[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.169s]    76 |         while ( bool [01;35m[Kflag_ls[m[K = !shared_memory_.TryWaitForRobot() ) {
+[8.169s]       |                      [01;35m[K^~~~~~~[m[K
+[8.170s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:75:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_ls[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[8.170s]    75 |         bool [01;35m[Kflag_ls[m[K=false;
+[8.170s]       |              [01;35m[K^~~~~~~[m[K
+[13.366s] [ 91%] [32m[1mLinking CXX shared library libfoot_contact_plugin.so[0m
+[13.675s] [ 91%] Built target foot_contact_plugin
+[13.837s] In file included from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/legged_simparam.hpp:27[m[K,
+[13.838s]                  from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/legged_plugin.hpp:24[m[K,
+[13.838s]                  from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_plugin.cpp:15[m[K:
+[13.838s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:28:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.838s]    28 |     DECLARE_PARAMETER( s64, gait_id )[01;35m[K;[m[K
+[13.838s]       |                                      [01;35m[K^[m[K
+[13.838s]       |                                      [31m[K-[m[K
+[13.838s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:46:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.838s]    46 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_10_4 )[01;35m[K;[m[K
+[13.838s]       |                                                                [01;35m[K^[m[K
+[13.838s]       |                                                                [31m[K-[m[K
+[13.838s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:47:66:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.838s]    47 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_follow )[01;35m[K;[m[K
+[13.838s]       |                                                                  [01;35m[K^[m[K
+[13.839s]       |                                                                  [31m[K-[m[K
+[13.839s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:48:66:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.839s]    48 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_medium )[01;35m[K;[m[K
+[13.839s]       |                                                                  [01;35m[K^[m[K
+[13.839s]       |                                                                  [31m[K-[m[K
+[13.839s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:49:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.839s]    49 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_slow )[01;35m[K;[m[K
+[13.839s]       |                                                                [01;35m[K^[m[K
+[13.839s]       |                                                                [31m[K-[m[K
+[13.839s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:50:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.839s]    50 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_fast )[01;35m[K;[m[K
+[13.839s]       |                                                                [01;35m[K^[m[K
+[13.839s]       |                                                                [31m[K-[m[K
+[13.839s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:51:65:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.839s]    51 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_24_16 )[01;35m[K;[m[K
+[13.839s]       |                                                                 [01;35m[K^[m[K
+[13.839s]       |                                                                 [31m[K-[m[K
+[13.839s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:52:63:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.839s]    52 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_8_3 )[01;35m[K;[m[K
+[13.839s]       |                                                               [01;35m[K^[m[K
+[13.839s]       |                                                               [31m[K-[m[K
+[13.839s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:53:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.839s]    53 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_ballet )[01;35m[K;[m[K
+[13.839s]       |                                                             [01;35m[K^[m[K
+[13.839s]       |                                                             [31m[K-[m[K
+[13.840s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:54:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.840s]    54 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_bound )[01;35m[K;[m[K
+[13.840s]       |                                                            [01;35m[K^[m[K
+[13.840s]       |                                                            [31m[K-[m[K
+[13.840s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:55:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.840s]    55 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_pronk )[01;35m[K;[m[K
+[13.840s]       |                                                            [01;35m[K^[m[K
+[13.840s]       |                                                            [31m[K-[m[K
+[13.840s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:56:58:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.840s]    56 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_gain )[01;35m[K;[m[K
+[13.840s]       |                                                          [01;35m[K^[m[K
+[13.840s]       |                                                          [31m[K-[m[K
+[13.840s] [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:57:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.840s]    57 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_offset )[01;35m[K;[m[K
+[13.840s]       |                                                            [01;35m[K^[m[K
+[13.840s]       |                                                            [31m[K-[m[K
+[21.597s] [100%] [32m[1mLinking CXX shared library liblegged_plugin.so[0m
+[22.610s] [100%] Built target legged_plugin
+[22.623s] Invoked command in '/home/build/cyberdog_gazebo' returned '0': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/build/cyberdog_gazebo -- -j12 -l12
+[22.672s] Invoking command in '/home/build/cyberdog_gazebo': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/build/cyberdog_gazebo
+[22.681s] -- Install configuration: ""
+[22.682s] -- Installing: /home/install/lib/liblegged_plugin.so
+[22.694s] -- Set runtime path of "/home/install/lib/liblegged_plugin.so" to ""
+[22.694s] -- Installing: /home/install/lib/libparam_handler.so
+[22.694s] -- Set runtime path of "/home/install/lib/libparam_handler.so" to ""
+[22.694s] -- Installing: /home/install/lib/libfoot_contact_plugin.so
+[22.696s] -- Set runtime path of "/home/install/lib/libfoot_contact_plugin.so" to ""
+[22.697s] -- Installing: /home/install/share/cyberdog_gazebo/launch
+[22.697s] -- Installing: /home/install/share/cyberdog_gazebo/launch/__pycache__
+[22.697s] -- Installing: /home/install/share/cyberdog_gazebo/launch/__pycache__/race_gazebo.launch.cpython-38.pyc
+[22.697s] -- Installing: /home/install/share/cyberdog_gazebo/launch/gazebo.launch.py
+[22.697s] -- Installing: /home/install/share/cyberdog_gazebo/launch/heightmap_gazebo.launch.py
+[22.698s] -- Installing: /home/install/share/cyberdog_gazebo/launch/race_gazebo.launch.py
+[22.698s] -- Installing: /home/install/share/cyberdog_gazebo/launch/cyberdog_control_launch.py
+[22.698s] -- Installing: /home/install/share/cyberdog_gazebo/launch/gazebo_nav.launch.py
+[22.698s] -- Installing: /home/install/share/cyberdog_gazebo/world
+[22.698s] -- Installing: /home/install/share/cyberdog_gazebo/world/race2025.world
+[22.698s] -- Installing: /home/install/share/cyberdog_gazebo/world/race1.world
+[22.698s] -- Installing: /home/install/share/cyberdog_gazebo/world/race.world
+[22.699s] -- Installing: /home/install/share/cyberdog_gazebo/world/race2024.world
+[22.699s] -- Installing: /home/install/share/cyberdog_gazebo/world/.race.world.swp
+[22.699s] -- Installing: /home/install/share/cyberdog_gazebo/world/.race.swp
+[22.699s] -- Installing: /home/install/share/cyberdog_gazebo/world/race3.world
+[22.700s] -- Installing: /home/install/share/cyberdog_gazebo/world/simple.world
+[22.700s] -- Installing: /home/install/share/cyberdog_gazebo/world/race2.world
+[22.700s] -- Installing: /home/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_gazebo
+[22.701s] -- Installing: /home/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_gazebo
+[22.701s] -- Installing: /home/install/share/cyberdog_gazebo/environment/ament_prefix_path.sh
+[22.701s] -- Installing: /home/install/share/cyberdog_gazebo/environment/ament_prefix_path.dsv
+[22.701s] -- Installing: /home/install/share/cyberdog_gazebo/environment/path.sh
+[22.701s] -- Installing: /home/install/share/cyberdog_gazebo/environment/path.dsv
+[22.701s] -- Installing: /home/install/share/cyberdog_gazebo/local_setup.bash
+[22.702s] -- Installing: /home/install/share/cyberdog_gazebo/local_setup.sh
+[22.702s] -- Installing: /home/install/share/cyberdog_gazebo/local_setup.zsh
+[22.702s] -- Installing: /home/install/share/cyberdog_gazebo/local_setup.dsv
+[22.702s] -- Installing: /home/install/share/cyberdog_gazebo/package.dsv
+[22.702s] -- Installing: /home/install/share/ament_index/resource_index/packages/cyberdog_gazebo
+[22.702s] -- Installing: /home/install/share/cyberdog_gazebo/cmake/cyberdog_gazeboConfig.cmake
+[22.703s] -- Installing: /home/install/share/cyberdog_gazebo/cmake/cyberdog_gazeboConfig-version.cmake
+[22.703s] -- Installing: /home/install/share/cyberdog_gazebo/package.xml
+[22.707s] Invoked command in '/home/build/cyberdog_gazebo' returned '0': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/build/cyberdog_gazebo

@@ -1,0 +1,6 @@
+source;share/cyberdog_qr_detector_py/hook/pythonpath.ps1
+source;share/cyberdog_qr_detector_py/hook/pythonpath.dsv
+source;share/cyberdog_qr_detector_py/hook/pythonpath.sh
+source;share/cyberdog_qr_detector_py/hook/ament_prefix_path.ps1
+source;share/cyberdog_qr_detector_py/hook/ament_prefix_path.dsv
+source;share/cyberdog_qr_detector_py/hook/ament_prefix_path.sh

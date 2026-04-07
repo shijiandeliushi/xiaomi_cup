@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cyberdog_msg/msg/ApplyForce.msg
+// generated code does not contain a copyright notice
+
+
+module cyberdog_msg {
+  module msg {
+    typedef double double__3[3];
+    struct ApplyForce {
+      string link_name;
+
+      double time;
+
+      double__3 force;
+
+      double__3 rel_pos;
+    };
+  };
+};

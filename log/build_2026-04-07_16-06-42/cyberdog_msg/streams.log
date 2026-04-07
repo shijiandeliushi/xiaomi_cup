@@ -1,0 +1,237 @@
+[0.061s] Invoking command in '/home/build/cyberdog_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg -DCMAKE_INSTALL_PREFIX=/home/install
+[0.285s] -- The C compiler identification is GNU 9.4.0
+[0.465s] -- The CXX compiler identification is GNU 9.4.0
+[0.482s] -- Check for working C compiler: /usr/bin/cc
+[0.661s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.665s] -- Detecting C compiler ABI info
+[0.850s] -- Detecting C compiler ABI info - done
+[0.871s] -- Detecting C compile features
+[0.872s] -- Detecting C compile features - done
+[0.879s] -- Check for working CXX compiler: /usr/bin/c++
+[1.087s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.090s] -- Detecting CXX compiler ABI info
+[1.305s] -- Detecting CXX compiler ABI info - done
+[1.331s] -- Detecting CXX compile features
+[1.332s] -- Detecting CXX compile features - done
+[1.358s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.438s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.438s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.716s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[1.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.869s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.236s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.380s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.859s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[2.947s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.309s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[3.988s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.193s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.203s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[4.277s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.277s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.278s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.278s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.331s] -- Found PythonExtra: .so  
+[4.511s] -- Configuring done
+[4.653s] -- Generating done
+[4.661s] -- Build files have been written to: /home/build/cyberdog_msg
+[4.678s] Invoked command in '/home/build/cyberdog_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg -DCMAKE_INSTALL_PREFIX=/home/install
+[4.683s] Invoking command in '/home/build/cyberdog_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/build/cyberdog_msg -- -j12 -l12
+[4.814s] [35m[1mScanning dependencies of target cyberdog_msg__cpp[0m
+[4.815s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.846s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.446s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_generator_c[0m
+[5.467s] [  5%] Built target cyberdog_msg__cpp
+[5.486s] [  7%] [32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_generator_c.dir/rosidl_generator_c/cyberdog_msg/msg/detail/yaml_param__functions.c.o[0m
+[5.486s] [ 10%] [32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_generator_c.dir/rosidl_generator_c/cyberdog_msg/msg/detail/apply_force__functions.c.o[0m
+[5.496s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.498s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.499s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.607s] [ 20%] [32m[1mLinking C shared library libcyberdog_msg__rosidl_generator_c.so[0m
+[5.712s] [ 20%] Built target cyberdog_msg__rosidl_generator_c
+[5.739s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.740s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.012s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_cpp[0m
+[6.041s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_introspection_cpp[0m
+[6.052s] [ 28%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cyberdog_msg/msg/yaml_param__type_support.cpp.o[0m
+[6.056s] [ 30%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cyberdog_msg/msg/apply_force__type_support.cpp.o[0m
+[6.079s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_fastrtps_cpp[0m
+[6.080s] [ 33%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cyberdog_msg/msg/detail/yaml_param__type_support.cpp.o[0m
+[6.083s] [ 35%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cyberdog_msg/msg/detail/apply_force__type_support.cpp.o[0m
+[6.132s] [ 41%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cyberdog_msg/msg/detail/dds_fastrtps/apply_force__type_support.cpp.o[0m
+[6.133s] [ 41%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cyberdog_msg/msg/detail/dds_fastrtps/yaml_param__type_support.cpp.o[0m
+[6.282s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_c[0m
+[6.331s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_introspection_c[0m
+[6.336s] [ 43%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cyberdog_msg/msg/yaml_param__type_support.cpp.o[0m
+[6.338s] [ 46%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cyberdog_msg/msg/apply_force__type_support.cpp.o[0m
+[6.393s] [ 48%] [32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cyberdog_msg/msg/detail/yaml_param__type_support.c.o[0m
+[6.393s] [ 51%] [32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cyberdog_msg/msg/detail/apply_force__type_support.c.o[0m
+[6.459s] [ 53%] [32m[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_c.so[0m
+[6.516s] [ 56%] [32m[1mLinking C shared library libcyberdog_msg__rosidl_typesupport_introspection_c.so[0m
+[6.614s] [ 56%] Built target cyberdog_msg__rosidl_typesupport_c
+[6.641s] [ 56%] Built target cyberdog_msg__rosidl_typesupport_introspection_c
+[6.797s] [ 58%] [32m[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_cpp.so[0m
+[6.799s] [ 61%] [32m[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_introspection_cpp.so[0m
+[6.895s] [ 61%] Built target cyberdog_msg__rosidl_typesupport_cpp
+[6.946s] [ 61%] Built target cyberdog_msg__rosidl_typesupport_introspection_cpp
+[7.071s] [ 64%] [32m[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.235s] [ 64%] Built target cyberdog_msg__rosidl_typesupport_fastrtps_cpp
+[7.261s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.629s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_fastrtps_c[0m
+[7.658s] [ 71%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cyberdog_msg/msg/detail/apply_force__type_support_c.cpp.o[0m
+[7.659s] [ 71%] [32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cyberdog_msg/msg/detail/yaml_param__type_support_c.cpp.o[0m
+[8.096s] [ 74%] [32m[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_fastrtps_c.so[0m
+[8.209s] [ 74%] Built target cyberdog_msg__rosidl_typesupport_fastrtps_c
+[8.225s] [35m[1mScanning dependencies of target cyberdog_msg[0m
+[8.242s] [ 74%] Built target cyberdog_msg
+[8.259s] [35m[1mScanning dependencies of target cyberdog_msg__py[0m
+[8.276s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.730s] [ 76%] Built target cyberdog_msg__py
+[8.744s] [35m[1mScanning dependencies of target cyberdog_msg__python[0m
+[8.783s] [ 82%] [32mBuilding C object CMakeFiles/cyberdog_msg__python.dir/rosidl_generator_py/cyberdog_msg/msg/_apply_force_s.c.o[0m
+[8.783s] [ 82%] [32mBuilding C object CMakeFiles/cyberdog_msg__python.dir/rosidl_generator_py/cyberdog_msg/msg/_yaml_param_s.c.o[0m
+[8.886s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/cyberdog_msg/libcyberdog_msg__python.so[0m
+[8.940s] [ 84%] Built target cyberdog_msg__python
+[8.952s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_c__pyext[0m
+[8.953s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.953s] [35m[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_introspection_c__pyext[0m
+[8.972s] [ 89%] [32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cyberdog_msg/_cyberdog_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[8.972s] [ 89%] [32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cyberdog_msg/_cyberdog_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.973s] [ 92%] [32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cyberdog_msg/_cyberdog_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.047s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.047s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.053s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.088s] [100%] Built target cyberdog_msg__rosidl_typesupport_introspection_c__pyext
+[9.088s] [100%] Built target cyberdog_msg__rosidl_typesupport_c__pyext
+[9.122s] [100%] Built target cyberdog_msg__rosidl_typesupport_fastrtps_c__pyext
+[9.137s] Invoked command in '/home/build/cyberdog_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/build/cyberdog_msg -- -j12 -l12
+[9.248s] Invoking command in '/home/build/cyberdog_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/build/cyberdog_msg
+[9.258s] -- Install configuration: ""
+[9.258s] -- Installing: /home/install/share/ament_index/resource_index/rosidl_interfaces/cyberdog_msg
+[9.258s] -- Installing: /home/install/include/cyberdog_msg
+[9.258s] -- Installing: /home/install/include/cyberdog_msg/msg
+[9.259s] -- Installing: /home/install/include/cyberdog_msg/msg/yaml_param.h
+[9.259s] -- Installing: /home/install/include/cyberdog_msg/msg/detail
+[9.259s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__functions.c
+[9.259s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__functions.c
+[9.259s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__functions.h
+[9.259s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__functions.h
+[9.260s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__type_support.h
+[9.260s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__type_support.h
+[9.260s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__struct.h
+[9.260s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__struct.h
+[9.260s] -- Installing: /home/install/include/cyberdog_msg/msg/apply_force.h
+[9.260s] -- Installing: /home/install/include/cyberdog_msg/msg/rosidl_generator_c__visibility_control.h
+[9.261s] -- Installing: /home/install/share/cyberdog_msg/environment/library_path.sh
+[9.261s] -- Installing: /home/install/share/cyberdog_msg/environment/library_path.dsv
+[9.261s] -- Installing: /home/install/lib/libcyberdog_msg__rosidl_generator_c.so
+[9.262s] -- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_generator_c.so" to ""
+[9.262s] -- Up-to-date: /home/install/include/cyberdog_msg
+[9.262s] -- Up-to-date: /home/install/include/cyberdog_msg/msg
+[9.262s] -- Up-to-date: /home/install/include/cyberdog_msg/msg/detail
+[9.262s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__rosidl_typesupport_fastrtps_c.h
+[9.262s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__rosidl_typesupport_fastrtps_c.h
+[9.263s] -- Installing: /home/install/include/cyberdog_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.263s] -- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_fastrtps_c.so
+[9.263s] -- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[9.264s] -- Up-to-date: /home/install/include/cyberdog_msg
+[9.264s] -- Up-to-date: /home/install/include/cyberdog_msg/msg
+[9.264s] -- Installing: /home/install/include/cyberdog_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.264s] -- Up-to-date: /home/install/include/cyberdog_msg/msg/detail
+[9.264s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/dds_fastrtps
+[9.264s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__rosidl_typesupport_fastrtps_cpp.hpp
+[9.264s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__rosidl_typesupport_fastrtps_cpp.hpp
+[9.264s] -- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_fastrtps_cpp.so
+[9.265s] -- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.265s] -- Up-to-date: /home/install/include/cyberdog_msg
+[9.265s] -- Up-to-date: /home/install/include/cyberdog_msg/msg
+[9.265s] -- Up-to-date: /home/install/include/cyberdog_msg/msg/detail
+[9.265s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__type_support.c
+[9.265s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__rosidl_typesupport_introspection_c.h
+[9.265s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__type_support.c
+[9.265s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__rosidl_typesupport_introspection_c.h
+[9.266s] -- Installing: /home/install/include/cyberdog_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.266s] -- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_introspection_c.so
+[9.266s] -- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_introspection_c.so" to ""
+[9.267s] -- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_c.so
+[9.267s] -- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_c.so" to ""
+[9.267s] -- Up-to-date: /home/install/include/cyberdog_msg
+[9.267s] -- Up-to-date: /home/install/include/cyberdog_msg/msg
+[9.267s] -- Up-to-date: /home/install/include/cyberdog_msg/msg/detail
+[9.267s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__struct.hpp
+[9.267s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__builder.hpp
+[9.267s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__traits.hpp
+[9.268s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__traits.hpp
+[9.268s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__struct.hpp
+[9.268s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__builder.hpp
+[9.268s] -- Installing: /home/install/include/cyberdog_msg/msg/yaml_param.hpp
+[9.268s] -- Installing: /home/install/include/cyberdog_msg/msg/apply_force.hpp
+[9.269s] -- Up-to-date: /home/install/include/cyberdog_msg
+[9.269s] -- Up-to-date: /home/install/include/cyberdog_msg/msg
+[9.269s] -- Up-to-date: /home/install/include/cyberdog_msg/msg/detail
+[9.269s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__type_support.cpp
+[9.269s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__rosidl_typesupport_introspection_cpp.hpp
+[9.269s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__type_support.cpp
+[9.269s] -- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__rosidl_typesupport_introspection_cpp.hpp
+[9.269s] -- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_introspection_cpp.so
+[9.270s] -- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[9.270s] -- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_cpp.so
+[9.271s] -- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_cpp.so" to ""
+[9.271s] -- Installing: /home/install/share/cyberdog_msg/environment/pythonpath.sh
+[9.271s] -- Installing: /home/install/share/cyberdog_msg/environment/pythonpath.dsv
+[9.271s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/__init__.py
+[9.297s] Compiling '/home/install/lib/python3.8/site-packages/cyberdog_msg/__init__.py'...
+[9.300s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg
+[9.300s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/_apply_force_s.c
+[9.300s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/_yaml_param.py
+[9.300s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/_apply_force.py
+[9.300s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/_yaml_param_s.c
+[9.300s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/__init__.py
+[9.301s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[9.301s] -- Set runtime path of "/home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.301s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[9.302s] -- Set runtime path of "/home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.302s] -- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[9.302s] -- Set runtime path of "/home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.302s] -- Installing: /home/install/lib/libcyberdog_msg__python.so
+[9.303s] -- Set runtime path of "/home/install/lib/libcyberdog_msg__python.so" to ""
+[9.303s] -- Installing: /home/install/share/cyberdog_msg/msg/YamlParam.idl
+[9.303s] -- Installing: /home/install/share/cyberdog_msg/msg/ApplyForce.idl
+[9.303s] -- Installing: /home/install/share/cyberdog_msg/msg/YamlParam.msg
+[9.304s] -- Installing: /home/install/share/cyberdog_msg/msg/ApplyForce.msg
+[9.304s] -- Installing: /home/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_msg
+[9.304s] -- Installing: /home/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_msg
+[9.304s] -- Installing: /home/install/share/cyberdog_msg/environment/ament_prefix_path.sh
+[9.304s] -- Installing: /home/install/share/cyberdog_msg/environment/ament_prefix_path.dsv
+[9.305s] -- Installing: /home/install/share/cyberdog_msg/environment/path.sh
+[9.305s] -- Installing: /home/install/share/cyberdog_msg/environment/path.dsv
+[9.305s] -- Installing: /home/install/share/cyberdog_msg/local_setup.bash
+[9.305s] -- Installing: /home/install/share/cyberdog_msg/local_setup.sh
+[9.305s] -- Installing: /home/install/share/cyberdog_msg/local_setup.zsh
+[9.305s] -- Installing: /home/install/share/cyberdog_msg/local_setup.dsv
+[9.306s] -- Installing: /home/install/share/cyberdog_msg/package.dsv
+[9.306s] -- Installing: /home/install/share/ament_index/resource_index/packages/cyberdog_msg
+[9.306s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_generator_cExport.cmake
+[9.306s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_generator_cExport-noconfig.cmake
+[9.306s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_introspection_cExport.cmake
+[9.307s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.307s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_cExport.cmake
+[9.307s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_cExport-noconfig.cmake
+[9.307s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_generator_cppExport.cmake
+[9.308s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_introspection_cppExport.cmake
+[9.308s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.308s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_cppExport.cmake
+[9.308s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[9.308s] -- Installing: /home/install/share/cyberdog_msg/cmake/rosidl_cmake-extras.cmake
+[9.308s] -- Installing: /home/install/share/cyberdog_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.309s] -- Installing: /home/install/share/cyberdog_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[9.309s] -- Installing: /home/install/share/cyberdog_msg/cmake/ament_cmake_export_targets-extras.cmake
+[9.309s] -- Installing: /home/install/share/cyberdog_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.310s] -- Installing: /home/install/share/cyberdog_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.310s] -- Installing: /home/install/share/cyberdog_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.310s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msgConfig.cmake
+[9.310s] -- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msgConfig-version.cmake
+[9.311s] -- Installing: /home/install/share/cyberdog_msg/package.xml
+[9.315s] Invoked command in '/home/build/cyberdog_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/build/cyberdog_msg

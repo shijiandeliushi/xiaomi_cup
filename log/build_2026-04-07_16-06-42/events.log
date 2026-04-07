@@ -1,0 +1,958 @@
+[0.000000] (-) TimerEvent: {}
+[0.001726] (-) JobUnselected: {'identifier': 'Eigen3'}
+[0.001824] (-) JobUnselected: {'identifier': 'bes_transmit'}
+[0.001949] (-) JobUnselected: {'identifier': 'black_box'}
+[0.001995] (-) JobUnselected: {'identifier': 'cpp_httplib'}
+[0.003683] (-) JobUnselected: {'identifier': 'cyberdog_bringup'}
+[0.003766] (-) JobUnselected: {'identifier': 'cyberdog_color_detector_py'}
+[0.004070] (-) JobUnselected: {'identifier': 'cyberdog_common'}
+[0.004215] (-) JobUnselected: {'identifier': 'cyberdog_debug'}
+[0.004287] (-) JobUnselected: {'identifier': 'cyberdog_description'}
+[0.004328] (-) JobUnselected: {'identifier': 'cyberdog_embed_protocol'}
+[0.004372] (-) JobUnselected: {'identifier': 'cyberdog_example'}
+[0.004423] (-) JobUnselected: {'identifier': 'cyberdog_grpc'}
+[0.004458] (-) JobUnselected: {'identifier': 'cyberdog_locomotion'}
+[0.004493] (-) JobUnselected: {'identifier': 'cyberdog_machine'}
+[0.004654] (-) JobUnselected: {'identifier': 'cyberdog_manager'}
+[0.004763] (-) JobUnselected: {'identifier': 'cyberdog_parameter'}
+[0.004802] (-) JobUnselected: {'identifier': 'cyberdog_permission'}
+[0.004848] (-) JobUnselected: {'identifier': 'cyberdog_simulator'}
+[0.004894] (-) JobUnselected: {'identifier': 'cyberdog_system'}
+[0.005030] (-) JobUnselected: {'identifier': 'cyberdog_visual'}
+[0.005190] (-) JobUnselected: {'identifier': 'elec_skin'}
+[0.005228] (-) JobUnselected: {'identifier': 'filesystem'}
+[0.005291] (-) JobUnselected: {'identifier': 'lcm'}
+[0.005326] (-) JobUnselected: {'identifier': 'low_power_consumption'}
+[0.005457] (-) JobUnselected: {'identifier': 'manager_base'}
+[0.005558] (-) JobUnselected: {'identifier': 'motion_action'}
+[0.005594] (-) JobUnselected: {'identifier': 'motion_bridge'}
+[0.005643] (-) JobUnselected: {'identifier': 'motion_manager'}
+[0.005702] (-) JobUnselected: {'identifier': 'motion_utils'}
+[0.005723] (-) JobUnselected: {'identifier': 'mqttc'}
+[0.005742] (-) JobUnselected: {'identifier': 'nvinference'}
+[0.005761] (-) JobUnselected: {'identifier': 'params'}
+[0.005780] (-) JobUnselected: {'identifier': 'protocol'}
+[0.005799] (-) JobUnselected: {'identifier': 'rapidjson'}
+[0.005817] (-) JobUnselected: {'identifier': 'skin_manager'}
+[0.005848] (-) JobUnselected: {'identifier': 'toml'}
+[0.005951] (-) JobUnselected: {'identifier': 'user_info_manager'}
+[0.005973] (-) JobUnselected: {'identifier': 'xpack'}
+[0.006081] (-) JobUnselected: {'identifier': 'zxing'}
+[0.006155] (cyberdog_msg) JobQueued: {'identifier': 'cyberdog_msg', 'dependencies': OrderedDict()}
+[0.006211] (cyberdog_qr_detector_py) JobQueued: {'identifier': 'cyberdog_qr_detector_py', 'dependencies': OrderedDict()}
+[0.006281] (cyberdog_gazebo) JobQueued: {'identifier': 'cyberdog_gazebo', 'dependencies': OrderedDict([('cyberdog_msg', '/home/install')])}
+[0.006330] (cyberdog_msg) JobStarted: {'identifier': 'cyberdog_msg'}
+[0.031990] (cyberdog_qr_detector_py) JobStarted: {'identifier': 'cyberdog_qr_detector_py'}
+[0.060697] (cyberdog_msg) JobProgress: {'identifier': 'cyberdog_msg', 'progress': 'cmake'}
+[0.062104] (cyberdog_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg', '-DCMAKE_INSTALL_PREFIX=/home/install'], 'cwd': '/home/build/cyberdog_msg', 'env': OrderedDict([('HOSTNAME', '3b9285f1d2e1'), ('GIT_ASKPASS', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-595eaac6-594a-4792-bde7-b4326f7a2520.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/install'), ('ROS_DISTRO', 'galactic'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-ead67bfde8.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/build/cyberdog_msg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099432] (-) TimerEvent: {}
+[0.200241] (-) TimerEvent: {}
+[0.291464] (cyberdog_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300352] (-) TimerEvent: {}
+[0.400797] (-) TimerEvent: {}
+[0.471927] (cyberdog_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.488718] (cyberdog_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.500934] (-) TimerEvent: {}
+[0.604209] (-) TimerEvent: {}
+[0.668309] (cyberdog_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.671478] (cyberdog_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.704171] (-) TimerEvent: {}
+[0.804629] (-) TimerEvent: {}
+[0.857176] (cyberdog_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.877527] (cyberdog_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.878550] (cyberdog_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.885534] (cyberdog_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.904770] (-) TimerEvent: {}
+[1.005216] (-) TimerEvent: {}
+[1.094031] (cyberdog_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.096735] (cyberdog_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.105333] (-) TimerEvent: {}
+[1.205787] (-) TimerEvent: {}
+[1.306294] (-) TimerEvent: {}
+[1.311937] (cyberdog_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.337921] (cyberdog_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.339029] (cyberdog_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.364608] (cyberdog_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.406397] (-) TimerEvent: {}
+[1.444533] (cyberdog_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.444965] (cyberdog_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.479995] (cyberdog_qr_detector_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/cyberdog_qr_detector_py', 'build', '--build-base', '/home/build/cyberdog_qr_detector_py/build', 'install', '--record', '/home/build/cyberdog_qr_detector_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/cyberdog_sim/src/cyberdog_qr_detector_py', 'env': {'HOSTNAME': '3b9285f1d2e1', 'GIT_ASKPASS': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'BROWSER': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh', 'HOME': '/root', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-595eaac6-594a-4792-bde7-b4326f7a2520.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/home/install', 'ROS_DISTRO': 'galactic', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f5b4c017-338c-426d-b106-01afc17e7d18.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/galactic/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ead67bfde8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/build/cyberdog_qr_detector_py', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/build/cyberdog_qr_detector_py/prefix_override:/home/install/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[1.506551] (-) TimerEvent: {}
+[1.607049] (-) TimerEvent: {}
+[1.707555] (-) TimerEvent: {}
+[1.722538] (cyberdog_msg) StdoutLine: {'line': b'-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)\n'}
+[1.807709] (-) TimerEvent: {}
+[1.853957] (cyberdog_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.875961] (cyberdog_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[1.907870] (-) TimerEvent: {}
+[1.954113] (cyberdog_qr_detector_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.955206] (cyberdog_qr_detector_py) StdoutLine: {'line': b'creating ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info\n'}
+[1.955586] (cyberdog_qr_detector_py) StdoutLine: {'line': b'writing ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/PKG-INFO\n'}
+[1.956284] (cyberdog_qr_detector_py) StdoutLine: {'line': b'writing dependency_links to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/dependency_links.txt\n'}
+[1.956647] (cyberdog_qr_detector_py) StdoutLine: {'line': b'writing entry points to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/entry_points.txt\n'}
+[1.957065] (cyberdog_qr_detector_py) StdoutLine: {'line': b'writing requirements to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/requires.txt\n'}
+[1.957464] (cyberdog_qr_detector_py) StdoutLine: {'line': b'writing top-level names to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/top_level.txt\n'}
+[1.962481] (cyberdog_qr_detector_py) StdoutLine: {'line': b"writing manifest file '../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt'\n"}
+[2.008035] (-) TimerEvent: {}
+[2.033536] (cyberdog_qr_detector_py) StdoutLine: {'line': b"reading manifest file '../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt'\n"}
+[2.035331] (cyberdog_qr_detector_py) StdoutLine: {'line': b"writing manifest file '../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt'\n"}
+[2.035774] (cyberdog_qr_detector_py) StdoutLine: {'line': b'running build\n'}
+[2.036008] (cyberdog_qr_detector_py) StdoutLine: {'line': b'running build_py\n'}
+[2.036317] (cyberdog_qr_detector_py) StdoutLine: {'line': b'creating /home/build/cyberdog_qr_detector_py/build\n'}
+[2.036680] (cyberdog_qr_detector_py) StdoutLine: {'line': b'creating /home/build/cyberdog_qr_detector_py/build/lib\n'}
+[2.036934] (cyberdog_qr_detector_py) StdoutLine: {'line': b'creating /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py\n'}
+[2.037120] (cyberdog_qr_detector_py) StdoutLine: {'line': b'copying cyberdog_qr_detector_py/qr_detector_py_node.py -> /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py\n'}
+[2.037329] (cyberdog_qr_detector_py) StdoutLine: {'line': b'copying cyberdog_qr_detector_py/__init__.py -> /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py\n'}
+[2.037564] (cyberdog_qr_detector_py) StdoutLine: {'line': b'running install\n'}
+[2.039141] (cyberdog_qr_detector_py) StdoutLine: {'line': b'running install_lib\n'}
+[2.041237] (cyberdog_qr_detector_py) StdoutLine: {'line': b'creating /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py\n'}
+[2.041466] (cyberdog_qr_detector_py) StdoutLine: {'line': b'copying /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py/qr_detector_py_node.py -> /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py\n'}
+[2.041814] (cyberdog_qr_detector_py) StdoutLine: {'line': b'copying /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py/__init__.py -> /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py\n'}
+[2.042906] (cyberdog_qr_detector_py) StdoutLine: {'line': b'byte-compiling /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py/qr_detector_py_node.py to qr_detector_py_node.cpython-38.pyc\n'}
+[2.047305] (cyberdog_qr_detector_py) StdoutLine: {'line': b'byte-compiling /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py/__init__.py to __init__.cpython-38.pyc\n'}
+[2.047699] (cyberdog_qr_detector_py) StdoutLine: {'line': b'running install_data\n'}
+[2.048644] (cyberdog_qr_detector_py) StdoutLine: {'line': b'creating /home/install/share/ament_index\n'}
+[2.048976] (cyberdog_qr_detector_py) StdoutLine: {'line': b'creating /home/install/share/ament_index/resource_index\n'}
+[2.049178] (cyberdog_qr_detector_py) StdoutLine: {'line': b'creating /home/install/share/ament_index/resource_index/packages\n'}
+[2.049326] (cyberdog_qr_detector_py) StdoutLine: {'line': b'copying resource/cyberdog_qr_detector_py -> /home/install/share/ament_index/resource_index/packages\n'}
+[2.049463] (cyberdog_qr_detector_py) StdoutLine: {'line': b'copying package.xml -> /home/install/share/cyberdog_qr_detector_py\n'}
+[2.049761] (cyberdog_qr_detector_py) StdoutLine: {'line': b'creating /home/install/share/cyberdog_qr_detector_py/launch\n'}
+[2.049996] (cyberdog_qr_detector_py) StdoutLine: {'line': b'copying launch/qr_detector.launch.py -> /home/install/share/cyberdog_qr_detector_py/launch\n'}
+[2.050198] (cyberdog_qr_detector_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.053350] (cyberdog_qr_detector_py) StdoutLine: {'line': b'Copying ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info to /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py-0.1.0-py3.8.egg-info\n'}
+[2.056008] (cyberdog_qr_detector_py) StdoutLine: {'line': b'running install_scripts\n'}
+[2.092323] (cyberdog_qr_detector_py) StdoutLine: {'line': b'Installing qr_detector_py_node script to /home/install/lib/cyberdog_qr_detector_py\n'}
+[2.093242] (cyberdog_qr_detector_py) StdoutLine: {'line': b"writing list of installed files to '/home/build/cyberdog_qr_detector_py/install.log'\n"}
+[2.108181] (-) TimerEvent: {}
+[2.133430] (cyberdog_qr_detector_py) CommandEnded: {'returncode': 0}
+[2.163147] (cyberdog_qr_detector_py) JobEnded: {'identifier': 'cyberdog_qr_detector_py', 'rc': 0}
+[2.208331] (-) TimerEvent: {}
+[2.242687] (cyberdog_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.308490] (-) TimerEvent: {}
+[2.386996] (cyberdog_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[2.408620] (-) TimerEvent: {}
+[2.509076] (-) TimerEvent: {}
+[2.609551] (-) TimerEvent: {}
+[2.710079] (-) TimerEvent: {}
+[2.731992] (cyberdog_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.810236] (-) TimerEvent: {}
+[2.865812] (cyberdog_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[2.910378] (-) TimerEvent: {}
+[2.953700] (cyberdog_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.010520] (-) TimerEvent: {}
+[3.110973] (-) TimerEvent: {}
+[3.211458] (-) TimerEvent: {}
+[3.311923] (-) TimerEvent: {}
+[3.315508] (cyberdog_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[3.412138] (-) TimerEvent: {}
+[3.512619] (-) TimerEvent: {}
+[3.613139] (-) TimerEvent: {}
+[3.713600] (-) TimerEvent: {}
+[3.814114] (-) TimerEvent: {}
+[3.914593] (-) TimerEvent: {}
+[3.995194] (cyberdog_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.014720] (-) TimerEvent: {}
+[4.115160] (-) TimerEvent: {}
+[4.141096] (cyberdog_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.200349] (cyberdog_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.210004] (cyberdog_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[4.215269] (-) TimerEvent: {}
+[4.284235] (cyberdog_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.284522] (cyberdog_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.284631] (cyberdog_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.284726] (cyberdog_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[4.315400] (-) TimerEvent: {}
+[4.337786] (cyberdog_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.415555] (-) TimerEvent: {}
+[4.515949] (-) TimerEvent: {}
+[4.517675] (cyberdog_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.616106] (-) TimerEvent: {}
+[4.659922] (cyberdog_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[4.668187] (cyberdog_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/build/cyberdog_msg\n'}
+[4.685127] (cyberdog_msg) CommandEnded: {'returncode': 0}
+[4.686470] (cyberdog_msg) JobProgress: {'identifier': 'cyberdog_msg', 'progress': 'build'}
+[4.687604] (cyberdog_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/build/cyberdog_msg', '--', '-j12', '-l12'], 'cwd': '/home/build/cyberdog_msg', 'env': OrderedDict([('HOSTNAME', '3b9285f1d2e1'), ('GIT_ASKPASS', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-595eaac6-594a-4792-bde7-b4326f7a2520.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/install'), ('ROS_DISTRO', 'galactic'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-ead67bfde8.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/build/cyberdog_msg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[4.716320] (-) TimerEvent: {}
+[4.816880] (-) TimerEvent: {}
+[4.820535] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__cpp\x1b[0m\n'}
+[4.822141] (cyberdog_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.852949] (cyberdog_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.917022] (-) TimerEvent: {}
+[5.017484] (-) TimerEvent: {}
+[5.117943] (-) TimerEvent: {}
+[5.218420] (-) TimerEvent: {}
+[5.318900] (-) TimerEvent: {}
+[5.419363] (-) TimerEvent: {}
+[5.452513] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_generator_c\x1b[0m\n'}
+[5.474246] (cyberdog_msg) StdoutLine: {'line': b'[  5%] Built target cyberdog_msg__cpp\n'}
+[5.491476] (cyberdog_msg) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_generator_c.dir/rosidl_generator_c/cyberdog_msg/msg/detail/yaml_param__functions.c.o\x1b[0m\n'}
+[5.493143] (cyberdog_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_generator_c.dir/rosidl_generator_c/cyberdog_msg/msg/detail/apply_force__functions.c.o\x1b[0m\n'}
+[5.503372] (cyberdog_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.504935] (cyberdog_msg) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.506438] (cyberdog_msg) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.519496] (-) TimerEvent: {}
+[5.613739] (cyberdog_msg) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcyberdog_msg__rosidl_generator_c.so\x1b[0m\n'}
+[5.619633] (-) TimerEvent: {}
+[5.718728] (cyberdog_msg) StdoutLine: {'line': b'[ 20%] Built target cyberdog_msg__rosidl_generator_c\n'}
+[5.719758] (-) TimerEvent: {}
+[5.745801] (cyberdog_msg) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.746881] (cyberdog_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.819966] (-) TimerEvent: {}
+[5.920390] (-) TimerEvent: {}
+[6.018910] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.020482] (-) TimerEvent: {}
+[6.048048] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.058622] (cyberdog_msg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cyberdog_msg/msg/yaml_param__type_support.cpp.o\x1b[0m\n'}
+[6.063159] (cyberdog_msg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cyberdog_msg/msg/apply_force__type_support.cpp.o\x1b[0m\n'}
+[6.085970] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.086702] (cyberdog_msg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cyberdog_msg/msg/detail/yaml_param__type_support.cpp.o\x1b[0m\n'}
+[6.089841] (cyberdog_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cyberdog_msg/msg/detail/apply_force__type_support.cpp.o\x1b[0m\n'}
+[6.120626] (-) TimerEvent: {}
+[6.139073] (cyberdog_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cyberdog_msg/msg/detail/dds_fastrtps/apply_force__type_support.cpp.o\x1b[0m\n'}
+[6.139625] (cyberdog_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cyberdog_msg/msg/detail/dds_fastrtps/yaml_param__type_support.cpp.o\x1b[0m\n'}
+[6.220757] (-) TimerEvent: {}
+[6.289392] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_c\x1b[0m\n'}
+[6.321432] (-) TimerEvent: {}
+[6.337405] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.342631] (cyberdog_msg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cyberdog_msg/msg/yaml_param__type_support.cpp.o\x1b[0m\n'}
+[6.344819] (cyberdog_msg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/cyberdog_msg/msg/apply_force__type_support.cpp.o\x1b[0m\n'}
+[6.399542] (cyberdog_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cyberdog_msg/msg/detail/yaml_param__type_support.c.o\x1b[0m\n'}
+[6.400148] (cyberdog_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cyberdog_msg/msg/detail/apply_force__type_support.c.o\x1b[0m\n'}
+[6.421598] (-) TimerEvent: {}
+[6.465417] (cyberdog_msg) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.521748] (-) TimerEvent: {}
+[6.522814] (cyberdog_msg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libcyberdog_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.620895] (cyberdog_msg) StdoutLine: {'line': b'[ 56%] Built target cyberdog_msg__rosidl_typesupport_c\n'}
+[6.621886] (-) TimerEvent: {}
+[6.647415] (cyberdog_msg) StdoutLine: {'line': b'[ 56%] Built target cyberdog_msg__rosidl_typesupport_introspection_c\n'}
+[6.722041] (-) TimerEvent: {}
+[6.804176] (cyberdog_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.805683] (cyberdog_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.822174] (-) TimerEvent: {}
+[6.901520] (cyberdog_msg) StdoutLine: {'line': b'[ 61%] Built target cyberdog_msg__rosidl_typesupport_cpp\n'}
+[6.922323] (-) TimerEvent: {}
+[6.953303] (cyberdog_msg) StdoutLine: {'line': b'[ 61%] Built target cyberdog_msg__rosidl_typesupport_introspection_cpp\n'}
+[7.022485] (-) TimerEvent: {}
+[7.077499] (cyberdog_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.122652] (-) TimerEvent: {}
+[7.223176] (-) TimerEvent: {}
+[7.241566] (cyberdog_msg) StdoutLine: {'line': b'[ 64%] Built target cyberdog_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[7.268280] (cyberdog_msg) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.323322] (-) TimerEvent: {}
+[7.423755] (-) TimerEvent: {}
+[7.524211] (-) TimerEvent: {}
+[7.624668] (-) TimerEvent: {}
+[7.635793] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.665228] (cyberdog_msg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cyberdog_msg/msg/detail/apply_force__type_support_c.cpp.o\x1b[0m\n'}
+[7.665593] (cyberdog_msg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cyberdog_msg/msg/detail/yaml_param__type_support_c.cpp.o\x1b[0m\n'}
+[7.724874] (-) TimerEvent: {}
+[7.825336] (-) TimerEvent: {}
+[7.925769] (-) TimerEvent: {}
+[8.026233] (-) TimerEvent: {}
+[8.103199] (cyberdog_msg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcyberdog_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.126382] (-) TimerEvent: {}
+[8.216383] (cyberdog_msg) StdoutLine: {'line': b'[ 74%] Built target cyberdog_msg__rosidl_typesupport_fastrtps_c\n'}
+[8.226512] (-) TimerEvent: {}
+[8.231971] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg\x1b[0m\n'}
+[8.249033] (cyberdog_msg) StdoutLine: {'line': b'[ 74%] Built target cyberdog_msg\n'}
+[8.265926] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__py\x1b[0m\n'}
+[8.283415] (cyberdog_msg) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.326653] (-) TimerEvent: {}
+[8.427074] (-) TimerEvent: {}
+[8.527471] (-) TimerEvent: {}
+[8.627865] (-) TimerEvent: {}
+[8.728232] (-) TimerEvent: {}
+[8.736746] (cyberdog_msg) StdoutLine: {'line': b'[ 76%] Built target cyberdog_msg__py\n'}
+[8.750739] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__python\x1b[0m\n'}
+[8.789722] (cyberdog_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/cyberdog_msg__python.dir/rosidl_generator_py/cyberdog_msg/msg/_apply_force_s.c.o\x1b[0m\n'}
+[8.789970] (cyberdog_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/cyberdog_msg__python.dir/rosidl_generator_py/cyberdog_msg/msg/_yaml_param_s.c.o\x1b[0m\n'}
+[8.828367] (-) TimerEvent: {}
+[8.893440] (cyberdog_msg) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cyberdog_msg/libcyberdog_msg__python.so\x1b[0m\n'}
+[8.928462] (-) TimerEvent: {}
+[8.946722] (cyberdog_msg) StdoutLine: {'line': b'[ 84%] Built target cyberdog_msg__python\n'}
+[8.959503] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.959730] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.960385] (cyberdog_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cyberdog_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.979223] (cyberdog_msg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cyberdog_msg/_cyberdog_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.979418] (cyberdog_msg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cyberdog_msg/_cyberdog_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.980132] (cyberdog_msg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/cyberdog_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cyberdog_msg/_cyberdog_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.028574] (-) TimerEvent: {}
+[9.054004] (cyberdog_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.054233] (cyberdog_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.059721] (cyberdog_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.095225] (cyberdog_msg) StdoutLine: {'line': b'[100%] Built target cyberdog_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[9.095481] (cyberdog_msg) StdoutLine: {'line': b'[100%] Built target cyberdog_msg__rosidl_typesupport_c__pyext\n'}
+[9.128701] (-) TimerEvent: {}
+[9.129071] (cyberdog_msg) StdoutLine: {'line': b'[100%] Built target cyberdog_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.144221] (cyberdog_msg) CommandEnded: {'returncode': 0}
+[9.228834] (-) TimerEvent: {}
+[9.240596] (cyberdog_msg) JobProgress: {'identifier': 'cyberdog_msg', 'progress': 'install'}
+[9.254770] (cyberdog_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/build/cyberdog_msg'], 'cwd': '/home/build/cyberdog_msg', 'env': OrderedDict([('HOSTNAME', '3b9285f1d2e1'), ('GIT_ASKPASS', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-595eaac6-594a-4792-bde7-b4326f7a2520.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/install'), ('ROS_DISTRO', 'galactic'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-ead67bfde8.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/build/cyberdog_msg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[9.264879] (cyberdog_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.265150] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/ament_index/resource_index/rosidl_interfaces/cyberdog_msg\n'}
+[9.265332] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg\n'}
+[9.265514] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg\n'}
+[9.265653] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/yaml_param.h\n'}
+[9.265780] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail\n'}
+[9.265918] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__functions.c\n'}
+[9.266069] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__functions.c\n'}
+[9.266249] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__functions.h\n'}
+[9.266452] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__functions.h\n'}
+[9.266647] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__type_support.h\n'}
+[9.266814] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__type_support.h\n'}
+[9.267059] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__struct.h\n'}
+[9.267259] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__struct.h\n'}
+[9.267429] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/apply_force.h\n'}
+[9.267565] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.267903] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/environment/library_path.sh\n'}
+[9.268152] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/environment/library_path.dsv\n'}
+[9.268438] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/libcyberdog_msg__rosidl_generator_c.so\n'}
+[9.269039] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_generator_c.so" to ""\n'}
+[9.269164] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg\n'}
+[9.269304] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg\n'}
+[9.269365] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg/detail\n'}
+[9.269418] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__rosidl_typesupport_fastrtps_c.h\n'}
+[9.269553] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__rosidl_typesupport_fastrtps_c.h\n'}
+[9.269699] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.269964] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[9.270573] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.270666] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg\n'}
+[9.270746] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg\n'}
+[9.270798] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.270924] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg/detail\n'}
+[9.270997] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/dds_fastrtps\n'}
+[9.271081] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.271236] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.271464] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.272010] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.272120] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg\n'}
+[9.272193] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg\n'}
+[9.272254] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg/detail\n'}
+[9.272300] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__type_support.c\n'}
+[9.272359] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__rosidl_typesupport_introspection_c.h\n'}
+[9.272473] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__type_support.c\n'}
+[9.272649] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__rosidl_typesupport_introspection_c.h\n'}
+[9.272886] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.273174] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_introspection_c.so\n'}
+[9.273633] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.273736] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_c.so\n'}
+[9.274141] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_c.so" to ""\n'}
+[9.274245] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg\n'}
+[9.274341] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg\n'}
+[9.274403] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg/detail\n'}
+[9.274456] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__struct.hpp\n'}
+[9.274522] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__builder.hpp\n'}
+[9.274655] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__traits.hpp\n'}
+[9.274831] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__traits.hpp\n'}
+[9.274991] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__struct.hpp\n'}
+[9.275152] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__builder.hpp\n'}
+[9.275313] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/yaml_param.hpp\n'}
+[9.275468] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/apply_force.hpp\n'}
+[9.275650] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg\n'}
+[9.275718] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg\n'}
+[9.275788] (cyberdog_msg) StdoutLine: {'line': b'-- Up-to-date: /home/install/include/cyberdog_msg/msg/detail\n'}
+[9.275863] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__type_support.cpp\n'}
+[9.275985] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.276147] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/apply_force__type_support.cpp\n'}
+[9.276335] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/include/cyberdog_msg/msg/detail/yaml_param__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.276630] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[9.277158] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.277250] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/libcyberdog_msg__rosidl_typesupport_cpp.so\n'}
+[9.277663] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libcyberdog_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[9.277730] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/environment/pythonpath.sh\n'}
+[9.277919] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/environment/pythonpath.dsv\n'}
+[9.278147] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/__init__.py\n'}
+[9.303669] (cyberdog_msg) StdoutLine: {'line': b"Compiling '/home/install/lib/python3.8/site-packages/cyberdog_msg/__init__.py'...\n"}
+[9.306606] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg\n'}
+[9.306806] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/_apply_force_s.c\n'}
+[9.306991] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/_yaml_param.py\n'}
+[9.307124] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/_apply_force.py\n'}
+[9.307275] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/_yaml_param_s.c\n'}
+[9.307433] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/msg/__init__.py\n'}
+[9.307732] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.308219] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.308395] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.308893] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.309037] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.309542] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/python3.8/site-packages/cyberdog_msg/cyberdog_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.309637] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/lib/libcyberdog_msg__python.so\n'}
+[9.310098] (cyberdog_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libcyberdog_msg__python.so" to ""\n'}
+[9.310203] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/msg/YamlParam.idl\n'}
+[9.310377] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/msg/ApplyForce.idl\n'}
+[9.310554] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/msg/YamlParam.msg\n'}
+[9.310723] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/msg/ApplyForce.msg\n'}
+[9.310964] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_msg\n'}
+[9.311192] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_msg\n'}
+[9.311371] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/environment/ament_prefix_path.sh\n'}
+[9.311544] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/environment/ament_prefix_path.dsv\n'}
+[9.311717] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/environment/path.sh\n'}
+[9.311901] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/environment/path.dsv\n'}
+[9.312086] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/local_setup.bash\n'}
+[9.312256] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/local_setup.sh\n'}
+[9.312431] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/local_setup.zsh\n'}
+[9.312603] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/local_setup.dsv\n'}
+[9.312771] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/package.dsv\n'}
+[9.312976] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/ament_index/resource_index/packages/cyberdog_msg\n'}
+[9.313212] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_generator_cExport.cmake\n'}
+[9.313394] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.313604] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.313795] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.314015] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_cExport.cmake\n'}
+[9.314233] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.314455] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_generator_cppExport.cmake\n'}
+[9.314681] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.314885] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.315099] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_cppExport.cmake\n'}
+[9.315290] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.315470] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[9.315648] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.315821] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.316259] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.316657] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.317062] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.317244] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.317424] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msgConfig.cmake\n'}
+[9.317581] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/cmake/cyberdog_msgConfig-version.cmake\n'}
+[9.317785] (cyberdog_msg) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_msg/package.xml\n'}
+[9.320446] (cyberdog_msg) CommandEnded: {'returncode': 0}
+[9.328891] (-) TimerEvent: {}
+[9.429954] (-) TimerEvent: {}
+[9.448148] (cyberdog_msg) JobEnded: {'identifier': 'cyberdog_msg', 'rc': 0}
+[9.450183] (cyberdog_gazebo) JobStarted: {'identifier': 'cyberdog_gazebo'}
+[9.460474] (cyberdog_gazebo) JobProgress: {'identifier': 'cyberdog_gazebo', 'progress': 'cmake'}
+[9.460709] (cyberdog_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/install'], 'cwd': '/home/build/cyberdog_gazebo', 'env': OrderedDict([('HOSTNAME', '3b9285f1d2e1'), ('GIT_ASKPASS', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-595eaac6-594a-4792-bde7-b4326f7a2520.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/install'), ('ROS_DISTRO', 'galactic'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-ead67bfde8.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('AMENT_PREFIX_PATH', '/home/install:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/build/cyberdog_gazebo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/install/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/install:/opt/ros/galactic')]), 'shell': False}
+[9.523173] (cyberdog_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[9.530006] (-) TimerEvent: {}
+[9.574628] (cyberdog_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[9.577975] (cyberdog_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[9.630133] (-) TimerEvent: {}
+[9.653480] (cyberdog_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[9.654121] (cyberdog_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.730274] (cyberdog_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.730467] (-) TimerEvent: {}
+[9.737941] (cyberdog_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.738311] (cyberdog_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.739992] (cyberdog_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[9.823435] (cyberdog_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[9.824240] (cyberdog_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.830581] (-) TimerEvent: {}
+[9.907780] (cyberdog_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.915880] (cyberdog_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.916256] (cyberdog_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.919987] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[9.930690] (-) TimerEvent: {}
+[9.946110] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.946391] (cyberdog_gazebo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.029647] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[10.030788] (-) TimerEvent: {}
+[10.033415] (cyberdog_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.043421] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[10.130933] (-) TimerEvent: {}
+[10.193802] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[10.231071] (-) TimerEvent: {}
+[10.241119] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[10.331197] (-) TimerEvent: {}
+[10.350532] (cyberdog_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.379504] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[10.431346] (-) TimerEvent: {}
+[10.459380] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[10.463723] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[10.481517] (cyberdog_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[10.482912] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.531479] (-) TimerEvent: {}
+[10.561977] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.562254] (cyberdog_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.631610] (-) TimerEvent: {}
+[10.641382] (cyberdog_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[10.641647] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[10.708790] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[10.709075] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[10.731740] (-) TimerEvent: {}
+[10.788644] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[10.789454] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.831837] (-) TimerEvent: {}
+[10.921211] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)\n'}
+[10.931894] (-) TimerEvent: {}
+[10.981599] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found gazebo_dev: 3.5.2 (/opt/ros/galactic/share/gazebo_dev/cmake)\n'}
+[10.992193] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[10.993620] (cyberdog_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[11.015858] (cyberdog_gazebo) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[11.032003] (-) TimerEvent: {}
+[11.132312] (-) TimerEvent: {}
+[11.226190] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[11.232409] (-) TimerEvent: {}
+[11.319166] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[11.332525] (-) TimerEvent: {}
+[11.416526] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[11.432659] (-) TimerEvent: {}
+[11.458316] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[11.496991] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[11.517269] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[11.526603] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.532747] (-) TimerEvent: {}
+[11.536967] (cyberdog_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[11.539343] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[11.539787] (cyberdog_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[11.545015] (cyberdog_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[11.571955] (cyberdog_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[11.632901] (-) TimerEvent: {}
+[11.643515] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[11.652982] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[11.662041] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[11.667660] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[11.667895] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[11.672094] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[11.672278] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[11.676580] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[11.676767] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[11.680970] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[11.681155] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[11.685107] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[11.685321] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[11.689625] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[11.733037] (-) TimerEvent: {}
+[11.789507] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[11.795100] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.5.0\n'}
+[11.795499] (cyberdog_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[11.833137] (-) TimerEvent: {}
+[11.863908] (cyberdog_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[11.869152] (cyberdog_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[11.896371] (cyberdog_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[11.933277] (-) TimerEvent: {}
+[11.964333] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[11.971537] (cyberdog_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[11.998189] (cyberdog_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[12.033420] (-) TimerEvent: {}
+[12.066917] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[12.072100] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[12.072514] (cyberdog_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[12.110195] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[12.111076] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[12.117002] (cyberdog_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[12.133539] (-) TimerEvent: {}
+[12.144922] (cyberdog_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[12.214769] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[12.219850] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.0\n'}
+[12.220422] (cyberdog_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[12.221109] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[12.221756] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[12.223085] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[12.233178] (cyberdog_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[12.233644] (-) TimerEvent: {}
+[12.237683] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.17.0\n'}
+[12.238250] (cyberdog_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[12.238579] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[12.244900] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.9.1\n'}
+[12.245309] (cyberdog_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[12.333761] (-) TimerEvent: {}
+[12.375993] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[12.389132] (cyberdog_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[12.413529] (cyberdog_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[12.433892] (-) TimerEvent: {}
+[12.484347] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[12.492592] (cyberdog_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[12.520921] (cyberdog_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[12.534002] (-) TimerEvent: {}
+[12.600542] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[12.601003] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.0\n'}
+[12.601312] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[12.601652] (cyberdog_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[12.603748] (cyberdog_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.14\n'}
+[12.607701] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)\n'}
+[12.618987] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.5.2 (/opt/ros/galactic/share/gazebo_msgs/cmake)\n'}
+[12.634140] (-) TimerEvent: {}
+[12.734495] (-) TimerEvent: {}
+[12.834918] (-) TimerEvent: {}
+[12.863916] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found cyberdog_msg: 0.0.0 (/home/install/share/cyberdog_msg/cmake)\n'}
+[12.935080] (-) TimerEvent: {}
+[12.936519] (cyberdog_gazebo) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 7.1.1 (/opt/ros/galactic/share/yaml_cpp_vendor/cmake)\n'}
+[12.973269] (cyberdog_gazebo) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/galactic/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[13.035225] (-) TimerEvent: {}
+[13.074246] (cyberdog_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.135380] (-) TimerEvent: {}
+[13.155745] (cyberdog_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[13.159336] (cyberdog_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/build/cyberdog_gazebo\n'}
+[13.172569] (cyberdog_gazebo) CommandEnded: {'returncode': 0}
+[13.173552] (cyberdog_gazebo) JobProgress: {'identifier': 'cyberdog_gazebo', 'progress': 'build'}
+[13.176227] (cyberdog_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/build/cyberdog_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/build/cyberdog_gazebo', 'env': OrderedDict([('HOSTNAME', '3b9285f1d2e1'), ('GIT_ASKPASS', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-595eaac6-594a-4792-bde7-b4326f7a2520.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/install'), ('ROS_DISTRO', 'galactic'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-ead67bfde8.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('AMENT_PREFIX_PATH', '/home/install:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/build/cyberdog_gazebo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/install/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/install:/opt/ros/galactic')]), 'shell': False}
+[13.235539] (-) TimerEvent: {}
+[13.246042] (cyberdog_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target param_handler\x1b[0m\n'}
+[13.246458] (cyberdog_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target foot_contact_plugin\x1b[0m\n'}
+[13.271846] (cyberdog_gazebo) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object third-party/ParamHandler/CMakeFiles/param_handler.dir/ParamHandler.cpp.o\x1b[0m\n'}
+[13.335690] (-) TimerEvent: {}
+[13.436183] (-) TimerEvent: {}
+[13.527186] (cyberdog_gazebo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/foot_contact_plugin.dir/src/foot_contact_plugin.cpp.o\x1b[0m\n'}
+[13.536278] (-) TimerEvent: {}
+[13.636606] (-) TimerEvent: {}
+[13.737098] (-) TimerEvent: {}
+[13.837526] (-) TimerEvent: {}
+[13.937954] (-) TimerEvent: {}
+[14.038407] (-) TimerEvent: {}
+[14.138959] (cyberdog_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libparam_handler.so\x1b[0m\n'}
+[14.139304] (-) TimerEvent: {}
+[14.239590] (-) TimerEvent: {}
+[14.249519] (cyberdog_gazebo) StdoutLine: {'line': b'[ 25%] Built target param_handler\n'}
+[14.268593] (cyberdog_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target legged_plugin\x1b[0m\n'}
+[14.339716] (-) TimerEvent: {}
+[14.440050] (-) TimerEvent: {}
+[14.540414] (-) TimerEvent: {}
+[14.560968] (cyberdog_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/sim_utilities/spine_board.cpp.o\x1b[0m\n'}
+[14.561230] (cyberdog_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/control_parameters/control_parameters.cpp.o\x1b[0m\n'}
+[14.561342] (cyberdog_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/control_parameters/control_parameter_interface.cpp.o\x1b[0m\n'}
+[14.563693] (cyberdog_gazebo) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/utilities/utilities.cpp.o\x1b[0m\n'}
+[14.580138] (cyberdog_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/lcmhandler.cpp.o\x1b[0m\n'}
+[14.580400] (cyberdog_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/legged_plugin.cpp.o\x1b[0m\n'}
+[14.581601] (cyberdog_gazebo) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/legged_plugin.dir/src/legged_simparam.cpp.o\x1b[0m\n'}
+[14.640530] (-) TimerEvent: {}
+[14.740890] (-) TimerEvent: {}
+[14.841258] (-) TimerEvent: {}
+[14.941623] (-) TimerEvent: {}
+[15.042034] (-) TimerEvent: {}
+[15.142415] (-) TimerEvent: {}
+[15.242795] (-) TimerEvent: {}
+[15.343192] (-) TimerEvent: {}
+[15.443571] (-) TimerEvent: {}
+[15.543905] (-) TimerEvent: {}
+[15.644274] (-) TimerEvent: {}
+[15.744643] (-) TimerEvent: {}
+[15.845030] (-) TimerEvent: {}
+[15.945489] (-) TimerEvent: {}
+[15.979326] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/lcmhandler.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::LCMHandler::HandleCommand(const lcm::ReceiveBuffer*, const string&, const gamepad_lcmt*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.979662] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/lcmhandler.cpp:43:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krbuf\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.979841] (cyberdog_gazebo) StderrLine: {'line': b'   43 |     void LCMHandler::HandleCommand(\x1b[01;35m\x1b[Kconst lcm::ReceiveBuffer *rbuf\x1b[m\x1b[K, const std::string &chan, const gamepad_lcmt *msg)\n'}
+[15.979993] (cyberdog_gazebo) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[15.980113] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/lcmhandler.cpp:43:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kchan\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.980227] (cyberdog_gazebo) StderrLine: {'line': b'   43 |     void LCMHandler::HandleCommand(const lcm::ReceiveBuffer *rbuf, \x1b[01;35m\x1b[Kconst std::string &chan\x1b[m\x1b[K, const gamepad_lcmt *msg)\n'}
+[15.980334] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.045623] (-) TimerEvent: {}
+[16.146046] (-) TimerEvent: {}
+[16.246436] (-) TimerEvent: {}
+[16.346914] (-) TimerEvent: {}
+[16.447340] (-) TimerEvent: {}
+[16.547687] (-) TimerEvent: {}
+[16.648097] (-) TimerEvent: {}
+[16.748417] (-) TimerEvent: {}
+[16.848783] (-) TimerEvent: {}
+[16.949179] (-) TimerEvent: {}
+[17.049585] (-) TimerEvent: {}
+[17.149960] (-) TimerEvent: {}
+[17.250348] (-) TimerEvent: {}
+[17.350727] (-) TimerEvent: {}
+[17.451124] (-) TimerEvent: {}
+[17.551447] (-) TimerEvent: {}
+[17.557733] (cyberdog_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/legged_simparam.hpp:27\x1b[m\x1b[K,\n'}
+[17.558320] (cyberdog_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:17\x1b[m\x1b[K:\n'}
+[17.558472] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:28:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.558610] (cyberdog_gazebo) StderrLine: {'line': b'   28 |     DECLARE_PARAMETER( s64, gait_id )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.558683] (cyberdog_gazebo) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.558735] (cyberdog_gazebo) StderrLine: {'line': b'      |                                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.558782] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:46:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.558854] (cyberdog_gazebo) StderrLine: {'line': b'   46 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_10_4 )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.558913] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.558962] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.559009] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:47:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.559058] (cyberdog_gazebo) StderrLine: {'line': b'   47 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_follow )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.559103] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.559148] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                  \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.559193] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:48:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.559238] (cyberdog_gazebo) StderrLine: {'line': b'   48 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_medium )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.559283] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.559326] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                  \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.559369] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:49:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.559415] (cyberdog_gazebo) StderrLine: {'line': b'   49 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_slow )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.559459] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.559504] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.559548] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:50:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.559593] (cyberdog_gazebo) StderrLine: {'line': b'   50 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_fast )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.559638] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.559689] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.559734] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:51:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.559784] (cyberdog_gazebo) StderrLine: {'line': b'   51 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_24_16 )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.559850] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.559907] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                 \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.559957] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:52:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.560008] (cyberdog_gazebo) StderrLine: {'line': b'   52 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_8_3 )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.560058] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.560106] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                               \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.560154] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:53:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.560202] (cyberdog_gazebo) StderrLine: {'line': b'   53 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_ballet )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.560249] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.560296] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                             \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.560344] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:54:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.560397] (cyberdog_gazebo) StderrLine: {'line': b'   54 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_bound )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.560445] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.560493] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.560539] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:55:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.560586] (cyberdog_gazebo) StderrLine: {'line': b'   55 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_pronk )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.560638] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.560685] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.560732] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:56:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.560786] (cyberdog_gazebo) StderrLine: {'line': b'   56 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_gain )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.560845] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.560905] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.560970] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:57:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[17.561022] (cyberdog_gazebo) StderrLine: {'line': b'   57 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_offset )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[17.561072] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[17.561118] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[17.617721] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kgazebo::SimParam::SimParam(std::string, gazebo::NodeExc*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.617973] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:22:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmodel_name\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[17.618125] (cyberdog_gazebo) StderrLine: {'line': b'   22 |     SimParam::SimParam(\x1b[01;35m\x1b[Kstd::string model_name\x1b[m\x1b[K, NodeExc* node_executor)\n'}
+[17.618235] (cyberdog_gazebo) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.618945] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::SimParam::FirstRun()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.619053] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:76:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kflag_ls\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[17.619116] (cyberdog_gazebo) StderrLine: {'line': b'   76 |         while ( bool \x1b[01;35m\x1b[Kflag_ls\x1b[m\x1b[K = !shared_memory_.TryWaitForRobot() ) {\n'}
+[17.619177] (cyberdog_gazebo) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.620040] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:75:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kflag_ls\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[17.620123] (cyberdog_gazebo) StderrLine: {'line': b'   75 |         bool \x1b[01;35m\x1b[Kflag_ls\x1b[m\x1b[K=false;\n'}
+[17.620177] (cyberdog_gazebo) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.651576] (-) TimerEvent: {}
+[17.751905] (-) TimerEvent: {}
+[17.852210] (-) TimerEvent: {}
+[17.952586] (-) TimerEvent: {}
+[18.052936] (-) TimerEvent: {}
+[18.153313] (-) TimerEvent: {}
+[18.253701] (-) TimerEvent: {}
+[18.354089] (-) TimerEvent: {}
+[18.454399] (-) TimerEvent: {}
+[18.554770] (-) TimerEvent: {}
+[18.655184] (-) TimerEvent: {}
+[18.755601] (-) TimerEvent: {}
+[18.855980] (-) TimerEvent: {}
+[18.956285] (-) TimerEvent: {}
+[19.056656] (-) TimerEvent: {}
+[19.157061] (-) TimerEvent: {}
+[19.257446] (-) TimerEvent: {}
+[19.357850] (-) TimerEvent: {}
+[19.458218] (-) TimerEvent: {}
+[19.558598] (-) TimerEvent: {}
+[19.659009] (-) TimerEvent: {}
+[19.759406] (-) TimerEvent: {}
+[19.859790] (-) TimerEvent: {}
+[19.960229] (-) TimerEvent: {}
+[20.060632] (-) TimerEvent: {}
+[20.160925] (-) TimerEvent: {}
+[20.261268] (-) TimerEvent: {}
+[20.361540] (-) TimerEvent: {}
+[20.461867] (-) TimerEvent: {}
+[20.562245] (-) TimerEvent: {}
+[20.662613] (-) TimerEvent: {}
+[20.762928] (-) TimerEvent: {}
+[20.863290] (-) TimerEvent: {}
+[20.963668] (-) TimerEvent: {}
+[21.064058] (-) TimerEvent: {}
+[21.164428] (-) TimerEvent: {}
+[21.264800] (-) TimerEvent: {}
+[21.365208] (-) TimerEvent: {}
+[21.465579] (-) TimerEvent: {}
+[21.565927] (-) TimerEvent: {}
+[21.666310] (-) TimerEvent: {}
+[21.766680] (-) TimerEvent: {}
+[21.867060] (-) TimerEvent: {}
+[21.967430] (-) TimerEvent: {}
+[22.067794] (-) TimerEvent: {}
+[22.168183] (-) TimerEvent: {}
+[22.268530] (-) TimerEvent: {}
+[22.368896] (-) TimerEvent: {}
+[22.469297] (-) TimerEvent: {}
+[22.569680] (-) TimerEvent: {}
+[22.670047] (-) TimerEvent: {}
+[22.770416] (-) TimerEvent: {}
+[22.815954] (cyberdog_gazebo) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libfoot_contact_plugin.so\x1b[0m\n'}
+[22.870546] (-) TimerEvent: {}
+[22.970910] (-) TimerEvent: {}
+[23.071274] (-) TimerEvent: {}
+[23.124577] (cyberdog_gazebo) StdoutLine: {'line': b'[ 91%] Built target foot_contact_plugin\n'}
+[23.171423] (-) TimerEvent: {}
+[23.271774] (-) TimerEvent: {}
+[23.287511] (cyberdog_gazebo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/legged_simparam.hpp:27\x1b[m\x1b[K,\n'}
+[23.287738] (cyberdog_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/legged_plugin.hpp:24\x1b[m\x1b[K,\n'}
+[23.287802] (cyberdog_gazebo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_plugin.cpp:15\x1b[m\x1b[K:\n'}
+[23.288192] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:28:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.288277] (cyberdog_gazebo) StderrLine: {'line': b'   28 |     DECLARE_PARAMETER( s64, gait_id )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.288326] (cyberdog_gazebo) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.288368] (cyberdog_gazebo) StderrLine: {'line': b'      |                                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.288408] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:46:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.288450] (cyberdog_gazebo) StderrLine: {'line': b'   46 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_10_4 )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.288491] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.288530] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.288568] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:47:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.288614] (cyberdog_gazebo) StderrLine: {'line': b'   47 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_follow )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.288653] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.288693] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                  \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.288742] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:48:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.288784] (cyberdog_gazebo) StderrLine: {'line': b'   48 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_medium )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.288833] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.288891] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                  \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.288932] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:49:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.288972] (cyberdog_gazebo) StderrLine: {'line': b'   49 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_slow )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.289010] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.289047] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.289084] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:50:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.289121] (cyberdog_gazebo) StderrLine: {'line': b'   50 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_fast )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.289159] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.289196] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.289234] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:51:65:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.289277] (cyberdog_gazebo) StderrLine: {'line': b'   51 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_24_16 )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.289315] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.289356] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                                 \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.289394] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:52:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.289435] (cyberdog_gazebo) StderrLine: {'line': b'   52 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_8_3 )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.289473] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.289511] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                               \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.289549] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:53:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.289594] (cyberdog_gazebo) StderrLine: {'line': b'   53 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_ballet )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.289632] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.289670] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                             \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.289708] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:54:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.289750] (cyberdog_gazebo) StderrLine: {'line': b'   54 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_bound )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.289788] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.289829] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.289876] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:55:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.289916] (cyberdog_gazebo) StderrLine: {'line': b'   55 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_pronk )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.289954] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.289993] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.290063] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:56:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.290107] (cyberdog_gazebo) StderrLine: {'line': b'   56 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_gain )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.290145] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.290183] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                          \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.290220] (cyberdog_gazebo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:57:60:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[23.290258] (cyberdog_gazebo) StderrLine: {'line': b'   57 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_offset )\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[23.290316] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.290354] (cyberdog_gazebo) StderrLine: {'line': b'      |                                                            \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[23.371910] (-) TimerEvent: {}
+[23.472272] (-) TimerEvent: {}
+[23.572628] (-) TimerEvent: {}
+[23.672999] (-) TimerEvent: {}
+[23.773379] (-) TimerEvent: {}
+[23.873773] (-) TimerEvent: {}
+[23.974253] (-) TimerEvent: {}
+[24.074634] (-) TimerEvent: {}
+[24.175053] (-) TimerEvent: {}
+[24.275442] (-) TimerEvent: {}
+[24.375841] (-) TimerEvent: {}
+[24.476236] (-) TimerEvent: {}
+[24.576584] (-) TimerEvent: {}
+[24.677006] (-) TimerEvent: {}
+[24.777393] (-) TimerEvent: {}
+[24.877778] (-) TimerEvent: {}
+[24.978220] (-) TimerEvent: {}
+[25.078600] (-) TimerEvent: {}
+[25.179228] (-) TimerEvent: {}
+[25.279597] (-) TimerEvent: {}
+[25.380139] (-) TimerEvent: {}
+[25.480505] (-) TimerEvent: {}
+[25.580887] (-) TimerEvent: {}
+[25.681236] (-) TimerEvent: {}
+[25.781639] (-) TimerEvent: {}
+[25.882028] (-) TimerEvent: {}
+[25.982391] (-) TimerEvent: {}
+[26.082749] (-) TimerEvent: {}
+[26.183121] (-) TimerEvent: {}
+[26.283498] (-) TimerEvent: {}
+[26.383891] (-) TimerEvent: {}
+[26.484257] (-) TimerEvent: {}
+[26.584619] (-) TimerEvent: {}
+[26.685008] (-) TimerEvent: {}
+[26.785374] (-) TimerEvent: {}
+[26.885742] (-) TimerEvent: {}
+[26.986149] (-) TimerEvent: {}
+[27.086510] (-) TimerEvent: {}
+[27.187085] (-) TimerEvent: {}
+[27.287441] (-) TimerEvent: {}
+[27.387784] (-) TimerEvent: {}
+[27.488411] (-) TimerEvent: {}
+[27.588741] (-) TimerEvent: {}
+[27.689081] (-) TimerEvent: {}
+[27.789626] (-) TimerEvent: {}
+[27.889969] (-) TimerEvent: {}
+[27.990303] (-) TimerEvent: {}
+[28.090656] (-) TimerEvent: {}
+[28.191021] (-) TimerEvent: {}
+[28.291383] (-) TimerEvent: {}
+[28.391730] (-) TimerEvent: {}
+[28.492066] (-) TimerEvent: {}
+[28.592397] (-) TimerEvent: {}
+[28.692752] (-) TimerEvent: {}
+[28.793144] (-) TimerEvent: {}
+[28.893492] (-) TimerEvent: {}
+[28.993852] (-) TimerEvent: {}
+[29.094193] (-) TimerEvent: {}
+[29.194536] (-) TimerEvent: {}
+[29.294911] (-) TimerEvent: {}
+[29.395285] (-) TimerEvent: {}
+[29.495645] (-) TimerEvent: {}
+[29.596045] (-) TimerEvent: {}
+[29.696410] (-) TimerEvent: {}
+[29.796773] (-) TimerEvent: {}
+[29.897175] (-) TimerEvent: {}
+[29.997532] (-) TimerEvent: {}
+[30.097898] (-) TimerEvent: {}
+[30.198247] (-) TimerEvent: {}
+[30.298599] (-) TimerEvent: {}
+[30.398946] (-) TimerEvent: {}
+[30.499311] (-) TimerEvent: {}
+[30.599674] (-) TimerEvent: {}
+[30.700028] (-) TimerEvent: {}
+[30.800394] (-) TimerEvent: {}
+[30.900758] (-) TimerEvent: {}
+[31.001255] (-) TimerEvent: {}
+[31.047587] (cyberdog_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblegged_plugin.so\x1b[0m\n'}
+[31.101411] (-) TimerEvent: {}
+[31.201779] (-) TimerEvent: {}
+[31.302194] (-) TimerEvent: {}
+[31.402618] (-) TimerEvent: {}
+[31.503016] (-) TimerEvent: {}
+[31.603389] (-) TimerEvent: {}
+[31.703775] (-) TimerEvent: {}
+[31.804104] (-) TimerEvent: {}
+[31.904461] (-) TimerEvent: {}
+[32.004841] (-) TimerEvent: {}
+[32.059952] (cyberdog_gazebo) StdoutLine: {'line': b'[100%] Built target legged_plugin\n'}
+[32.072763] (cyberdog_gazebo) CommandEnded: {'returncode': 0}
+[32.104938] (-) TimerEvent: {}
+[32.119560] (cyberdog_gazebo) JobProgress: {'identifier': 'cyberdog_gazebo', 'progress': 'install'}
+[32.121831] (cyberdog_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/build/cyberdog_gazebo'], 'cwd': '/home/build/cyberdog_gazebo', 'env': OrderedDict([('HOSTNAME', '3b9285f1d2e1'), ('GIT_ASKPASS', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.108.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-595eaac6-594a-4792-bde7-b4326f7a2520.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/install'), ('ROS_DISTRO', 'galactic'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-ead67bfde8.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f5b4c017-338c-426d-b106-01afc17e7d18.sock'), ('AMENT_PREFIX_PATH', '/home/install:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/build/cyberdog_gazebo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/install/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/install:/opt/ros/galactic')]), 'shell': False}
+[32.131421] (cyberdog_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.131742] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/lib/liblegged_plugin.so\n'}
+[32.143952] (cyberdog_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/liblegged_plugin.so" to ""\n'}
+[32.144100] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/lib/libparam_handler.so\n'}
+[32.144586] (cyberdog_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libparam_handler.so" to ""\n'}
+[32.144668] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/lib/libfoot_contact_plugin.so\n'}
+[32.146576] (cyberdog_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/install/lib/libfoot_contact_plugin.so" to ""\n'}
+[32.146694] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/launch\n'}
+[32.146814] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/launch/__pycache__\n'}
+[32.146941] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/launch/__pycache__/race_gazebo.launch.cpython-38.pyc\n'}
+[32.147501] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/launch/gazebo.launch.py\n'}
+[32.147645] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/launch/heightmap_gazebo.launch.py\n'}
+[32.147784] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/launch/race_gazebo.launch.py\n'}
+[32.147936] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/launch/cyberdog_control_launch.py\n'}
+[32.148077] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/launch/gazebo_nav.launch.py\n'}
+[32.148220] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world\n'}
+[32.148292] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world/race2025.world\n'}
+[32.148438] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world/race1.world\n'}
+[32.148563] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world/race.world\n'}
+[32.148755] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world/race2024.world\n'}
+[32.149047] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world/.race.world.swp\n'}
+[32.149361] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world/.race.swp\n'}
+[32.149521] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world/race3.world\n'}
+[32.149817] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world/simple.world\n'}
+[32.150080] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/world/race2.world\n'}
+[32.150537] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/ament_index/resource_index/package_run_dependencies/cyberdog_gazebo\n'}
+[32.150722] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/ament_index/resource_index/parent_prefix_path/cyberdog_gazebo\n'}
+[32.150957] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/environment/ament_prefix_path.sh\n'}
+[32.151125] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/environment/ament_prefix_path.dsv\n'}
+[32.151294] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/environment/path.sh\n'}
+[32.151460] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/environment/path.dsv\n'}
+[32.151627] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/local_setup.bash\n'}
+[32.151801] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/local_setup.sh\n'}
+[32.151968] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/local_setup.zsh\n'}
+[32.152127] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/local_setup.dsv\n'}
+[32.152283] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/package.dsv\n'}
+[32.152476] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/ament_index/resource_index/packages/cyberdog_gazebo\n'}
+[32.152673] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/cmake/cyberdog_gazeboConfig.cmake\n'}
+[32.152866] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/cmake/cyberdog_gazeboConfig-version.cmake\n'}
+[32.153047] (cyberdog_gazebo) StdoutLine: {'line': b'-- Installing: /home/install/share/cyberdog_gazebo/package.xml\n'}
+[32.155192] (cyberdog_gazebo) CommandEnded: {'returncode': 0}
+[32.205032] (-) TimerEvent: {}
+[32.226693] (cyberdog_gazebo) JobEnded: {'identifier': 'cyberdog_gazebo', 'rc': 0}
+[32.227444] (-) EventReactorShutdown: {}

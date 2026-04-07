@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'Eigen3'}
+[0.001991] (-) JobUnselected: {'identifier': 'bes_transmit'}
+[0.002075] (-) JobUnselected: {'identifier': 'black_box'}
+[0.002144] (-) JobUnselected: {'identifier': 'cpp_httplib'}
+[0.002183] (-) JobUnselected: {'identifier': 'cyberdog_bringup'}
+[0.002217] (-) JobUnselected: {'identifier': 'cyberdog_color_detector_py'}
+[0.002251] (-) JobUnselected: {'identifier': 'cyberdog_common'}
+[0.002283] (-) JobUnselected: {'identifier': 'cyberdog_debug'}
+[0.002334] (-) JobUnselected: {'identifier': 'cyberdog_description'}
+[0.002384] (-) JobUnselected: {'identifier': 'cyberdog_embed_protocol'}
+[0.002419] (-) JobUnselected: {'identifier': 'cyberdog_example'}
+[0.002448] (-) JobUnselected: {'identifier': 'cyberdog_grpc'}
+[0.002480] (-) JobUnselected: {'identifier': 'cyberdog_locomotion'}
+[0.002514] (-) JobUnselected: {'identifier': 'cyberdog_machine'}
+[0.002544] (-) JobUnselected: {'identifier': 'cyberdog_manager'}
+[0.002573] (-) JobUnselected: {'identifier': 'cyberdog_msg'}
+[0.002602] (-) JobUnselected: {'identifier': 'cyberdog_parameter'}
+[0.002632] (-) JobUnselected: {'identifier': 'cyberdog_permission'}
+[0.002662] (-) JobUnselected: {'identifier': 'cyberdog_simulator'}
+[0.002725] (-) JobUnselected: {'identifier': 'cyberdog_system'}
+[0.002763] (-) JobUnselected: {'identifier': 'cyberdog_visual'}
+[0.002792] (-) JobUnselected: {'identifier': 'elec_skin'}
+[0.002824] (-) JobUnselected: {'identifier': 'filesystem'}
+[0.002874] (-) JobUnselected: {'identifier': 'lcm'}
+[0.002912] (-) JobUnselected: {'identifier': 'low_power_consumption'}
+[0.002965] (-) JobUnselected: {'identifier': 'manager_base'}
+[0.004606] (-) JobUnselected: {'identifier': 'motion_action'}
+[0.004700] (-) JobUnselected: {'identifier': 'motion_bridge'}
+[0.004756] (-) JobUnselected: {'identifier': 'motion_manager'}
+[0.004798] (-) JobUnselected: {'identifier': 'motion_utils'}
+[0.004833] (-) JobUnselected: {'identifier': 'mqttc'}
+[0.004866] (-) JobUnselected: {'identifier': 'nvinference'}
+[0.004896] (-) JobUnselected: {'identifier': 'params'}
+[0.004927] (-) JobUnselected: {'identifier': 'protocol'}
+[0.004984] (-) JobUnselected: {'identifier': 'rapidjson'}
+[0.005037] (-) JobUnselected: {'identifier': 'skin_manager'}
+[0.005079] (-) JobUnselected: {'identifier': 'toml'}
+[0.005317] (-) JobUnselected: {'identifier': 'user_info_manager'}
+[0.005409] (-) JobUnselected: {'identifier': 'xpack'}
+[0.005467] (-) JobUnselected: {'identifier': 'zxing'}
+[0.005516] (cyberdog_qr_detector_py) JobQueued: {'identifier': 'cyberdog_qr_detector_py', 'dependencies': OrderedDict()}
+[0.005744] (cyberdog_gazebo) JobQueued: {'identifier': 'cyberdog_gazebo', 'dependencies': OrderedDict([('cyberdog_msg', '/home/install')])}
+[0.005836] (cyberdog_qr_detector_py) JobStarted: {'identifier': 'cyberdog_qr_detector_py'}
+[0.037516] (cyberdog_gazebo) JobStarted: {'identifier': 'cyberdog_gazebo'}
+[0.073453] (cyberdog_gazebo) JobEnded: {'identifier': 'cyberdog_gazebo', 'rc': 1}
+[0.074290] (cyberdog_qr_detector_py) JobEnded: {'identifier': 'cyberdog_qr_detector_py', 'rc': 'SIGINT'}
+[0.084939] (-) EventReactorShutdown: {}

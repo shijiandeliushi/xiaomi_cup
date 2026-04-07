@@ -1,0 +1,4 @@
+source;share/cyberdog_msg/local_setup.bash
+source;share/cyberdog_msg/local_setup.dsv
+source;share/cyberdog_msg/local_setup.sh
+source;share/cyberdog_msg/local_setup.zsh

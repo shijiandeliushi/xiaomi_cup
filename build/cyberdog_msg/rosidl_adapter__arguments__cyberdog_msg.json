@@ -1,0 +1,7 @@
+{
+  "package_name": "cyberdog_msg",
+  "non_idl_tuples": [
+    "/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg:msg/YamlParam.msg",
+    "/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg:msg/ApplyForce.msg"
+  ]
+}

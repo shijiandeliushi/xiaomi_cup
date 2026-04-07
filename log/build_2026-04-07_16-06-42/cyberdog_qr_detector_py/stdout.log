@@ -1,0 +1,37 @@
+running egg_info
+creating ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info
+writing ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/entry_points.txt
+writing requirements to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/requires.txt
+writing top-level names to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/top_level.txt
+writing manifest file '../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt'
+reading manifest file '../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/build/cyberdog_qr_detector_py/build
+creating /home/build/cyberdog_qr_detector_py/build/lib
+creating /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py
+copying cyberdog_qr_detector_py/qr_detector_py_node.py -> /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py
+copying cyberdog_qr_detector_py/__init__.py -> /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py
+running install
+running install_lib
+creating /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py
+copying /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py/qr_detector_py_node.py -> /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py
+copying /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py/__init__.py -> /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py
+byte-compiling /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py/qr_detector_py_node.py to qr_detector_py_node.cpython-38.pyc
+byte-compiling /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/install/share/ament_index
+creating /home/install/share/ament_index/resource_index
+creating /home/install/share/ament_index/resource_index/packages
+copying resource/cyberdog_qr_detector_py -> /home/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/install/share/cyberdog_qr_detector_py
+creating /home/install/share/cyberdog_qr_detector_py/launch
+copying launch/qr_detector.launch.py -> /home/install/share/cyberdog_qr_detector_py/launch
+running install_egg_info
+Copying ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info to /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py-0.1.0-py3.8.egg-info
+running install_scripts
+Installing qr_detector_py_node script to /home/install/lib/cyberdog_qr_detector_py
+writing list of installed files to '/home/build/cyberdog_qr_detector_py/install.log'

@@ -1,0 +1,127 @@
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/lcmhandler.cpp:[m[K In member function ‘[01m[Kvoid gazebo::LCMHandler::HandleCommand(const lcm::ReceiveBuffer*, const string&, const gamepad_lcmt*)[m[K’:
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/lcmhandler.cpp:43:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krbuf[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |     void LCMHandler::HandleCommand([01;35m[Kconst lcm::ReceiveBuffer *rbuf[m[K, const std::string &chan, const gamepad_lcmt *msg)
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/lcmhandler.cpp:43:87:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kchan[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |     void LCMHandler::HandleCommand(const lcm::ReceiveBuffer *rbuf, [01;35m[Kconst std::string &chan[m[K, const gamepad_lcmt *msg)
+      |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+In file included from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/legged_simparam.hpp:27[m[K,
+                 from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:17[m[K:
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:28:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   28 |     DECLARE_PARAMETER( s64, gait_id )[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+      |                                      [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:46:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   46 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_10_4 )[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+      |                                                                [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:47:66:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   47 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_follow )[01;35m[K;[m[K
+      |                                                                  [01;35m[K^[m[K
+      |                                                                  [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:48:66:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   48 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_medium )[01;35m[K;[m[K
+      |                                                                  [01;35m[K^[m[K
+      |                                                                  [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:49:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   49 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_slow )[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+      |                                                                [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:50:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   50 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_fast )[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+      |                                                                [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:51:65:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   51 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_24_16 )[01;35m[K;[m[K
+      |                                                                 [01;35m[K^[m[K
+      |                                                                 [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:52:63:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   52 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_8_3 )[01;35m[K;[m[K
+      |                                                               [01;35m[K^[m[K
+      |                                                               [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:53:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   53 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_ballet )[01;35m[K;[m[K
+      |                                                             [01;35m[K^[m[K
+      |                                                             [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:54:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   54 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_bound )[01;35m[K;[m[K
+      |                                                            [01;35m[K^[m[K
+      |                                                            [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:55:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   55 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_pronk )[01;35m[K;[m[K
+      |                                                            [01;35m[K^[m[K
+      |                                                            [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:56:58:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   56 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_gain )[01;35m[K;[m[K
+      |                                                          [01;35m[K^[m[K
+      |                                                          [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:57:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   57 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_offset )[01;35m[K;[m[K
+      |                                                            [01;35m[K^[m[K
+      |                                                            [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:[m[K In constructor ‘[01m[Kgazebo::SimParam::SimParam(std::string, gazebo::NodeExc*)[m[K’:
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:22:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmodel_name[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   22 |     SimParam::SimParam([01;35m[Kstd::string model_name[m[K, NodeExc* node_executor)
+      |                        [01;35m[K~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:[m[K In member function ‘[01m[Kvoid gazebo::SimParam::FirstRun()[m[K’:
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:76:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_ls[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   76 |         while ( bool [01;35m[Kflag_ls[m[K = !shared_memory_.TryWaitForRobot() ) {
+      |                      [01;35m[K^~~~~~~[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_simparam.cpp:75:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag_ls[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   75 |         bool [01;35m[Kflag_ls[m[K=false;
+      |              [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/legged_simparam.hpp:27[m[K,
+                 from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/legged_plugin.hpp:24[m[K,
+                 from [01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/src/legged_plugin.cpp:15[m[K:
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:28:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   28 |     DECLARE_PARAMETER( s64, gait_id )[01;35m[K;[m[K
+      |                                      [01;35m[K^[m[K
+      |                                      [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:46:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   46 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_10_4 )[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+      |                                                                [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:47:66:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   47 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_follow )[01;35m[K;[m[K
+      |                                                                  [01;35m[K^[m[K
+      |                                                                  [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:48:66:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   48 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_medium )[01;35m[K;[m[K
+      |                                                                  [01;35m[K^[m[K
+      |                                                                  [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:49:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   49 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_slow )[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+      |                                                                [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:50:64:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   50 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_fast )[01;35m[K;[m[K
+      |                                                                [01;35m[K^[m[K
+      |                                                                [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:51:65:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   51 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_24_16 )[01;35m[K;[m[K
+      |                                                                 [01;35m[K^[m[K
+      |                                                                 [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:52:63:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   52 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_trot_8_3 )[01;35m[K;[m[K
+      |                                                               [01;35m[K^[m[K
+      |                                                               [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:53:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   53 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_ballet )[01;35m[K;[m[K
+      |                                                             [01;35m[K^[m[K
+      |                                                             [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:54:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   54 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_bound )[01;35m[K;[m[K
+      |                                                            [01;35m[K^[m[K
+      |                                                            [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:55:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   55 |     DECLARE_PARAMETER( Vec3< double >, speed_offset_pronk )[01;35m[K;[m[K
+      |                                                            [01;35m[K^[m[K
+      |                                                            [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:56:58:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   56 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_gain )[01;35m[K;[m[K
+      |                                                          [01;35m[K^[m[K
+      |                                                          [31m[K-[m[K
+[01m[K/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/include/ctrl_ros/control_parameters/robot_parameters.hpp:57:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   57 |     DECLARE_PARAMETER( Vec3< double >, se_ori_cali_offset )[01;35m[K;[m[K
+      |                                                            [01;35m[K^[m[K
+      |                                                            [31m[K-[m[K

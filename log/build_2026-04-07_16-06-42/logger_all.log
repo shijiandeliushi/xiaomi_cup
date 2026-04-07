@@ -1,0 +1,1203 @@
+[0.372s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--merge-install', '--packages-select', 'cyberdog_gazebo', 'cyberdog_qr_detector_py', 'cyberdog_msg']
+[0.372s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7697b80d76d0>>, merge_install=True, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['cyberdog_gazebo', 'cyberdog_qr_detector_py', 'cyberdog_msg'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7697b80d76d0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7697b80d7d30>)
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.425s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.426s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.427s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(25) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛) by extension 'python_setup_py'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(25/mi-ultra-team/初赛/__pycache__) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/build) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/build) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/build) ignored
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/install) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/install) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/install) ignored
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/log) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/log) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/log) ignored
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extension 'ros'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extensions ['cmake', 'python']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extension 'cmake'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extension 'python'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extensions ['python_setup_py']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src) by extension 'python_setup_py'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_color_detector_py) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_color_detector_py) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_color_detector_py) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_color_detector_py) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_color_detector_py) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_color_detector_py) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_color_detector_py) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_color_detector_py) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_color_detector_py) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_sim/src/cyberdog_color_detector_py' with type 'ros.ament_python' and name 'cyberdog_color_detector_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_locomotion) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_locomotion) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_locomotion) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_locomotion) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_locomotion) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_locomotion) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_locomotion) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_locomotion) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_locomotion) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_sim/src/cyberdog_locomotion' with type 'ros.ament_cmake' and name 'cyberdog_locomotion'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_qr_detector_py) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_qr_detector_py) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_qr_detector_py) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_qr_detector_py) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_qr_detector_py) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_qr_detector_py) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_qr_detector_py) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_qr_detector_py) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_qr_detector_py) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_sim/src/cyberdog_qr_detector_py' with type 'ros.ament_python' and name 'cyberdog_qr_detector_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extension 'python'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extensions ['python_setup_py']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_example) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_example) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_example) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_example) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_example) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_example) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_example) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_example) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_example) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_sim/src/cyberdog_simulator/cyberdog_example' with type 'ros.ament_cmake' and name 'cyberdog_example'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo' with type 'ros.ament_cmake' and name 'cyberdog_gazebo'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_msg) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_msg) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_msg) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_msg) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_msg) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_msg) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_msg) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_msg) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_sim/src/cyberdog_simulator/cyberdog_msg' with type 'ros.ament_cmake' and name 'cyberdog_msg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot) by extension 'python_setup_py'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description' with type 'ros.ament_cmake' and name 'cyberdog_description'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator) by extension 'colcon_pkg'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator) by extensions ['colcon_meta']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator) by extension 'colcon_meta'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator) by extensions ['ros']
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator' with type 'ros.ament_cmake' and name 'cyberdog_simulator'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_visual) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_visual) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_visual) by extension 'ignore_ament_install'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_visual) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_visual) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_visual) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_visual) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_visual) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_sim/src/cyberdog_simulator/cyberdog_visual) by extension 'ros'
+[0.501s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_sim/src/cyberdog_simulator/cyberdog_visual' with type 'ros.ament_cmake' and name 'cyberdog_visual'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extension 'ros'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extensions ['cmake', 'python']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extension 'cmake'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extension 'python'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extensions ['python_setup_py']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws) by extension 'python_setup_py'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/build) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/build) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/install) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/install) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/log) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/log) ignored
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extension 'ros'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extensions ['cmake', 'python']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extension 'cmake'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extension 'python'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bes_transmit) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bes_transmit) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bes_transmit) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bes_transmit) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bes_transmit) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bes_transmit) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bes_transmit) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bes_transmit) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bes_transmit) by extension 'ros'
+[0.510s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/bes_transmit' with type 'ros.ament_cmake' and name 'bes_transmit'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/cyberdog_grpc) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/cyberdog_grpc) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/cyberdog_grpc) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/cyberdog_grpc) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/cyberdog_grpc) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/cyberdog_grpc) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/cyberdog_grpc) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/cyberdog_grpc) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/cyberdog_grpc) by extension 'ros'
+[0.520s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/bridges/cyberdog_grpc' with type 'ros.ament_cmake' and name 'cyberdog_grpc'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/embed_protocol) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/embed_protocol) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/embed_protocol) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/embed_protocol) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/embed_protocol) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/embed_protocol) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/embed_protocol) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/embed_protocol) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/embed_protocol) by extension 'ros'
+[0.523s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/bridges/embed_protocol' with type 'ros.ament_cmake' and name 'cyberdog_embed_protocol'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/params) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/params) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/params) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/params) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/params) by extension 'colcon_pkg'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/params) by extensions ['colcon_meta']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/params) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/params) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/params) by extension 'ros'
+[0.525s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/bridges/params' with type 'ros.ament_cmake' and name 'params'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/protocol) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/protocol) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/protocol) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/protocol) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/protocol) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/protocol) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/protocol) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/protocol) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/bridges/protocol) by extension 'ros'
+[0.528s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/bridges/protocol' with type 'ros.ament_cmake' and name 'protocol'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extension 'ros'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extensions ['cmake', 'python']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extension 'cmake'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extension 'python'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extensions ['python_setup_py']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws) by extension 'python_setup_py'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/cyberdog_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/cyberdog_bringup) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/cyberdog_bringup) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/cyberdog_bringup) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/cyberdog_bringup) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/cyberdog_bringup) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/cyberdog_bringup) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/cyberdog_bringup) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/cyberdog_bringup) by extension 'ros'
+[0.550s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/cyberdog_ws/cyberdog_bringup' with type 'ros.ament_cmake' and name 'cyberdog_bringup'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extension 'ros'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extensions ['cmake', 'python']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extension 'cmake'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extension 'python'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extensions ['python_setup_py']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party) by extension 'python_setup_py'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib' with type 'ros.ament_cmake' and name 'cpp_httplib'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/filesystem) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/filesystem) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/filesystem) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/filesystem) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/filesystem) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/filesystem) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/filesystem) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/filesystem) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/filesystem) by extension 'ros'
+[0.557s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/cyberdog_ws/third_party/filesystem' with type 'ros.ament_cmake' and name 'filesystem'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/nvinference) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/nvinference) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/nvinference) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/nvinference) by extensions ['colcon_pkg']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/nvinference) by extension 'colcon_pkg'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/nvinference) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/nvinference) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/nvinference) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/nvinference) by extension 'ros'
+[0.560s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/cyberdog_ws/third_party/nvinference' with type 'ros.ament_cmake' and name 'nvinference'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/rapidjson) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/rapidjson) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/rapidjson) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/rapidjson) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/rapidjson) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/rapidjson) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/rapidjson) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/rapidjson) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/rapidjson) by extension 'ros'
+[0.563s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/cyberdog_ws/third_party/rapidjson' with type 'ros.ament_cmake' and name 'rapidjson'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/toml) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/toml) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/toml) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/toml) by extensions ['colcon_pkg']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/toml) by extension 'colcon_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/toml) by extensions ['colcon_meta']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/toml) by extension 'colcon_meta'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/toml) by extensions ['ros']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/toml) by extension 'ros'
+[0.565s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/cyberdog_ws/third_party/toml' with type 'ros.ament_cmake' and name 'toml'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/xpack) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/xpack) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/xpack) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/xpack) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/xpack) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/xpack) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/xpack) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/xpack) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/xpack) by extension 'ros'
+[0.567s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/cyberdog_ws/third_party/xpack' with type 'ros.ament_cmake' and name 'xpack'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/zxing) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/zxing) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/zxing) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/zxing) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/zxing) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/zxing) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/zxing) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/zxing) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/third_party/zxing) by extension 'ros'
+[0.570s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/cyberdog_ws/third_party/zxing' with type 'ros.ament_cmake' and name 'zxing'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extension 'ros'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extensions ['cmake', 'python']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extension 'cmake'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extension 'python'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extensions ['python_setup_py']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/tools) by extension 'python_setup_py'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extension 'ros'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extensions ['cmake', 'python']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extension 'cmake'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extension 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/cyberdog_ws/visions) by extension 'python_setup_py'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extension 'ros'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extension 'python'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extensions ['python_setup_py']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager) by extension 'python_setup_py'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/black_box) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/black_box) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/black_box) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/black_box) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/black_box) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/black_box) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/black_box) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/black_box) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/black_box) by extension 'ros'
+[0.579s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/manager/black_box' with type 'ros.ament_cmake' and name 'black_box'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_manager) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_manager) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_manager) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_manager) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_manager) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_manager) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_manager) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_manager) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/manager/cyberdog_manager' with type 'ros.ament_cmake' and name 'cyberdog_manager'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_permissions) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_permissions) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_permissions) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_permissions) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_permissions) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_permissions) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_permissions) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_permissions) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/cyberdog_permissions) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/manager/cyberdog_permissions' with type 'ros.ament_cmake' and name 'cyberdog_permission'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/low_power_consumption) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/low_power_consumption) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/low_power_consumption) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/low_power_consumption) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/low_power_consumption) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/low_power_consumption) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/low_power_consumption) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/low_power_consumption) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/low_power_consumption) by extension 'ros'
+[0.589s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/manager/low_power_consumption' with type 'ros.ament_cmake' and name 'low_power_consumption'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/manager_base) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/manager_base) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/manager_base) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/manager_base) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/manager_base) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/manager_base) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/manager_base) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/manager_base) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/manager_base) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/manager/manager_base' with type 'ros.ament_cmake' and name 'manager_base'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/user_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/user_info_manager) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/user_info_manager) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/user_info_manager) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/user_info_manager) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/user_info_manager) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/user_info_manager) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/user_info_manager) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/manager/user_info_manager) by extension 'ros'
+[0.595s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/manager/user_info_manager' with type 'ros.ament_cmake' and name 'user_info_manager'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extension 'ros'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extensions ['cmake', 'python']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extension 'cmake'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extension 'python'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extensions ['python_setup_py']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion) by extension 'python_setup_py'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/elec_skin) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/elec_skin) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/elec_skin) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/elec_skin) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/elec_skin) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/elec_skin) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/elec_skin) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/elec_skin) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/elec_skin) by extension 'ros'
+[0.600s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/motion/elec_skin' with type 'ros.ament_cmake' and name 'elec_skin'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_action) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_action) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_action) by extension 'ignore_ament_install'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_action) by extensions ['colcon_pkg']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_action) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_action) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_action) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_action) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_action) by extension 'ros'
+[0.603s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/motion/motion_action' with type 'ros.ament_cmake' and name 'motion_action'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_bridge) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_bridge) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_bridge) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_bridge) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_bridge) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_bridge) by extension 'colcon_meta'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_bridge) by extensions ['ros']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_bridge) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/motion/motion_bridge' with type 'ros.ament_cmake' and name 'motion_bridge'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_manager) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_manager) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_manager) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_manager) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_manager) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_manager) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_manager) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_manager) by extension 'ros'
+[0.611s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/motion/motion_manager' with type 'ros.ament_cmake' and name 'motion_manager'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_utils) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_utils) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_utils) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_utils) by extension 'colcon_pkg'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_utils) by extensions ['colcon_meta']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_utils) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_utils) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/motion_utils) by extension 'ros'
+[0.615s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/motion/motion_utils' with type 'ros.ament_cmake' and name 'motion_utils'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/skin_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/skin_manager) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/skin_manager) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/skin_manager) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/skin_manager) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/skin_manager) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/skin_manager) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/skin_manager) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/motion/skin_manager) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/motion/skin_manager' with type 'ros.ament_cmake' and name 'skin_manager'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/mqttc) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/mqttc) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/mqttc) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/mqttc) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/mqttc) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/mqttc) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/mqttc) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/mqttc) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/mqttc) by extension 'ros'
+[0.620s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/mqttc' with type 'ros.ament_cmake' and name 'mqttc'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils) by extension 'python_setup_py'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_common) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_common) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_common) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_common) by extensions ['colcon_pkg']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_common) by extension 'colcon_pkg'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_common) by extensions ['colcon_meta']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_common) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_common) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_common) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/utils/cyberdog_common' with type 'ros.ament_cmake' and name 'cyberdog_common'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_debug) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_debug) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_debug) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_debug) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_debug) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_debug) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_debug) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_debug) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_debug) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/utils/cyberdog_debug' with type 'ros.ament_cmake' and name 'cyberdog_debug'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_machine) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_machine) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_machine) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_machine) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_machine) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_machine) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_machine) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_machine) by extensions ['ros']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_machine) by extension 'ros'
+[0.630s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/utils/cyberdog_machine' with type 'ros.ament_cmake' and name 'cyberdog_machine'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_parameter) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_parameter) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_parameter) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_parameter) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_parameter) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_parameter) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_parameter) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_parameter) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_parameter) by extension 'ros'
+[0.633s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/utils/cyberdog_parameter' with type 'ros.ament_cmake' and name 'cyberdog_parameter'
+[0.633s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_system) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_system) by extension 'ignore'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_system) by extension 'ignore_ament_install'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_system) by extensions ['colcon_pkg']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_system) by extension 'colcon_pkg'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_system) by extensions ['colcon_meta']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_system) by extension 'colcon_meta'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_system) by extensions ['ros']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(cyberdog_ws/src/utils/cyberdog_system) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package 'cyberdog_ws/src/utils/cyberdog_system' with type 'ros.ament_cmake' and name 'cyberdog_system'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extension 'ros'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extensions ['cmake', 'python']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extension 'cmake'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extension 'python'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extensions ['python_setup_py']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(details) by extension 'python_setup_py'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extensions ['ros']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extension 'ros'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extensions ['cmake', 'python']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extension 'cmake'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extension 'python'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extensions ['python_setup_py']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(details/lcm控制参数) by extension 'python_setup_py'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extensions ['colcon_meta']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extension 'colcon_meta'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extensions ['ros']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extension 'ros'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extensions ['cmake', 'python']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extension 'cmake'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extension 'python'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extensions ['python_setup_py']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(details/传感器插件) by extension 'python_setup_py'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extension 'ros'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extensions ['cmake', 'python']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extension 'cmake'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extension 'python'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extensions ['python_setup_py']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(details/环境配置) by extension 'python_setup_py'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extension 'ros'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extensions ['cmake', 'python']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extension 'cmake'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extension 'python'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extensions ['python_setup_py']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(details/编译构建) by extension 'python_setup_py'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extension 'ros'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extensions ['cmake', 'python']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extension 'cmake'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(eigen-git-mirror) by extension 'python'
+[1.476s] DEBUG:colcon.colcon_core.package_identification:Package 'eigen-git-mirror' with type 'cmake' and name 'Eigen3'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.476s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extensions ['ignore', 'ignore_ament_install']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extension 'ignore'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extension 'ignore_ament_install'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extensions ['colcon_pkg']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extension 'colcon_pkg'
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extensions ['colcon_meta']
+[1.477s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extension 'colcon_meta'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extensions ['ros']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extension 'ros'
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extensions ['cmake', 'python']
+[1.478s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extension 'cmake'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(lcm) by extension 'python'
+[1.565s] DEBUG:colcon.colcon_core.package_identification:Package 'lcm' with type 'cmake' and name 'lcm'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extensions ['ignore', 'ignore_ament_install']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extension 'ignore'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extension 'ignore_ament_install'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extensions ['colcon_pkg']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extension 'colcon_pkg'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extensions ['colcon_meta']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extension 'colcon_meta'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extensions ['ros']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extension 'ros'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extensions ['cmake', 'python']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extension 'cmake'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extension 'python'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extensions ['python_setup_py']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example) by extension 'python_setup_py'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extensions ['ignore', 'ignore_ament_install']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extension 'ignore'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extension 'ignore_ament_install'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extensions ['colcon_pkg']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extension 'colcon_pkg'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extensions ['colcon_meta']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extension 'colcon_meta'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extensions ['ros']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extension 'ros'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extensions ['cmake', 'python']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extension 'cmake'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extension 'python'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extensions ['python_setup_py']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion) by extension 'python_setup_py'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extension 'ignore'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extension 'ignore_ament_install'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extensions ['colcon_pkg']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extension 'colcon_pkg'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extensions ['colcon_meta']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extension 'colcon_meta'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extensions ['ros']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extension 'ros'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extensions ['cmake', 'python']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extension 'cmake'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extension 'python'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extensions ['python_setup_py']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/basic_motion/__pycache__) by extension 'python_setup_py'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extensions ['ignore', 'ignore_ament_install']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extension 'ignore'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extension 'ignore_ament_install'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extensions ['colcon_pkg']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extension 'colcon_pkg'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extensions ['colcon_meta']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extension 'colcon_meta'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extensions ['ros']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extension 'ros'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extensions ['cmake', 'python']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extension 'cmake'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extension 'python'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extensions ['python_setup_py']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait) by extension 'python_setup_py'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extension 'ignore'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extension 'ignore_ament_install'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extensions ['colcon_pkg']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extension 'colcon_pkg'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extensions ['colcon_meta']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extension 'colcon_meta'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extensions ['ros']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extension 'ros'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extensions ['cmake', 'python']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extension 'cmake'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extension 'python'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extensions ['python_setup_py']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/customized_gait/__pycache__) by extension 'python_setup_py'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extensions ['ignore', 'ignore_ament_install']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extension 'ignore'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extension 'ignore_ament_install'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extensions ['colcon_pkg']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extension 'colcon_pkg'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extensions ['colcon_meta']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extension 'colcon_meta'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extensions ['ros']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extension 'ros'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extensions ['cmake', 'python']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extension 'cmake'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extension 'python'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extensions ['python_setup_py']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/scripts) by extension 'python_setup_py'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extensions ['ignore', 'ignore_ament_install']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extension 'ignore'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extension 'ignore_ament_install'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extensions ['colcon_pkg']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extension 'colcon_pkg'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extensions ['colcon_meta']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extension 'colcon_meta'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extensions ['ros']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extension 'ros'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extensions ['cmake', 'python']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extension 'cmake'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extension 'python'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extensions ['python_setup_py']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion) by extension 'python_setup_py'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extension 'ignore'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extension 'ignore_ament_install'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extensions ['colcon_pkg']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extension 'colcon_pkg'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extensions ['colcon_meta']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extension 'colcon_meta'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extensions ['ros']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extension 'ros'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extensions ['cmake', 'python']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extension 'cmake'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extension 'python'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extensions ['python_setup_py']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/sequential_motion/__pycache__) by extension 'python_setup_py'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extensions ['ignore', 'ignore_ament_install']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extension 'ignore'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extension 'ignore_ament_install'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extensions ['colcon_pkg']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extension 'colcon_pkg'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extensions ['colcon_meta']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extension 'colcon_meta'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extensions ['ros']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extension 'ros'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extensions ['cmake', 'python']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extension 'cmake'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extension 'python'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extensions ['python_setup_py']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing) by extension 'python_setup_py'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extension 'ignore'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extension 'ignore_ament_install'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extensions ['colcon_pkg']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extension 'colcon_pkg'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extensions ['colcon_meta']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extension 'colcon_meta'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extensions ['ros']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extension 'ros'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extensions ['cmake', 'python']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extension 'cmake'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extension 'python'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extensions ['python_setup_py']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/stone_plate_crossing/__pycache__) by extension 'python_setup_py'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extensions ['ignore', 'ignore_ament_install']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extension 'ignore'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extension 'ignore_ament_install'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extensions ['colcon_pkg']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extension 'colcon_pkg'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extensions ['colcon_meta']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extension 'colcon_meta'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extensions ['ros']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extension 'ros'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extensions ['cmake', 'python']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extension 'cmake'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extension 'python'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extensions ['python_setup_py']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(loco_hl_example/walk_mode) by extension 'python_setup_py'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'Eigen3' in 'eigen-git-mirror'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp_httplib' in 'cyberdog_ws/src/cyberdog_ws/third_party/cpp_httplib'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_bringup' in 'cyberdog_ws/src/cyberdog_ws/cyberdog_bringup'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_color_detector_py' in 'cyberdog_sim/src/cyberdog_color_detector_py'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_description' in 'cyberdog_sim/src/cyberdog_simulator/cyberdog_robot/cyberdog_description'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_locomotion' in 'cyberdog_sim/src/cyberdog_locomotion'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_visual' in 'cyberdog_sim/src/cyberdog_simulator/cyberdog_visual'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'filesystem' in 'cyberdog_ws/src/cyberdog_ws/third_party/filesystem'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lcm' in 'lcm'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mqttc' in 'cyberdog_ws/src/mqttc'
+[1.635s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nvinference' in 'cyberdog_ws/src/cyberdog_ws/third_party/nvinference'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'params' in 'cyberdog_ws/src/bridges/params'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'protocol' in 'cyberdog_ws/src/bridges/protocol'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rapidjson' in 'cyberdog_ws/src/cyberdog_ws/third_party/rapidjson'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'toml' in 'cyberdog_ws/src/cyberdog_ws/third_party/toml'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'xpack' in 'cyberdog_ws/src/cyberdog_ws/third_party/xpack'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'zxing' in 'cyberdog_ws/src/cyberdog_ws/third_party/zxing'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_common' in 'cyberdog_ws/src/utils/cyberdog_common'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_example' in 'cyberdog_sim/src/cyberdog_simulator/cyberdog_example'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bes_transmit' in 'cyberdog_ws/src/bes_transmit'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'black_box' in 'cyberdog_ws/src/manager/black_box'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_debug' in 'cyberdog_ws/src/utils/cyberdog_debug'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_embed_protocol' in 'cyberdog_ws/src/bridges/embed_protocol'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_machine' in 'cyberdog_ws/src/utils/cyberdog_machine'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_parameter' in 'cyberdog_ws/src/utils/cyberdog_parameter'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_permission' in 'cyberdog_ws/src/manager/cyberdog_permissions'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_simulator' in 'cyberdog_sim/src/cyberdog_simulator/cyberdog_simulator'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_system' in 'cyberdog_ws/src/utils/cyberdog_system'
+[1.636s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'low_power_consumption' in 'cyberdog_ws/src/manager/low_power_consumption'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_grpc' in 'cyberdog_ws/src/bridges/cyberdog_grpc'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'elec_skin' in 'cyberdog_ws/src/motion/elec_skin'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'manager_base' in 'cyberdog_ws/src/manager/manager_base'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'user_info_manager' in 'cyberdog_ws/src/manager/user_info_manager'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cyberdog_manager' in 'cyberdog_ws/src/manager/cyberdog_manager'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'skin_manager' in 'cyberdog_ws/src/motion/skin_manager'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motion_action' in 'cyberdog_ws/src/motion/motion_action'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motion_bridge' in 'cyberdog_ws/src/motion/motion_bridge'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motion_manager' in 'cyberdog_ws/src/motion/motion_manager'
+[1.637s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motion_utils' in 'cyberdog_ws/src/motion/motion_utils'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_msg' build argument 'cmake_args' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_msg' build argument 'cmake_target' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.639s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.640s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.640s] DEBUG:colcon.colcon_core.verb:Building package 'cyberdog_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/build/cyberdog_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/install', 'merge_install': True, 'path': '/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg', 'symlink_install': False, 'test_result_base': None}
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_qr_detector_py' build argument 'cmake_args' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_qr_detector_py' build argument 'cmake_target' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_qr_detector_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_qr_detector_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_qr_detector_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_qr_detector_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_qr_detector_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_qr_detector_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.642s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_qr_detector_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.642s] DEBUG:colcon.colcon_core.verb:Building package 'cyberdog_qr_detector_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/build/cyberdog_qr_detector_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/install', 'merge_install': True, 'path': '/home/cyberdog_sim/src/cyberdog_qr_detector_py', 'symlink_install': False, 'test_result_base': None}
+[1.644s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.644s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.644s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.644s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.644s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.644s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.644s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.644s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.645s] Level 5:colcon.colcon_core.verb:set package 'cyberdog_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.645s] DEBUG:colcon.colcon_core.verb:Building package 'cyberdog_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/build/cyberdog_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/install', 'merge_install': True, 'path': '/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.646s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.654s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.655s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg' with build type 'ament_cmake'
+[1.655s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg'
+[1.666s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.667s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.667s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.685s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cyberdog_sim/src/cyberdog_qr_detector_py' with build type 'ament_python'
+[1.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_qr_detector_py', 'ament_prefix_path')
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_qr_detector_py/hook/ament_prefix_path.ps1'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_qr_detector_py/hook/ament_prefix_path.dsv'
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_qr_detector_py/hook/ament_prefix_path.sh'
+[1.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/build/cyberdog_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg -DCMAKE_INSTALL_PREFIX=/home/install
+[2.227s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cyberdog_sim/src/cyberdog_qr_detector_py'
+[2.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberdog_sim/src/cyberdog_qr_detector_py': PYTHONPATH=/home/build/cyberdog_qr_detector_py/prefix_override:/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/cyberdog_qr_detector_py build --build-base /home/build/cyberdog_qr_detector_py/build install --record /home/build/cyberdog_qr_detector_py/install.log --single-version-externally-managed
+[3.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberdog_sim/src/cyberdog_qr_detector_py' returned '0': PYTHONPATH=/home/build/cyberdog_qr_detector_py/prefix_override:/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/cyberdog_qr_detector_py build --build-base /home/build/cyberdog_qr_detector_py/build install --record /home/build/cyberdog_qr_detector_py/install.log --single-version-externally-managed
+[3.795s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake module files
+[3.796s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake config files
+[3.798s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib'
+[3.799s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[3.799s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/pkgconfig/cyberdog_qr_detector_py.pc'
+[3.799s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/python3.8/site-packages'
+[3.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_qr_detector_py', 'pythonpath')
+[3.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_qr_detector_py/hook/pythonpath.ps1'
+[3.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_qr_detector_py/hook/pythonpath.dsv'
+[3.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_qr_detector_py/hook/pythonpath.sh'
+[3.805s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[3.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyberdog_qr_detector_py)
+[3.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_qr_detector_py/package.ps1'
+[3.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/install/share/cyberdog_qr_detector_py/package.dsv'
+[3.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_qr_detector_py/package.sh'
+[3.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_qr_detector_py/package.bash'
+[3.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_qr_detector_py/package.zsh'
+[3.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/install/share/colcon-core/packages/cyberdog_qr_detector_py)
+[6.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/build/cyberdog_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg -DCMAKE_INSTALL_PREFIX=/home/install
+[6.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/build/cyberdog_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/build/cyberdog_msg -- -j12 -l12
+[10.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/build/cyberdog_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/build/cyberdog_msg -- -j12 -l12
+[10.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/build/cyberdog_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/build/cyberdog_msg
+[10.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyberdog_msg)
+[10.976s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake module files
+[10.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/build/cyberdog_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/build/cyberdog_msg
+[10.977s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake config files
+[10.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_msg', 'cmake_prefix_path')
+[10.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/cmake_prefix_path.ps1'
+[10.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_msg/hook/cmake_prefix_path.dsv'
+[10.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/cmake_prefix_path.sh'
+[10.980s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib'
+[10.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_msg', 'ld_library_path_lib')
+[10.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/ld_library_path_lib.ps1'
+[10.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_msg/hook/ld_library_path_lib.dsv'
+[10.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/ld_library_path_lib.sh'
+[10.982s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[10.983s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/pkgconfig/cyberdog_msg.pc'
+[10.983s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/python3.8/site-packages'
+[10.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_msg', 'pythonpath')
+[10.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/pythonpath.ps1'
+[10.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_msg/hook/pythonpath.dsv'
+[10.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/pythonpath.sh'
+[10.985s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[10.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_msg/package.ps1'
+[10.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/install/share/cyberdog_msg/package.dsv'
+[10.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_msg/package.sh'
+[10.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_msg/package.bash'
+[10.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_msg/package.zsh'
+[10.987s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/install/share/colcon-core/packages/cyberdog_msg)
+[11.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyberdog_msg)
+[11.092s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake module files
+[11.093s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake config files
+[11.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_msg', 'cmake_prefix_path')
+[11.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/cmake_prefix_path.ps1'
+[11.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_msg/hook/cmake_prefix_path.dsv'
+[11.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/cmake_prefix_path.sh'
+[11.096s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib'
+[11.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_msg', 'ld_library_path_lib')
+[11.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/ld_library_path_lib.ps1'
+[11.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_msg/hook/ld_library_path_lib.dsv'
+[11.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/ld_library_path_lib.sh'
+[11.097s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[11.097s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/pkgconfig/cyberdog_msg.pc'
+[11.098s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/python3.8/site-packages'
+[11.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_msg', 'pythonpath')
+[11.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/pythonpath.ps1'
+[11.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_msg/hook/pythonpath.dsv'
+[11.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_msg/hook/pythonpath.sh'
+[11.099s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[11.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_msg/package.ps1'
+[11.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/install/share/cyberdog_msg/package.dsv'
+[11.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_msg/package.sh'
+[11.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_msg/package.bash'
+[11.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_msg/package.zsh'
+[11.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/install/share/colcon-core/packages/cyberdog_msg)
+[11.102s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo' with build type 'ament_cmake'
+[11.102s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo'
+[11.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/build/cyberdog_gazebo': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo -DCMAKE_INSTALL_PREFIX=/home/install
+[14.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/build/cyberdog_gazebo' returned '0': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo -DCMAKE_INSTALL_PREFIX=/home/install
+[14.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/build/cyberdog_gazebo': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/build/cyberdog_gazebo -- -j12 -l12
+[33.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/build/cyberdog_gazebo' returned '0': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/build/cyberdog_gazebo -- -j12 -l12
+[33.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/build/cyberdog_gazebo': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/build/cyberdog_gazebo
+[33.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyberdog_gazebo)
+[33.811s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake module files
+[33.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/build/cyberdog_gazebo' returned '0': AMENT_PREFIX_PATH=/home/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/install:/opt/ros/galactic LD_LIBRARY_PATH=/home/install/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/build/cyberdog_gazebo
+[33.811s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake config files
+[33.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_gazebo', 'cmake_prefix_path')
+[33.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/cmake_prefix_path.ps1'
+[33.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_gazebo/hook/cmake_prefix_path.dsv'
+[33.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/cmake_prefix_path.sh'
+[33.814s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib'
+[33.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_gazebo', 'ld_library_path_lib')
+[33.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/ld_library_path_lib.ps1'
+[33.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_gazebo/hook/ld_library_path_lib.dsv'
+[33.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/ld_library_path_lib.sh'
+[33.815s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[33.815s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/pkgconfig/cyberdog_gazebo.pc'
+[33.815s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/python3.8/site-packages'
+[33.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_gazebo', 'pythonpath')
+[33.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/pythonpath.ps1'
+[33.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_gazebo/hook/pythonpath.dsv'
+[33.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/pythonpath.sh'
+[33.817s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[33.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_gazebo/package.ps1'
+[33.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/install/share/cyberdog_gazebo/package.dsv'
+[33.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_gazebo/package.sh'
+[33.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_gazebo/package.bash'
+[33.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_gazebo/package.zsh'
+[33.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/install/share/colcon-core/packages/cyberdog_gazebo)
+[33.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cyberdog_gazebo)
+[33.871s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake module files
+[33.871s] Level 1:colcon.colcon_core.environment:checking '/home/install' for CMake config files
+[33.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_gazebo', 'cmake_prefix_path')
+[33.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/cmake_prefix_path.ps1'
+[33.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_gazebo/hook/cmake_prefix_path.dsv'
+[33.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/cmake_prefix_path.sh'
+[33.874s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib'
+[33.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_gazebo', 'ld_library_path_lib')
+[33.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/ld_library_path_lib.ps1'
+[33.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_gazebo/hook/ld_library_path_lib.dsv'
+[33.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/ld_library_path_lib.sh'
+[33.876s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[33.876s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/pkgconfig/cyberdog_gazebo.pc'
+[33.876s] Level 1:colcon.colcon_core.environment:checking '/home/install/lib/python3.8/site-packages'
+[33.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('cyberdog_gazebo', 'pythonpath')
+[33.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/pythonpath.ps1'
+[33.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/install/share/cyberdog_gazebo/hook/pythonpath.dsv'
+[33.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/install/share/cyberdog_gazebo/hook/pythonpath.sh'
+[33.877s] Level 1:colcon.colcon_core.environment:checking '/home/install/bin'
+[33.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_gazebo/package.ps1'
+[33.879s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/install/share/cyberdog_gazebo/package.dsv'
+[33.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_gazebo/package.sh'
+[33.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_gazebo/package.bash'
+[33.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/install/share/cyberdog_gazebo/package.zsh'
+[33.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/install/share/colcon-core/packages/cyberdog_gazebo)
+[33.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.881s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.886s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.886s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.886s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.895s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.897s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/install/local_setup.ps1'
+[33.898s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/install/_local_setup_util_ps1.py'
+[33.899s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/install/setup.ps1'
+[33.900s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/install/local_setup.sh'
+[33.901s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/install/_local_setup_util_sh.py'
+[33.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/install/setup.sh'
+[33.903s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/install/local_setup.bash'
+[33.903s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/install/setup.bash'
+[33.904s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/install/local_setup.zsh'
+[33.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/install/setup.zsh'

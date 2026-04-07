@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cyberdog_msg/msg/YamlParam.msg
+// generated code does not contain a copyright notice
+
+
+module cyberdog_msg {
+  module msg {
+    typedef double double__12[12];
+    module YamlParam_Constants {
+      const uint64 DOUBLE = 1;
+      const uint64 S64 = 2;
+      const uint64 VEC_X_DOUBLE = 3;
+      const uint64 MAT_X_DOUBLE = 4;
+    };
+    struct YamlParam {
+      string name;
+
+      uint64 kind;
+
+      int64 s64_value;
+
+      double double_value;
+
+      double__12 vecxd_value;
+
+      int64 is_user;
+    };
+  };
+};

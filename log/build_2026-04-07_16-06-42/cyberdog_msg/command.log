@@ -1,0 +1,6 @@
+Invoking command in '/home/build/cyberdog_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg -DCMAKE_INSTALL_PREFIX=/home/install
+Invoked command in '/home/build/cyberdog_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/cyberdog_sim/src/cyberdog_simulator/cyberdog_msg -DCMAKE_INSTALL_PREFIX=/home/install
+Invoking command in '/home/build/cyberdog_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/build/cyberdog_msg -- -j12 -l12
+Invoked command in '/home/build/cyberdog_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/build/cyberdog_msg -- -j12 -l12
+Invoking command in '/home/build/cyberdog_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/build/cyberdog_msg
+Invoked command in '/home/build/cyberdog_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/build/cyberdog_msg

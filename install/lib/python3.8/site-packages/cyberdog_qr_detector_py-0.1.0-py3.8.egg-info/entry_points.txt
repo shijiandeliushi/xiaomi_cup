@@ -1,0 +1,3 @@
+[console_scripts]
+qr_detector_py_node = cyberdog_qr_detector_py.qr_detector_py_node:main
+

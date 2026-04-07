@@ -123,31 +123,18 @@ ros2 run cyberdog_color_detector_py ball_detector_py_node --ros-args \
   -p result_topic:=/ball/result &
 BALL_PID=$!
 
-# 4) 启动二维码识别 + 扫码节点
-ros2 run cyberdog_qr_detector_py qr_detector_py_node --ros-args \
-  -p image_topic:=${TOPIC} \
-  -p debug_image_topic:=/qr/debug_image \
-  -p result_topic:=/qr/result \
-  -p scan_result_topic:=/qr/scan_result &
-QR_PID=$!
-
 echo "[camera] 小球识别已启动："
 echo "[camera] 结果话题: /ball/result"
 echo "[camera] 调试图像: /ball/debug_image"
-echo "[camera] 二维码识别已启动："
-echo "[camera] 识别结果: /qr/result"
-echo "[camera] 扫码结果: /qr/scan_result"
-echo "[camera] 调试图像: /qr/debug_image"
 
 # 退出脚本时同时清理后台进程
 cleanup() {
   kill "$BALL_PID" >/dev/null 2>&1 || true
-  kill "$QR_PID" >/dev/null 2>&1 || true
   kill "$RELAY_PID" >/dev/null 2>&1 || true
 }
 trap cleanup EXIT INT TERM
 
-# 有图形界面时同时显示四个窗口：原始图像 + D435图像 + 小球检测 + 二维码检测
+# 有图形界面时同时显示三个窗口：原始图像 + D435图像 + 小球检测
 if [ -n "$DISPLAY" ]; then
   python3 - <<PY
 import rclpy
@@ -161,7 +148,6 @@ RAW_TOPIC = '${RELAY_TOPIC}'
 D435_COLOR_TOPIC = '${D435_COLOR_TOPIC}'
 D435_DEPTH_TOPIC = '${D435_DEPTH_TOPIC}'
 BALL_DEBUG_TOPIC = '/ball/debug_image'
-QR_DEBUG_TOPIC = '/qr/debug_image'
 
 class TripleViewer(Node):
     def __init__(self):
@@ -170,7 +156,6 @@ class TripleViewer(Node):
         cv2.namedWindow('CyberDog Camera (Selected Raw)', cv2.WINDOW_NORMAL)
         cv2.namedWindow('CyberDog D435 Camera', cv2.WINDOW_NORMAL)
         cv2.namedWindow('CyberDog Ball Detection (Blue/Orange)', cv2.WINDOW_NORMAL)
-        cv2.namedWindow('CyberDog QR Detection', cv2.WINDOW_NORMAL)
         self.raw_sub = self.create_subscription(Image, RAW_TOPIC, self.raw_cb, qos_profile_sensor_data)
 
         self.d435_sub = None
@@ -184,7 +169,6 @@ class TripleViewer(Node):
             self.get_logger().warn('D435 topic not found, D435 window will stay empty.')
 
         self.ball_debug_sub = self.create_subscription(Image, BALL_DEBUG_TOPIC, self.debug_cb, qos_profile_sensor_data)
-        self.qr_debug_sub = self.create_subscription(Image, QR_DEBUG_TOPIC, self.qr_cb, qos_profile_sensor_data)
         self.create_timer(0.03, self.gui_tick)
 
     def gui_tick(self):
@@ -217,12 +201,6 @@ class TripleViewer(Node):
         except Exception:
             pass
 
-    def qr_cb(self, msg):
-        try:
-            frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
-            cv2.imshow('CyberDog QR Detection', frame)
-        except Exception:
-            pass
 
 rclpy.init()
 node = TripleViewer()
@@ -234,6 +212,6 @@ finally:
     cv2.destroyAllWindows()
 PY
 else
-  echo "[camera] 检测到无图形环境，运行小球识别和二维码识别。"
-  wait "$BALL_PID" "$QR_PID"
+  echo "[camera] 检测到无图形环境，运行小球识别。"
+  wait "$BALL_PID"
 fi

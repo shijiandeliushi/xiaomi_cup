@@ -1,0 +1,39 @@
+[1.447s] Invoking command in '/home/cyberdog_sim/src/cyberdog_qr_detector_py': PYTHONPATH=/home/build/cyberdog_qr_detector_py/prefix_override:/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/cyberdog_qr_detector_py build --build-base /home/build/cyberdog_qr_detector_py/build install --record /home/build/cyberdog_qr_detector_py/install.log --single-version-externally-managed
+[1.917s] running egg_info
+[1.918s] creating ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info
+[1.918s] writing ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/PKG-INFO
+[1.919s] writing dependency_links to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/dependency_links.txt
+[1.919s] writing entry points to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/entry_points.txt
+[1.919s] writing requirements to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/requires.txt
+[1.920s] writing top-level names to ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/top_level.txt
+[1.925s] writing manifest file '../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt'
+[1.996s] reading manifest file '../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt'
+[1.998s] writing manifest file '../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt'
+[1.998s] running build
+[1.998s] running build_py
+[1.999s] creating /home/build/cyberdog_qr_detector_py/build
+[1.999s] creating /home/build/cyberdog_qr_detector_py/build/lib
+[1.999s] creating /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py
+[1.999s] copying cyberdog_qr_detector_py/qr_detector_py_node.py -> /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py
+[2.000s] copying cyberdog_qr_detector_py/__init__.py -> /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py
+[2.000s] running install
+[2.001s] running install_lib
+[2.003s] creating /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py
+[2.004s] copying /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py/qr_detector_py_node.py -> /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py
+[2.004s] copying /home/build/cyberdog_qr_detector_py/build/lib/cyberdog_qr_detector_py/__init__.py -> /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py
+[2.005s] byte-compiling /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py/qr_detector_py_node.py to qr_detector_py_node.cpython-38.pyc
+[2.010s] byte-compiling /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py/__init__.py to __init__.cpython-38.pyc
+[2.010s] running install_data
+[2.011s] creating /home/install/share/ament_index
+[2.011s] creating /home/install/share/ament_index/resource_index
+[2.011s] creating /home/install/share/ament_index/resource_index/packages
+[2.012s] copying resource/cyberdog_qr_detector_py -> /home/install/share/ament_index/resource_index/packages
+[2.012s] copying package.xml -> /home/install/share/cyberdog_qr_detector_py
+[2.012s] creating /home/install/share/cyberdog_qr_detector_py/launch
+[2.012s] copying launch/qr_detector.launch.py -> /home/install/share/cyberdog_qr_detector_py/launch
+[2.012s] running install_egg_info
+[2.016s] Copying ../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info to /home/install/lib/python3.8/site-packages/cyberdog_qr_detector_py-0.1.0-py3.8.egg-info
+[2.018s] running install_scripts
+[2.055s] Installing qr_detector_py_node script to /home/install/lib/cyberdog_qr_detector_py
+[2.056s] writing list of installed files to '/home/build/cyberdog_qr_detector_py/install.log'
+[2.096s] Invoked command in '/home/cyberdog_sim/src/cyberdog_qr_detector_py' returned '0': PYTHONPATH=/home/build/cyberdog_qr_detector_py/prefix_override:/home/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/cyberdog_qr_detector_py build --build-base /home/build/cyberdog_qr_detector_py/build install --record /home/build/cyberdog_qr_detector_py/install.log --single-version-externally-managed

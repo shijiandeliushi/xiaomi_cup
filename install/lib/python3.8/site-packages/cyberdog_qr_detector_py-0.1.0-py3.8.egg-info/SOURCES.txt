@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/PKG-INFO
+../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/SOURCES.txt
+../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/dependency_links.txt
+../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/entry_points.txt
+../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/requires.txt
+../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/top_level.txt
+../../../build/cyberdog_qr_detector_py/cyberdog_qr_detector_py.egg-info/zip-safe
+cyberdog_qr_detector_py/__init__.py
+cyberdog_qr_detector_py/qr_detector_py_node.py
+launch/qr_detector.launch.py
+resource/cyberdog_qr_detector_py
