@@ -86,305 +86,28 @@
       			</material>
                 </visual>
            	</link>
-           
-		    <!-- 石板路 -->
-           	<link name='1area_rockroad'>
-           	<collision name="1area_rockroad_collision">
-                    <geometry>
-                    	<mesh>
-              		<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/1_rockroad.stl</uri>
-              		<scale>0.01 0.01 0.01</scale>
-            		</mesh>
-                    </geometry>
-                </collision>
-        	<visual name="1area_rockroad_visual">
-          		<geometry>
-          			<mesh>
-						<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/1_rockroad.stl</uri>
-						<scale>0.01 0.01 0.01</scale>
-					</mesh>	
-          		</geometry>
-          		<material>
-        			<ambient>0.37 0.41 0.41 1</ambient>
-        			<diffuse>0.37 0.41 0.41 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-
+            
+		</model>
+		  
 			
-		   <link name='2aea_bar1'>
-           	<collision name="2aea_bar1_collision">
-                    <geometry>
-                    	<mesh>
-              		<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_bar1.stl</uri>
-              		<scale>0.01 0.01 0.01</scale>
-            		</mesh>
-                    </geometry>
-                </collision>
-        	<visual name="2aea_bar1_visual">
-          		<geometry>
-          			<mesh>
-						<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_bar1.stl</uri>
-						<scale>0.01 0.01 0.01</scale>
-					</mesh>	
-          		</geometry>
-          		<material>
-        			<ambient>0.37 0.41 0.41 1</ambient>
-        			<diffuse>0.37 0.41 0.41 1</diffuse>
-      			</material>
-                </visual>
-           </link>
 
-		   <link name='2aea_bar2'>
-           	<collision name="2aea_bar2_collision">
-                    <geometry>
-                    	<mesh>
-              		<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_bar2.stl</uri>
-              		<scale>0.01 0.01 0.01</scale>
-            		</mesh>
-                    </geometry>
-                </collision>
-        	<visual name="2aea_bar2_visual">
-          		<geometry>
-          			<mesh>
-						<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_bar2.stl</uri>
-						<scale>0.01 0.01 0.01</scale>
-					</mesh>	
-          		</geometry>
-          		<material>
-        			<ambient>0.37 0.41 0.41 1</ambient>
-        			<diffuse>0.37 0.41 0.41 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-
-		   <link name='2aea_border'>
-           	<collision name="2aea_border_collision">
-                    <geometry>
-                    	<mesh>
-              		<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_border.stl</uri>
-              		<scale>0.01 0.01 0.01</scale>
-            		</mesh>
-                    </geometry>
-                </collision>
-        	<visual name="2aea_border_visual">
-          		<geometry>
-          			<mesh>
-						<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_border.stl</uri>
-						<scale>0.01 0.01 0.01</scale>
-					</mesh>	
-          		</geometry>
-          		<material>
-        			<ambient>1 1 0.5 1</ambient>
-        			<diffuse>1 1 0.5 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-
-			<!-- 桥 -->
-		   <link name='2aea_bridge'>
-           	<collision name="2aea_bridge_collision">
-                    <geometry>
-                    	<mesh>
-              		<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_bridge.stl</uri>
-              		<scale>0.01 0.01 0.01</scale>
-            		</mesh>
-                    </geometry>
-                </collision>
-        	<visual name="2aea_bridge_visual">
-          		<geometry>
-          			<mesh>
-						<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_bridge.stl</uri>
-						<scale>0.01 0.01 0.01</scale>
-					</mesh>	
-          		</geometry>
-          		<material>
-        			<ambient>0.37 0.41 0.41 1</ambient>
-        			<diffuse>0.37 0.41 0.41 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-
-		<!-- 球门 -->
-		   <link name='2aea_goal'>
-           	<collision name="2aea_goal_collision">
-                    <geometry>
-                    	<mesh>
-              		<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_goal.stl</uri>
-              		<scale>0.01 0.01 0.01</scale>
-            		</mesh>
-                    </geometry>
-                </collision>
-        	<visual name="2aea_goal_visual">
-          		<geometry>
-          			<mesh>
-						<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_goal.stl</uri>
-						<scale>0.01 0.01 0.01</scale>
-					</mesh>	
-          		</geometry>
-          		<material>
-        			<ambient>0.37 0.41 0.41 1</ambient>
-        			<diffuse>0.37 0.41 0.41 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-
-			<!-- 障碍物 -->
-		   <link name='2aea_obstacle'>
-           	<collision name="2aea_obstacle_collision">
-                    <geometry>
-                    	<mesh>
-              		<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_obstacle.stl</uri>
-              		<scale>0.01 0.01 0.01</scale>
-            		</mesh>
-                    </geometry>
-                </collision>
-        	<visual name="2aea_obstacle_visual">
-          		<geometry>
-          			<mesh>
-						<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/2_obstacle.stl</uri>
-						<scale>0.01 0.01 0.01</scale>
-					</mesh>	
-          		</geometry>
-          		<material>
-        			<ambient>0.43 0.74 0.93 1</ambient>
-        			<diffuse>0.43 0.74 0.93 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-
-		<!-- 边界-->
-		   <link name='3aea_border'>
-		   		<collision name="3aea_border_collision">
-                    <geometry>
-                    	<mesh>
-              		<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/3_border.stl</uri>
-              		<scale>0.01 0.01 0.01</scale>
-            		</mesh>
-                    </geometry>
-                </collision>
-        	<visual name="3aea_border_visual">
-          		<geometry>
-          			<mesh>
-						<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/3_border.stl</uri>
-						<scale>0.01 0.01 0.01</scale>
-					</mesh>	
-          		</geometry>
-          		<material>
-        			<ambient>1 1 0.5 1</ambient>
-        			<diffuse>1 1 0.5 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-
-
-		<!-- 斜坡 -->
-		   <link name='3aea_slope'>
-           	<collision name="3aea_slope_collision">
-                    <geometry>
-                    	<mesh>
-              		<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/3_slope.stl</uri>
-              		<scale>0.01 0.01 0.01</scale>
-            		</mesh>
-                    </geometry>
-                </collision>
-        	<visual name="3aea_slope_visual">
-          		<geometry>
-          			<mesh>
-						<uri>/home/cyberdog_sim/src/cyberdog_simulator/cyberdog_gazebo/model/race2026_meshes/3_slope.stl</uri>
-						<scale>0.01 0.01 0.01</scale>
-					</mesh>	
-          		</geometry>
-          		<material>
-        			<ambient>0.37 0.41 0.41 1</ambient>
-        			<diffuse>0.37 0.41 0.41 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-          
-     	</model>
-
-		<!-- 足球 -->
-		<model name="football2">
-		   <pose> 2.1 10.8 0.1 0 0 0</pose>
-		   <link name='2aea_football'>
-           	<collision name="2aea_football_collision">
-                    <geometry>
-						<sphere>
-							<radius>0.1</radius>
-						</sphere>
-                    </geometry>
-                </collision>
-        	<visual name="2aea_football_visual">
-          		<geometry>
-					<sphere>
-						<radius>0.1</radius>
-					</sphere>			
-          		</geometry>
-          		<material>
-        			<ambient>1 1 1 1</ambient>
-        			<diffuse>1 1 1 1</diffuse>
-      			</material>
-                </visual>
-           </link>
 		
-		</model>
+			
 
-		 <!-- 可口可乐瓶  -->
-		<model name="coke">
-		   <pose> -0.1 11.1 0.1 0 0 0</pose>
-		   <link name='2aea_coke'>
-           	<collision name="2aea_coke_collision">
-                    <geometry>
-                    	<cylinder>
-						 <radius>0.065</radius>
-						 <length>0.34</length>
-						</cylinder>
-                    </geometry>
-                </collision>
-        	<visual name="2aea_coke_visual">
-          		<geometry>
-          			<cylinder>
-						 <radius>0.065</radius>
-						 <length>0.34</length>
-					</cylinder>
-          		</geometry>
-          		<material>
-        			<ambient>0 0 0 1</ambient>
-        			<diffuse>0 0 0 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-		</model>
+		
 
-        <!-- 足球  -->
-		<model name="football3">
-		   <pose>0.4 14.7 0.1 0 0 0</pose> 
-		   <link name='3aea_football'>
-           	<collision name="3aea_football_collision">
-                    <geometry>
-                    	<sphere>
-						  <radius>0.1</radius>
-						</sphere>
-                    </geometry>
-                </collision>
-        	<visual name="3aea_football_visual">
-          		<geometry>
-          			<sphere>
-						<radius>0.1</radius>
-					</sphere>
-          		</geometry>
-          		<material>
-        			<ambient>1 1 1 1</ambient>
-        			<diffuse>1 1 1 1</diffuse>
-      			</material>
-                </visual>
-           </link>
-        </model>
+
+		
+
+		
+
+		
+
+       
 		
 		<model name="hanging_ball">
 			<link name="base_link"></link>
-
+            <!--第二个区域的蓝色球-->
 			<link name='2area_ball'>
 			  <pose> 0.95 11.1 0.3 0 0 0</pose>
            	  <collision name="2area_ball_collision">
@@ -416,6 +139,7 @@
       			</dynamics>
     		</joint>
 
+			<!--第二赛段的16个小球-->
 			<link name='1area_ball1_1'>
 			  <pose> -0.4 1.34 0.3 0 0 0</pose>
            	  <collision name="1area_ball_collision">
