@@ -54,7 +54,7 @@ def launch_setup(context, *args, **kwargs):
         spawn_entity = launch.actions.ExecuteProcess(
             name='spawn_entity', cmd=['ros2', 'service', 'call', '/spawn_entity', 'gazebo_msgs/SpawnEntity', spawn_entity_message_contents], env=my_env, shell=True, log_cmd=False)
     else:
-        spawn_entity_message_contents = "'{initial_pose:{ position: {x: -0.1, y: 4.1, z: 0.3}, orientation: {x: 0.0, y: 0.0, z: 0.7071, w: 0.7071 }},  name: \"robot\", xml: \"" + \
+        spawn_entity_message_contents = "'{initial_pose:{ position: {x: -0.25, y: 4.6, z: 0.3}, orientation: {x: 0.0, y: 0.0, z: 0.7071, w: 0.7071 }},  name: \"robot\", xml: \"" + \
             urdf_contents.replace('"', '\\"') + "\"}'"
         spawn_entity = launch.actions.ExecuteProcess(
             name='spawn_entity', cmd=['ros2', 'service', 'call', '/spawn_entity', 'gazebo_msgs/SpawnEntity', spawn_entity_message_contents], env=my_env, shell=True, log_cmd=False)
