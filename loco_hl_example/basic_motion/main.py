@@ -25,58 +25,17 @@ def main():
         Ctrl.Send_cmd(msg)
         Ctrl.Wait_finish(12, 0)  #固定等待十秒
 
-        msg.mode = 62 # Shake hand, based on position interpolation control
-        msg.gait_id = 2
+        msg.mode = 11  # Locomotion模式
+        msg.gait_id = 3
+        msg.vel_des = [0.12, 0, 0]
+        msg.duration = 0
+        msg.pos_des = [0, 0, 0.2]
+        msg.step_height = [0.12, 0.12]
+        msg.rpy_des = [-0.2, -0.4, 0.0]
+        msg.value = 2
         msg.life_count += 1
         Ctrl.Send_cmd(msg)
-        Ctrl.Wait_finish(62, 2)
-
-        msg.mode = 64 # Twoleg Stand
-        msg.gait_id = 0
-        msg.life_count += 1
-        Ctrl.Send_cmd(msg)
-        Ctrl.Wait_finish(64, 0)
-
-        msg.mode = 21 # Position interpolation control  位置插值控制
-        msg.gait_id = 0
-        msg.rpy_des = [0, 0.3, 0] # Head up
-        msg.duration = 500 # Expected execution time, 0.5s 
-        msg.life_count += 1
-        Ctrl.Send_cmd(msg)
-        time.sleep( 0.5 )
-
-        msg.mode = 21 # Position interpolation control 位置插值控制
-        msg.gait_id = 0
-        msg.rpy_des = [0, -0.3, 0] # Head down
-        msg.duration = 300 
-        msg.life_count += 1
-        Ctrl.Send_cmd(msg)
-        time.sleep( 0.3 )
-
-        msg.mode = 21 # Position interpolation control
-        msg.gait_id = 5
-        msg.rpy_des = [0, 0, 0]
-        msg.pos_des = [0, 0, 0.22] # Set body height
-        msg.duration = 400 
-        msg.life_count += 1
-        Ctrl.Send_cmd(msg)
-        time.sleep( 1 )
-
-        msg.mode = 11 # Locomotion
-        msg.gait_id = 26 # TROT_FAST:10 TROT_MEDIUM:3 TROT_SLOW:27 自变频:26
-        msg.vel_des = [0, 0, 0.5] #转向
-        msg.duration = 0 # Zero duration means continuous motion until a new command is used.
-                         # Continuous motion can interrupt non-zero duration interpolation motion
-        msg.step_height = [0.06, 0.06] # ground clearness of swing leg
-        msg.life_count += 1
-        Ctrl.Send_cmd(msg)
-        time.sleep( 5 )
-
-        msg.mode = 7    # PureDamper
-        msg.gait_id = 0
-        msg.life_count += 1
-        Ctrl.Send_cmd(msg)
-        Ctrl.Wait_finish(7, 0)
+        Ctrl.Wait_finish(11, 3)
 
     except KeyboardInterrupt:
         pass

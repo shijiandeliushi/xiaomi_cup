@@ -9,6 +9,6 @@ pos_des = [ 0.0, 0.0, 0.0,]
 acc_des = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,]
 ctrl_point = [ 0.0, 0.0, 0.0,]
 foot_pose = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,]
-step_height = [ 0.06, 0.06,]
+step_height = [ 0.12, 0.12,]
 value = 0
 duration = 0

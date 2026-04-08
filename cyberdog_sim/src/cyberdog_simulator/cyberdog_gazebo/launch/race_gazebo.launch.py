@@ -142,7 +142,7 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             name='wname',
-            default_value='race2025'
+            default_value='race'
         ),
         OpaqueFunction(function=launch_setup)
     ])
