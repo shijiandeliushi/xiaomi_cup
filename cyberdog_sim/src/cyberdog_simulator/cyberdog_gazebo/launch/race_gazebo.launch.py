@@ -44,7 +44,7 @@ def launch_setup(context, *args, **kwargs):
 
     # spawn
     if(wname=='race' or wname=='race2025' or wname=='race1'):
-        spawn_entity_message_contents = "'{initial_pose:{ position: {x: 0, y: 0, z: 0.6}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}},  name: \"robot\", xml: \"" + \
+        spawn_entity_message_contents = "'{initial_pose:{ position: {x: 0, y: 0, z: 0.3}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}},  name: \"robot\", xml: \"" + \
             urdf_contents.replace('"', '\\"') + "\"}'"
         spawn_entity = launch.actions.ExecuteProcess(
             name='spawn_entity', cmd=['ros2', 'service', 'call', '/spawn_entity', 'gazebo_msgs/SpawnEntity', spawn_entity_message_contents], env=my_env, shell=True, log_cmd=False)
@@ -142,7 +142,7 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             name='wname',
-            default_value='race'
+            default_value='race2'
         ),
         OpaqueFunction(function=launch_setup)
     ])

@@ -19,13 +19,14 @@
 import sys
 import time
 import lcm
-from threading import Thread, Lock
+from threading import Thread, Lock, Event
 
 # 发送给运控板的控制指令消息类型
 from robot_control_cmd_lcmt import robot_control_cmd_lcmt
 # 运控板返回的状态消息类型
 from robot_control_response_lcmt import robot_control_response_lcmt
 
+from localization_lcmt import localization_lcmt
 
 class RobotCtrl:
     '''
@@ -43,15 +44,25 @@ class RobotCtrl:
         # 发送线程：不断维持控制心跳，必要时重复发布当前命令
         self.send_thread = Thread(target=self.send_publish)
 
+        # 建立通道，通道可 publish 和 subscribe
         # 反馈通道：监听 robot_control_response
-        self.lc_r = lcm.LCM("udpm://239.255.76.67:7670?ttl=255")
+        self.lc_r1 = lcm.LCM("udpm://239.255.76.67:7670?ttl=255")
+        # 反馈通道：监听 localization_lcmt（global_to_robot 默认在 7667）
+        self.lc_r2 = lcm.LCM("udpm://239.255.76.67:7667?ttl=255")
         # 控制通道：发布 robot_control_cmd
         self.lc_s = lcm.LCM("udpm://239.255.76.67:7671?ttl=255")
 
         # 当前准备发送给机器狗的命令缓存
         self.cmd_msg = robot_control_cmd_lcmt()
         # 最近一次收到的反馈消息缓存
-        self.rec_msg = robot_control_response_lcmt()
+        self.rec_msg1 = robot_control_response_lcmt()
+
+        # 最近一次收到的反馈消息缓存
+        self.rec_msg2 = localization_lcmt()
+
+        # 定位反馈读写锁：接收线程写，主线程读
+        self.rec2_lock = Lock()
+        self.rec2_seq = 0
 
         # 发送命令时需要加锁，避免多个线程同时修改同一条消息
         self.send_lock = Lock()
@@ -73,11 +84,16 @@ class RobotCtrl:
 
         先注册反馈回调，再启动发送线程和接收线程。
         '''
-        self.lc_r.subscribe("robot_control_response", self.msg_handler)
+        self.lc_r1.subscribe("robot_control_response", self.msg1_handler)
+        # 兼容两种常见定位通道命名
+        self.lc_r2.subscribe("global_to_robot", self.msg2_handler)
+        self.lc_r2.subscribe("localization", self.msg2_handler)
+
+        #发送和接受线程启动
         self.send_thread.start()
         self.rec_thread.start()
 
-    def msg_handler(self, channel, data):
+    def msg1_handler(self, channel, data):
         '''
         LCM 反馈回调函数。
 
@@ -90,17 +106,51 @@ class RobotCtrl:
         2. 当 order_process_bar >= 95 时，认为动作已基本执行到位。
         3. 记录当前完成的 mode 和 gait_id，供 wait_finish 使用。
         '''
-        self.rec_msg = robot_control_response_lcmt.decode(data)
+        self.rec_msg1 = robot_control_response_lcmt.decode(data)
 
         # order_process_bar 可以理解为当前动作执行进度。
         # 达到 95 以上时，近似视为动作已完成或已稳定进入该状态。
-        if self.rec_msg.order_process_bar >= 95:
-            self.mode_ok = self.rec_msg.mode
-            self.gait_ok = self.rec_msg.gait_id
+        if self.rec_msg1.order_process_bar >= 95:
+            self.mode_ok = self.rec_msg1.mode
+            self.gait_ok = self.rec_msg1.gait_id
         else:
             # 若执行未完成，则清空完成标记，避免上层误判
             self.mode_ok = 0
             self.gait_ok = 0
+
+    def msg2_handler(self, channel, data):
+        '''
+        LCM 定位反馈回调函数。
+
+        参数：
+        - channel: 当前收到消息的通道名
+        - data: 二进制消息体
+
+        处理逻辑：
+        1. 解码定位消息。
+        2. 加锁更新 rec_msg2，避免与主线程并发读写冲突。
+        '''
+        msg = localization_lcmt.decode(data)
+        with self.rec2_lock:
+            self.rec_msg2 = msg
+            self.rec2_seq += 1
+
+    def get_localization_snapshot(self):
+        '''
+        线程安全读取定位快照。
+
+        返回一个普通 dict，避免把共享对象引用直接暴露到主线程。
+        '''
+        with self.rec2_lock:
+            return {
+                'xyz': list(self.rec_msg2.xyz),
+                'vxyz': list(self.rec_msg2.vxyz),
+                'rpy': list(self.rec_msg2.rpy),
+                'omegaBody': list(self.rec_msg2.omegaBody),
+                'vBody': list(self.rec_msg2.vBody),
+                'timestamp': int(self.rec_msg2.timestamp),
+                'seq': self.rec2_seq,
+            }
 
     def rec_response(self):
         '''
@@ -110,7 +160,9 @@ class RobotCtrl:
         handle_timeout(20) 表示最多阻塞 20 ms，避免线程长时间卡住。
         '''
         while self.running:
-            self.lc_r.handle_timeout(20)
+            self.lc_r1.handle_timeout(20)
+            self.lc_r2.handle_timeout(20)
+
             time.sleep(0.002)
 
     def wait_finish(self, mode, gait_id, timeout_s=10.0):
@@ -155,7 +207,7 @@ class RobotCtrl:
                 self.delay_cnt += 1
             time.sleep(0.005)
 
-    def send_cmd(self, msg):
+    def send_cmd(self, send_msg):
         '''
         更新当前命令缓存。
 
@@ -165,7 +217,7 @@ class RobotCtrl:
         with self.send_lock:
             # 置大一点，促使发送线程尽快进入“立即重发”逻辑
             self.delay_cnt = 50
-            self.cmd_msg = msg
+            self.cmd_msg = send_msg
 
     def quit(self):
         '''
@@ -192,7 +244,21 @@ def main():
     ctrl.run()
 
     # 创建一条命令对象，后续会反复修改其字段并发送
-    msg = robot_control_cmd_lcmt()
+    send_msg = robot_control_cmd_lcmt()
+
+    # 仅打印 rpy[3] 采样数据（roll, pitch, yaw）
+    stop_print = Event()
+
+    def rpy_printer():
+        print("rpy(roll pitch yaw)")
+        while not stop_print.is_set():
+            snap = ctrl.get_localization_snapshot()
+            rpy = snap['rpy']
+            print(f"{rpy[0]:.4f} {rpy[1]:.4f} {rpy[2]:.4f}")
+            time.sleep(0.1)
+
+    print_thread = Thread(target=rpy_printer, daemon=True)
+    print_thread.start()
 
     # -----------------------------
     # 一、任务场景参数（单位：米）
@@ -219,7 +285,7 @@ def main():
 
     # 身体高度，单位 m
     # 抬高机身是为了增加通过石板时的机身离地余量
-    body_height = 0.2
+    body_height = 0.20
 
     # -----------------------------
     # 三、通过完成判定
@@ -232,16 +298,16 @@ def main():
         # ==================================================
         # 1) 恢复站立：让机器狗从趴卧/异常姿态进入稳定站立状态
         # ==================================================
-        msg.mode = 12
-        msg.gait_id = 0
+        send_msg.mode = 12
+        send_msg.gait_id = 0
 
         # duration = 0 表示持续执行，直到新命令到来
-        msg.duration = 0 
+        send_msg.duration = 0 
 
         # life_count 递增后，运控侧才会把这条命令视为“新命令”
-        msg.life_count += 1
+        send_msg.life_count += 1
 
-        ctrl.send_cmd(msg)
+        ctrl.send_cmd(send_msg)
 
         # 最长等待 12 秒，给恢复站立留出较充足时间
         ctrl.wait_finish(12, 0, timeout_s=12.0)
@@ -249,21 +315,21 @@ def main():
         # ==================================================
         # 2) 抬高机身：通过位置/姿态控制把身体高度抬高到 0.27 m
         # ==================================================
-        msg.mode = 21
+        send_msg.mode = 21
 
         # gait_id = 5 对应“位控姿态-绝对姿态”模式
-        msg.gait_id = 5
+        send_msg.gait_id = 5
 
         # 保持机身姿态水平，不额外俯仰/横滚/偏航
-        msg.rpy_des = [0.0, 0.0, 0.0]
+        send_msg.rpy_des = [0.0, 0.0, 0.0]
 
         # 这里只使用 pos_des[2] 调整机身高度
-        msg.pos_des = [0.0, 0.0, body_height]
+        send_msg.pos_des = [0.0, 0.0, body_height]
 
         # 给插值动作 600 ms 的执行时间，让抬升过程相对平滑
-        msg.duration = 600
-        msg.life_count += 1
-        ctrl.send_cmd(msg)
+        send_msg.duration = 600
+        send_msg.life_count += 1
+        ctrl.send_cmd(send_msg)
 
         # 额外等待 1 秒，让机身抬高动作更稳定
         time.sleep(1.0)
@@ -271,22 +337,22 @@ def main():
         # ==================================================
         # 3) 慢走通过石板
         # ==================================================
-        msg.mode = 11
+        send_msg.mode = 11
 
         # gait_id = 27 对应慢速小跑 TROT_SLOW
-        msg.gait_id = 27
+        send_msg.gait_id = 27
 
         # 速度命令：[前进速度, 侧移速度, 转向速度]
         # 这里只保留正向前进，不做侧移和转向
-        msg.vel_des = [slow_speed, 0.0, 0.0]
-        msg.rpy_des = [0.0, -0.2, 0.0]
+        send_msg.vel_des = [slow_speed, 0.0, 0.0]
+        send_msg.rpy_des = [0.0, -0.2, 0.0]
         # 前后摆动腿都使用相同抬腿高度
-        msg.step_height = [step_h, step_h]
+        send_msg.step_height = [step_h, step_h]
 
         # 连续行走命令使用 duration = 0，直到后续新命令打断
-        msg.duration = 0
-        msg.life_count += 1
-        ctrl.send_cmd(msg)
+        send_msg.duration = 0
+        send_msg.life_count += 1
+        ctrl.send_cmd(send_msg)
 
         # 人工确认通过完成后再停止前进（避免固定时长误差）
         try:
@@ -298,15 +364,15 @@ def main():
         # ==================================================
         # 4) 停止前进并回到恢复站立
         # ==================================================
-        msg.mode = 12
-        msg.gait_id = 0
+        send_msg.mode = 12
+        send_msg.gait_id = 0
 
         # 清零速度，避免旧的速度向量继续残留在消息对象里
-        msg.vel_des = [0.0, 0.0, 0.0]
+        send_msg.vel_des = [0.0, 0.0, 0.0]
 
-        msg.duration = 0
-        msg.life_count += 1
-        ctrl.send_cmd(msg)
+        send_msg.duration = 0
+        send_msg.life_count += 1
+        ctrl.send_cmd(send_msg)
 
         # 再次等待恢复站立完成
         ctrl.wait_finish(12, 0, timeout_s=10.0)
@@ -318,13 +384,17 @@ def main():
         # ==================================================
         # 5) 结束时保持正常站立（不进入阻尼模式）
         # ==================================================
-        msg.mode = 12
-        msg.gait_id = 0
-        msg.vel_des = [0.0, 0.0, 0.0]
-        msg.duration = 0
-        msg.life_count += 1
-        ctrl.send_cmd(msg)
+        send_msg.mode = 12
+        send_msg.gait_id = 0
+        send_msg.vel_des = [0.0, 0.0, 0.0]
+        send_msg.duration = 0
+        send_msg.life_count += 1
+        ctrl.send_cmd(send_msg)
         ctrl.wait_finish(12, 0, timeout_s=8.0)
+
+        # 停止 rpy 打印线程
+        stop_print.set()
+        print_thread.join(timeout=1.0)
 
         # 关闭后台线程，释放资源
         ctrl.quit()
