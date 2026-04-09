@@ -125,10 +125,7 @@ def main():
     pitch_win_sec = 5         # 滑动窗口时长(s)，用于统计pitch波动
     pitch_sample_sec = 0.05     # 采样周期(s)
     min_forward_time = 35.0      # 最短前进时间(s)，防止起步误判停
-    rough_p2p_th = 0.06         # 进入石板扰动阈值：pitch峰峰值(rad)
-    rough_std_th = 0.02         # 进入石板扰动阈值：pitch标准差(rad)
     stable_p2p_th = 0.028       # 稳定判据：pitch峰峰值上限(rad)
-    stable_hold_time = 1.38     # 稳定条件需连续满足时长(s)
     cross_timeout = 60.0        # 过石板最大允许时间(s)，超时保护
 
     # 黄线中间可用宽度 1m
